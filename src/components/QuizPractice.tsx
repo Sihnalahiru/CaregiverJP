@@ -48,11 +48,19 @@ export const QuizPractice: React.FC<QuizPracticeProps> = ({
         if (q.kind === 'self-check' ? answers[q.id] === 0 : answers[q.id] === q.correctIndex) correct++;
       }
     }
+    const ungradedSelected = allModuleQuestions.filter(
+      (q) => q.kind === 'source-mcq' && answers[q.id] !== undefined
+    ).length;
+    const recallRevealed = allModuleQuestions.filter(
+      (q) => q.kind === 'self-check' && answers[q.id] !== undefined
+    ).length;
     return {
       total: allModuleQuestions.length,
       answered,
       correct,
       missed: answered - correct,
+      ungradedSelected,
+      recallRevealed,
     };
   }, [allModuleQuestions, answers]);
 
@@ -134,7 +142,7 @@ export const QuizPractice: React.FC<QuizPracticeProps> = ({
                   Question {safeIndex + 1} of {moduleQuestions.length}
                 </span>
                 <span className="text-xs text-slate-500 font-mono-tabular">
-                  {stats.answered}/{stats.total} answered · {stats.correct} correct
+                  {stats.answered}/{stats.total} graded · {stats.correct} correct
                 </span>
               </div>
 
@@ -168,7 +176,11 @@ export const QuizPractice: React.FC<QuizPracticeProps> = ({
 
                   let buttonStyle =
                     'bg-white border-slate-200 text-slate-800 hover:border-slate-400 hover:bg-slate-50';
-                  if (hasAnswered) {
+                  if (hasAnswered && currentQuestion.kind === 'source-mcq') {
+                    buttonStyle = isChosen
+                      ? 'bg-sky-50 border-sky-500 text-sky-950'
+                      : 'bg-slate-50 border-slate-200 text-slate-500';
+                  } else if (hasAnswered) {
                     if (isCorrect) {
                       buttonStyle =
                         'bg-emerald-50 border-emerald-600 text-emerald-950';
@@ -218,7 +230,7 @@ export const QuizPractice: React.FC<QuizPracticeProps> = ({
 
               {currentQuestion.kind === 'source-mcq' && answers[currentQuestion.id] !== undefined && (
                 <div className="p-4 bg-amber-50 border border-amber-200 rounded-lg text-sm text-amber-900">
-                  The original PDF does not include an answer key for this question. Your selection is saved for practice but is not graded.
+                  The original PDF does not include an answer key for this question. Your selection is saved for practice but is not graded or counted as correct/missed.
                 </div>
               )}
 
@@ -304,6 +316,9 @@ export const QuizPractice: React.FC<QuizPracticeProps> = ({
                 <div className="text-xs text-red-700">Missed</div>
               </div>
             </div>
+            <p className="text-xs text-slate-500">
+              {stats.recallRevealed} recall answers revealed · {stats.ungradedSelected} source MCQs selected but ungraded
+            </p>
           </div>
 
           <div className="space-y-3">
