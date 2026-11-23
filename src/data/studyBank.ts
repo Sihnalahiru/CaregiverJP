@@ -37,6 +37,14 @@ export const QUIZ_MODULES: QuizModule[] = [
       'Mobility, stair and wheelchair techniques, hemiplegia dressing and bathing, meal safety, oral care, and excretion assistance.',
     questionCount: 25,
   },
+  {
+    id: 'source-qa',
+    title: 'Source Q&A — Exam Papers 01–03',
+    lessonLabel: 'Q&A',
+    sourceFilename: 'Exam questions 1.pdf · Exam papers 2.pdf · exam questions 3.pdf',
+    description: 'Source Q&A converted into self-check quiz questions. Reveal the source answer, then mark your recall.',
+    questionCount: 30,
+  },
 ];
 
 export const QUIZ_QUESTIONS: QuizQuestion[] = [
@@ -1465,4 +1473,20 @@ export const BILINGUAL_CARDS: BilingualCard[] = [
     answerEn: 'Seeking advice from colleagues or specialists when troubled or unsure—never make important decisions alone.',
     sinhalaText: 'උපදෙස් පැතීම (Soudan): ගැටලුවක් ඇති විට තනිවම තීරණ නොගෙන අන් අය සමඟ සාකච්ඡා කර උපදෙස් ලබා ගත යුතුය.',
   },
+];
+
+
+export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
+  ...QUIZ_QUESTIONS,
+  ...BILINGUAL_CARDS.map((card, index) => ({
+    id: `source-${card.id}`,
+    moduleId: 'source-qa',
+    number: index + 1,
+    question: card.questionEn,
+    options: [],
+    correctIndex: 0,
+    explanation: `${card.answerEn}\n\n${card.sinhalaText}`,
+    kind: 'self-check' as const,
+    sinhalaText: card.sinhalaText,
+  })),
 ];
