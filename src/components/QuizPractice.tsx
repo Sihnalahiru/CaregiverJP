@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useMemo, useState } from 'react';
 import {
   CheckCircle2,
   ChevronLeft,
@@ -18,24 +18,8 @@ export const QuizPractice: React.FC<QuizPracticeProps> = ({
   onSelectModule,
 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const progressKey = 'hicare_quiz_progress_v2';
-  const [answers, setAnswers] = useState<Record<string, number>>(() => {
-    try {
-      const saved = window.localStorage.getItem(progressKey);
-      return saved ? (JSON.parse(saved) as Record<string, number>) : {};
-    } catch {
-      return {};
-    }
-  });
+  const [answers, setAnswers] = useState<Record<string, number>>({});
   const [showMissedOnly, setShowMissedOnly] = useState(false);
-
-  useEffect(() => {
-    try {
-      window.localStorage.setItem(progressKey, JSON.stringify(answers));
-    } catch {
-      // Keep the quiz usable when browser storage is unavailable or full.
-    }
-  }, [answers]);
 
   const activeModule =
     QUIZ_MODULES.find((m) => m.id === selectedModuleId) ?? QUIZ_MODULES[0];
@@ -89,7 +73,9 @@ export const QuizPractice: React.FC<QuizPracticeProps> = ({
   const handleResetModule = () => {
     setAnswers((prev) => {
       const next = { ...prev };
-      for (const q of allModuleQuestions) delete next[q.id];
+      for (const q of allModuleQuestions) {
+        delete next[q.id];
+      }
       return next;
     });
     setCurrentIndex(0);
@@ -269,10 +255,9 @@ export const QuizPractice: React.FC<QuizPracticeProps> = ({
         {/* Right Navigator & Session Progress */}
         <aside className="lg:col-span-4 bg-white border border-slate-200 rounded-xl p-6 space-y-6">
           <div className="space-y-2">
-            <div className="flex items-center justify-between gap-2">
-              <h2 className="text-sm font-semibold text-slate-900">Session Progress</h2>
-              <span className="text-[11px] font-medium text-emerald-700">Auto-saved</span>
-            </div>
+            <h2 className="text-sm font-semibold text-slate-900">
+              Session Progress
+            </h2>
             <div className="grid grid-cols-3 gap-3 pt-1">
               <div className="p-3 bg-slate-50 rounded-lg">
                 <div className="text-lg font-bold text-slate-900 font-mono-tabular">
