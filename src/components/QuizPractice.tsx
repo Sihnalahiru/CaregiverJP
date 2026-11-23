@@ -162,7 +162,7 @@ export const QuizPractice: React.FC<QuizPracticeProps> = ({
                   const chosen = answers[currentQuestion.id];
                   const hasAnswered = chosen !== undefined;
                   const isChosen = chosen === idx;
-                  const isCorrect = idx === currentQuestion.correctIndex;
+                  const isCorrect = currentQuestion.kind !== 'source-mcq' && idx === currentQuestion.correctIndex;
 
                   let buttonStyle =
                     'bg-white border-slate-200 text-slate-800 hover:border-slate-400 hover:bg-slate-50';
@@ -196,13 +196,13 @@ export const QuizPractice: React.FC<QuizPracticeProps> = ({
                         </span>
                       </div>
 
-                      {hasAnswered && isCorrect && (
+                      {hasAnswered && currentQuestion.kind !== 'source-mcq' && isCorrect && (
                         <span className="inline-flex items-center gap-1 text-xs font-semibold text-emerald-700 shrink-0">
                           <CheckCircle2 className="w-4 h-4" aria-hidden="true" />
                           Correct
                         </span>
                       )}
-                      {hasAnswered && isChosen && !isCorrect && (
+                      {hasAnswered && currentQuestion.kind !== 'source-mcq' && isChosen && !isCorrect && (
                         <span className="inline-flex items-center gap-1 text-xs font-semibold text-red-700 shrink-0">
                           <XCircle className="w-4 h-4" aria-hidden="true" />
                           Incorrect
@@ -212,6 +212,12 @@ export const QuizPractice: React.FC<QuizPracticeProps> = ({
                   );
                 })}
               </div>
+              )}
+
+              {currentQuestion.kind === 'source-mcq' && answers[currentQuestion.id] !== undefined && (
+                <div className="p-4 bg-amber-50 border border-amber-200 rounded-lg text-sm text-amber-900">
+                  The original PDF does not include an answer key for this question. Your selection is saved for practice but is not graded.
+                </div>
               )}
 
               {answers[currentQuestion.id] !== undefined && currentQuestion.kind !== 'self-check' && (
