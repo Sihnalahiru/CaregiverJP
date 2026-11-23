@@ -113,3 +113,48 @@
 - Image requirement: none identified in the original 7-page source; do not add generated or unrelated images.
 - Answer verification: 45/45 pending original-textbook evidence; no answer key was marked in this PDF.
 - Unique-question status: not yet finalized. These overlap candidates are retained until exact/near-duplicate comparison across all nine PDFs and the existing app bank is complete.
+
+
+## QA batch 4 — Communication Skills
+- Source: `Communication Skills-1-2-1(1).pdf` (uploaded filename variant of the Communication Skills source listed in inventory).
+- PDF pages: 7.
+- Numbered items: 01–32 (32 total); all seven pages read from the source PDF.
+- The source contains text-based questions and options; no question-specific image/diagram panels are present in the seven pages. Do not add unrelated images.
+- No answer key is printed in this source. All 32 answer keys require verification against the original textbook.
+- Wording/quality flags:
+  - Q01: verbal-communication exception; sign language classification needs exact textbook wording.
+  - Q02 and Q14: non-verbal communication/sign-language definitions overlap in topic; verify the distinction between the broad mode and sign language.
+  - Q03/Q04: empathy versus acceptance definitions; verify exact wording from textbook.
+  - Q05: "Closed question" stem has a punctuation/grammar issue; preserve original stem in audit record.
+  - Q06–08: fill-in-the-blank items on repetition, eye contact, and polite wording; verify which option fits each sentence.
+  - Q09: posture options include leaning back, crossed arms, crossed legs, and face-to-face speaking; verify the source's intended posture.
+  - Q10: visual-impairment communication exception; option D may conflict with the need to explain using non-visual information; verify against textbook.
+  - Q11: clock-position explanation; verify exact term ("Clock Position" vs "Hour Position").
+  - Q12: tools for communicating with blind users; verify the listed Braille tools.
+  - Q13: hearing-disorder communication exception; confirm the instruction about speaking toward the less-impaired ear and volume.
+  - Q15/Q26/Q28/Q32: aphasia definition/characteristics are repeated in several forms; Q15 includes likely misspellings ("Aphycusia", "Basybachia"), Q26 mixes aphasia with swallowing difficulty, and Q32 has only three options. Preserve source content and verify/correct only with textbook evidence.
+  - Q16/Q17: aphasia and dementia communication exceptions; verify open-question guidance and communication strategies separately.
+  - Q18: nursing-care personnel exception includes cook and laundry service; verify the categories in the textbook.
+  - Q19: information-sharing methods; hand/body gestures may not be an information-record/sharing method in this context; verify.
+  - Q20: record-keeping "at the end of your shift" conflicts with same-day/accurate recording guidance in textbook; verify intended exception.
+  - Q21/Q22: subjective versus objective facts; options mix user-reported experience and care-worker observation. Verify each category.
+  - Q23/Q24: information giver versus receiver responsibilities; options appear to mix reporting and listening behaviours. Verify roles and preserve exact source text.
+  - Q25: reporting/consulting/confirming distinction; verify exact definition.
+  - Q27: general communication practice; compare against earlier communication questions.
+  - Q29: confidentiality and permitted team information sharing; verify scope/need-to-know rule.
+  - Q30: dementia communication has only three options; verify answer and do not invent a fourth option.
+  - Q31: recording purpose has only three options; verify intended answer and retain original option count.
+- Cross-paper duplicate/overlap candidates:
+  - Q03/Q04 (empathy/acceptance) overlap communication concepts in the other papers but no exact duplicate has yet been established.
+  - Q06 (repeating what user said to signal listening) is a strong concept/stem overlap candidate with the Q&A source `exam questions 3.pdf` ("What is repetition?" / "What message can be conveyed by repeating?") and batch 2 communication Q18; compare exact source phrasing before deduplication.
+  - Q09 (conversation posture) overlaps Q&A items in `exam questions 3.pdf` about leaning back/crossed legs and batch 2 Q18; exact duplicate comparison required.
+  - Q15/Q26/Q28/Q32 are within-paper aphasia overlap candidates; compare whether they test identical definition or distinct recognition/characteristics before deciding which to retain.
+  - Q17/Q30 (dementia communication) overlap by topic; determine if same tested instruction or separate recall/application questions.
+  - Q19/Q23/Q24/Q25 (information sharing, reporting, receiving, consulting) are related but not interchangeable; do not merge solely by topic.
+  - Q20 overlaps batch 3 Q29 (nursing-care record keeping) and batch 2 Q29 candidate (recording/care records); compare exact stems and tested rule.
+  - Q21/Q22 overlap textbook definitions of subjective/objective facts; check against any Q&A source items before deduplication.
+  - Q27 overlaps batch 2 Q18 and other source communication questions; exact duplicate comparison required.
+  - Q29 overlaps batch 3 Q37 and batch 2 Q14 confidentiality/privacy topics; compare exact wording and answer intent.
+- Image requirement: none identified in the original seven-page source.
+- Answer verification: 32/32 pending original-textbook evidence; no answer key is printed in this PDF.
+- Unique-question status: not finalized. All overlap candidates remain in the audit set until the nine-PDF and existing-app comparison is complete.
