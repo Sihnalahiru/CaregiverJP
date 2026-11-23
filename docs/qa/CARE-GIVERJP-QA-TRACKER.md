@@ -21,7 +21,7 @@
 | Exam questions 1.pdf | 9 | 94 | QA batch 6 reviewed — Q&A entries |
 | exam questions 3.pdf | 9 | 72 | QA batch 7 reviewed — Q&A pairing audit |
 | Mechanism of mind and body paper-1-1-1(1).pdf | 21 | 102 | QA batch 8 reviewed |
-| Skills for Providing Daily Assistance.pdf | 21 | 102 | Pending — image-heavy pages require visual audit |
+| Skills for Providing Daily Assistance.pdf | 21 | 102 | QA batch 9 reviewed — image mapping pending |
 | **Total** | **99** | **612** | Preliminary source entries, not unique-question total |
 
 ## QA batch 1 — SSW Nursing Care Paper 01
@@ -301,3 +301,52 @@
 - Answer verification: no marked answer key is provided in this source. All 102 correct indices require direct original textbook evidence before publication. Existing app correct indices are not automatically treated as source answer-key evidence.
 - Bilingual status: this PDF is English-only in the inspected extraction; Sinhala questions/options/explanations must be sourced and translated as a separate controlled step. Do not mark bilingual complete.
 - Unique-question status: not finalized. Existing 25 Lesson 02 app items are an incomplete pre-existing subset; deduplicate them against the 102 source items and all other source papers before building the final 45-question sequential papers.
+
+
+## QA batch 9 — Skills for Providing Daily Assistance
+- Source: `Skills for Providing Daily Assistance.pdf`
+- PDF pages: 21; all 21 pages read. Pages 1–12 contain text-based questions Q01–Q68. Pages 13–21 contain image-only/diagram-led items Q69–Q102.
+- Numbered items: Q01–Q102 (102 total). The page 13–21 image panels contain 34 numbered illustrations/items, generally with answer lines but no printed question stems or options in the extracted source. Do not invent their question wording or options.
+- Visual inspection: original page images 13–21 were inspected. Image items depict (by visible content only): Q69–72 stair/walking/transfer assistance; Q73–74 wheelchair on slopes/steps; Q75–76 cane/walking support; Q77 sitting posture; Q78–83 meal/feeding and positioning; Q84 standing/transfer support; Q85 repositioning/bed movement; Q86 a close-up care procedure with a strap/device (exact procedure requires textbook confirmation); Q87 leg/bed positioning; Q88 feeding; Q89–90 lower-limb dressing/positioning; Q91–92 dressing/transfer assistance; Q93 facial cleansing/massage direction; Q94 bathtub transfer; Q95–96 lower-limb wiping/massage direction; Q97–98 abdominal massage direction; Q99 toothbrush grip; Q100 nail/hand-care visual; Q101–102 oral care. These are visual descriptions only, not inferred question stems or answers.
+- Existing app-bank comparison: `src/data/studyBank.ts` already contains 25 Lesson 04 questions. Several exact/near-exact source overlaps exist:
+  - Existing L4 Q1 ↔ source Q01/Q61 (ascending stairs, care-worker position).
+  - Existing L4 Q2 ↔ source Q02 (clockwise abdominal massage for constipation).
+  - Existing L4 Q3 ↔ source Q03/Q13/Q62 (hemiplegic lateral positioning).
+  - Existing L4 Q4 ↔ source Q04/Q27 (Senuki/back-release technique).
+  - Existing L4 Q5 ↔ source Q06/Q31/Q57 (walking support position).
+  - Existing L4 Q6 ↔ source Q08/Q58 (repositioning interval).
+  - Existing L4 Q7 ↔ source Q09 (guiding a visually impaired user).
+  - Existing L4 Q8 ↔ source Q10 (wiping direction during dry bath); note app explanation says peripheral-to-heart while source statement says center-to-periphery, so key and explanation require textbook verification.
+  - Existing L4 Q9 ↔ source Q11/Q60 (three-motion cane sequence).
+  - Existing L4 Q10 ↔ source Q15/Q53 (ascending stairs with cane).
+  - Existing L4 Q11 ↔ source Q18/Q43 (descending stairs with cane).
+  - Existing L4 Q12 ↔ source Q14/Q23/Q35/Q37 (hemiplegia dressing/undressing sequence).
+  - Existing L4 Q13 ↔ source Q22 (chin/head position to prevent aspiration).
+  - Existing L4 Q14 ↔ source Q25/Q66 (hemiplegic bathtub entry).
+  - Existing L4 Q15 ↔ source Q33 (Fowler position for respiratory difficulty).
+  - Existing L4 Q16 ↔ source Q36/Q51 (bed-to-wheelchair transfer; affected/unaffected hand and wheelchair position).
+  - Existing L4 Q17 ↔ source Q38/Q40/Q46 (wheelchair safety).
+  - Existing L4 Q18 ↔ source Q39 (meal-assistance precautions).
+  - Existing L4 Q19 ↔ source Q41 (genital cleaning direction during defecation/diaper care).
+  - Existing L4 Q20 ↔ source Q40/Q46 (wheelchair descent on slope).
+  - Existing L4 Q21 ↔ source Q54/Q55 (walking-aid stability/support).
+  - Existing L4 Q22 ↔ source Q67 (oral-care safety/aspiration).
+  - Existing L4 Q23 ↔ source Q68 (bathing precautions).
+- Additional overlap candidates within this PDF: Q01/Q61 duplicate stem; Q03/Q13/Q62 duplicate concept/stem; Q04/Q27 duplicate; Q11/Q60 duplicate; Q15/Q53 repeat stair ascent sequence; Q18/Q43 descent sequence; Q36/Q51 transfer sequence; Q38/Q40/Q46 wheelchair safety. Retain one canonical item per exact duplicate after comparing source image/text and app content.
+- Source quality / completeness flags:
+  - Q01 has only three options; preserve the original option count.
+  - Q02 abdominal massage direction, Q03/Q13 lateral positioning, Q04/Q27 Senuki, Q06 walking side, Q08 turning interval, Q10 dry-bath wiping direction, Q11/Q15/Q18 cane sequence, Q14/Q23 dressing sequence, Q16/Q43/Q44 stair assistance position, Q17 meal positioning, Q20 wheelchair armrest, Q21 Fowler knee cushion, Q22 chin tuck, Q24 oral care/aspiration, Q25 bathtub entry, Q26 wheelchair slope ascent, Q32 urinary output units, Q35/Q37 dressing, Q39 meal assistance, Q41/Q42 defecation care, Q43/Q44 stair descent/ascent, Q45 grooming privacy, Q46 wheelchair movement, Q47 anatomical positions, Q48 stability, Q49 getting up, Q50 knee buckling, Q51 transfer, Q52–57 walking aids/support, Q58 repositioning frequency, Q59 meal assistance side, Q60–62 cane/positioning and Q63–68 oral/bathing care all require direct textbook answer verification.
+  - Q32 options mix 300 ml, 1 quart and 200 L; units/expected output need source verification.
+  - Q35 contains a multi-statement/option format; preserve all options exactly.
+  - Q39 option C describes standing while assisting and elevated chin/aspiration risk; check the source's exact intended exception.
+  - Q41/Q42 use `defection` in the source where `defecation` may be intended; preserve in audit record pending source check.
+  - Q47 mixes prone/supine/lateral/end-sitting definitions; verify each label.
+  - Q50 `Knee backing` appears to be a source/OCR wording issue; do not silently correct.
+  - Q64 pre-oral-care options are incomplete phrases (Removing saliva excretion/Decreasing/Promoting/Balancing); keep PENDING until textbook evidence clarifies.
+  - Q65 face-cleaning sequence; Q67 toothbrush hold comparison; Q68 bathing timing/temperature precautions need source verification.
+  - Q69–Q102 have no readable question stems/options in the source extraction; map each numbered original illustration to the textbook and reconstruct text only where the exact matching textbook content is established. Do not create guessed MCQs.
+- Image requirement: Q69–Q102 are image-dependent and must retain their exact original illustrations. Use the inspected source PDF images as the evidence for mapping. Do not substitute generated images or unrelated textbook pictures. Image-to-question mapping is still PENDING until each illustration is matched to the textbook's corresponding skill/sequence and an evidence page is recorded.
+- Bilingual status: this PDF is English-only in the inspected source. Sinhala questions/options/explanations are not supplied here and remain to be translated/verified; do not mark bilingual complete.
+- Answer verification: no marked answer key is present. All 68 text questions and 34 image-led items require original-textbook evidence before answer keys are approved.
+- Final exam packaging: do not add 102 entries blindly. Deduplicate existing Lesson 04 app questions and within-paper repeats first; retain image-led items only when the original stem/answer is recoverable from the textbook. All final exam papers remain 45-question batches, with no fabricated filler.
+- Unique-question status: not finalized; source-to-app mapping and image evidence still require a final consolidation pass.
