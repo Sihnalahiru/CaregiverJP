@@ -7,7 +7,7 @@ export const QUIZ_MODULES: QuizModule[] = [
     lessonLabel: 'All Questions',
     sourceFilename: 'Exam questions 1.pdf · Exam papers 2.pdf · exam questions 3.pdf',
     description: '246 unique source Q&A records. Recall each answer, reveal the original answer and Sinhala explanation, then mark your recall.',
-    questionCount: 246,
+    questionCount: 495,
   },
 ];
 
@@ -266,7 +266,7 @@ export const SOURCE_PDF_MCQ_QUESTIONS: QuizQuestion[] = [{"id":"srcmcq-1","modul
 
 
 export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
-  ...QUIZ_QUESTIONS,
+  ...SOURCE_PDF_MCQ_QUESTIONS,
   ...BILINGUAL_CARDS.map((card, index) => ({
     id: `source-${card.id}`,
     moduleId: 'source-qa',
