@@ -18,7 +18,7 @@
 | cargiver 8 %.pdf | 7 | 45 | QA batch 3 reviewed |
 | Communication Skills-1-2-1.pdf | 7 | 32 | Pending |
 | Exam papers 2.pdf | 9 | 83 | QA batch 5 reviewed — Q&A entries |
-| Exam questions 1.pdf | 9 | 94 | Pending — Q&A pairing audit |
+| Exam questions 1.pdf | 9 | 94 | QA batch 6 reviewed — Q&A entries |
 | exam questions 3.pdf | 9 | 72 | Pending — Q&A pairing audit |
 | Mechanism of mind and body paper-1-1-1.pdf | 21 | 102 | Pending |
 | Skills for Providing Daily Assistance.pdf | 21 | 102 | Pending — image-heavy pages require visual audit |
@@ -182,3 +182,39 @@
 - Answer verification: the source supplies proposed answers, but all 83 still require direct textbook cross-check before they are marked verified.
 - Final exam packaging: these 83 Q&A entries must not automatically be counted as 83 additional MCQs. They must be matched to the original exam questions and existing app bank first; use them as supporting answer evidence where the question intent matches.
 - Unique-question status: not finalized pending cross-source and app-bank deduplication.
+
+
+## QA batch 6 — Exam Questions 1 (Q&A source)
+- Source: `Exam questions 1.pdf`
+- PDF pages: 9; all nine extracted pages read.
+- Count: 94 Q&A entries (source entry markers counted; not a four-option MCQ paper).
+- The source includes English Q&A and Sinhala translations. Preserve the existing pairings and original technical content; Sinhala translation requires a separate accuracy pass before publication.
+- No MCQ option sets or explicit answer key are present. Do not invent options or treat these 94 study Q&As as 94 new MCQs.
+- Source integrity / translation flags:
+  - One meal-assistance Sinhala line contains a malformed/garbled word ("වලාබ බලා ගනී"); compare the English source and textbook before repairing it.
+  - The Sinhala line for the left-sided hemiplegia rolling question says "healthy-side leg up" while the English answer says "affected side up". This is a material translation mismatch and must be corrected only after checking the textbook diagram/text.
+  - The source includes a standalone "[Phases of swallowing]" prompt rather than a conventional question; retain it as a sequence-recall item, not an invented MCQ.
+  - Several scenario questions have ellipses and omit full scenario details in the extracted text; inspect source page image/text before turning them into complete question stems.
+  - A stray OCR character appears after the small-intestine absorption answer; ignore as extraction noise only after checking the PDF page.
+  - A few English phrases need source-level proofreading (for example, "bed's gatch", "wash with your nails up", and "body heat will be taken away"); do not silently rewrite.
+- Topic coverage in the source:
+  - Disuse syndrome, pressure ulcers and prevention.
+  - Walking aids, hemiplegia positioning, bed height, transfers, wheelchair safety, steps and slopes.
+  - Swallowing phases, meal assistance, aspiration prevention.
+  - Urinary system, bowel function, incontinence, toileting and bedpan/urinal assistance.
+  - Dressing, grooming, oral care, bathing, bed baths and hygiene.
+  - IADL/housework, cooking, household goods, infection-related laundry and safe living environment.
+  - Care worker role, human dignity and QOL.
+- Strong duplicate/overlap candidates with previous batches:
+  - Care worker role, human dignity and QOL directly overlap Exam Questions 2 (batch 5), and batch 1/2/3 questions about dignity, QOL and normalization.
+  - Disuse syndrome overlaps batch 2 Q25 and related source questions; compare exact symptom/definition intent.
+  - Walking aid, affected-side positioning, transfers and body mechanics overlap batch 2 Q21/Q41, batch 3 Q42 and other source-bank items; compare exact technique tested.
+  - Handwashing/skin hygiene/cleaning and infection prevention overlap Exam Questions 2 handwashing Q&As and batch 3 Q02/Q18–21/Q27.
+  - Meal assistance, posture, swallowing and aspiration topics may overlap the remaining MCQ papers; compare question intent, not just shared chapter.
+  - Toileting/privacy and excretion items overlap batch 2 Q19 and related care questions.
+  - Dressing with paralysis overlaps batch 2 Q20; grooming and bathing may overlap source MCQs in the Daily Assistance paper.
+  - Safe living environment overlaps batch 5 privacy/safety items and batch 2 safety/risk questions.
+- Image requirement: no explicit embedded question image is referenced in the Q&A text; use textbook illustrations only if a later MCQ has a direct image-dependent stem.
+- Answer verification: the source supplies proposed answers for 94 entries; all 94 still need direct textbook cross-check before being marked verified.
+- Final exam packaging: match these 94 Q&As against MCQ papers and the existing app bank as answer/source evidence. Do not add them as 94 separate MCQs by default.
+- Unique-question status: not finalized pending full nine-PDF and existing-app comparison.
