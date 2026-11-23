@@ -2,47 +2,11 @@ import type { BilingualCard, QuizModule, QuizQuestion } from '../types';
 
 export const QUIZ_MODULES: QuizModule[] = [
   {
-    id: 'lesson-01',
-    title: 'SSW Nursing Care Skill — Paper 01',
-    lessonLabel: 'Lesson 01',
-    sourceFilename: 'SSW Nursing Care paper 01-2-1.pdf',
-    description:
-      'Fundamentals of caregiving, human dignity, QOL, care process, body mechanics, infection control, and disaster readiness.',
-    questionCount: 25,
-  },
-  {
-    id: 'lesson-02',
-    title: 'Mechanism of Mind & Body',
-    lessonLabel: 'Lesson 02',
-    sourceFilename: 'Mechanism of mind and body paper-1-1-1.pdf',
-    description:
-      'Memory, stress, Maslow hierarchy, vital signs, organ systems, sleep stages, aging, dementia, and disabilities.',
-    questionCount: 25,
-  },
-  {
-    id: 'lesson-03',
-    title: 'Communication Skills',
-    lessonLabel: 'Lesson 03',
-    sourceFilename: 'Communication Skills-1-2-1.pdf',
-    description:
-      'Verbal and non-verbal cues, active listening, empathy, acceptance, sensory impairment support, aphasia, and team records.',
-    questionCount: 25,
-  },
-  {
-    id: 'lesson-04',
-    title: 'Skills for Providing Daily Assistance',
-    lessonLabel: 'Lesson 04',
-    sourceFilename: 'Skills for Providing Daily Assistance.pdf',
-    description:
-      'Mobility, stair and wheelchair techniques, hemiplegia dressing and bathing, meal safety, oral care, and excretion assistance.',
-    questionCount: 25,
-  },
-  {
     id: 'source-qa',
-    title: 'Source Q&A — Exam Papers 01–03',
-    lessonLabel: 'Q&A',
+    title: 'All Source PDF Questions',
+    lessonLabel: 'All Questions',
     sourceFilename: 'Exam questions 1.pdf · Exam papers 2.pdf · exam questions 3.pdf',
-    description: 'Source Q&A converted into self-check quiz questions. Reveal the source answer, then mark your recall.',
+    description: '246 unique source Q&A records. Recall each answer, reveal the original answer and Sinhala explanation, then mark your recall.',
     questionCount: 246,
   },
 ];
