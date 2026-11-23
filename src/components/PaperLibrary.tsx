@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react';
-import { BookOpen, CheckSquare, Download, FileText, Search } from 'lucide-react';
+import { CheckSquare, Download, FileText, Search } from 'lucide-react';
 import type { PaperCategory, PaperMeta } from '../types';
 
 interface PaperLibraryProps {
@@ -8,7 +8,6 @@ interface PaperLibraryProps {
   error: string | null;
   onOpenReader: (paperId: string) => void;
   onOpenQuiz: (moduleId: string) => void;
-  onOpenBilingual: (sourceId: string) => void;
 }
 
 type CategoryFilter = 'All' | PaperCategory;
@@ -26,7 +25,6 @@ export const PaperLibrary: React.FC<PaperLibraryProps> = ({
   error,
   onOpenReader,
   onOpenQuiz,
-  onOpenBilingual,
 }) => {
   const [filter, setFilter] = useState<CategoryFilter>('All');
   const [query, setQuery] = useState('');
@@ -220,16 +218,6 @@ export const PaperLibrary: React.FC<PaperLibraryProps> = ({
                     </button>
                   )}
 
-                  {paper.bilingualSourceId && (
-                    <button
-                      type="button"
-                      onClick={() => onOpenBilingual(paper.bilingualSourceId!)}
-                      className="inline-flex items-center gap-1.5 px-3 py-2 text-xs font-semibold text-white bg-[#0284C7] hover:bg-[#0369A1] rounded-lg transition-colors whitespace-nowrap shrink-0 cursor-pointer"
-                    >
-                      <BookOpen className="w-3.5 h-3.5" aria-hidden="true" />
-                      Study Q&amp;A
-                    </button>
-                  )}
                 </div>
 
                 <a
