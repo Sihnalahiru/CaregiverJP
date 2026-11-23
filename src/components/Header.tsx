@@ -1,6 +1,6 @@
 import React from 'react';
 
-export type AppView = 'library' | 'practice' | 'bilingual' | 'reader';
+export type AppView = 'library' | 'practice' | 'reader';
 
 interface HeaderProps {
   activeView: AppView;
@@ -16,7 +16,7 @@ export const Header: React.FC<HeaderProps> = ({
   const navItems: { id: AppView; label: string }[] = [
     { id: 'library', label: 'Paper Library' },
     { id: 'practice', label: 'Practice Quiz' },
-    { id: 'bilingual', label: 'Bilingual Q&A' },
+
     { id: 'reader', label: 'PDF Reader' },
   ];
 
