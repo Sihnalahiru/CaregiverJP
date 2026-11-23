@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import { Header, type AppView } from './components/Header';
 import { PaperLibrary } from './components/PaperLibrary';
 import { QuizPractice } from './components/QuizPractice';
-import { BilingualStudy } from './components/BilingualStudy';
 import { PdfReader } from './components/PdfReader';
 import type { PaperMeta } from './types';
 
@@ -14,8 +13,6 @@ export function App() {
 
   const [selectedPaperId, setSelectedPaperId] = useState<string | null>(null);
   const [selectedModuleId, setSelectedModuleId] = useState<string>('lesson-01');
-  const [selectedBilingualSourceId, setSelectedBilingualSourceId] =
-    useState<string>('all');
 
   useEffect(() => {
     let cancelled = false;
@@ -62,11 +59,6 @@ export function App() {
     setActiveView('practice');
   };
 
-  const handleOpenBilingual = (sourceId: string) => {
-    setSelectedBilingualSourceId(sourceId);
-    setActiveView('bilingual');
-  };
-
   return (
     <div className="min-h-screen flex flex-col bg-[#F8FAFC] text-[#0F172A]">
       <Header
@@ -83,7 +75,6 @@ export function App() {
             error={papersError}
             onOpenReader={handleOpenReader}
             onOpenQuiz={handleOpenQuiz}
-            onOpenBilingual={handleOpenBilingual}
           />
         )}
 
@@ -91,13 +82,6 @@ export function App() {
           <QuizPractice
             selectedModuleId={selectedModuleId}
             onSelectModule={setSelectedModuleId}
-          />
-        )}
-
-        {activeView === 'bilingual' && (
-          <BilingualStudy
-            selectedSourceId={selectedBilingualSourceId}
-            onSelectSource={setSelectedBilingualSourceId}
           />
         )}
 
