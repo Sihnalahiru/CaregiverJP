@@ -1,6 +1,7 @@
 import React, { useMemo, useState } from 'react';
 import { CheckSquare, Download, FileText, Search } from 'lucide-react';
 import type { PaperCategory, PaperMeta } from '../types';
+import { ALL_QUIZ_QUESTIONS } from '../data/studyBank';
 
 interface PaperLibraryProps {
   papers: PaperMeta[];
@@ -64,10 +65,10 @@ export const PaperLibrary: React.FC<PaperLibraryProps> = ({
             SSW Nursing Care Study Portal
           </p>
           <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-900 max-w-2xl [text-wrap:balance]">
-            Study original SSW caregiver papers, practice MCQs, and review bilingual Q&amp;A notes.
+            Study original SSW caregiver papers and practise every imported source question.
           </h1>
           <p className="text-base text-slate-600 max-w-2xl leading-relaxed">
-            Every paper in the HiCare archive is indexed directly from the original documents. Read full PDFs side-by-side, test your recall on timed-free MCQ modules, or study English and Sinhala concepts together.
+            Read the original PDFs and practise source MCQs alongside recall questions with English answers and Sinhala support. Questions without a source answer key are kept ungraded.
           </p>
         </div>
 
@@ -87,9 +88,9 @@ export const PaperLibrary: React.FC<PaperLibraryProps> = ({
           </div>
           <div>
             <div className="text-2xl font-bold text-slate-900 font-mono-tabular">
-              100
+              {ALL_QUIZ_QUESTIONS.length}
             </div>
-            <div className="text-xs text-slate-500 mt-1">Practice MCQs</div>
+            <div className="text-xs text-slate-500 mt-1">Quiz Questions</div>
           </div>
         </div>
       </section>
