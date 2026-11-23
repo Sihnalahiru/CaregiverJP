@@ -16,10 +16,10 @@
 | SSW Nursing Care paper 01-2-1.pdf | 8 | 39 | QA batch 1 reviewed |
 | cargiver 6 ^%.pdf | 8 | 45 | QA batch 2 reviewed |
 | cargiver 8 %.pdf | 7 | 45 | QA batch 3 reviewed |
-| Communication Skills-1-2-1.pdf | 7 | 32 | Pending |
+| Communication Skills-1-2-1(1).pdf | 7 | 32 | QA batch 4 reviewed |
 | Exam papers 2.pdf | 9 | 83 | QA batch 5 reviewed — Q&A entries |
 | Exam questions 1.pdf | 9 | 94 | QA batch 6 reviewed — Q&A entries |
-| exam questions 3.pdf | 9 | 72 | Pending — Q&A pairing audit |
+| exam questions 3.pdf | 9 | 72 | QA batch 7 reviewed — Q&A pairing audit |
 | Mechanism of mind and body paper-1-1-1.pdf | 21 | 102 | Pending |
 | Skills for Providing Daily Assistance.pdf | 21 | 102 | Pending — image-heavy pages require visual audit |
 | **Total** | **99** | **612** | Preliminary source entries, not unique-question total |
@@ -217,4 +217,37 @@
 - Image requirement: no explicit embedded question image is referenced in the Q&A text; use textbook illustrations only if a later MCQ has a direct image-dependent stem.
 - Answer verification: the source supplies proposed answers for 94 entries; all 94 still need direct textbook cross-check before being marked verified.
 - Final exam packaging: match these 94 Q&As against MCQ papers and the existing app bank as answer/source evidence. Do not add them as 94 separate MCQs by default.
+- Unique-question status: not finalized pending full nine-PDF and existing-app comparison.
+
+
+## QA batch 7 — Exam Questions 3 (Q&A source)
+- Source: `exam questions 3.pdf`
+- PDF pages: 9; all nine extracted pages read.
+- Count: 72 Q&A entries (counted from the source's `* Q:` markers). This is a study Q&A source, not a four-option MCQ paper.
+- The source supplies English Q&A with Sinhala translations for the entries. Preserve the original pairing and technical content; translation accuracy and textbook alignment still require a dedicated verification pass.
+- No MCQ option sets or marked answer key are present. Do not invent options or treat these 72 Q&As as 72 additional MCQs.
+- Source integrity / translation flags:
+  - The eye-level question on PDF page 2 (`What happens if you don't match eye levels with the care recipient?`) has a Sinhala answer line but no English `A:` line in the extracted source. The English answer must remain missing/PENDING until confirmed from the textbook; do not silently reconstruct it.
+  - The Sinhala word for aphasia contains corrupted embedded Hebrew/RTL characters in several entries on pages 5–6. Preserve as a source defect and repair only against the original PDF/textbook with Sinhala Unicode checked.
+  - The source's Sinhala translations for communication terminology (verbal/non-verbal communication, active listening/Keichou, empathy/Kyoukan, acceptance/Juyou, lip-reading/Dokuwa, writing communication/Hitsudan, consultation/Soudan) need terminology consistency review against the textbook.
+  - The source labels active listening as `Keichou`; retain this romanization as source text until the textbook confirms the preferred term.
+  - The eye-level item has a missing English answer; this is a content-completeness defect, not permission to infer a new answer.
+- Topic coverage:
+  - Communication definition, purpose and verbal/non-verbal methods.
+  - Active listening, empathy, acceptance, open/closed questions and repetition.
+  - Eye level, tone, facing posture, crossed arms/legs, distance and touch.
+  - Communication with visual and hearing impairments, clock-position method, lip-reading, writing and sign language, hearing aids.
+  - Aphasia and dementia communication strategies.
+  - Team coordination, information sharing, records, handover, objective/subjective facts, record quality and information management.
+  - Confidentiality, consent, personal information, SNS/workplace privacy and consultation.
+- Cross-paper duplicate/overlap candidates:
+  - Strong overlap with Communication Skills (batch 4): communication modes, empathy/acceptance, closed/open questions, repetition, eye-level/posture, visual/hearing impairment, aphasia, dementia, team information sharing, record keeping, subjective/objective facts and confidentiality. These are Q&A-to-MCQ topic/stem matches, not automatically new MCQs; map each Q&A to the exact MCQ(s) and textbook evidence.
+  - The aphasia items (definition, speaking style, supplementary pictures/gestures, slips of tongue, closed questions) are distinct subskills unless exact stems/answers match within the source MCQ bank; do not collapse them merely because they share a topic.
+  - The dementia communication characteristic and dementia communication approach are separate recall points; compare with batch 4 dementia questions before deduplication.
+  - Decision-making support and respecting the care recipient's choice overlap autonomy/self-determination questions in batches 2, 3 and 5; preserve as source evidence pending exact comparison.
+  - Record timing, date/time, actual facts, subjective/objective facts, clarity, 5W1H and consent/privacy overlap batch 4 record/confidentiality questions and batch 5 Q&A content; map exact tested knowledge rather than merging by chapter.
+  - Repetition/active listening and eye-level/posture also overlap communication items in batches 2 and 4; compare exact wording and intent.
+- Image requirement: none of the 72 Q&A entries requires a question-specific image. Do not add generated or unrelated images.
+- Answer verification: all 72 supplied answers (and the missing English answer noted above) require direct original-textbook cross-check before being marked verified.
+- Final exam packaging: these 72 Q&As are supporting study/answer evidence for the Communication Skills MCQ paper and app bank; do not add them as 72 separate MCQs.
 - Unique-question status: not finalized pending full nine-PDF and existing-app comparison.
