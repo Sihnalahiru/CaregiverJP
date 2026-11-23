@@ -6,7 +6,7 @@ import {
   RotateCcw,
   XCircle,
 } from 'lucide-react';
-import { QUIZ_MODULES, ALL_ALL_QUIZ_QUESTIONS } from '../data/studyBank';
+import { QUIZ_MODULES, ALL_QUIZ_QUESTIONS } from '../data/studyBank';
 
 interface QuizPracticeProps {
   selectedModuleId: string;
@@ -28,7 +28,7 @@ export const QuizPractice: React.FC<QuizPracticeProps> = ({
     const all = ALL_QUIZ_QUESTIONS.filter((q) => q.moduleId === activeModule.id);
     if (!showMissedOnly) return all;
     return all.filter(
-      (q) => answers[q.id] !== undefined && answers[q.id] !== q.correctIndex
+      (q) => answers[q.id] !== undefined && (q.kind === 'self-check' ? answers[q.id] === 1 : answers[q.id] !== q.correctIndex)
     );
   }, [activeModule.id, showMissedOnly, answers]);
 
