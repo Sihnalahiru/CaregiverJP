@@ -393,3 +393,55 @@
   - The English Q&A is generally readable; no MCQ answer verification is applicable because no options or answer key are present.
 - No app question bank changes in this batch. Source audit and tracker update only.
 - Batch 7 now completes the initial inventory review of all 9 source PDFs. This does NOT mean all 612 preliminary entries are unique MCQs: sources include MCQ papers, bilingual Q&A papers and text/image-led daily-assistance questions. Final unique MCQ count remains unverified.
+
+
+## Batch 12 — Lesson 03 MCQ source-to-app reconciliation
+- Compared all 32 items in the original 7-page `Communication Skills-1-2-1(1).pdf` against the 25 Lesson 03 questions in `src/data/studyBank.ts`. Also cross-checked related Q&A concepts in `exam questions 3.pdf` (Batch 11).
+- The app's L3 Q01–Q20 broadly follow source MCQ Q01–Q20 in sequence, but wording/options are not always verbatim. Several were normalized or rewritten. Treat as source-derived adaptations, not exact copies.
+- Confirmed alignment:
+  - App L3 Q01 ↔ source Q01 (verbal communication exception).
+  - Q02 ↔ Q02 (non-verbal communication).
+  - Q03 ↔ Q03 (empathy).
+  - Q04 ↔ Q04 (acceptance).
+  - Q05 ↔ Q05 (closed question).
+  - Q06 ↔ Q06 (repetition).
+  - Q07 ↔ Q07 (eye-level/eye contact wording).
+  - Q08 ↔ Q09 (face-to-face posture).
+  - Q09 ↔ Q10 (visual impairment).
+  - Q10 ↔ Q11 (clock position).
+  - Q11 ↔ Q12 (Braille).
+  - Q12 ↔ Q13 (hearing impairment).
+  - Q13 ↔ Q15 (aphasia; app normalizes source's misspelled distractors).
+  - Q14 ↔ Q16 (aphasia communication).
+  - Q15 ↔ Q17 (dementia communication).
+  - Q16 ↔ Q20 (care record basics).
+  - Q17 ↔ Q21 (subjective facts).
+  - Q18 ↔ Q22 (objective facts).
+  - Q19 ↔ Q24 (receiver's role in handover).
+  - Q20 ↔ Q25 (consulting).
+  - Q21 ↔ Q26 (aphasia vs dysphagia).
+  - Q22 ↔ Q29 (confidentiality).
+  - Q23 ↔ Q30 (dementia communication).
+- App additions/reconstructions rather than direct source MCQ matches:
+  - App Q24 (5W1H in care records) is supported by the Q&A source `exam questions 3.pdf` entry on page 8, not by an MCQ in the 32-question paper.
+  - App Q25 (purpose of team record sharing) is supported conceptually by Q&A source `exam questions 3.pdf` page 7, not by an MCQ in the 32-question paper.
+- Source MCQs not represented as distinct questions in app L3 bank:
+  - Q08 polite wording.
+  - Q14 sign-language definition.
+  - Q18 nursing-care personnel exception.
+  - Q19 methods of information sharing exception.
+  - Q23 information provider's role.
+  - Q27 proper general communication with the user.
+  - Q28 aphasia as a language-area brain injury disorder (overlaps Q15/Q26 concepts but is not the same stem).
+  - Q31 appropriate purpose of recording.
+  - Q32 meaning of aphasia (ambiguous/poorly constructed source item).
+- Source Q23 (provider's role) is absent; app Q19 is source Q24 (receiver's role), not source Q23. The earlier app question numbering therefore must not be mistaken for exact source numbering.
+- Source quality flags preserved:
+  - Q04 says “without denying or admitting them”; likely wording defect, but do not silently rewrite the source. App wording “without denying or judging” is a normalized adaptation and needs textbook verification.
+  - Q15 has misspelled options “Aphycusia” and “Basybachia”; app substitutes “Hypacusia” and “Dysphagia”. This may improve terminology but is not source-verbatim; verify intended distractors from textbook before treating as a source-faithful option set.
+  - Q30 and Q31 contain only 3 options; app retains 4 options by adding distractors. These added options are not in the source and must be labelled as app-authored distractors, not source content.
+  - Q32 has 3 options and a weak/ambiguous definition (“loses their ability to speak” is incomplete); app does not include it as a separate item.
+  - Q07 “establishes eye contact on the same level” is grammatically ambiguous; verify against textbook context.
+  - Q20 says records should be kept “at the end of your shift”; app explanation changes this to “immediately while memory is fresh”. Source Q&A page 8 says write immediately while memory is clear. Keep the MCQ source wording and Q&A evidence distinct; textbook should decide the correct answer.
+- Important: this audit checks source mapping and wording, NOT answer correctness. All 25 app correctIndex values remain unverified against the original textbook. No question was deleted or changed in this batch.
+- File metadata discrepancy resolved: Library search returned both `Communication Skills-1-2-1(1).pdf` and `Communication Skills-1-2-1.pdf` with identical byte size (506,308 bytes). The app metadata filename without “(1)” corresponds to a Library item of the same size; byte-for-byte identity has not been proven.
