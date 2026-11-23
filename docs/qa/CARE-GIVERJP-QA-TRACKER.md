@@ -20,7 +20,7 @@
 | Exam papers 2.pdf | 9 | 83 | QA batch 5 reviewed — Q&A entries |
 | Exam questions 1.pdf | 9 | 94 | QA batch 6 reviewed — Q&A entries |
 | exam questions 3.pdf | 9 | 72 | QA batch 7 reviewed — Q&A pairing audit |
-| Mechanism of mind and body paper-1-1-1.pdf | 21 | 102 | Pending |
+| Mechanism of mind and body paper-1-1-1(1).pdf | 21 | 102 | QA batch 8 reviewed |
 | Skills for Providing Daily Assistance.pdf | 21 | 102 | Pending — image-heavy pages require visual audit |
 | **Total** | **99** | **612** | Preliminary source entries, not unique-question total |
 
@@ -251,3 +251,53 @@
 - Answer verification: all 72 supplied answers (and the missing English answer noted above) require direct original-textbook cross-check before being marked verified.
 - Final exam packaging: these 72 Q&As are supporting study/answer evidence for the Communication Skills MCQ paper and app bank; do not add them as 72 separate MCQs.
 - Unique-question status: not finalized pending full nine-PDF and existing-app comparison.
+
+
+## QA batch 8 — Mechanism of Mind & Body
+- Source inspected: `Mechanism of mind and body paper-1-1-1(1).pdf` (latest Library upload, 21 pages; an older same-title variant also exists in the Library). Audit is based on the latest 23 November upload, not the older copy.
+- PDF pages: 1–20 contain numbered MCQs; page 21 is blank.
+- Numbered items: Q01–Q102 (102 total). Most have four options; Q91–Q95 and Q98–Q101 have only three options in the supplied source. Preserve those original option counts; do not fabricate missing choices.
+- All 21 extracted page segments were reviewed. No question-specific diagrams or image-choice panels are present in the supplied text; do not add generated or unrelated images.
+- Existing app-bank comparison: `src/data/studyBank.ts` already contains 25 Lesson 02 questions. The app set is a partial subset of this source and contains several matching or near-matching stems, including will, memory processes, semantic/procedural memory, vital signs, homeostasis, autonomic/sympathetic nerves, arteries, pulmonary circulation, kidney/urine formation, immunity, aging, aspiration pneumonia, dialysis, stoma, occipital lobe, aging-related forgetfulness, Alzheimer’s disease, dementia core symptoms, body-temperature measurement, pulse rate, respiratory rate and systolic blood pressure. These existing app records must be mapped to their exact source numbers and retained once; do not append duplicate copies. The other source items are candidates for addition only after full cross-source comparison.
+- Source wording/quality flags to preserve for textbook verification:
+  - Q03: `Fatique` spelling; Q04 uses `Remember` as an option among memory processes.
+  - Q12: `unconsciously remembered` for priming is ambiguous; confirm source terminology.
+  - Q16: wording says maintain a `constant change`, which may be an extraction/source wording defect; do not silently rewrite.
+  - Q18: pulse variation by day/night needs source confirmation.
+  - Q26: `Pupils dialate` spelling and sympathetic response statement require checking.
+  - Q31: `faces` appears where `faeces` may be intended; preserve pending source check.
+  - Q36 typo `EXCEP`; Q37's Non-REM option `You do not have dreams` needs textbook validation.
+  - Q39–46: aging, dehydration/edema, hypertension, heart and cerebrovascular disease terms need careful distinction; Q44 wording `clogged blood vessels and others` is vague.
+  - Q47/Q48: general pneumonia versus aspiration pneumonia distinction.
+  - Q53: visual impairment symptoms list includes retinopathy (a condition) and hemispatial neglect; verify classification.
+  - Q54: `Hypacusia` spelling; Q56 speech disability/language disorder distinction.
+  - Q59: dialysis bathing timing/options need textbook verification.
+  - Q61–65: mental disability, dementia, depressive/manic states and delusion wording need source terminology checks.
+  - Q66: taste/judgment/understanding mapped to a cerebral lobe; verify the source's intended lobe.
+  - Q71/Q72: aging-related forgetfulness versus dementia-related forgetfulness; check the paired distinctions.
+  - Q73/Q74: Alzheimer’s and Lewy body dementia features; verify exact textbook descriptions.
+  - Q75/Q76: frontotemporal and Alzheimer-type dementia symptoms; preserve source options pending confirmation.
+  - Q77 calls core symptoms `care symptoms`; Q78 contrasts core symptoms and BPSD.
+  - Q79–81: core-symptom labels/options may not align cleanly with definitions; verify against textbook.
+  - Q84/Q85: hallucination versus delusion distinction.
+  - Q86: Maslow hierarchy has four long options; check each statement and preserve the source text.
+  - Q88: REM/Non-REM sleep statements require textbook cross-check.
+  - Q89: temperature measurement side for hemiplegia; verify exact nursing instruction.
+  - Q90: tachycardia/bradycardia labels are paired with potentially reversed thresholds in distractors; verify carefully.
+  - Q91: ICF acronym is printed as `1CF`; option C ends mid-sentence (`braad`) and the item has only three options.
+  - Q92: `Wondering` may be a typo for `Wandering`; only three options.
+  - Q93: wording `Change the user stay in user's room for a short time` is unclear; only three options.
+  - Q94: diabetes complications item includes kidney and lung disorders; only three options.
+  - Q95: constipation item says `Message the abdomen with reverse`; likely requires exact source/textbook interpretation; do not infer correction.
+  - Q96: `Palm artery` option; verify pulse measurement sites.
+  - Q97: adult breathing-rate options mix per hour/second/minute; check unit and source key.
+  - Q98–101: only three options each; preserve count. Q98 retina wording, Q100–101 systolic/diastolic definitions need exact validation.
+  - Q102: central nervous system/brain/peripheral nerve options; verify intended structure and function.
+- Cross-source overlap candidates:
+  - Communication Skills batches 4 and 7: visual/hearing impairment, aphasia, dementia communication and cerebral-language function (especially Q53–56, Q61–85) overlap by topic; compare exact tested knowledge before deduplication.
+  - Caregiver 8 and Exam Questions 2: stress/mental health, dementia, infection/aspiration, risk and care-recording topics have partial conceptual overlap; do not remove items solely for shared chapter.
+  - Exam Questions 1: swallowing/aspiration and daily-care items may overlap Q47–48; compare exact stem/answer intent.
+  - Earlier nursing-care MCQ sources: body functions, vital signs, organ systems and dementia/aging may share concepts, but the bulk of this source is a distinct Lesson 02 knowledge set.
+- Answer verification: no marked answer key is provided in this source. All 102 correct indices require direct original textbook evidence before publication. Existing app correct indices are not automatically treated as source answer-key evidence.
+- Bilingual status: this PDF is English-only in the inspected extraction; Sinhala questions/options/explanations must be sourced and translated as a separate controlled step. Do not mark bilingual complete.
+- Unique-question status: not finalized. Existing 25 Lesson 02 app items are an incomplete pre-existing subset; deduplicate them against the 102 source items and all other source papers before building the final 45-question sequential papers.
