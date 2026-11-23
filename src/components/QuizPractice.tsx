@@ -25,22 +25,24 @@ export const QuizPractice: React.FC<QuizPracticeProps> = ({
     QUIZ_MODULES.find((m) => m.id === selectedModuleId) ?? QUIZ_MODULES[0];
 
   const moduleQuestions = useMemo(() => {
-    const all = ALL_QUIZ_QUESTIONS.filter((q) => q.moduleId === activeModule.id);
+    const all = selectedModuleId === 'all-mixed' ? ALL_QUIZ_QUESTIONS : ALL_QUIZ_QUESTIONS.filter((q) => q.moduleId === activeModule.id);
     if (!showMissedOnly) return all;
     return all.filter(
-      (q) => answers[q.id] !== undefined && (q.kind === 'self-check' ? answers[q.id] === 1 : answers[q.id] !== q.correctIndex)
+      (q) => answers[q.id] !== undefined && (q.kind === 'self-check' ? answers[q.id] === 1 : q.kind === 'source-mcq' ? false : answers[q.id] !== q.correctIndex)
     );
   }, [activeModule.id, showMissedOnly, answers]);
 
   const allModuleQuestions = useMemo(
-    () => ALL_QUIZ_QUESTIONS.filter((q) => q.moduleId === activeModule.id),
-    [activeModule.id]
+    () => selectedModuleId === 'all-mixed' ? ALL_QUIZ_QUESTIONS : ALL_QUIZ_QUESTIONS.filter((q) => q.moduleId === activeModule.id),
+    [activeModule.id, selectedModuleId]
   );
 
   const stats = useMemo(() => {
     let answered = 0;
     let correct = 0;
     for (const q of allModuleQuestions) {
+      if (q.kind === 'source-mcq') continue;
+      if (q.kind === 'self-check' && answers[q.id] === -1) continue;
       if (answers[q.id] !== undefined) {
         answered++;
         if (q.kind === 'self-check' ? answers[q.id] === 0 : answers[q.id] === q.correctIndex) correct++;
@@ -144,7 +146,7 @@ export const QuizPractice: React.FC<QuizPracticeProps> = ({
                 <div className="space-y-3">
                   <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">Recall the answer before revealing</p>
                   {answers[currentQuestion.id] === undefined ? (
-                    <button type="button" onClick={() => handleSelectOption(currentQuestion.id, 0)} className="w-full px-4 py-3 text-left border border-slate-200 rounded-lg bg-white hover:bg-slate-50 text-sm font-semibold">Reveal source answer</button>
+                    <button type="button" onClick={() => handleSelectOption(currentQuestion.id, -1)} className="w-full px-4 py-3 text-left border border-slate-200 rounded-lg bg-white hover:bg-slate-50 text-sm font-semibold">Reveal source answer</button>
                   ) : (
                     <div className="p-4 bg-slate-50 border border-slate-200 rounded-lg space-y-2">
                       <p className="text-sm text-slate-800">{currentQuestion.explanation.split('\\n\\n')[0]}</p>
@@ -331,9 +333,9 @@ export const QuizPractice: React.FC<QuizPracticeProps> = ({
                 const isCurrent = idx === safeIndex;
                 let cellStyle =
                   'bg-slate-50 border-slate-200 text-slate-700 hover:bg-slate-100';
-                if (chosen !== undefined) {
+                if (chosen !== undefined && !(q.kind === 'self-check' && chosen === -1) && q.kind !== 'source-mcq') {
                   cellStyle =
-                    chosen === q.correctIndex
+                    (q.kind === 'self-check' ? chosen === 0 : chosen === q.correctIndex)
                       ? 'bg-emerald-50 border-emerald-500 text-emerald-800'
                       : 'bg-red-50 border-red-500 text-red-800';
                 }
