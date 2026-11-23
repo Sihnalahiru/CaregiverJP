@@ -6,7 +6,7 @@ import {
   RotateCcw,
   XCircle,
 } from 'lucide-react';
-import { QUIZ_MODULES, QUIZ_QUESTIONS } from '../data/studyBank';
+import { QUIZ_MODULES, ALL_ALL_QUIZ_QUESTIONS } from '../data/studyBank';
 
 interface QuizPracticeProps {
   selectedModuleId: string;
@@ -25,7 +25,7 @@ export const QuizPractice: React.FC<QuizPracticeProps> = ({
     QUIZ_MODULES.find((m) => m.id === selectedModuleId) ?? QUIZ_MODULES[0];
 
   const moduleQuestions = useMemo(() => {
-    const all = QUIZ_QUESTIONS.filter((q) => q.moduleId === activeModule.id);
+    const all = ALL_QUIZ_QUESTIONS.filter((q) => q.moduleId === activeModule.id);
     if (!showMissedOnly) return all;
     return all.filter(
       (q) => answers[q.id] !== undefined && answers[q.id] !== q.correctIndex
@@ -33,7 +33,7 @@ export const QuizPractice: React.FC<QuizPracticeProps> = ({
   }, [activeModule.id, showMissedOnly, answers]);
 
   const allModuleQuestions = useMemo(
-    () => QUIZ_QUESTIONS.filter((q) => q.moduleId === activeModule.id),
+    () => ALL_QUIZ_QUESTIONS.filter((q) => q.moduleId === activeModule.id),
     [activeModule.id]
   );
 
@@ -43,7 +43,7 @@ export const QuizPractice: React.FC<QuizPracticeProps> = ({
     for (const q of allModuleQuestions) {
       if (answers[q.id] !== undefined) {
         answered++;
-        if (answers[q.id] === q.correctIndex) correct++;
+        if (q.kind === 'self-check' ? answers[q.id] === 0 : answers[q.id] === q.correctIndex) correct++;
       }
     }
     return {
@@ -140,6 +140,23 @@ export const QuizPractice: React.FC<QuizPracticeProps> = ({
                 {currentQuestion.question}
               </h2>
 
+              {currentQuestion.kind === 'self-check' ? (
+                <div className="space-y-3">
+                  <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">Recall the answer before revealing</p>
+                  {answers[currentQuestion.id] === undefined ? (
+                    <button type="button" onClick={() => handleSelectOption(currentQuestion.id, 0)} className="w-full px-4 py-3 text-left border border-slate-200 rounded-lg bg-white hover:bg-slate-50 text-sm font-semibold">Reveal source answer</button>
+                  ) : (
+                    <div className="p-4 bg-slate-50 border border-slate-200 rounded-lg space-y-2">
+                      <p className="text-sm text-slate-800">{currentQuestion.explanation.split('\\n\\n')[0]}</p>
+                      <p className="text-sm text-slate-600">{currentQuestion.sinhalaText}</p>
+                      <div className="flex gap-2 pt-2">
+                        <button type="button" onClick={() => handleSelectOption(currentQuestion.id, 0)} className="px-3 py-2 text-xs font-semibold rounded-lg bg-emerald-100 text-emerald-800">I knew it</button>
+                        <button type="button" onClick={() => handleSelectOption(currentQuestion.id, 1)} className="px-3 py-2 text-xs font-semibold rounded-lg bg-amber-100 text-amber-800">Need review</button>
+                      </div>
+                    </div>
+                  )}
+                </div>
+              ) : (
               <div className="space-y-3">
                 {currentQuestion.options.map((opt, idx) => {
                   const chosen = answers[currentQuestion.id];
@@ -195,8 +212,9 @@ export const QuizPractice: React.FC<QuizPracticeProps> = ({
                   );
                 })}
               </div>
+              )}
 
-              {answers[currentQuestion.id] !== undefined && (
+              {answers[currentQuestion.id] !== undefined && currentQuestion.kind !== 'self-check' && (
                 <div className="p-4 bg-slate-50 border border-slate-200 rounded-lg space-y-1">
                   <div className="text-xs font-semibold text-slate-700">
                     Study Explanation
