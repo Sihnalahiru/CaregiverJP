@@ -44,3 +44,25 @@
 - Existing `QuizQuestion` type currently stores one question string, options, a correct index, and one explanation; it has no explicit Sinhala question/option/explanation fields or source-page/image evidence fields.
 - Existing `src/index.css` declares `Noto Sans Sinhala` as a preferred font fallback, but actual font asset/loading and quiz coverage still need verification.
 - Existing first quiz module currently advertises 25 questions; source PDF 01 contains 39 numbered items. Reconcile only after duplicate/source coverage audit; do not silently discard or repeat items.
+
+## QA batch 2 — Caregiver 6
+- Source: `cargiver 6 ^%.pdf`
+- PDF pages: 8
+- Numbered items: 1–45 (45 total).
+- Text-only stems/options: most items.
+- Diagram/image-dependent items: Q31 (toilet sitting posture), Q33 (post-meal resting position), Q36 (body-mechanics illustration). These require inspection of the embedded page images and textbook match before being accepted into the quiz bank.
+- No marked answer key is present in the extracted source; all 45 answer keys remain `PENDING` pending textbook verification.
+- QA flags:
+  - Q4 has overlapping-looking options (facial expressions, nodding, gestures, all of the above); validate that the stem asks for the combined set and preserve as single-answer only if textbook evidence supports D.
+  - Q13 asks for an airborne infection; verify the intended choice against the textbook classification.
+  - Q14 wording describes physical restraint, but option A ("Use violence in the user's body") is semantically unclear; retain source text and resolve only with textbook support.
+  - Q22 lever-principle options require exact textbook cross-check.
+  - Q28 has malformed "(ff)" and distractors mixing autonomy with unrelated concepts; preserve original in audit record and verify intended answer.
+  - Q31/Q33/Q36 have image labels A–D without readable alternatives in extracted text.
+  - Q38 contains potentially overlapping statements about intellectual disability and motor dysfunction; verify source distinction.
+  - Q40 incorrectly labels memory impairment as a peripheral/BPSD symptom in the stem; do not silently correct; check textbook terminology.
+  - Q41 slope-direction statement requires textbook confirmation.
+  - Q45 spinal-cord shape item needs source verification; do not assume a simplified diagram/answer.
+- Duplicate/overlap candidates to compare across all PDFs: Q12 (QOL), Q14 (physical restraint), Q16 (self-decision/autonomy), Q18 (communication), Q19 (excretion privacy), Q20 (dressing with paralysis), Q21 (walking with cane), Q25 (disuse syndrome), Q29 (nutrient absorption), Q37 (hearing), Q43–44 (QOL).
+- Image mapping: `PENDING` for Q31, Q33, Q36 until visual comparison against textbook pages and repo image assets.
+- Unique-question status: not counted yet; candidates above are not removed until exact/near-duplicate comparison is complete.
