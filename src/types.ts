@@ -24,6 +24,8 @@ export interface QuizQuestion {
   options: string[];
   correctIndex: number;
   explanation: string;
+  kind?: 'mcq' | 'self-check';
+  sinhalaText?: string;
 }
 
 export interface QuizModule {
