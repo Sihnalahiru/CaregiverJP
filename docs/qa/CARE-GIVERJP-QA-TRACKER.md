@@ -375,3 +375,21 @@
   3. Reconcile the 100 existing app questions against all 9 source PDFs, then calculate the true unique count; Q&A study sources must not be counted as additional MCQs.
   4. Verify every `correctIndex` directly against the original textbook before marking it VERIFIED.
   5. Build the final exam papers only from verified unique questions; do not add filler or guessed choices.
+
+
+## Batch 11 — Source 7 audit: `exam questions 3.pdf`
+- Exact source reopened from Library and all 9 pages read in full.
+- Source contains 72 numbered-by-sequence Q&A entries (not MCQs), across communication skills, visual/hearing impairment, aphasia, dementia communication, team coordination, care records, confidentiality and consultation.
+- The source provides English Q&A with Sinhala meanings throughout, with one notable exception: “What happens if you don't match eye levels with the care recipient?” has no English A: line; its answer is present in the Sinhala explanation only (“the care recipient may find it difficult to understand that you are listening”). Preserve as PENDING for English-answer completeness rather than silently supplying a translation as source text.
+- Source page distribution: pages 1–3 cover communication fundamentals, listening, empathy/acceptance, question types and posture; pages 3–6 cover visual/hearing impairment, lip-reading, writing, sign language, hearing aids, aphasia and dementia; pages 6–9 cover team care, records, subjective/objective facts, confidentiality, consent and consultation.
+- No MCQ options or answer key are supplied. These 72 Q&A entries must NOT be counted as 72 exam MCQs or converted into MCQs by inventing distractors.
+- Strong overlap with existing app Lesson 03 (25 questions): verbal/non-verbal communication; empathy/acceptance; closed questions; repetition; eye-level/posture; clock position; visual impairment; hearing impairment; aphasia; dementia; care records; subjective/objective facts; handover/team information; confidentiality. Treat as concept-level overlap only until exact source mapping is done; the app's 25 items are not a complete representation of this 72-entry Q&A source.
+- Cross-source overlap also expected with Batch 4 `Communication Skills-1-2-1(1).pdf`, especially empathy/acceptance, non-verbal communication, repetition, eye contact/posture, visual impairment, clock position, hearing impairment, aphasia, dementia, records, subjective/objective facts, confidentiality and team consultation. This is related subject matter, not proof that the wording is duplicated.
+- Source quality/translation flags:
+  - The English answer for the eye-level mismatch question is absent; Sinhala supplies an answer.
+  - “What is included in verbal communication?” gives speech, sign language and writing. Retain source wording; do not normalize/reclassify it without textbook evidence.
+  - Sinhala terminology around verbal communication uses “භාෂාමය සන්නිවේදනය”; check consistency against the textbook's exact terminology during bilingual QA.
+  - Several Sinhala lines contain OCR/encoding artifacts (e.g. stray Arabic/Hebrew characters embedded in Sinhala in the repetition/aphasia passages). Clean only after checking against the visible source page; do not let these artifacts enter the app.
+  - The English Q&A is generally readable; no MCQ answer verification is applicable because no options or answer key are present.
+- No app question bank changes in this batch. Source audit and tracker update only.
+- Batch 7 now completes the initial inventory review of all 9 source PDFs. This does NOT mean all 612 preliminary entries are unique MCQs: sources include MCQ papers, bilingual Q&A papers and text/image-led daily-assistance questions. Final unique MCQ count remains unverified.
