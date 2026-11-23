@@ -17,7 +17,7 @@
 | cargiver 6 ^%.pdf | 8 | 45 | QA batch 2 reviewed |
 | cargiver 8 %.pdf | 7 | 45 | QA batch 3 reviewed |
 | Communication Skills-1-2-1.pdf | 7 | 32 | Pending |
-| Exam papers 2.pdf | 9 | 81 | Pending — Q&A pairing audit |
+| Exam papers 2.pdf | 9 | 83 | QA batch 5 reviewed — Q&A entries |
 | Exam questions 1.pdf | 9 | 94 | Pending — Q&A pairing audit |
 | exam questions 3.pdf | 9 | 72 | Pending — Q&A pairing audit |
 | Mechanism of mind and body paper-1-1-1.pdf | 21 | 102 | Pending |
@@ -158,3 +158,27 @@
 - Image requirement: none identified in the original seven-page source.
 - Answer verification: 32/32 pending original-textbook evidence; no answer key is printed in this PDF.
 - Unique-question status: not finalized. All overlap candidates remain in the audit set until the nine-PDF and existing-app comparison is complete.
+
+
+## QA batch 5 — Exam Questions 2 (Q&A source)
+- Source: `Exam papers 2.pdf`
+- PDF pages: 9; all nine extracted pages read.
+- Count: 83 Q&A entries (counted from the source's Q:/G: entry markers); this is not a numbered 45-question MCQ paper.
+- The source already includes English questions/answers and Sinhala translations for the entries. Preserve those source pairs; Sinhala accuracy and technical terminology still require review against the textbook before publication.
+- No answer key/MCQ option set: this is a study Q&A source, not a conventional four-option paper. Do not invent options or convert every short-answer item into MCQ without source support.
+- Source integrity flags:
+  - Two entries are marked `G:` rather than `Q:` (infection-facility spread and disposable-glove removal). Check whether this is a source typo, but retain the original source marker in the audit record.
+  - Source content includes some technical phrases that require careful comparison with textbook terminology, including "visiting-type services", "day-type services", "facility-admitting-type services", "susceptible host", "breaking the chain of infection", and "inside becomes the outside" for glove removal.
+  - Q&A sequence crosses page breaks (for example, an answer/translation may begin on the next PDF page); preserve each complete Q/A pair rather than treating page boundaries as item boundaries.
+- Image requirement: no question-specific images are embedded/required in this Q&A source. Do not attach unrelated textbook illustrations.
+- Strong duplicate/overlap candidates with the three reviewed MCQ sources:
+  - Human dignity, QOL, normalization, self-determination/self-selection and privacy items overlap topics in batch 1 QOL/rights questions, batch 2 QOL/autonomy/privacy questions, and batch 3 Q04/Q32/Q37.
+  - Physical restraint and abuse definitions overlap batch 1 abuse/rights items, batch 2 Q14 and batch 3 Q08–09/Q30/Q40–41.
+  - Professional roles (doctor, nurse, PT, OT, speech-language-hearing therapist, dietitian, care manager) overlap batch 3 Q10–11/Q31/Q35/Q39 and batch 2 professional-team items.
+  - Care services and care-process stages overlap batch 3 Q12–13/Q28/Q33 and batch 2 service/process items.
+  - Observation, record keeping, reporting, mental health and body mechanics overlap batch 3 Q14–16/Q17/Q20/Q22/Q24–29/Q42–43 and batch 2 record/lever/body-mechanics items.
+  - Infection, pathogen types, transmission routes, infection sources, protective equipment and handwashing overlap batch 3 Q02–03/Q18–21/Q44 and batch 2 Q13/Q27, plus the handwashing questions in the other Q&A source `Exam questions 1.pdf`.
+  - Handwashing locations and between-finger cleaning are direct topic overlaps with the existing Q&A source `Exam questions 1.pdf`; compare exact question intent before deduplication.
+- Answer verification: the source supplies proposed answers, but all 83 still require direct textbook cross-check before they are marked verified.
+- Final exam packaging: these 83 Q&A entries must not automatically be counted as 83 additional MCQs. They must be matched to the original exam questions and existing app bank first; use them as supporting answer evidence where the question intent matches.
+- Unique-question status: not finalized pending cross-source and app-bank deduplication.
