@@ -350,3 +350,28 @@
 - Answer verification: no marked answer key is present. All 68 text questions and 34 image-led items require original-textbook evidence before answer keys are approved.
 - Final exam packaging: do not add 102 entries blindly. Deduplicate existing Lesson 04 app questions and within-paper repeats first; retain image-led items only when the original stem/answer is recoverable from the textbook. All final exam papers remain 45-question batches, with no fabricated filler.
 - Unique-question status: not finalized; source-to-app mapping and image evidence still require a final consolidation pass.
+
+
+## Consolidated audit batch 10 — existing app quiz bank (read-only QA)
+- Reviewed `src/data/studyBank.ts` and `src/types.ts` on branch `main`.
+- Existing app bank: 4 modules × 25 declared questions = 100 records (25 each in Lesson 01–04). All 100 parsed records currently have four options and an in-range `correctIndex`; this structural check does NOT establish factual correctness or source fidelity.
+- `QuizQuestion` currently stores only id, moduleId, number, English question, options, correctIndex and English explanation. It has no Sinhala question/option/explanation fields, no source PDF/page/question reference, no image reference, and no verification status. Consequently the app schema cannot currently express the user's required bilingual evidence trail or distinguish VERIFIED from PENDING content.
+- Lesson 04 source-vs-app audit found concrete source fidelity defects:
+  - App L4 Q1 corresponds to source Q01/Q61, but source Q01 has only three options; app adds a fourth option `Two steps ahead` that is not in the source. Keep the source option count unless a separately evidenced distractor is deliberately authored and labelled as such.
+  - App L4 Q3 corresponds to source Q03/Q13/Q62; source Q03 has three options, while app adds `Keep both knees completely straight`. This is not source-derived.
+  - App L4 Q4 corresponds to source Q04/Q27; source has three options, while app adds `Prone`. This is not source-derived.
+  - App L4 Q5 is a re-authored walking-support question matching source Q31 (and conceptually Q06/Q57), not source Q05. Source Q05 is about which body part supports a nurse aide during transfer (back/shoulder/legs). The previous rough mapping of app L4 Q5 to source Q05 would be incorrect.
+  - App L4 Q8's explanation says wiping peripheral-to-heart, but the source Q10 true/false statement says wipe center-to-periphery. This is a direct source/app conflict; answer and explanation must remain PENDING until the original textbook resolves it.
+  - App L4 Q21 combines two separate source concepts: Q54 asks which device has a larger support area (quad cane), while Q55 asks which device is used when body weight cannot be sufficiently supported on the affected side (walker). The app's combined stem/answer (walker) is not an exact single-source mapping.
+  - App L4 Q19 is related to source Q41; the source's option describing cleaning back-to-front is unsafe/incorrect, while the app rewrites it as a front-to-back correct-direction question. Preserve as a re-authored question only with explicit textbook evidence.
+  - App L4 Q17/Q20 overlap source Q38/Q40/Q46 wheelchair safety and slope handling; check exact tested distinction to avoid duplicate questions.
+  - App L4 Q10/Q11 overlap source Q15/Q18/Q43/Q44 stair sequence and assistance positioning; these are separate ascent/descent facts but should be source-mapped carefully.
+- Lesson 01–03 app bank: each has 25 records and aligns broadly to its lesson source families. Existing records must be treated as an existing 100-question selection, not proof that the source set is complete. Exact per-question mapping to all source records and answer validation remains outstanding.
+- Filename discrepancy: app module Lesson 03 points to `Communication Skills-1-2-1.pdf`, while the reviewed Library source filename is `Communication Skills-1-2-1(1).pdf`. Confirm that both are byte-identical or update the metadata filename to the exact authoritative source; do not assume equivalence.
+- No app code was modified in this batch. This is a read-only audit and tracker update only.
+- Required next implementation/audit actions:
+  1. Extend question data with bilingual fields and evidence metadata (source file, page, source question number, answer verification state, optional original-image asset reference).
+  2. Keep exact source option count and source wording separately from any normalized exam-ready wording/distractors.
+  3. Reconcile the 100 existing app questions against all 9 source PDFs, then calculate the true unique count; Q&A study sources must not be counted as additional MCQs.
+  4. Verify every `correctIndex` directly against the original textbook before marking it VERIFIED.
+  5. Build the final exam papers only from verified unique questions; do not add filler or guessed choices.
