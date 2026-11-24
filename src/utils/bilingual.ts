@@ -12,8 +12,8 @@ const SINHALA_CHAR_RE = /[\u0D80-\u0DFF]/;
  * Handles both dedicated `sinhalaText` fields (Lessons 2-9) and newline-embedded Sinhala (Main Paper).
  */
 export function parseQuestionBilingual(question: QuizQuestion): BilingualSegment {
-  const dedicatedSi = (question.sinhalaText || '').trim();
-  const rawQuestion = (question.question || '').trim();
+  const dedicatedSi = (question.sinhalaText || '').normalize('NFC').trim();
+  const rawQuestion = (question.question || '').normalize('NFC').trim();
 
   if (dedicatedSi) {
     // Strip any duplicate Sinhala lines if embedded in question text
@@ -65,7 +65,7 @@ export function parseQuestionBilingual(question: QuizQuestion): BilingualSegment
  * Most options follow the format: "English text (සිංහල පෙළ)" or "English text (සිංහල / English)".
  */
 export function parseOptionBilingual(raw: string): BilingualSegment {
-  const text = (raw || '').replace(/\s+/g, ' ').trim();
+  const text = (raw || '').normalize('NFC').replace(/\s+/g, ' ').trim();
   if (!SINHALA_CHAR_RE.test(text)) {
     return { en: text, si: '' };
   }
