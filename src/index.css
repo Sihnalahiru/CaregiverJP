@@ -1,206 +1,224 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600;700&family=Noto+Sans+Sinhala:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap');
 @import "tailwindcss";
-@custom-variant dark (&:where(.dark, .dark *));
 
-@theme {
-  --color-brand: #1D4ED8;
-  --color-brand-dark: #5B8BFF;
-  --color-ink: #131A2C;
-  --color-surface: #F6F7FB;
-  --color-card: #FFFFFF;
-  --color-line: #E6EAF2;
-  --color-success: #0F8A5F;
-  --color-danger: #C83254;
-  --color-amber: #C27803;
+:root {
+  --bg-app: #070b14;
+  --bg-surface: #0f172a;
+  --bg-card: rgba(15, 23, 42, 0.88);
+  --bg-elevated: rgba(30, 41, 59, 0.75);
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
+  --accent-primary: #38bdf8;
+  --accent-secondary: #6366f1;
+  --success: #10b981;
+  --error: #ef4444;
+  --warning: #f59e0b;
+  --border-subtle: rgba(148, 163, 184, 0.16);
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
 }
 
 @layer base {
-  :root {
-    --font-sans: "Plus Jakarta Sans", "Noto Sans Sinhala", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-    --font-sinhala: "Noto Sans Sinhala", "Iskoola Pota", "Nirmala UI", system-ui, sans-serif;
-    --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
-    color-scheme: light;
-    font-synthesis: none;
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100dvh;
+    overflow-x: hidden;
+    background-color: var(--bg-app);
+    color: var(--text-primary);
+    font-family: 'Inter', 'Noto Sans Sinhala', sans-serif;
+    font-kerning: normal;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     -webkit-tap-highlight-color: transparent;
-    -webkit-text-size-adjust: 100%;
-    text-size-adjust: 100%;
   }
 
-  html.dark {
-    color-scheme: dark;
-  }
-
-  html {
-    min-height: 100%;
-    overflow-x: hidden;
-    background-color: #EDF0F6;
-  }
-
-  html.dark {
-    background-color: #060911;
-  }
-
-  body {
-    min-width: 320px;
-    min-height: 100dvh;
-    margin: 0;
-    font-family: var(--font-sans);
-    overflow-x: hidden;
-    overscroll-behavior-y: none;
+  /* Accurate Sinhala character & conjunct shaping */
+  :lang(si),
+  .sinhala-text,
+  .bilingual-si {
+    font-family: 'Noto Sans Sinhala', 'Inter', sans-serif;
+    font-kerning: normal;
+    font-variant-ligatures: normal;
+    line-height: 1.82;
+    letter-spacing: 0;
+    word-break: normal;
+    overflow-wrap: break-word;
   }
 
   button,
-  input,
-  select {
-    font: inherit;
-  }
-
-  button {
+  [role="button"] {
+    min-height: 44px;
     touch-action: manipulation;
   }
-
-  ::selection {
-    background: rgba(29, 78, 216, 0.16);
-    color: #1D4ED8;
-  }
-
-  html.dark ::selection {
-    background: rgba(91, 139, 255, 0.28);
-    color: #E2EBFF;
-  }
-
-  * {
-    scrollbar-width: thin;
-    scrollbar-color: rgba(148, 163, 184, 0.45) transparent;
-  }
 }
 
-/* Dedicated Sinhala Unicode shaping integrity (iOS Safari + Android Chrome) */
-.sinhala-text {
-  font-family: var(--font-sinhala);
-  font-kerning: normal;
-  font-variant-ligatures: normal;
-  font-feature-settings: normal;
-  font-synthesis: none;
-  -webkit-text-size-adjust: 100%;
-  letter-spacing: 0 !important;
-  word-spacing: normal;
-  line-height: 1.8;
-  word-break: normal;
-  overflow-wrap: break-word;
-  hyphens: none;
+/* Mobile-only PWA container */
+.pwa-mobile-shell {
+  width: 100%;
+  max-width: 480px;
+  min-height: 100dvh;
+  margin: 0 auto;
+  padding-top: var(--safe-top);
+  padding-bottom: calc(84px + var(--safe-bottom));
+  background: radial-gradient(circle at top, rgba(56, 189, 248, 0.12), transparent 45%),
+              var(--bg-app);
+  position: relative;
+  overflow-x: hidden;
 }
 
-.font-mono-tabular {
-  font-family: var(--font-mono);
-  font-variant-numeric: tabular-nums;
+/* Glass & elevated study cards */
+.ultra-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 20px;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
-.pt-safe {
-  padding-top: env(safe-area-inset-top, 0px);
+.ultra-card:active {
+  transform: scale(0.988);
 }
 
-.pb-safe {
-  padding-bottom: max(env(safe-area-inset-bottom, 0px), 10px);
+/* CBT Exam mode styling (clean selectors without broken pseudo-class warnings) */
+.cbt-exam {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  color: var(--text-primary);
 }
 
-/* GPU-composited micro-animations */
-@keyframes ssw-fade-slide {
+.cbt-exam .cbt-option-btn {
+  width: 100%;
+  text-align: left;
+  border-radius: 16px;
+  border: 1px solid var(--border-subtle);
+  background: var(--bg-elevated);
+  color: var(--text-primary);
+  padding: 14px 16px;
+  transition: background-color 0.18s ease, border-color 0.18s ease, transform 0.16s ease;
+}
+
+.cbt-exam .cbt-option-btn:hover {
+  background-color: #0369a1;
+  border-color: #38bdf8;
+  color: #ffffff;
+}
+
+.cbt-exam .cbt-option-btn:focus-visible {
+  outline: 2px solid #38bdf8;
+  outline-offset: 2px;
+}
+
+.cbt-exam .cbt-sky-action {
+  background-color: #0284c7;
+  color: #ffffff;
+  border-radius: 14px;
+  padding: 12px 16px;
+  font-weight: 600;
+  transition: background-color 0.18s ease, transform 0.15s ease;
+}
+
+.cbt-exam .cbt-sky-action:hover {
+  background-color: #0369a1;
+}
+
+.cbt-exam .cbt-sky-bright:hover {
+  background-color: #38bdf8;
+  color: #070b14;
+}
+
+.cbt-exam .cbt-option-correct {
+  background-color: rgba(16, 185, 129, 0.18);
+  border-color: #10b981;
+  color: #ecfdf5;
+}
+
+.cbt-exam .cbt-option-wrong {
+  background-color: rgba(239, 68, 68, 0.18);
+  border-color: #ef4444;
+  color: #fef2f2;
+  animation: cbtShake 0.32s ease;
+}
+
+/* Smooth animations & progress transitions */
+.progress-bar-fill {
+  transition: width 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@keyframes cardEnter {
   from {
     opacity: 0;
-    transform: translate3d(0, 8px, 0);
+    transform: translateY(10px) scale(0.99);
   }
   to {
     opacity: 1;
-    transform: translate3d(0, 0, 0);
+    transform: translateY(0) scale(1);
   }
 }
 
-@keyframes ssw-pop-in {
+@keyframes badgePop {
   0% {
     opacity: 0;
-    transform: scale3d(0.92, 0.92, 1) translate3d(0, -10px, 0);
-  }
-  65% {
-    opacity: 1;
-    transform: scale3d(1.02, 1.02, 1) translate3d(0, 0, 0);
-  }
-  100% {
-    opacity: 1;
-    transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
-  }
-}
-
-@keyframes ssw-sheet-up {
-  from {
-    opacity: 0;
-    transform: translate3d(0, 28px, 0);
-  }
-  to {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
-  }
-}
-
-@keyframes ssw-shake {
-  0%, 100% {
-    transform: translate3d(0, 0, 0);
-  }
-  20% {
-    transform: translate3d(-5px, 0, 0);
-  }
-  45% {
-    transform: translate3d(5px, 0, 0);
+    transform: scale(0.78);
   }
   70% {
-    transform: translate3d(-3px, 0, 0);
-  }
-  85% {
-    transform: translate3d(2px, 0, 0);
-  }
-}
-
-@keyframes ssw-correct-pulse {
-  0% {
-    transform: scale3d(1, 1, 1);
-  }
-  40% {
-    transform: scale3d(1.015, 1.015, 1);
+    transform: scale(1.05);
   }
   100% {
-    transform: scale3d(1, 1, 1);
+    opacity: 1;
+    transform: scale(1);
   }
 }
 
-.animate-fade-slide {
-  animation: ssw-fade-slide 190ms cubic-bezier(0.16, 1, 0.3, 1) both;
+@keyframes cbtShake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  75% {
+    transform: translateX(5px);
+  }
 }
 
-.animate-pop-in {
-  animation: ssw-pop-in 280ms cubic-bezier(0.16, 1, 0.3, 1) both;
+.animate-card-enter {
+  animation: cardEnter 0.28s ease-out both;
 }
 
-.animate-sheet-up {
-  animation: ssw-sheet-up 220ms cubic-bezier(0.16, 1, 0.3, 1) both;
+.animate-badge-pop {
+  animation: badgePop 0.38s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
-.animate-shake {
-  animation: ssw-shake 280ms cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+/* Custom thin scrollbars */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
 }
 
-.animate-correct-pulse {
-  animation: ssw-correct-pulse 260ms cubic-bezier(0.16, 1, 0.3, 1) both;
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.28);
+  border-radius: 9999px;
 }
 
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
   *::after {
-    scroll-behavior: auto !important;
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }
