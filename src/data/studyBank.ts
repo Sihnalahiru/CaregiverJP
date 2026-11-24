@@ -7365,12 +7365,12 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "options": [
       "It regards disability as people's health, characteristics instead on negative factors (සෘණාත්මක සාධක මවනුවට ආබාධිතභ්‍ාවය පුේගෙයන්මේ\nමසෞඛ්‍ය ෙක්ෂණයක් මෙස සෙකයි)",
       "It is a classification of human functioning and disability for the understanding of a person's condition (පුේගෙමයකුමේ තත්ත්වය මත්රුම්\nගැනීම සඳහා මානව ක්‍රියාකාරිත්වය සහ ආබාධිතභ්‍ාවය පිළිබඳ වර්ගීකරණයකි)",
-      "It doesn't consider the function of people with disabilities from a braad [perspective — truncated in PDF] (ආබාධ සහිත පුේගෙයන්මේ\nක්‍රියාකාරිත්වය පුළුල් දෘෂ්ටිමකෝණයකින් මනාසෙකයි — PDF හි කැපී ඇත)"
+      "It does not consider the functioning of people with disabilities from a broad perspective (ආබාධ සහිත පුද්ගලයන්ගේ ක්‍රියාකාරිත්වය පුළුල් දෘෂ්ටිකෝණයකින් සලකා නොබලයි)"
     ],
     "correctIndex": 2,
-    "explanation": "It doesn't consider the function of people with disabilities from a braad [perspective] (ආබාධ සහිත\nපුේගෙයන්මේ ක්‍රියාකාරිත්වය පුළුල් දෘෂ්ටිමකෝණයකින් මනාසෙකයි — ICF actually takes a comprehensive/broad bio-psycho-social view.)",
+    "explanation": "This statement is false. The ICF provides a broad framework for understanding human functioning and disability, including health conditions and contextual factors. (මෙම ප්‍රකාශය වැරදිය. ICF මඟින් සෞඛ්‍ය තත්ත්වයන් සහ පසුබිම් සාධකද ඇතුළත්ව මානව ක්‍රියාකාරිත්වය හා ආබාධිතභාවය පුළුල් දෘෂ්ටිකෝණයකින් විස්තර කරයි.)",
     "kind": "mcq",
-    "sinhalaText": "පහත සඳහන් කරුණ ICF (ක්‍රියාකාරිත්වය, ආබාධිතභ්‍ාවය සහ මසෞඛ්‍යය පිළිබඳ ජාතයන්තර වර්ගීකරණය) පිළිබඳව සතය මේ, මෙය හැර:"
+    "sinhalaText": "පහත සඳහන් කරුණු අතරින් ICF (ක්‍රියාකාරිත්වය, ආබාධිතභාවය සහ සෞඛ්‍යය පිළිබඳ ජාත්‍යන්තර වර්ගීකරණය) සම්බන්ධයෙන් සත්‍ය නොවන කරුණ කුමක්ද?"
   },
   {
     "id": "lesson-07-q092",
@@ -7425,12 +7425,12 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "options": [
       "The user take dietary fibers and engage in moderate exercise (පරිශීෙකයා ආහාරමය තන්තු ෙබා ගැනීම සහ මධයස්ථ වයායාමවෙ මයදීම)",
       "Have a habit to sit on the toilet after each meal (සෑම ආහාර මේෙකටම පසු වැසිකිළිමේ වාඩි වීමම් පුරුේද ඇති කර ගැනීම)",
-      "Message the abdomen with reverse [direction — truncated in PDF] (උදරය ප්‍රතිවිරුේධ දිශාවට සම්බාහනය කිරීම — PDF හි කැපී ඇත)"
+      "Massage the abdomen in the reverse direction (උදරය ප්‍රතිවිරුද්ධ දිශාවට සම්බාහනය කිරීම)"
     ],
     "correctIndex": 2,
-    "explanation": "Message the abdomen with reverse [direction] (උදරය ප්‍රතිවිරුේධ දිශාවට සම්බාහනය කිරීම — Abdominal\nmassage should follow the clockwise direction of the large intestine, not reverse.)",
+    "explanation": "This is not the recommended direction. Abdominal massage for constipation is generally performed clockwise, following the direction of the large intestine, when appropriate and safe for the person. (මෙය නිර්දේශිත දිශාව නොවේ. සුදුසු සහ ආරක්ෂිත අවස්ථාවලදී මලබද්ධය සඳහා උදර සම්බාහනය සාමාන්‍යයෙන් මහ බඩවැලේ දිශාවට අනුව දක්ෂිණාවර්තව සිදු කරයි.)",
     "kind": "mcq",
-    "sinhalaText": "මෙබේධය (constipation) සම්බන්ධ මහද සත්කාර කරුණු පහත ඒවා මේ, මේවා හැර:"
+    "sinhalaText": "මලබද්ධය (constipation) සම්බන්ධ හෙද සත්කාර කරුණු අතරින් නිවැරදි නොවන කරුණ කුමක්ද?"
   },
   {
     "id": "lesson-07-q096",
@@ -7689,15 +7689,15 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "id": "lesson-08-q011",
     "moduleId": "lesson-08",
     "number": 11,
-    "question": "In three motion walking in the cane, the legs are put out in order of (1) cane, (2) healthy, (3) [affected side —",
+    "question": "In three-motion walking with a cane, the legs are put out in the order of (1) cane, (2) healthy leg, (3) affected leg. Is this correct?",
     "options": [
       "Yes (ඔව්)",
       "No (නැත)"
     ],
     "correctIndex": 1,
-    "explanation": "No (නැත) (In classic 3-point/3-motion cane gait for hemiplegia, the\nsequence is typically: (1) Cane, (2) Affected/weak leg, (3) Unaffected/healthy leg.)",
+    "explanation": "No. In the three-motion cane gait for a person with one affected side, the usual sequence is: (1) cane, (2) affected/weak leg, and (3) unaffected/strong leg. Follow the care plan and the person's assessed ability. (නැත. එක් පැත්තක පාදයක් දුර්වල හෝ ආබාධිත පුද්ගලයෙකු සඳහා තුන්-පියවර වේවැල් ඇවිදීමේ සාමාන්‍ය අනුපිළිවෙළ වන්නේ (1) වේවැල, (2) ආබාධිත/දුර්වල පාදය, (3) නිරෝගී/ශක්තිමත් පාදය යන්නයි. සත්කාර සැලැස්ම සහ පුද්ගලයාගේ හැකියාව අනුව ක්‍රියා කළ යුතුය.)",
     "kind": "mcq",
-    "sinhalaText": "වේවැලකින් කරන තුන්-පියවර ඇවිදීවම්දී (three motion walking), පාද තබන පිළිවවළ වන්වන් (1) වේවැල, (2) නිවරෝගී\nපාදය, (3) [ආබාධිත පාදය — PDF හි කැපී ඇත]"
+    "sinhalaText": "වේවැලක් භාවිතයෙන් සිදු කරන තුන්-පියවර ඇවිදීමේදී පාද තබන අනුපිළිවෙළ (1) වේවැල, (2) නිරෝගී පාදය, (3) ආබාධිත පාදය ලෙස දැක්වීම නිවැරදිද?"
   },
   {
     "id": "lesson-08-q012",
