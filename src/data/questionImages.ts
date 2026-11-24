@@ -90,8 +90,6 @@ export const QUESTION_IMAGES: Record<string, QuestionImageSet> = {
   "lesson-06-q040": { files: ["219.jpg", "224.jpg"], alt: "Written communication", auditBatch: "203-252" },
   "lesson-06-q041": { files: ["220.jpg"], alt: "Sign language communication", auditBatch: "203-252" },
   "lesson-05-q026": { files: ["240.jpg", "241.png"], alt: "Care recipient positioning in bed", auditBatch: "203-252" },
-  "lesson-05-q031": { files: ["212.jpg"], alt: "Care worker seated at eye level during interaction", auditBatch: "203-252" },
-  "lesson-05-q033": { files: ["206.jpg"], alt: "Care worker discussing meal choices with an older person", auditBatch: "203-252" },
   "lesson-08-q031": { files: ["249.jpg", "250.jpg"], alt: "Walking aids including a walker and canes", auditBatch: "203-252" },
   "lesson-08-q033": { files: ["240.jpg", "241.png", "244.jpg"], alt: "Supported positions in bed for breathing comfort", auditBatch: "203-252" },
   "lesson-04-q057": { files: ["247.jpg", "248.jpg"], alt: "Ceiling and mobile hoist welfare equipment", auditBatch: "203-252" },
