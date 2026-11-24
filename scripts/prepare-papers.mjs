@@ -7,8 +7,6 @@ const sourceDir = path.join(root, 'data', 'papers');
 const publicDir = path.join(root, 'public');
 const imageSourceDir = path.join(root, 'assets', 'images');
 const imageTargetDir = path.join(publicDir, 'assets', 'images');
-const imageSourceDir = path.join(root, 'assets', 'images');
-const imageTargetDir = path.join(publicDir, 'assets', 'images');
 const targetDir = path.join(publicDir, 'papers');
 const manifestPath = path.join(publicDir, 'papers-manifest.json');
 
