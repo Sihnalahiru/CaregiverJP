@@ -26,7 +26,6 @@ export const QUESTION_IMAGES: Record<string, QuestionImageSet> = {
   "lesson-04-q081": { files: ["65.jpg"], alt: "Areas of the hands highlighted during hand hygiene", auditBatch: "53-102" },
   "lesson-04-q082": { files: ["80.png", "81.png"], alt: "Cleaning between fingers during handwashing", auditBatch: "53-102" },
   "lesson-04-q083": { files: ["76.png"], alt: "Drying hands with a towel after washing", auditBatch: "53-102" },
-  "lesson-05-q015": { files: ["99.jpg"], alt: "Wheelchair positioned beside a bed for a transfer", auditBatch: "53-102" },
   "lesson-05-q045": { files: ["55.jpg"], alt: "Person coughing", auditBatch: "53-102" },
   "lesson-06-q001": { files: ["101.jpg"], alt: "Two people communicating face to face", auditBatch: "53-102" },
   "lesson-06-q004": { files: ["101.jpg"], alt: "Two people communicating face to face", auditBatch: "53-102" },
@@ -97,8 +96,6 @@ export const QUESTION_IMAGES: Record<string, QuestionImageSet> = {
   "lesson-08-q033": { files: ["240.jpg", "241.png", "244.jpg"], alt: "Supported positions in bed for breathing comfort", auditBatch: "203-252" },
   "lesson-04-q057": { files: ["247.jpg", "248.jpg"], alt: "Ceiling and mobile hoist welfare equipment", auditBatch: "203-252" },
   "lesson-05-q044": { files: ["247.jpg", "248.jpg"], alt: "Mechanical lifting equipment for a bedridden care recipient", auditBatch: "203-252" },
-  "lesson-05-q020": { files: ["229.jpg"], alt: "Care worker assisting a wheelchair user", auditBatch: "203-252" },
-  "lesson-05-q022": { files: ["229.jpg"], alt: "Care worker assisting a wheelchair user", auditBatch: "203-252" },
   "lesson-08-q007": { files: ["229.jpg"], alt: "Wheelchair assistance", auditBatch: "203-252" }
   "lesson-09-q038": { files: ["62.jpg", "63.jpg"], alt: "Examples showing correct mask wearing", auditBatch: "53-102" }
 };
