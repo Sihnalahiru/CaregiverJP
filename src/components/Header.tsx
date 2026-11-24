@@ -15,8 +15,8 @@ export const Header: React.FC<HeaderProps> = ({ activeView, onNavigate }) => {
         <div className="hidden h-10 w-10 items-center justify-center rounded-full bg-[#FFF3C7] text-sm font-extrabold text-[#222248] sm:flex">JP</div>
       </div>
     </header>
-    <nav aria-label="Mobile navigation" className="fixed inset-x-0 bottom-0 z-40 border-t border-[#E4EDF8] bg-white/95 px-8 pb-[max(env(safe-area-inset-bottom),10px)] pt-2 backdrop-blur-xl sm:hidden">
+    {activeView !== "practice" && <nav aria-label="Mobile navigation" className="fixed inset-x-0 bottom-0 z-40 border-t border-[#E4EDF8] bg-white/95 px-8 pb-[max(env(safe-area-inset-bottom),10px)] pt-2 backdrop-blur-xl sm:hidden">
       <div className="mx-auto flex max-w-md items-center justify-around">{items.map(({id,label,Icon})=><button key={id} type="button" onClick={()=>onNavigate(id)} aria-current={activeView===id?'page':undefined} className={`flex min-w-20 flex-col items-center gap-1 rounded-xl px-4 py-1.5 text-[10px] font-bold ${activeView===id?'text-[#1132D9]':'text-[#9CA5B8]'}`}><span className={`flex h-8 w-12 items-center justify-center rounded-full ${activeView===id?'bg-[#EAF0FF]':'bg-transparent'}`}><Icon className="h-[18px] w-[18px]"/></span>{label}</button>)}</div>
-    </nav>
+    </nav>}
   </>;
 };
