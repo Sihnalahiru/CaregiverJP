@@ -86,6 +86,27 @@ export const QUESTION_IMAGES: Record<string, QuestionImageSet> = {
   "lesson-07-q084": { files: ["191.jpg"], alt: "Older person experiencing a visual hallucination", auditBatch: "153-202" },
   "lesson-07-q085": { files: ["194.jpg"], alt: "Older person believing a personal item has been stolen", auditBatch: "153-202" },
   "lesson-06-q048": { files: ["186.jpg", "187.jpg", "188.jpg", "189.jpg", "190.jpg", "191.jpg", "192.jpg", "193.jpg", "194.jpg"], alt: "Illustrations of dementia-related communication and behavioral symptoms", auditBatch: "153-202" }
+
+  "lesson-03-q006": { files: ["203.jpg"], alt: "Care worker listening attentively and offering reassurance", auditBatch: "203-252" },
+  "lesson-03-q009": { files: ["212.jpg", "223.jpg"], alt: "Appropriate posture and eye level during conversation", auditBatch: "203-252" },
+  "lesson-03-q014": { files: ["220.jpg"], alt: "Sign language gestures used in communication", auditBatch: "203-252" },
+  "lesson-03-q040": { files: ["219.jpg", "224.jpg"], alt: "Written communication using a tablet and written notes", auditBatch: "203-252" },
+  "lesson-06-q006": { files: ["203.jpg", "210.jpg"], alt: "Active listening and attentive communication", auditBatch: "203-252" },
+  "lesson-06-q007": { files: ["203.jpg"], alt: "Care worker showing empathy and reassurance", auditBatch: "203-252" },
+  "lesson-06-q034": { files: ["221.jpg"], alt: "Speaking face to face with a person who has hearing impairment", auditBatch: "203-252" },
+  "lesson-06-q040": { files: ["219.jpg", "224.jpg"], alt: "Written communication", auditBatch: "203-252" },
+  "lesson-06-q041": { files: ["220.jpg"], alt: "Sign language communication", auditBatch: "203-252" },
+  "lesson-05-q026": { files: ["240.jpg", "241.png"], alt: "Care recipient positioning in bed", auditBatch: "203-252" },
+  "lesson-05-q031": { files: ["212.jpg"], alt: "Care worker seated at eye level during interaction", auditBatch: "203-252" },
+  "lesson-05-q033": { files: ["206.jpg"], alt: "Care worker discussing meal choices with an older person", auditBatch: "203-252" },
+  "lesson-07-q088": { files: ["233.jpg", "234.jpg", "238.jpg"], alt: "Resting and lying positions in bed", auditBatch: "203-252" },
+  "lesson-08-q031": { files: ["249.jpg", "250.jpg"], alt: "Walking aids including a walker and canes", auditBatch: "203-252" },
+  "lesson-08-q033": { files: ["240.jpg", "241.png", "244.jpg"], alt: "Supported positions in bed for breathing comfort", auditBatch: "203-252" },
+  "lesson-04-q057": { files: ["247.jpg", "248.jpg"], alt: "Ceiling and mobile hoist welfare equipment", auditBatch: "203-252" },
+  "lesson-05-q044": { files: ["247.jpg", "248.jpg"], alt: "Mechanical lifting equipment for a bedridden care recipient", auditBatch: "203-252" },
+  "lesson-05-q020": { files: ["229.jpg"], alt: "Care worker assisting a wheelchair user", auditBatch: "203-252" },
+  "lesson-05-q022": { files: ["229.jpg"], alt: "Care worker assisting a wheelchair user", auditBatch: "203-252" },
+  "lesson-08-q007": { files: ["229.jpg"], alt: "Wheelchair assistance", auditBatch: "203-252" }
   "lesson-09-q038": { files: ["62.jpg", "63.jpg"], alt: "Examples showing correct mask wearing", auditBatch: "53-102" }
 };
 
@@ -93,5 +114,6 @@ export const IMAGE_AUDIT_BATCHES = [
   { range: "1-52", status: "VISUALLY_REVIEWED_IN_PRIOR_BATCH", mappedCount: null },
   { range: "53-102", status: "VISUALLY_REVIEWED", mappedQuestionCount: 24, imageCount: 50 },
   { range: "103-152", status: "VISUALLY_REVIEWED", mappedQuestionCount: 31, imageCount: 50 },
-  { range: "153-202", status: "VISUALLY_REVIEWED", mappedQuestionCount: 20, imageCount: 50 }
+  { range: "153-202", status: "VISUALLY_REVIEWED", mappedQuestionCount: 20, imageCount: 50 },
+  { range: "203-252", status: "VISUALLY_REVIEWED", mappedQuestionCount: 20, imageCount: 50 }
 ] as const;
