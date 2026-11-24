@@ -222,3 +222,14 @@
     scroll-behavior: auto !important;
   }
 }
+
+
+/* Sinhala shaping and font fallbacks across mobile browsers. */
+:lang(si), [lang="si"], .sinhala-text, .bilingual-si {
+  font-family: "Noto Sans Sinhala", "Iskoola Pota", "Nirmala UI", "Malithi Web", sans-serif;
+  font-style: normal;
+  font-kerning: normal;
+  font-variant-ligatures: normal;
+  font-feature-settings: "ccmp" 1, "locl" 1, "mark" 1, "mkmk" 1;
+  text-rendering: optimizeLegibility;
+}
