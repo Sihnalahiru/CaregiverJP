@@ -94,7 +94,7 @@ export const QUESTION_IMAGES: Record<string, QuestionImageSet> = {
   "lesson-08-q033": { files: ["240.jpg", "241.png", "244.jpg"], alt: "Supported positions in bed for breathing comfort", auditBatch: "203-252" },
   "lesson-04-q057": { files: ["247.jpg", "248.jpg"], alt: "Ceiling and mobile hoist welfare equipment", auditBatch: "203-252" },
   "lesson-05-q044": { files: ["247.jpg", "248.jpg"], alt: "Mechanical lifting equipment for a bedridden care recipient", auditBatch: "203-252" },
-  "lesson-08-q007": { files: ["229.jpg"], alt: "Wheelchair assistance", auditBatch: "203-252" }
+  "lesson-08-q007": { files: ["229.jpg"], alt: "Wheelchair assistance", auditBatch: "203-252" },
   "lesson-09-q038": { files: ["62.jpg", "63.jpg"], alt: "Examples showing correct mask wearing", auditBatch: "53-102" }
 };
 
@@ -103,5 +103,7 @@ export const IMAGE_AUDIT_BATCHES = [
   { range: "53-102", status: "VISUALLY_REVIEWED", mappedQuestionCount: 24, imageCount: 50 },
   { range: "103-152", status: "VISUALLY_REVIEWED", mappedQuestionCount: 31, imageCount: 50 },
   { range: "153-202", status: "VISUALLY_REVIEWED", mappedQuestionCount: 20, imageCount: 50 },
-  { range: "203-252", status: "VISUALLY_REVIEWED", mappedQuestionCount: 20, imageCount: 50 }
+  { range: "203-252", status: "VISUALLY_REVIEWED", mappedQuestionCount: 20, imageCount: 50 },
+  { range: "253-302", status: "VISUALLY_REVIEWED", mappedQuestionCount: 15, imageCount: 50 },
+  { range: "303-343", status: "VISUALLY_REVIEWED", mappedQuestionCount: 20, imageCount: 41 }
 ] as const;
