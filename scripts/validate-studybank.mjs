@@ -11,6 +11,7 @@ const supplementalIds = new Set([
   ...Array.from({length:16},(_,i)=>'lesson-04-q'+String(69+i).padStart(3,'0')),
   ...Array.from({length:5},(_,i)=>'lesson-05-q'+String(79+i).padStart(3,'0')),
   'lesson-06-q060-b',
+  'lesson-07-q041-b',
   ...Array.from({length:23},(_,i)=>'lesson-07-q'+String(81+i).padStart(3,'0'))
 ]);
 const ids = new Set();
