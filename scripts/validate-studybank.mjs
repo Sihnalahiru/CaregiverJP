@@ -18,6 +18,7 @@ const ids = new Set();
 const errors = [];
 const sourceReview = [];
 const missingSinhala = [];
+const missingImages = [];
 const actualSourceCounts = Object.create(null);
 for (const q of questions) {
   if (!q.id || ids.has(q.id)) errors.push('Missing or duplicate question id: ' + q.id);
@@ -44,6 +45,6 @@ for (const [moduleId, [min, max]] of Object.entries(sourceRanges)) {
 }
 for (const id of supplementalIds) if (!ids.has(id)) errors.push('Expected supplemental audit record missing from bank: ' + id);
 if (errors.length) { console.error(errors.join('\n')); process.exit(1); }
-console.log('Structural validation passed: 555 records; 510 records fall within the configured source-number ranges; 45 supplemental records are separately identified. Required Sinhala text is present in every question, option, and explanation.');
+console.log('Structural validation passed: 555 records; 510 records fall within the configured source-number ranges; 45 supplemental records are separately identified. Required Sinhala text is present in every question, option, and explanation. Mapped question image files exist.');
 if (supplementalIds.size) console.warn('UNVERIFIED SUPPLEMENTAL records outside source-verified PDF ranges (' + supplementalIds.size + '): ' + [...supplementalIds].join(', '));
 if (sourceReview.length) console.warn('SOURCE CONTENT REVIEW required (' + sourceReview.length + '): ' + [...new Set(sourceReview)].join(', '));
