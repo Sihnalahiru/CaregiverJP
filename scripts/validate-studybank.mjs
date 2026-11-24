@@ -55,6 +55,7 @@ for (const filename of new Set(mappedFiles)) {
   try { await fs.access(path.join(process.cwd(), 'assets', 'images', filename)); }
   catch { missingImages.push(filename); }
 }
+if (missingSinhala.length) errors.push('Missing Sinhala text in question bank: ' + missingSinhala.join(', '));
 if (missingImages.length) errors.push('Question image files missing from assets/images: ' + missingImages.join(', '));
 if (errors.length) { console.error(errors.join('\n')); process.exit(1); }
 console.log('Structural validation passed: 555 records; 510 records fall within the configured source-number ranges; 45 supplemental records are separately identified. Required Sinhala text is present in every question, option, and explanation. Mapped question image files exist.');
