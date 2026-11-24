@@ -49,6 +49,23 @@ const imageMapSource = await fs.readFile(imageMapPath, 'utf8');
 const mappedQuestionIds = [...imageMapSource.matchAll(/^\s*"([^"]+)":\s*\{\s*files:/gm)].map((item) => item[1]);
 const orphanImageMappings = mappedQuestionIds.filter((id) => !ids.has(id));
 if (orphanImageMappings.length) errors.push('Image mappings reference unknown question IDs: ' + orphanImageMappings.join(', '));
+
+// Keep published image-audit counts honest: compare the metadata with the actual mapping entries.
+const actualImageBatchCounts = Object.create(null);
+for (const match of imageMapSource.matchAll(/^\s*"[^"]+":\s*\{[^\n]*auditBatch:\s*"([^"]+)"/gm)) {
+  actualImageBatchCounts[match[1]] = (actualImageBatchCounts[match[1]] || 0) + 1;
+}
+const auditBatchBlock = imageMapSource.match(/export const IMAGE_AUDIT_BATCHES = \[([\s\S]*?)\] as const;/);
+if (!auditBatchBlock) {
+  errors.push('IMAGE_AUDIT_BATCHES metadata is missing');
+} else {
+  for (const match of auditBatchBlock[1].matchAll(/range:\s*"([^"]+)"[^\n]*mappedQuestionCount:\s*(\d+)/g)) {
+    const range = match[1];
+    const declared = Number(match[2]);
+    const actual = actualImageBatchCounts[range] || 0;
+    if (declared !== actual) errors.push('Image audit batch ' + range + ': metadata says ' + declared + ' mapped questions, actual mappings are ' + actual);
+  }
+}
 const mappedFiles = [...imageMapSource.matchAll(/files:\s*\[([^\]]*)\]/g)]
   .flatMap((match) => [...match[1].matchAll(/"([^"]+)"/g)].map((item) => item[1]));
 for (const filename of new Set(mappedFiles)) {
