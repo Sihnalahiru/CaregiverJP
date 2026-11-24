@@ -648,16 +648,16 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "id": "main-paper-q036",
     "moduleId": "main-paper",
     "number": 36,
-    "question": "Choose the image which indicate implementation of the body mechanics with correct\nknowledge.\nනිවැරදි දැනුම ඇතිව ශරීර යාන්ත්‍ර විද්‍යාාව (body mechanics) ක්‍රිියාත්මක කිරීම පෙෙ\nන්නුම් කරන\nරූපය තෝරන්න.\n\n\n",
+    "question": "Choose the image that demonstrates the correct application of body mechanics.\nනිවැරදි ශරීර යාන්ත්‍ර විද්‍යා මූලධර්ම භාවිත කරන ආකාරය පෙන්වන රූපය තෝරන්න.",
     "options": [
-      "(A රූපය — දණහිස් නවා ගුරුත්ව කේන්ද්‍රය පහත් කර, කොන්ද කෙෙ\nළින් තබා බර ශරීරයට ළං කර\nඑසවීම)",
-      "(B රූපය — දණහිස් නොනවා කොන්ද නවා එසවීම නිසා කොන්දේ වේදනාව ඇති වීම)",
-      "(C රූපය — කොන්ද ඇඹරී අසමබරව බර එසවීම)",
-      "(D රූපය — ඇඳ මත රෝගියා මාරු කිරීමේ ඉරියව්ව)"
+      "A. Keep the back straight and move the load using a stable posture close to the body (කොන්ද කෙළින් තබාගෙන, ස්ථාවර ඉරියව්වකින් බර ශරීරයට ළං කරගෙන චලනය කිරීම)",
+      "B. Bend from the waist with the knees straight when lifting (බර එසවීමේදී දණහිස් නොනමා ඉණෙන් ඉදිරියට නැමීම)",
+      "C. Twist the trunk while carrying a load (බරක් රැගෙන යන අතරතුර ශරීරයේ මැද කොටස ඇඹරීම)",
+      "D. Hold the load away from the body with the arms extended (අත් දිගු කර බර ශරීරයෙන් ඈත් කර අල්ලා ගැනීම)"
     ],
-    "correctIndex": -1,
-    "explanation": "(දණහිස් නවා ගුරුත්ව කේන්ද්‍රය පහත් කර, කොන්ද කෙෙ\nළින් තබා\nබර එසවීම නිවැරදි ශරීර යාන්ත්‍ර විද්‍යාාවයි)",
-    "kind": "source-mcq",
+    "correctIndex": 0,
+    "explanation": "A is the correct posture shown in the matching source body-mechanics illustration. The safe principles are a stable/wide base of support, keeping the load close, maintaining a straight back, and avoiding twisting. (A නිවැරදි ඉරියව්වයි. ආරක්ෂිත මූලධර්ම වන්නේ පුළුල් හා ස්ථාවර ආධාරක පදනමක් පවත්වා ගැනීම, බර ශරීරයට ළං කර තබා ගැනීම, කොන්ද කෙළින් තබා ගැනීම සහ ශරීරය ඇඹරීමෙන් වැළකීමයි.)",
+    "kind": "mcq",
     "sinhalaText": ""
   },
   {
@@ -1060,16 +1060,16 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "id": "lesson-02-q017",
     "moduleId": "lesson-02",
     "number": 17,
-    "question": "In maintaining mental health, which of the following is not true?",
+    "question": "According to the official study text, which option is NOT listed as a specific method for maintaining mental health?\nනිල අධ්‍යයන පෙළේ මානසික සෞඛ්‍යය පවත්වා ගැනීම සඳහා විශේෂයෙන් සඳහන් කර නොමැති ක්‍රමය කුමක්ද?",
     "options": [
-      "Ensure time for meals and sleep (ආහාර ගැනීමට  හ නින්දට කාලය තහවුරු කිරීම)",
-      "Find a way to get rid of stress (මානසික ආතතිසයන් මිදීමට ක්‍රමයේ ස ායා ගැනීම)",
-      "Have a conversation with others (අන් අය  මඟ  ංවාදයක සයදීම)",
-      "Maintain regular exercise (නිතිපතා වයායාම පවත්වා ගැනීම)"
+      "Ensure time for meals and sleep (ආහාර ගැනීමට සහ නිදා ගැනීමට ප්‍රමාණවත් කාලය වෙන් කරගැනීම)",
+      "Find a way to relieve stress that suits you (තමන්ට ගැළපෙන මානසික ආතතිය අඩු කරගැනීමේ ක්‍රමයක් සොයාගැනීම)",
+      "Talk or consult with seniors and colleagues (ජ්‍යෙෂ්ඨයන් සහ සහකාර සේවකයන් සමඟ කතා කිරීම හෝ උපදෙස් ලබාගැනීම)",
+      "Maintain regular exercise (නිතිපතා ව්‍යායාම කිරීම)"
     ],
-    "correctIndex": -1,
-    "explanation": "None of the above are false in standard health science ( ාමානය ස ෞඛය විදයාවට අනුව සම් සියේලම\nතය සේ; සකස ් සවතත් ප්‍රශ්න පරසේ ඇති සමම ප්‍රශ්නසේ විකේප සියේල ධනාත්මක මානසික ස ෞඛය පුරුදු සල  දේවා ඇත).",
-    "kind": "source-mcq",
+    "correctIndex": 3,
+    "explanation": "The official MHLW study text lists the first three measures under 'How to maintain mental health'. Regular exercise is generally beneficial, but it is not one of the three specific measures listed in that section. (MHLW නිල අධ්‍යයන පෙළේ 'මානසික සෞඛ්‍යය පවත්වා ගන්නා ආකාරය' යටතේ පළමු ක්‍රම තුන සඳහන් කර ඇත. නිතිපතා ව්‍යායාම කිරීම සෞඛ්‍යයට හිතකර වුවත් එම කොටසේ සඳහන් විශේෂ ක්‍රම තුනට ඇතුළත් නොවේ.)",
+    "kind": "mcq",
     "sinhalaText": "මානසික ස ෞඛයය පවත්වා ගැනීසම්දී, පහත  ඳහන් ඒවායින්  තය නනොවන්නන් කුමේද?"
   },
   {
@@ -1300,16 +1300,16 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "id": "lesson-02-q032",
     "moduleId": "lesson-02",
     "number": 32,
-    "question": "It refers to the quality of a person's daily living which include happiness and satisfaction of life;",
+    "question": "What do we call the concept that refers to the quality of a person's daily life, including happiness and satisfaction?\nසතුට සහ තෘප්තිය ඇතුළත් පුද්ගලයෙකුගේ දෛනික ජීවිතයේ ගුණාත්මකභාවය හඳුන්වන්නේ කුමන සංකල්පයෙන්ද?",
     "options": [
-      "[Option missing / විකේපය කැපී ඇත]",
-      "[Option missing / විකේපය කැපී ඇත]",
-      "[Option missing / විකේපය කැපී ඇත]",
-      "[Option missing / විකේපය කැපී ඇත]"
+      "Human dignity (මානව ගරුත්වය)",
+      "Quality of Life – QOL (ජීවන තත්ත්වය)",
+      "User-centred approach (පරිශීලක කේන්ද්‍රීය ප්‍රවේශය)",
+      "Willpower (අධිෂ්ඨාන ශක්තිය)"
     ],
-    "correctIndex": -1,
-    "explanation": "Quality of Life (QOL) (ජීවන තත්ත්වය / QOL — Note: In the source PDF, the options for Q32 are cut off\nat the bottom of page 5.)",
-    "kind": "source-mcq",
+    "correctIndex": 1,
+    "explanation": "Quality of Life (QOL) refers to a person's overall quality of daily life and includes well-being, happiness, satisfaction and purpose. (Quality of Life හෙවත් QOL යනු පුද්ගලයෙකුගේ සමස්ත දෛනික ජීවිතයේ ගුණාත්මකභාවයයි. එයට යහපැවැත්ම, සතුට, තෘප්තිය සහ ජීවිතයේ අරමුණ ඇතුළත් වේ.)",
+    "kind": "mcq",
     "sinhalaText": "තුට  හ ජීවිත තෘප්කතිය ඇතුළත් පුේගලසයකුසේ වදනික ජීවිතසේ ගුණාත්මකභාවය සමයින් අදහ ් සකසර්:"
   },
   {
@@ -7759,42 +7759,48 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "id": "lesson-08-q016",
     "moduleId": "lesson-08",
     "number": 16,
-    "question": "[Truncated in PDF]",
+    "question": "Which of the following is NOT correct when assisting a user in a wheelchair?\nරෝද පුටුවක සිටින පරිශීලකයෙකුට සහාය වන විට පහත සඳහන් ක්‍රියා අතරින් නිවැරදි නොවන්නේ කුමක්ද?",
     "options": [
-      "Yes (ඔේ)",
-      "No (නැත)"
+      "Confirm the user's physical condition (පරිශීලකයාගේ ශාරීරික තත්ත්වය තහවුරු කිරීම)",
+      "Place the user's feet on the footplates (පරිශීලකයාගේ පාද පාද තැබීමේ තහඩු මත තැබීම)",
+      "Make sure the user's hands are on the driving wheels (පරිශීලකයාගේ අත් රෝද කරකවන රිම් මත තැබීම)",
+      "Release the brake, tell the user the wheelchair is about to move, and then start pushing (තිරිංගය නිදහස් කර රෝද පුටුව චලනය කරන බව පරිශීලකයාට දන්වා පසුව තල්ලු කිරීම ආරම්භ කිරීම)"
     ],
-    "correctIndex": -1,
-    "explanation": "(Note: Question 16's prompt text is missing/cut off in the PDF on page 3.)",
-    "kind": "source-mcq",
+    "correctIndex": 2,
+    "explanation": "The user's hands must be kept clear of the driving wheels/hand rims while the wheelchair is being pushed, to prevent finger or hand injury. (රෝද පුටුව තල්ලු කරන විට පරිශීලකයාගේ ඇඟිලි හෝ අත් තුවාල වීම වැළැක්වීමට ඒවා රෝද කරකවන රිම්වලින් ඈත් කර තැබිය යුතුය.)",
+    "kind": "mcq",
     "sinhalaText": "[PDF හි වකාටසක් කැපී ඇත]"
   },
   {
     "id": "lesson-08-q017",
     "moduleId": "lesson-08",
     "number": 17,
-    "question": "[Truncated in PDF]",
+    "question": "The following are types of abuse EXCEPT:\nපහත සඳහන් දෑ අපයෝජන වර්ග වේ. ඒවාට අයත් නොවන්නේ කුමක්ද?",
     "options": [
-      "Yes (ඔේ)",
-      "No (නැත)"
+      "Leaving a person who needs nursing care without necessary care (neglect) (සත්කාර අවශ්‍ය පුද්ගලයෙකුට අවශ්‍ය සත්කාර නොදී අත්හැර දැමීම – නොසලකා හැරීම)",
+      "Obtaining economic benefits from the user (පරිශීලකයාගෙන් ආර්ථික ප්‍රතිලාභ ලබාගැනීම)",
+      "Administering excessive psychotropic medication (අධික මානසික බලපෑම් ඇති කරන ඖෂධ ලබාදීම)",
+      "Using insulting words that cause psychological trauma to the user (පරිශීලකයාට මානසික පීඩාවක් ඇති කරන අපහාසාත්මක වචන භාවිත කිරීම)"
     ],
-    "correctIndex": -1,
-    "explanation": "(Note: Question 17's prompt text is missing/cut off in the PDF on page 3.)",
-    "kind": "source-mcq",
+    "correctIndex": 2,
+    "explanation": "Excessive psychotropic medication is classified as medication-related abuse/physical restraint in this question set, while neglect, economic abuse and psychological abuse are the other three listed abuse types. (මෙම ප්‍රශ්න මාලාවේ අධික psychotropic ඖෂධ ලබාදීම ඖෂධ සම්බන්ධ අපයෝජනයක්/ශාරීරික සීමා කිරීමක් ලෙස වෙන් කරයි. අනෙක් විකල්ප නොසලකා හැරීම, ආර්ථික අපයෝජනය සහ මානසික අපයෝජනය වේ.)",
+    "kind": "mcq",
     "sinhalaText": "[PDF හි වකාටසක් කැපී ඇත]"
   },
   {
     "id": "lesson-08-q018",
     "moduleId": "lesson-08",
     "number": 18,
-    "question": "[Truncated in PDF]",
+    "question": "The following are adverse effects of physical restraint EXCEPT:\nශාරීරික සීමා කිරීම් (physical restraint) නිසා ඇති විය හැකි අහිතකර බලපෑම් අතරට අයත් නොවන්නේ කුමක්ද?",
     "options": [
-      "Yes (ඔේ)",
-      "No (නැත)"
+      "Discomfort or pain (අසහනය හෝ වේදනාව)",
+      "Reduced physical function and muscle atrophy (ශාරීරික ක්‍රියාකාරිත්වය අඩුවීම සහ මාංශපේශී ක්ෂය වීම)",
+      "Muscle weakening caused by restricting walking to prevent falls (වැටීම් වැළැක්වීම සඳහා ඇවිදීම සීමා කිරීමෙන් මාංශපේශී දුර්වල වීම)",
+      "Increased physical abilities and reduced symptoms of dementia (ශාරීරික හැකියාවන් වැඩිවීම සහ ඩිමෙන්ශියා රෝග ලක්ෂණ අඩුවීම)"
     ],
-    "correctIndex": -1,
-    "explanation": "(Note: Question 18's prompt text is missing/cut off in the PDF on page 3.)",
-    "kind": "source-mcq",
+    "correctIndex": 3,
+    "explanation": "Physical restraint can cause pain, loss of physical function and muscle weakening. It does not increase physical abilities or reduce dementia symptoms. (ශාරීරික සීමා කිරීම් නිසා වේදනාව, ශාරීරික ක්‍රියාකාරිත්වය අහිමි වීම සහ මාංශපේශී දුර්වල වීම ඇති විය හැක. එයින් ශාරීරික හැකියාවන් වැඩිවීමක් හෝ ඩිමෙන්ශියා ලක්ෂණ අඩුවීමක් සිදු නොවේ.)",
+    "kind": "mcq",
     "sinhalaText": "[PDF හි වකාටසක් කැපී ඇත]"
   },
   {
@@ -8553,16 +8559,16 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "id": "lesson-08-q068",
     "moduleId": "lesson-08",
     "number": 68,
-    "question": "Choose the one that is NOT appropriate in bathing assistance :",
+    "question": "Which statement does NOT follow the official guidance for preparing a user for bathing?\nපරිශීලකයෙකු නෑවීමට සූදානම් කිරීම පිළිබඳ නිල මාර්ගෝපදේශයට අනුකූල නොවන ප්‍රකාශය කුමක්ද?",
     "options": [
-      "Give liquid to the user after taking a bath (සේනානය කිරීවමන් පසු පරිශීලකයාට ද්‍රව/ජලය ලබා දීම)",
-      "Consider the feeling of embarrassment of the user (පරිශීලකයාවේ ලැජ්ජාවේ හැඟීම සැලකිල්ලට ගැනීම)",
-      "Avoid taking a bath one hour before and after meals (ආහාර ගැනීමට පැයකට වපර සහ පසු සේනානය\nකිරීවමන් වැළකී සිීම)",
-      "Reduce the temperature difference between the dressing room and the bathroom (ඇඳුම් මාරු කරන\nකාමරය සහ නාන කාමරය අතර උෂේණත්ව වවනස අඩු කිරීම)"
+      "Give the user liquids only after the bath, without ensuring hydration before bathing (නෑවීමට පෙර ප්‍රමාණවත් දියර ලබාදීම තහවුරු නොකර, නෑවීමෙන් පසුව පමණක් දියර ලබාදීම)",
+      "Consider and protect the user's feeling of embarrassment and privacy (පරිශීලකයාගේ ලැජ්ජාව සහ පෞද්ගලිකත්වය සැලකිල්ලට ගෙන ආරක්ෂා කිරීම)",
+      "Avoid bathing about one hour before or after meals (ආහාර ගැනීමට පැයකට පමණ පෙර හෝ පසු නෑවීමෙන් වැළකීම)",
+      "Reduce the temperature difference between the dressing room and the bathroom (ඇඳුම් මාරු කරන කාමරය සහ නාන කාමරය අතර උෂ්ණත්ව වෙනස අඩු කිරීම)"
     ],
-    "correctIndex": -1,
-    "explanation": "None of the listed options are improper in standard bathing\npractice (සාමානය සේනාන සත්කාරයට අනුව වමහි දැක්වවන සියුම කරුණු සුදුසු වේ; විවශේෂවයන්ම ආහාරයට\nවපර/පසු පැයක කාලයක් සේනානවයන් වැළකීම, විජලනයට වපර/පසු ජලය දීම, වපෞද්ගලිකත්වය රැකීම සහ උෂේණත්ව\nවවනස අඩු කිරීම නිවැරදි පිළිවවත් වේ.)",
-    "kind": "source-mcq",
+    "correctIndex": 0,
+    "explanation": "The official MHLW study text says to ensure the user is hydrated BEFORE bathing to prevent dehydration. It also advises avoiding bathing about one hour before or after meals, protecting privacy, and reducing room-temperature differences. The option has therefore been clarified as 'only after' to make the incorrect practice unambiguous. (විජලනය වැළැක්වීම සඳහා නෑවීමට පෙරම ප්‍රමාණවත් දියර ලබා ඇති බව තහවුරු කළ යුතු බව MHLW නිල පෙළ සඳහන් කරයි. ආහාර වේලකට පැයකට පෙර හෝ පසු නෑවීමෙන් වැළකීම, පෞද්ගලිකත්වය රැකීම සහ කාමර අතර උෂ්ණත්ව වෙනස අඩු කිරීමද නිර්දේශ කරයි. එබැවින් වැරදි ක්‍රියාව පැහැදිලි කිරීමට 'පසුව පමණක්' ලෙස විකල්පය නිවැරදි කර ඇත.)",
+    "kind": "mcq",
     "sinhalaText": "සේනාන සහාවේදී සුදුසු නනොවන්නන් කුමක්දැයි වතෝරන්න:"
   },
   {
@@ -8857,32 +8863,32 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "id": "lesson-09-q038",
     "moduleId": "lesson-09",
     "number": 38,
-    "question": "Which of the following is the correct way of wearing a mask:",
+    "question": "Which of the following images shows the correct way of wearing a mask?\nමුඛ ආවරණයක් නිවැරදිව පැළඳ ඇති ආකාරය පෙන්වන්නේ පහත කුමන රූපයද?",
     "options": [
-      "A. (A රූපය — PDF හි රූප වි ල්පය)",
-      "B. (B රූපය — PDF හි රූප වි ල්පය)",
-      "C. (C රූපය — PDF හි රූප වි ල්පය)",
-      "D. (D රූපය — PDF හි රූප වි ල්පය)"
+      "A. The mask covers the nose, mouth and chin (නාසය, මුඛය සහ නිකට සම්පූර්ණයෙන් ආවරණය වන ලෙස මුඛ ආවරණය පැළඳීම)",
+      "B. Touch and adjust the front surface of the mask while wearing it (පැළඳ සිටින අතරතුර මුඛ ආවරණයේ ඉදිරිපස අතින් ස්පර්ශ කර සකස් කිරීම)",
+      "C. The mask is worn below the nose (මුඛ ආවරණය නාසයට පහළින් පැළඳීම)",
+      "D. The mask does not fully cover the nose and mouth (මුඛ ආවරණයෙන් නාසය සහ මුඛය සම්පූර්ණයෙන් ආවරණය නොවීම)"
     ],
-    "correctIndex": -1,
-    "explanation": "Proper full coverage over both nose and mouth with no gaps (නාසය සහ මුඛ්‍ය යන වද ම හිඩැස්\nවනාමැතිව සම්ූර්ණවයන් ආවරණය වන වස් පැළඳීම — Note: In page 8 of the PDF, the choice images A–D are not embedded as text/pixels in\nthe extracted content.)\n\nVisual answer options are represented in the source PDF. Open the PDF reader to inspect the original figure; this item is not auto-graded.",
-    "kind": "source-mcq",
+    "correctIndex": 0,
+    "explanation": "The official study text says a mask should cover the face from the nose to the bottom of the chin. In the source image set, option A is the correct illustration. (නිල අධ්‍යයන පෙළ අනුව මුඛ ආවරණය නාසයේ සිට නිකටේ පහළ කොටස දක්වා ආවරණය කළ යුතුය. මුල් රූප විකල්ප අතරින් A නිවැරදි රූපයයි.)",
+    "kind": "mcq",
     "sinhalaText": "පහත සඳහන් ඒවායින් මුඛ්‍ ආවරණයක්ව (mask) පැළඳීවම් නිවැරදි ක්‍රමය කුමක්වද:"
   },
   {
     "id": "lesson-09-q039",
     "moduleId": "lesson-09",
     "number": 39,
-    "question": "Which of the following is the correct principle of body mechanics:",
+    "question": "Which of the following images shows the correct principle of body mechanics?\nශරීර යාන්ත්‍ර විද්‍යාවේ නිවැරදි මූලධර්මය පෙන්වන්නේ පහත කුමන රූපයද?",
     "options": [
-      "A. (A රූපය — PDF හි රූප වි ල්පය)",
-      "B. (B රූපය — PDF හි රූප වි ල්පය)",
-      "C. (C රූපය — PDF හි රූප වි ල්පය)",
-      "D. (D රූපය — PDF හි රූප වි ල්පය)"
+      "A. Move the load with a stable posture and keep the back aligned (ස්ථාවර ඉරියව්වකින් බර චලනය කරමින් කොන්ද නිවැරදිව සෘජුව තබා ගැනීම)",
+      "B. Bend forward from the waist with the legs straight to lift a load (බර එසවීමේදී පාද කෙළින් තබා ඉණෙන් ඉදිරියට නැමීම)",
+      "C. Carry the load while twisting the body (ශරීරය ඇඹරෙන ලෙස බර රැගෙන යාම)",
+      "D. Hold the load away from the body with arms extended (අත් දිගු කර බර ශරීරයෙන් ඈත් කර අල්ලා ගැනීම)"
     ],
-    "correctIndex": -1,
-    "explanation": "Wide base of support, lowered center of gravity, bringing centers of gravity close together, and\nusing large leg/thigh muscles without twisting the back (පුළුල් ආධාර  පදනම, පහත් ගුරුත්ව වක්වන්ද්‍රය, ගුරුත්ව වක්වන්ද්‍ර ළං කිරීම සහ ව ාන්ද\nවනාඇඹරී  ලවා/පාදවල විශාල මාංශ වේශි භාවිත කිරීම — Note: Choice images A–D on page 8 are not embedded in the extracted PDF text.)\n\nVisual answer options are represented in the source PDF. Open the PDF reader to inspect the original figure; this item is not auto-graded.",
-    "kind": "source-mcq",
+    "correctIndex": 0,
+    "explanation": "The source illustration marks option A as the safe posture. Correct body mechanics uses a stable base, keeps the load close, maintains alignment and avoids twisting. (මුල් රූප සටහනේ A නිවැරදි ඉරියව්වයි. නිවැරදි ශරීර යාන්ත්‍ර විද්‍යාව සඳහා ස්ථාවර ආධාරක පදනමක්, ශරීරයට ළං කළ බරක්, නිවැරදි ශරීර පෙළගැස්මක් සහ ඇඹරීමෙන් වැළකීම අවශ්‍ය වේ.)",
+    "kind": "mcq",
     "sinhalaText": "පහත සඳහන් ඒවායින් ශරීර යාන්ර විදයාවේ (body mechanics) නිවැරදි මූලධර්මය කුමක්වද:"
   }
 ];
