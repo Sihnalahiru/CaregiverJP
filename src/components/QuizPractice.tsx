@@ -34,6 +34,7 @@ export const QuizPractice: React.FC<QuizPracticeProps> = ({ paperSetId, onExit }
 
   useEffect(() => () => { if (advanceTimer.current) window.clearTimeout(advanceTimer.current); }, []);
 
+  // Source-mcq items stay visible as unscored notices because the source scan is incomplete.
   const gradedQuestions = questions.filter((question) => question.kind !== 'source-mcq' && question.kind !== 'self-check');
   const answeredCount = questions.filter((question) => answers[question.id] !== undefined).length;
   const correctCount = gradedQuestions.filter((question) => answers[question.id] === question.correctIndex).length;
