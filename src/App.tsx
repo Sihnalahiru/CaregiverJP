@@ -101,7 +101,7 @@ export function App() {
 
   return (
     <div className="min-h-screen flex flex-col bg-[#F8FAFC] text-[#0F172A]">
-      <Header activeView={activeView} onNavigate={setActiveView} onStartPractice={() => setActiveView('practice')} />
+      <Header activeView={activeView} onNavigate={setActiveView} />
       <main className="flex-1">
         {activeView === 'dashboard' && <Dashboard papers={papers} loading={loadingPapers} onStartQuiz={() => setActiveView('practice')} />}
         {activeView === 'library' && <PaperLibrary papers={papers} loading={loadingPapers} error={papersError} onOpenReader={handleOpenReader} onOpenQuiz={handleOpenQuiz} />}
