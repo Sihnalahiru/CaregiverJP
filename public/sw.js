@@ -27,10 +27,10 @@ self.addEventListener('fetch', (event) => {
 
   // Network-first prevents an older cached app bundle from masking a new deployment.
   event.respondWith(
-    fetch(request).then((response) => {
+    fetch(request).then(async (response) => {
       if (response.ok && (response.type === 'basic' || response.type === 'cors')) {
         const copy = response.clone();
-        event.waitUntil(caches.open(CACHE_PREFIX).then((cache) => cache.put(request, copy)));
+        await caches.open(CACHE_PREFIX).then((cache) => cache.put(request, copy));
       }
       return response;
     }).catch(async () => {
