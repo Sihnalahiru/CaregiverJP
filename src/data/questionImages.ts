@@ -65,7 +65,7 @@ export const QUESTION_IMAGES: Record<string, QuestionImageSet> = {
   "lesson-07-q090": { files: ["114.png"], alt: "Pulse measurement at the wrist", auditBatch: "103-152" },
   "lesson-07-q096": { files: ["114.png"], alt: "Pulse measurement location at the wrist", auditBatch: "103-152" },
   "lesson-07-q100": { files: ["115.jpg"], alt: "Blood pressure and blood vessel illustration", auditBatch: "103-152" },
-  "lesson-07-q101": { files: ["115.jpg"], alt: "Blood pressure and blood vessel illustration", auditBatch: "103-152" }
+  "lesson-07-q101": { files: ["115.jpg"], alt: "Blood pressure and blood vessel illustration", auditBatch: "103-152" },
   "lesson-09-q038": { files: ["62.jpg", "63.jpg"], alt: "Examples showing correct mask wearing", auditBatch: "53-102" }
 };
 
