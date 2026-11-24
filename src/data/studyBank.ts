@@ -88,7 +88,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "id": "main-paper-q001",
     "moduleId": "main-paper",
     "number": 1,
-    "question": "While emptying the trash in a user's room, you get stuck by a needle that should have\nbeen placed in the sharp container. What is the first thing to do?\nපරිශීලකයෙෙ\nකුගේ කාමරයේ කුණු හිස් කරන අතරතුර, sharp container (තියුණු ආයුධ\nබහාලුමේ) තැබිය යුතුව තිබූ ඉඳිකටුවකින් ඔබට ඇනුණි. පළමුව කළ යුත්තේ කුමක්ද?",
+    "question": "While emptying the trash in a user's room, you get stuck by a needle that should have\nbeen placed in the sharp container. What is the first thing to do?",
     "options": [
       "Try to squeeze the blood out (ලේ මිරිකා ඉවත් කිරීමට උත්සාහ කිරීම)",
       "Call your personal physician (ඔබේ පෞද්ගලික වෛෛ\nද්‍යවරයා ඇමතීම)",
@@ -98,13 +98,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 2,
     "explanation": "Wash the site for several hours (ඇනුණු ස්ථානය පැය ගණනක්\nසේදීම)",
     "kind": "mcq",
-    "sinhalaText": ""
+    "sinhalaText": "පරිශීලකයෙෙ\nකුගේ කාමරයේ කුණු හිස් කරන අතරතුර, sharp container (තියුණු ආයුධ\nබහාලුමේ) තැබිය යුතුව තිබූ ඉඳිකටුවකින් ඔබට ඇනුණි. පළමුව කළ යුත්තේ කුමක්ද?"
   },
   {
     "id": "main-paper-q002",
     "moduleId": "main-paper",
     "number": 2,
-    "question": "During dinner, a client who is HIV-positive accidently breaks a glass and cuts himself.\nWhat is the proper procedure?\nරාත්‍රීී ආහාරය අතරතුර, HIV ධනාත්මක (HIV-positive) සේවාදායකයෙෙ\nකු අහම්බෙෙ\nන් වීදුරුවක්\nබිඳගෙෙ\nන තමන්ටම කපා ගනී. නිසි ක්‍රිියා පටිපාටිය කුමක්ද?",
+    "question": "During dinner, a client who is HIV-positive accidently breaks a glass and cuts himself.\nWhat is the proper procedure?",
     "options": [
       "Call the paramedics to treat the client (සේවාදායකයාට ප්‍රතිකාර කිරීමට හදිසි වෛෛ\nද්‍ය\nකණ්ඩායමක් කැඳවීම)",
       "Use a long-handled mop to wipe up the blood (ලේ පිස දැමීමට දිගු මිටක් සහිත මොප් එකක්\nභාවිත කිරීම)",
@@ -114,61 +114,61 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 3,
     "explanation": "Block off the area until it can be cleaned (පිරිසිදු කළ හැකි වනතෙ\nෙ\nක් එම ප්‍රදේශය අවහිර කර තැබීම)\n",
     "kind": "mcq",
-    "sinhalaText": ""
+    "sinhalaText": "රාත්‍රීී ආහාරය අතරතුර, HIV ධනාත්මක (HIV-positive) සේවාදායකයෙෙ\nකු අහම්බෙෙ\nන් වීදුරුවක්\nබිඳගෙෙ\nන තමන්ටම කපා ගනී. නිසි ක්‍රිියා පටිපාටිය කුමක්ද?"
   },
   {
     "id": "main-paper-q003",
     "moduleId": "main-paper",
     "number": 3,
-    "question": "The most important way to [Truncated in PDF]\n[PDF හි කොටසක් කැපී ඇත] වඩාත්ම වැදගත් ක්‍රමය වන්නේ:",
+    "question": "What is the most important basic measure for preventing the spread of infection?",
     "options": [
       "Hand washing (අත් සේදීම)",
-      "[Missing / කැපී ඇත]",
-      "sanitizer (සනීපාරක්ෂක දියර / Sanitizer)",
-      "[Missing / කැපී ඇත]"
+      "Wearing gloves (අත්වැසුම් පැළඳීම)",
+      "Using hand sanitizer only (අත් සනීපාරක්ෂක දියර පමණක් භාවිත කිරීම)",
+      "Wearing a mask at all times (සෑම විටම මුහුණු ආවරණයක් පැළඳීම)"
     ],
     "correctIndex": 0,
-    "explanation": "Hand washing (අත් සේදීම)",
-    "kind": "source-mcq",
-    "sinhalaText": ""
+    "explanation": "Hand washing is the key basic infection-prevention measure. Gloves and masks are used when indicated, but they do not replace hand hygiene. (අත් සේදීම ආසාදන පාලනයේ ප්‍රධාන මූලික ක්‍රියාමාර්ගයයි. අවශ්‍ය අවස්ථාවල අත්වැසුම් සහ මුහුණු ආවරණ භාවිත කළත් ඒවා අත් පිරිසිදුකම වෙනුවට භාවිත කළ නොහැක.)",
+    "kind": "mcq",
+    "sinhalaText": "ආසාදන පැතිරීම වැළැක්වීම සඳහා ඇති වැදගත්ම මූලික ක්‍රියාමාර්ගය කුමක්ද?"
   },
   {
     "id": "main-paper-q004",
     "moduleId": "main-paper",
     "number": 4,
-    "question": "A non-verbal [Truncated in PDF]\nවාචික නොවන (Non-verbal) [PDF හි කොටසක් කැපී ඇත]:",
+    "question": "Which of the following is an example of non-verbal communication?",
     "options": [
-      "Facial [expressions] (මුහුණේ ඉරියව්)",
-      "nodding (හිස සැලීම)",
-      "gestures (අභිනයන් / අත් ඉඟි)",
-      "[Missing / කැපී ඇත]"
+      "Facial expressions (මුහුණේ ඉරියව්)",
+      "Spoken conversation (කතාබහ)",
+      "Letters and written characters (ලිපි සහ ලිඛිත අක්ෂර)",
+      "Reading a written message aloud (ලිඛිත පණිවිඩයක් ශබ්ද නඟා කියවීම)"
     ],
     "correctIndex": 0,
-    "explanation": "The source PDF answer key marks option A (Facial expressions). The question stem and option D are cut off in the scan; the source wording is preserved without inventing the missing text. (මුල් PDF පිළිතුරු යතුරේ A — Facial expressions ලෙස දක්වා ඇත. ප්‍රශ්නයේ කොටසක් සහ D විකල්පය scan එකේ කැපී ඇත.)",
-    "kind": "source-mcq",
-    "sinhalaText": ""
+    "explanation": "Facial expressions are non-verbal communication. The source guide also identifies gestures and body language as non-verbal methods; speech, sign language, letters and characters are listed under verbal communication. (මුහුණේ ඉරියව් වාචික නොවන සන්නිවේදනයකි. මූලාශ්‍ර අධ්‍යයන ග්‍රන්ථය අභිනයන් සහ ශරීර භාෂාවද වාචික නොවන ක්‍රම ලෙස දක්වයි. කථනය, සංඥා භාෂාව, ලිපි සහ අක්ෂර වාචික සන්නිවේදන ක්‍රම යටතේ දක්වා ඇත.)",
+    "kind": "mcq",
+    "sinhalaText": "පහත සඳහන් දේවල් අතරින් වාචික නොවන සන්නිවේදනයට (non-verbal communication) උදාහරණයක් වන්නේ කුමක්ද?"
   },
   {
     "id": "main-paper-q005",
     "moduleId": "main-paper",
     "number": 5,
-    "question": "How [Truncated in PDF] they are interested and listening to the user:\n[PDF හි කොටසක් කැපී ඇත] ඔවුන් උනන්දුවෙෙ\nන් සිටින බවත් පරිශීලකයාට සවන් දෙෙන බවත්පෙ\nෙ\nන්වීමට:",
+    "question": "How can a care worker show that they are interested in and listening attentively to the user?",
     "options": [
-      "[Missing / කැපී ඇත]",
-      "[Missing / කැපී ඇත]",
-      "[Correct the user's] mistakes (පරිශීලකයාගේ වැරදි නිවැරදි කිරීම)",
-      "Change the subject frequently (මාතෘකාව නිතර වෙෙ\nනස් කිරීම)"
+      "Listen attentively, maintain appropriate eye contact and respond with suitable nods (අවධානයෙන් සවන් දීම, සුදුසු ඇස් සම්බන්ධතාව පවත්වා ගැනීම සහ අවස්ථාවට ගැළපෙන ලෙස හිස සැලීම)",
+      "Look away and remain silent throughout (අන්দিকে බලාගෙන මුළු කාලයම නිහඬව සිටීම)",
+      "Correct the user's mistakes while they are speaking (පරිශීලකයා කතා කරන අතරතුර ඔහුගේ/ඇයගේ වැරදි නිවැරදි කිරීම)",
+      "Change the subject frequently (මාතෘකාව නිතර වෙනස් කිරීම)"
     ],
     "correctIndex": 0,
-    "explanation": "The source PDF answer key marks option A, but the option text itself is cut off in the supplied scan. Keep the original visible fragments; do not invent the missing option wording. (මුල් PDF පිළිතුරු යතුර A ලෙස දක්වයි. නමුත් A විකල්පයේ පෙළ scan එකේ කැපී ඇති නිසා අනුමානයෙන් පුරවා නැත.)",
-    "kind": "source-mcq",
-    "sinhalaText": ""
+    "explanation": "Attentive listening is shown through careful attention and an appropriate listening attitude, including eye contact and responsive non-verbal cues. The source guide specifically describes attentive listening as listening carefully, correctly and eagerly, and separately explains the role of eye contact. (අවධානයෙන් සවන් දීමේදී සැලකිල්ලෙන් සවන් දීම, සුදුසු ඇස් සම්බන්ධතාව සහ ප්‍රතිචාර දක්වන වාචික නොවන ඉඟි භාවිත කිරීම වැදගත්ය. මූලාශ්‍ර ග්‍රන්ථය අවධානයෙන්, නිවැරදිව හා උනන්දුවෙන් සවන් දීම සහ ඇස් සම්බන්ධතාව පවත්වා ගැනීම විස්තර කරයි.)",
+    "kind": "mcq",
+    "sinhalaText": "පරිශීලකයා කෙරෙහි උනන්දුවක් දක්වන බවත් අවධානයෙන් සවන් දෙන බවත් සත්කාර සේවකයාට පෙන්විය හැක්කේ කෙසේද?"
   },
   {
     "id": "main-paper-q006",
     "moduleId": "main-paper",
     "number": 6,
-    "question": "A good way to build a relationship with a user is to:\nපරිශීලකයෙෙ\nකු සමඟ හොඳ සබඳතාවක් ගොඩනඟා ගැනීමට හොඳ ක්‍රමයක් වන්නේ:",
+    "question": "A good way to build a relationship with a user is to:",
     "options": [
       "Learn their non-verbal communication (ඔවුන්ගේ වාචික නොවන සන්නිවේදනය තේරුම් ගැනීම /\nඉගෙෙ\nන ගැනීම)",
       "Compliment them every day on their outfit (සෑම දිනකම ඔවුන්ගේ ඇඳුම ගැන ප්‍රශංසා කිරීම)",
@@ -178,13 +178,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 0,
     "explanation": "Learn their non-verbal communication (ඔවුන්ගේ වාචික නොවන\nසන්නිවේදනය ඉගෙෙ\nන ගැනීම)\n",
     "kind": "mcq",
-    "sinhalaText": ""
+    "sinhalaText": "පරිශීලකයෙෙ\nකු සමඟ හොඳ සබඳතාවක් ගොඩනඟා ගැනීමට හොඳ ක්‍රමයක් වන්නේ:"
   },
   {
     "id": "main-paper-q007",
     "moduleId": "main-paper",
     "number": 7,
-    "question": "Which is a good way to start a conversation with users?\nපරිශීලකයන් සමඟ සංවාදයක් ආරම්භ කිරීමට හොඳ ක්‍රමයක් වන්නේ කුමක්ද?",
+    "question": "Which is a good way to start a conversation with users?",
     "options": [
       "\"what kind of work do you do\" (\"ඔබ කරන්නේ මොන වගේ රැකියාවක්ද?\")",
       "\"is your room warm enough\" (\"ඔබේ කාමරය ප්‍රමාණවත් තරම් උණුසුම්ද?\")",
@@ -194,13 +194,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 0,
     "explanation": "\"what kind of work do you do\" (\"ඔබ කරන්නේ මොන වගේ\nරැකියාවක්ද?\")",
     "kind": "mcq",
-    "sinhalaText": ""
+    "sinhalaText": "පරිශීලකයන් සමඟ සංවාදයක් ආරම්භ කිරීමට හොඳ ක්‍රමයක් වන්නේ කුමක්ද?"
   },
   {
     "id": "main-paper-q008",
     "moduleId": "main-paper",
     "number": 8,
-    "question": "What should the care worker do when a user comes out their room wearing mismatched\nslippers?\nපරිශීලකයෙෙ\nකු නොගැළපෙෙ\nන පාවහන් (mismatched slippers) පැළඳ තම කාමරයෙෙ\nන් එළියට\nඑන විට සත්කාර සේවකයා කළ යුත්තේ කුමක්ද?",
+    "question": "What should the care worker do when a user comes out their room wearing mismatched\nslippers?",
     "options": [
       "Tease the user about their fashion sense (පරිශීලකයාගේ විලාසිතා රටාව ගැන විහිළු කිරීම)",
       "Make the resident go back and fix their mistake (නේවාසිකයාට ආපසු ගොස් තම වරද නිවැරදි\nකර ගැනීමට සැලැස්වීම)",
@@ -210,77 +210,77 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 3,
     "explanation": "Quietly ask if the user notices the slippers (පාවහන් ගැන\nපරිශීලකයාට අවධානය යොමු වී තිබේදැයි නිහඬව විමසීම)",
     "kind": "mcq",
-    "sinhalaText": ""
+    "sinhalaText": "පරිශීලකයෙෙ\nකු නොගැළපෙෙ\nන පාවහන් (mismatched slippers) පැළඳ තම කාමරයෙෙ\nන් එළියට\nඑන විට සත්කාර සේවකයා කළ යුත්තේ කුමක්ද?"
   },
   {
     "id": "main-paper-q009",
     "moduleId": "main-paper",
     "number": 9,
-    "question": "To prevent the spread of infection, how should the nurse aide [Truncated in PDF] user's\nbed;\nආසාදන පැතිරීම වැළැක්වීම සඳහා, හෙෙ\nද සහායකයා පරිශීලකයාගේ ඇඳේ ඇති [PDF හි\nකොටසක් කැපී ඇත] කෙෙ\nසේ හැසිරවිය යුතුද:",
+    "question": "To prevent the spread of infection, how should a nurse aide handle used linen from a user's bed?",
     "options": [
-      "Shake them in the air to remove any dirt (කුණු ඉවත් කිරීමට ඒවා වාතයේ ගසා දැමීම)",
-      "Put them in the dirty linen container (ඒවා අපිරිසිදු රෙෙදි බහාලුමේ දැමීම)",
-      "Place them in a neat pile on the floor (ඒවා බිම පිළිවෙෙළකට ගොඩගැසීම)",
-      "Carry them close to the nurse aide's body (හෙෙ\nද සහායකයාගේ ශරීරයට ළං කර ඒවා රැගෙෙ\nන\nයාම)"
+      "Shake the linen in the air to remove dirt (කුණු ඉවත් කිරීමට රෙදි වාතයේ ගසා දැමීම)",
+      "Place the linen in the designated dirty-linen container (රෙදි නියමිත අපිරිසිදු රෙදි බහාලුමට දැමීම)",
+      "Put the linen in a neat pile on the floor (රෙදි බිම පිළිවෙළකට ගොඩගැසීම)",
+      "Carry the linen pressed against the nurse aide's body (රෙදි හෙද සහායකයාගේ ශරීරයට තද කරගෙන රැගෙන යාම)"
     ],
     "correctIndex": 1,
-    "explanation": "Put them in the dirty linen container (ඒවා අපිරිසිදු රෙෙදි බහාලුමේ\nදැමීම)",
-    "kind": "source-mcq",
-    "sinhalaText": ""
+    "explanation": "Used linen should be placed directly into the designated dirty-linen container. Do not shake it, place it on the floor, or hold it against the body, because these actions can spread contamination. (භාවිත කළ රෙදි සෘජුවම නියමිත අපිරිසිදු රෙදි බහාලුමට දැමිය යුතුය. ආසාදිත ද්‍රව්‍ය පැතිරිය හැකි බැවින් රෙදි ගසා දැමීම, බිම තැබීම හෝ ශරීරයට තද කරගෙන යාම නොකළ යුතුය.)",
+    "kind": "mcq",
+    "sinhalaText": "ආසාදන පැතිරීම වැළැක්වීම සඳහා, පරිශීලකයාගේ ඇඳෙන් ඉවත් කළ භාවිත කළ රෙදි හෙද සහායකයා හැසිරවිය යුත්තේ කෙසේද?"
   },
   {
     "id": "main-paper-q010",
     "moduleId": "main-paper",
     "number": 10,
-    "question": "Used disposable supplies and [Truncated in PDF]\nභාවිත කළ ඉවත දැමිය හැකි සැපයුම් සහ [PDF හි කොටසක් කැපී ඇත] ඉවත දැමිය\nයුත්තේ:\n",
+    "question": "Where should used disposable supplies and contaminated waste be discarded?",
     "options": [
-      "Outside the user's room (පරිශීලකයාගේ කාමරයෙෙ\nන් පිටත)",
-      "In the designated receptacle (නියමිත කුණු බඳුනේ / බහාලුමේ)",
-      "In the user's wash basket (පරිශීලකයාගේ රෙෙදි සෝදන කූඩයේ)",
-      "In the clean utility room (පිරිසිදු උපයෝගිතා කාමරයේ / Clean utility room)"
+      "Outside the user's room without sorting (වර්ගීකරණයකින් තොරව පරිශීලකයාගේ කාමරයෙන් පිටත)",
+      "In the designated waste receptacle (නියමිත අපද්‍රව්‍ය බහාලුමට)",
+      "In the user's laundry basket (පරිශීලකයාගේ රෙදි සෝදන කූඩයට)",
+      "In the clean utility room (පිරිසිදු උපයෝගිතා කාමරයට)"
     ],
     "correctIndex": 1,
-    "explanation": "In the designated receptacle (නියමිත කුණු බඳුනේ / බහාලුමේ)",
-    "kind": "source-mcq",
-    "sinhalaText": ""
+    "explanation": "Used disposable supplies and contaminated waste must be discarded in the designated receptacle according to the facility's waste-segregation procedure. (භාවිත කළ ඉවත දැමිය හැකි සැපයුම් සහ දූෂිත අපද්‍රව්‍ය ආයතනයේ අපද්‍රව්‍ය වෙන් කිරීමේ ක්‍රමවේදයට අනුව නියමිත බහාලුමට දැමිය යුතුය.)",
+    "kind": "mcq",
+    "sinhalaText": "භාවිත කළ ඉවත දැමිය හැකි සැපයුම් සහ දූෂිත අපද්‍රව්‍ය ඉවත දැමිය යුත්තේ කොතැනටද?"
   },
   {
     "id": "main-paper-q011",
     "moduleId": "main-paper",
     "number": 11,
-    "question": "Which is the appropriate way of transferring user from bed to wheelchair? [Truncated in\nPDF]\nපරිශීලකයෙෙ\nකු ඇඳෙෙන් රෝද පුටුවකට මාරු කිරීමේ සුදුසු ක්‍රමය කුමක්ද? [PDF හි කොටසක්\nකැපී ඇත]",
+    "question": "Which is the appropriate way to prepare for transferring a user from a bed to a wheelchair?",
     "options": [
-      "Position [Truncated in PDF] (ස්ථානගත කිරීම - PDF හි කැපී ඇත)",
-      "Let the [Truncated] when transferring (මාරු කරන විට [කැපී ඇත])",
-      "[Missing / කැපී ඇත]",
-      "of the user [Truncated] side (පරිශීලකයාගේ [කැපී ඇත] පැත්ත)"
+      "Place the wheelchair beside the user's unaffected/strong side and apply its brake (රෝද පුටුව පරිශීලකයාගේ ආබාධයට ලක් නොවූ/ශක්තිමත් පැත්තට යාබදව තබා එහි තිරිංග යෙදීම)",
+      "Leave the wheelchair at the foot of the bed with its brakes released (තිරිංග නිදහස් කර රෝද පුටුව ඇඳ පාමුල තැබීම)",
+      "Place the wheelchair on the affected side and keep it moving (රෝද පුටුව ආබාධිත පැත්තේ තබා එය චලනය වීමට ඉඩ දීම)",
+      "Ask the user to pull themselves up by holding the wheelchair wheels (රෝද පුටුවේ රෝද අල්ලාගෙන තමන්ම නැගී සිටීමට පරිශීලකයාට පැවසීම)"
     ],
     "correctIndex": 0,
-    "explanation": "The source PDF answer key marks option A. The visible fragment concerns positioning the wheelchair; the remaining option wording is cut off in the scan. (මුල් PDF පිළිතුරු යතුර A ලෙස දක්වයි. පෙනෙන කොටස රෝද පුටුව ස්ථානගත කිරීම ගැන වන අතර ඉතිරි පෙළ කැපී ඇත.)",
-    "kind": "source-mcq",
-    "sinhalaText": ""
+    "explanation": "The source guide instructs the care worker to place the wheelchair beside the user's unaffected side and apply the brake before the transfer. The user's condition, consent, bed height and safety support must also be checked. (මූලාශ්‍ර ග්‍රන්ථය අනුව මාරු කිරීමට පෙර රෝද පුටුව පරිශීලකයාගේ ආබාධයට ලක් නොවූ පැත්තට යාබදව තබා තිරිංග යෙදිය යුතුය. පරිශීලකයාගේ තත්ත්වය, කැමැත්ත, ඇඳේ උස සහ ආරක්ෂිත ආධාරයද පරීක්ෂා කළ යුතුය.)",
+    "kind": "mcq",
+    "sinhalaText": "පරිශීලකයෙකු ඇඳෙන් රෝද පුටුවකට මාරු කිරීමට සූදානම් කිරීමේ සුදුසු ක්‍රමය කුමක්ද?"
   },
   {
     "id": "main-paper-q012",
     "moduleId": "main-paper",
     "number": 12,
-    "question": "[Truncated in PDF] daily living of his life.\nඔහුගේ/ඇයගේ එදිනෙෙ\nදා ජීවිතයේ [PDF හි කොටසක් කැපී ඇත]:",
+    "question": "Which concept requires a care worker to respect the person's worth and individuality in daily life?",
     "options": [
-      "[Missing / කැපී ඇත]",
-      "[Missing / කැපී ඇත]",
-      "user centric daily lifestyle (පරිශීලක කේන්ද්‍රීය දෛෛනික ජීවන රටාව)",
-      "human dignity (මානව ගරුත්වය)"
+      "Following the caregiver's personal preferences (සත්කාර සේවකයාගේ පෞද්ගලික කැමැත්ත අනුගමනය කිරීම)",
+      "Making every user follow the same daily routine (සියලුම පරිශීලකයන් එකම දෛනික රටාවක් අනුගමනය කිරීමට සැලැස්වීම)",
+      "User-centred daily lifestyle only (පරිශීලක කේන්ද්‍රීය දෛනික ජීවන රටාව පමණක්)",
+      "Human dignity (මානව ගෞරවය)"
     ],
     "correctIndex": 3,
-    "explanation": "human dignity (මානව ගරුත්වය)",
-    "kind": "source-mcq",
-    "sinhalaText": ""
+    "explanation": "Human dignity means respecting each person as an individual and protecting their rights, values, privacy and choices. The source guide identifies human dignity as a basic concept in nursing care. (මානව ගෞරවය යනු එක් එක් පුද්ගලයාට අනන්‍ය පුද්ගලයෙකු ලෙස ගරු කිරීමත් ඔහුගේ/ඇයගේ අයිතිවාසිකම්, වටිනාකම්, පෞද්ගලිකත්වය සහ තේරීම් ආරක්ෂා කිරීමත්ය. මූලාශ්‍ර ග්‍රන්ථය මානව ගෞරවය හෙද සත්කාරයේ මූලික සංකල්පයක් ලෙස දක්වයි.)",
+    "kind": "mcq",
+    "sinhalaText": "එදිනෙදා ජීවිතයේදී පුද්ගලයාගේ වටිනාකම සහ අනන්‍යතාවයට ගරු කිරීමට සත්කාර සේවකයාගෙන් අපේක්ෂා කරන්නේ කුමන සංකල්පයද?"
   },
   {
     "id": "main-paper-q013",
     "moduleId": "main-paper",
     "number": 13,
-    "question": "An airborne infection is;\nවාතය මගින් බෝවන ආසාදනයක් (Airborne infection) වන්නේ:",
+    "question": "An airborne infection is;",
     "options": [
       "Noro virus (නොරෝ වෛෛ\nරසය / Noro virus)",
       "E-coli (ඊ-කෝලි / E-coli)",
@@ -290,13 +290,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 2,
     "explanation": "Measles (සරම්ප / Measles)",
     "kind": "mcq",
-    "sinhalaText": ""
+    "sinhalaText": "වාතය මගින් බෝවන ආසාදනයක් (Airborne infection) වන්නේ:"
   },
   {
     "id": "main-paper-q014",
     "moduleId": "main-paper",
     "number": 14,
-    "question": "Physical restraint is to restrict the user's physical movements. Which of the following is\nnot considered as a physical restraint?\nභෞතික සීමා කිරීම (Physical restraint) යනු පරිශීලකයාගේ ශාරීරික චලනයන් සීමා කිරීමයි.\nපහත සඳහන් ඒවායින් භෞතික සීමා කිරීමක් ලෙෙ\nස නොසැලකෙෙ\nන්නේ කුමක්ද?\n",
+    "question": "Physical restraint is to restrict the user's physical movements. Which of the following is\nnot considered as a physical restraint?",
     "options": [
       "Use violence in the user's body (පරිශීලකයාගේ ශරීරයට හිංසනය/ප්‍රචණ්ඩත්වය යෙෙ\nදීම)",
       "Put safety rails around the bed so that the user cannot get off the bed by himself\n(පරිශීලකයාට තනිවම ඇඳෙෙන් බැසීමට නොහැකි වන පරිදි ඇඳ වටා ආරක්ෂිත වැටවල් දැමීම)",
@@ -306,13 +306,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 2,
     "explanation": "Administer excess amount of psychological medication (අධික\nමානසික ඖෂධ ප්‍රමාණයක් ලබා දීම — රසායනික සීමා කිරීමකි / Chemical restraint)",
     "kind": "mcq",
-    "sinhalaText": ""
+    "sinhalaText": "භෞතික සීමා කිරීම (Physical restraint) යනු පරිශීලකයාගේ ශාරීරික චලනයන් සීමා කිරීමයි.\nපහත සඳහන් ඒවායින් භෞතික සීමා කිරීමක් ලෙෙ\nස නොසැලකෙෙ\nන්නේ කුමක්ද?"
   },
   {
     "id": "main-paper-q015",
     "moduleId": "main-paper",
     "number": 15,
-    "question": "Various professionals other than care workers works as a team for a user, using their\nrespective expertise. Choose the professional out of the following which is not included for\nthe nursing care team.\nසත්කාර සේවකයින්ට අමතරව විවිධ වෘත්තිකයන් තම තමන්ගේ විශේෂඥ දැනුම භාවිත\nකරමින් පරිශීලකයෙෙ\nකු වෙෙ\nනුවෙෙ\nන් කණ්ඩායමක් ලෙෙ\nස කටයුතු කරයි. පහත සඳහන් අය\nඅතරින් හෙෙ\nද සත්කාර කණ්ඩායමට ඇතුළත් නොවන වෘත්තිකයා තෝරන්න.",
+    "question": "Various professionals other than care workers works as a team for a user, using their\nrespective expertise. Choose the professional out of the following which is not included for\nthe nursing care team.",
     "options": [
       "Nurse (හෙෙ\nදිය)",
       "Care manager (සත්කාර කළමනාකරු / Care manager)",
@@ -322,13 +322,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 3,
     "explanation": "Social worker (සමාජ සේවකයා / Social worker)",
     "kind": "mcq",
-    "sinhalaText": ""
+    "sinhalaText": "සත්කාර සේවකයින්ට අමතරව විවිධ වෘත්තිකයන් තම තමන්ගේ විශේෂඥ දැනුම භාවිත\nකරමින් පරිශීලකයෙෙ\nකු වෙෙ\nනුවෙෙ\nන් කණ්ඩායමක් ලෙෙ\nස කටයුතු කරයි. පහත සඳහන් අය\nඅතරින් හෙෙ\nද සත්කාර කණ්ඩායමට ඇතුළත් නොවන වෘත්තිකයා තෝරන්න."
   },
   {
     "id": "main-paper-q016",
     "moduleId": "main-paper",
     "number": 16,
-    "question": "When supporting user's self-decision, choose one appropriate answer as the point that\nyou have to know.\nපරිශීලකයාගේ ස්වයං තීරණ ගැනීමට (self-decision) සහාය වන විට, ඔබ දැනගත යුතු\nකරුණ ලෙෙ\nස සුදුසු පිළිතුරක් තෝරන්න.",
+    "question": "When supporting user's self-decision, choose one appropriate answer as the point that\nyou have to know.",
     "options": [
       "Opinion of the family members (පවුලේ සාමාජිකයන්ගේ මතය)",
       "What the person who needs care wants (සත්කාර අවශ්‍ය පුද්ගලයාට අවශ්‍ය දේ)",
@@ -338,45 +338,45 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 1,
     "explanation": "What the person who needs care wants (සත්කාර අවශ්‍ය\nපුද්ගලයාට අවශ්‍ය දේ)",
     "kind": "mcq",
-    "sinhalaText": ""
+    "sinhalaText": "පරිශීලකයාගේ ස්වයං තීරණ ගැනීමට (self-decision) සහාය වන විට, ඔබ දැනගත යුතු\nකරුණ ලෙෙ\nස සුදුසු පිළිතුරක් තෝරන්න."
   },
   {
     "id": "main-paper-q017",
     "moduleId": "main-paper",
     "number": 17,
-    "question": "Regarding the changes in the body along with aging, choose one correct answer.\n[Truncated in PDF]\nවයසට යාමත් සමඟ ශරීරයේ සිදුවන වෙෙ\nනස්කම් සම්බන්ධයෙෙ\nන්, එක් නිවැරදි පිළිතුරක්\nතෝරන්න. [PDF හි කොටසක් කැපී ඇත]\n",
+    "question": "Regarding physical changes in the body with aging, which statement is correct?",
     "options": [
-      "Difference among individuals are few (පුද්ගලයන් අතර වෙෙ\nනස්කම් අල්පය)",
-      "Becomes difficult to hear low sound (පහත් ශබ්ද ඇසීමට අපහසු වේ)",
-      "Become easy [Truncated in PDF] (පහසු වේ - PDF හි කැපී ඇත)",
-      "Field of [Truncated in PDF] (දෘෂ්ටි පරාසය - PDF හි කැපී ඇත)"
+      "Physical changes are almost the same for all older people (සියලුම වයෝවෘද්ධ පුද්ගලයන්ගේ ශාරීරික වෙනස්කම් බොහෝ දුරට සමාන වේ)",
+      "The ability to hear low-frequency sounds decreases first (පහත් සංඛ්‍යාත ශබ්ද ඇසීමේ හැකියාව පළමුව අඩු වේ)",
+      "The field of vision becomes wider with age (වයසට යාමත් සමඟ දෘෂ්ටි පරාසය පුළුල් වේ)",
+      "The field of vision becomes narrower with age (වයසට යාමත් සමඟ දෘෂ්ටි පරාසය පටු වේ)"
     ],
     "correctIndex": 3,
-    "explanation": "The source PDF answer key marks option D. The option text is cut off; the visible fragment refers to the field of vision becoming narrower with age. (මුල් PDF පිළිතුරු යතුර D ලෙස දක්වයි. විකල්පයේ කොටසක් කැපී ඇති අතර පෙනෙන කොටස වයස සමඟ දෘෂ්ටි පරාසය පටු වීම ගැනයි.)",
-    "kind": "source-mcq",
-    "sinhalaText": ""
+    "explanation": "The field of vision becomes narrower with age. The source guide also notes poorer eyesight and reduced ability to hear high-frequency sounds; changes vary among individuals. (වයසට යාමත් සමඟ දෘෂ්ටි පරාසය පටු වේ. මූලාශ්‍ර ග්‍රන්ථය පෙනීම දුර්වල වීම සහ ඉහළ සංඛ්‍යාත ශබ්ද ඇසීමේ හැකියාව අඩුවීමද සඳහන් කරයි. මෙම වෙනස්කම් පුද්ගලයාගෙන් පුද්ගලයාට වෙනස් වේ.)",
+    "kind": "mcq",
+    "sinhalaText": "වයසට යාමත් සමඟ ශරීරයේ සිදුවන ශාරීරික වෙනස්කම් සම්බන්ධයෙන් නිවැරදි ප්‍රකාශය කුමක්ද?"
   },
   {
     "id": "main-paper-q018",
     "moduleId": "main-paper",
     "number": 18,
-    "question": "Among the explanations below for the communication, choose one appropriate answer.\n[Truncated in PDF]\nසන්නිවේදනය සඳහා පහත ඇති පැහැදිලි කිරීම් අතරින්, එක් සුදුසු පිළිතුරක් තෝරන්න. [PDF\nහි කොටසක් කැපී ඇත]",
+    "question": "When communicating with a user, which action is appropriate?",
     "options": [
-      "[Truncated] voice (කටහඬ - PDF හි කැපී ඇත)",
-      "keep silent. (නිහඬව සිටීම.)",
-      "Listen to them watching their facial expressions (ඔවුන්ගේ මුහුණේ ඉරියව් දෙෙස බලා සවන් දීම)",
-      "Try not to use gestures and hand gestures (අභිනයන් සහ අත් ඉඟි භාවිත නොකිරීමට උත්සාහ\nකිරීම)"
+      "Listen only to the user's tone of voice and ignore their expressions (පරිශීලකයාගේ කටහඬට පමණක් සවන් දී මුහුණේ ඉරියව් නොසලකා හැරීම)",
+      "Remain silent and avoid responding (නිහඬව සිට ප්‍රතිචාර දැක්වීමෙන් වැළකීම)",
+      "Listen attentively while observing the user's facial expressions (පරිශීලකයාගේ මුහුණේ ඉරියව් නිරීක්ෂණය කරමින් අවධානයෙන් සවන් දීම)",
+      "Avoid using gestures and body language (අභිනයන් සහ ශරීර භාෂාව භාවිත කිරීමෙන් වැළකීම)"
     ],
     "correctIndex": 2,
-    "explanation": "Listen to them watching their facial expressions (ඔවුන්ගේ මුහුණේ\nඉරියව් දෙෙස බලා සවන් දීම)",
-    "kind": "source-mcq",
-    "sinhalaText": ""
+    "explanation": "Care workers should listen attentively and observe the user's gestures and facial expressions. Non-verbal cues help the care worker understand the user's feelings and communicate appropriately. (සත්කාර සේවකයන් අවධානයෙන් සවන් දිය යුතු අතර පරිශීලකයාගේ අභිනයන් සහ මුහුණේ ඉරියව් නිරීක්ෂණය කළ යුතුය. වාචික නොවන ඉඟි මඟින් පරිශීලකයාගේ හැඟීම් තේරුම් ගෙන සුදුසු ලෙස සන්නිවේදනය කිරීමට උපකාරී වේ.)",
+    "kind": "mcq",
+    "sinhalaText": "පරිශීලකයෙකු සමඟ සන්නිවේදනය කිරීමේදී සුදුසු ක්‍රියාව කුමක්ද?"
   },
   {
     "id": "main-paper-q019",
     "moduleId": "main-paper",
     "number": 19,
-    "question": "Among the explanation below for the care of excretion, choose one appropriate answer.\nමළපහ/මුත්‍ර පිට කිරීමේ සත්කාරය (care of excretion) සඳහා පහත පැහැදිලි කිරීම් අතරින්,\nඑක් සුදුසු පිළිතුරක් තෝරන්න.",
+    "question": "Among the explanation below for the care of excretion, choose one appropriate answer.",
     "options": [
       "Refrain from taking water when user has diarrhea (පරිශීලකයාට පාචනය ඇති විට ජලය පානය\nකිරීමෙෙ\nන් වැළකී සිටීම)",
       "For the improvement of constipation, exercise isn't effective (මලබද්ධය වැඩිදියුණු කිරීම සඳහා\nව්‍යාායාම ඵලදායී නොවේ)",
@@ -386,13 +386,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 3,
     "explanation": "Be considerate of privacy (පෞද්ගලිකත්වය ගැන සැලකිලිමත්\nවීම)",
     "kind": "mcq",
-    "sinhalaText": ""
+    "sinhalaText": "මළපහ/මුත්‍ර පිට කිරීමේ සත්කාරය (care of excretion) සඳහා පහත පැහැදිලි කිරීම් අතරින්,\nඑක් සුදුසු පිළිතුරක් තෝරන්න."
   },
   {
     "id": "main-paper-q020",
     "moduleId": "main-paper",
     "number": 20,
-    "question": "Among the explanation below when supporting to put on/off a shirt to care a person\nwith paralysis on the left hand side, choose one appropriate answer.\nවම් අත පැත්තේ අංශභාගය (paralysis on the left hand side) ඇති පුද්ගලයෙෙ\nකුට කමිසයක්\nඇඳීමට හෝ ගැලවීමට සහාය වන විට, පහත පැහැදිලි කිරීම් අතරින් එක් සුදුසු පිළිතුරක්\nතෝරන්න.\n",
+    "question": "Among the explanation below when supporting to put on/off a shirt to care a person\nwith paralysis on the left hand side, choose one appropriate answer.",
     "options": [
       "Refrain from using clothes with buttons (බොත්තම් සහිත ඇඳුම් භාවිත කිරීමෙෙ\nන් වැළකී සිටීම)",
       "When putting on, put first the left arm and through the sleeve (අඳින විට, පළමුව වම් අත අත්\nබාහුව හරහා දැමීම)",
@@ -402,13 +402,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 1,
     "explanation": "When putting on, put first the left arm and through the sleeve\n(අඳින විට, පළමුව වම් අත අත් බාහුව හරහා දැමීම)",
     "kind": "mcq",
-    "sinhalaText": ""
+    "sinhalaText": "වම් අත පැත්තේ අංශභාගය (paralysis on the left hand side) ඇති පුද්ගලයෙෙ\nකුට කමිසයක්\nඇඳීමට හෝ ගැලවීමට සහාය වන විට, පහත පැහැදිලි කිරීම් අතරින් එක් සුදුසු පිළිතුරක්\nතෝරන්න."
   },
   {
     "id": "main-paper-q021",
     "moduleId": "main-paper",
     "number": 21,
-    "question": "For the basic support to walking with cane with a person with paralysis on the right\nside, choose one appropriate answer.\nදකුණු පැත්තේ අංශභාගය (paralysis on the right side) ඇති පුද්ගලයෙෙ\nකුට වේවැලකින් (cane)\nඇවිදීමට මූලික සහාය ලබා දීම සඳහා, එක් සුදුසු පිළිතුරක් තෝරන්න.",
+    "question": "For the basic support to walking with cane with a person with paralysis on the right\nside, choose one appropriate answer.",
     "options": [
       "Caregiver stands at the right front position (සත්කාරකයා දකුණු ඉදිරිපස ස්ථානයේ සිටියි)",
       "Caregiver stands at the right back position (සත්කාරකයා දකුණු පිටුපස ස්ථානයේ සිටියි)",
@@ -418,13 +418,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 1,
     "explanation": "Caregiver stands at the right back position (සත්කාරකයා දකුණු\nපිටුපස ස්ථානයේ සිටියි)",
     "kind": "mcq",
-    "sinhalaText": ""
+    "sinhalaText": "දකුණු පැත්තේ අංශභාගය (paralysis on the right side) ඇති පුද්ගලයෙෙ\nකුට වේවැලකින් (cane)\nඇවිදීමට මූලික සහාය ලබා දීම සඳහා, එක් සුදුසු පිළිතුරක් තෝරන්න."
   },
   {
     "id": "main-paper-q022",
     "moduleId": "main-paper",
     "number": 22,
-    "question": "Which of the following statement is true about the lever principle?\nලීවර මූලධර්මය (lever principle) පිළිබඳව පහත ප්‍රකාශ අතරින් සත්‍ය වන්නේ කුමක්ද?",
+    "question": "Which of the following statement is true about the lever principle?",
     "options": [
       "Point your feet in the opposite direction (ඔබේ පාද ප්‍රතිවිරුද්ධ දිශාවට යොමු කිරීම)",
       "When lifting, you should use the smallest muscle group of your body (ඔසවන විට, ඔබ ඔබේ\nශරීරයේ කුඩාම මාංශ පේශි කාණ්ඩය භාවිත කළ යුතුය)",
@@ -434,13 +434,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 3,
     "explanation": "Use a wide base of support (පුළුල් ආධාරක පදනමක් භාවිත\nකිරීම)",
     "kind": "mcq",
-    "sinhalaText": ""
+    "sinhalaText": "ලීවර මූලධර්මය (lever principle) පිළිබඳව පහත ප්‍රකාශ අතරින් සත්‍ය වන්නේ කුමක්ද?"
   },
   {
     "id": "main-paper-q023",
     "moduleId": "main-paper",
     "number": 23,
-    "question": "Which of the following is easy to aspirate?\nපහත සඳහන් ඒවායින් ශ්වාසනාලයට/පෙෙ\nනහළුවලට යාමේ (aspiration) අවදානම පහසුවෙෙ\nන්\nඇතිවන්නේ කුමකින්ද?",
+    "question": "Which of the following is easy to aspirate?",
     "options": [
       "Yoghurt (යෝගට් / Yoghurt)",
       "Porridge (කැඳ / Porridge)",
@@ -450,13 +450,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 2,
     "explanation": "Miso soup (මිසෝ සුප් / Miso soup)\n",
     "kind": "mcq",
-    "sinhalaText": ""
+    "sinhalaText": "පහත සඳහන් ඒවායින් ශ්වාසනාලයට/පෙෙ\nනහළුවලට යාමේ (aspiration) අවදානම පහසුවෙෙ\nන්\nඇතිවන්නේ කුමකින්ද?"
   },
   {
     "id": "main-paper-q024",
     "moduleId": "main-paper",
     "number": 24,
-    "question": "Which is appropriate about heat shock?\nතාප කම්පනය (heat shock) පිළිබඳව සුදුසු වන්නේ කුමක්ද?",
+    "question": "Which is appropriate about heat shock?",
     "options": [
       "It is common during summer (එය ගිම්හාන කාලයේදී බහුලව දක්නට ලැබේ)",
       "Eliminate the temperature difference between changing room and the bathroom (ඇඳුම් මාරු\nකරන කාමරය සහ නාන කාමරය අතර උෂ්ණත්ව වෙෙ\nනස ඉවත් කිරීම)",
@@ -466,13 +466,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 1,
     "explanation": "Eliminate the temperature difference between changing room and\nthe bathroom (ඇඳුම් මාරු කරන කාමරය සහ නාන කාමරය අතර උෂ්ණත්ව වෙෙ\nනස ඉවත් කිරීම)",
     "kind": "mcq",
-    "sinhalaText": ""
+    "sinhalaText": "තාප කම්පනය (heat shock) පිළිබඳව සුදුසු වන්නේ කුමක්ද?"
   },
   {
     "id": "main-paper-q025",
     "moduleId": "main-paper",
     "number": 25,
-    "question": "Appropriate prevention of disuse syndrome;\nඅක්‍රිියතා සින්ඩ්‍රෝමය (disuse syndrome) වැළැක්වීමේ සුදුසු ක්‍රමය:",
+    "question": "Appropriate prevention of disuse syndrome;",
     "options": [
       "Change body position every 4 hours (සෑම පැය 4කට වරක් ශරීර ඉරියව් වෙෙ\nනස් කිරීම)",
       "Have a rest and spend the time in supine position (විවේක ගෙෙ\nන උඩුබැලි අතට / supine\nඉරියව්වෙෙ\nන් කාලය ගත කිරීම)",
@@ -482,13 +482,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 3,
     "explanation": "Incorporate individual recreational activities (පුද්ගලික විනෝදාත්මක\nක්‍රිියාකාරකම් ඇතුළත් කිරීම)",
     "kind": "mcq",
-    "sinhalaText": ""
+    "sinhalaText": "අක්‍රිියතා සින්ඩ්‍රෝමය (disuse syndrome) වැළැක්වීමේ සුදුසු ක්‍රමය:"
   },
   {
     "id": "main-paper-q026",
     "moduleId": "main-paper",
     "number": 26,
-    "question": "Mr. Kazuo receives news that his son died in an accident. He seems depressed and stays in one corner of the room. How should you approach Mr. Kazuo?\nකසුඕ මහතාට තම පුතා අනතුරකින් මියගිය බවට ආරංචිය ලැබේ. ඔහු දැඩි ශෝකයෙන් සිටින බව පෙනෙන අතර කාමරයේ එක් මුල්ලක නිහඬව රැඳී සිටියි. ඔබ කසුඕ මහතා වෙත ළඟා විය යුත්තේ කෙසේද?",
+    "question": "Mr. Kazuo receives news that his son died in an accident. He seems depressed and stays in one corner of the room. How should you approach Mr. Kazuo?",
     "options": [
       "Give him space and time to grieve (ඔහුට ශෝකය විඳීමට අවශ්‍ය ඉඩකඩ සහ කාලය ලබා දෙන්න)",
       "Listen to him and let him say what he wants to say (ඔහුට පැවසීමට අවශ්‍ය දේට අවධානයෙන් සවන් දෙන්න)",
@@ -498,13 +498,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 1,
     "explanation": "Correct answer: B — Listen to him and let him say what he wants to say. Give him a calm, supportive presence, listen without pressure, and allow him to express his grief in his own time. Do not try to cheer him up with jokes or push him into activities. (නිවැරදි පිළිතුර: B — ඔහුට පැවසීමට අවශ්‍ය දේට අවධානයෙන් සවන් දෙන්න. බලපෑම් නොකර සන්සුන්ව සහ සහයෝගයෙන් ඔහු අසල සිටිමින්, ඔහුගේ ශෝකය ඔහුට කැමති වේලාවට ප්‍රකාශ කිරීමට ඉඩ දෙන්න. විහිළු කියා ඔහුගේ දුක අඩු කිරීමට උත්සාහ කිරීම හෝ ක්‍රියාකාරකම්වලට බලෙන් යොමු කිරීම සුදුසු නොවේ.)",
     "kind": "mcq",
-    "sinhalaText": ""
+    "sinhalaText": "කසුඕ මහතාට තම පුතා අනතුරකින් මියගිය බවට ආරංචිය ලැබේ. ඔහු දැඩි ශෝකයෙන් සිටින බව පෙනෙන අතර කාමරයේ එක් මුල්ලක නිහඬව රැඳී සිටියි. ඔබ කසුඕ මහතා වෙත ළඟා විය යුත්තේ කෙසේද?"
   },
   {
     "id": "main-paper-q027",
     "moduleId": "main-paper",
     "number": 27,
-    "question": "If an accident occurs in the workplace which action should you take?\nසේවා ස්ථානයේ අනතුරක් සිදු වුවහොත් ඔබ ගත යුතු ක්‍රිියාමාර්ගය කුමක්ද?\n",
+    "question": "If an accident occurs in the workplace which action should you take?",
     "options": [
       "Willingly leave for days until condition is ok (තත්ත්වය යහපත් වන තුරු කැමැත්තෙෙ\nන්ම දින\nගණනක් බැහැරව සිටීම)",
       "Think of the cause of the situation (එම තත්ත්වයට හේතුව ගැන සිතීම)",
@@ -514,13 +514,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 2,
     "explanation": "Keep a record, record it. (වාර්තාවක් තබා ගැනීම, එය සටහන්\nකිරීම.)",
     "kind": "mcq",
-    "sinhalaText": ""
+    "sinhalaText": "සේවා ස්ථානයේ අනතුරක් සිදු වුවහොත් ඔබ ගත යුතු ක්‍රිියාමාර්ගය කුමක්ද?"
   },
   {
     "id": "main-paper-q028",
     "moduleId": "main-paper",
     "number": 28,
-    "question": "Which is the best description of autonomy on the following (ff) sentences?\nපහත ප්‍රකාශ අතරින් ස්වයං පාලනය/ස්වාධීනත්වය (autonomy) වඩාත් හොඳින් විස්තර\nකරන්නේ කුමක්ද?",
+    "question": "Which is the best description of autonomy on the following (ff) sentences?",
     "options": [
       "Let the user decide which to eat (කුමක් අනුභව කළ යුතුද යන්න තීරණය කිරීමට පරිශීලකයාට\nඉඩ දීම)",
       "It is the act of treating each user fairly (එය එක් එක් පරිශීලකයාට සාධාරණව සැලකීමේ\nක්‍රිියාවයි)",
@@ -530,13 +530,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 0,
     "explanation": "Let the user decide which to eat (කුමක් අනුභව කළ යුතුද යන්න\nතීරණය කිරීමට පරිශීලකයාට ඉඩ දීම)",
     "kind": "mcq",
-    "sinhalaText": ""
+    "sinhalaText": "පහත ප්‍රකාශ අතරින් ස්වයං පාලනය/ස්වාධීනත්වය (autonomy) වඩාත් හොඳින් විස්තර\nකරන්නේ කුමක්ද?"
   },
   {
     "id": "main-paper-q029",
     "moduleId": "main-paper",
     "number": 29,
-    "question": "It is where the absorption of nutrients happen,\nපෝෂ්‍ය පදාර්ථ අවශෝෂණය (absorption of nutrients) සිදුවන්නේ මෙෙ\nහිදීය:",
+    "question": "It is where the absorption of nutrients happen,",
     "options": [
       "Large intestine (මහා අන්ත්‍රය / Large intestine)",
       "Small intestine (කුඩා අන්ත්‍රය / Small intestine)",
@@ -546,29 +546,29 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 1,
     "explanation": "Small intestine (කුඩා අන්ත්‍රය / Small intestine)",
     "kind": "mcq",
-    "sinhalaText": ""
+    "sinhalaText": "පෝෂ්‍ය පදාර්ථ අවශෝෂණය (absorption of nutrients) සිදුවන්නේ මෙෙ\nහිදීය:"
   },
   {
     "id": "main-paper-q030",
     "moduleId": "main-paper",
     "number": 30,
-    "question": "Best way to [Truncated in PDF] the workplace is to; [Fragments visible in PDF: \"a)\nperson with psoriasis\", \"b) ... your hands after a contact with a user ... with running water\"]\nසේවා ස්ථානයේ [PDF හි කොටසක් කැපී ඇත] හොඳම ක්‍රමය වන්නේ [PDF හි දිස්වන\nකොටස්: a) සමේ රෝගයක් ඇති පුද්ගලයෙෙ\nකු, b) පරිශීලකයෙෙ\nකු සමඟ සම්බන්ධ වීමෙෙ\nන් පසු\nගලා යන ජලය සමඟ අත් සේදීම]",
+    "question": "What is an appropriate way to reduce the risk of infection in the workplace?",
     "options": [
-      "person with psoriasis [Truncated in PDF]",
-      "[Wash] your hands after a contact with a user [... soap] with running water (පරිශීලකයෙෙ\nකු\nසමඟ සම්බන්ධ වීමෙෙ\nන් පසු ගලා යන ජලයෙෙ\nන් අත් සේදීම)",
-      "[Missing / කැපී ඇත]",
-      "[Missing / කැපී ඇත]\nNursing Care Skills Evaluation Test (English + සිංහල)"
+      "Avoid providing care to every person with a skin condition (සමේ රෝග තත්ත්වයක් ඇති සෑම පුද්ගලයෙකුටම සත්කාර ලබා දීමෙන් වැළකීම)",
+      "Wash your hands with running water after contact with a user, following hand-hygiene procedure (පරිශීලකයෙකු සමඟ සම්බන්ධ වීමෙන් පසු අත් පිරිසිදු කිරීමේ ක්‍රමවේදයට අනුව ගලා යන ජලයෙන් අත් සේදීම)",
+      "Reuse disposable gloves between users (විවිධ පරිශීලකයන් අතර ඉවත දැමිය හැකි අත්වැසුම් නැවත භාවිත කිරීම)",
+      "Carry used linen against your uniform (භාවිත කළ රෙදි ඔබේ නිල ඇඳුමට තද කරගෙන රැගෙන යාම)"
     ],
     "correctIndex": 1,
-    "explanation": "[Wash] your hands after a contact with a user with running water\n(පරිශීලකයෙෙ\nකු සමඟ සම්බන්ධ වීමෙෙ\nන් පසු ගලා යන ජලයෙෙ\nන් අත් සේදීම)",
-    "kind": "source-mcq",
-    "sinhalaText": ""
+    "explanation": "Perform hand hygiene after contact with a user, following the required procedure. The source fragment and answer key identify washing hands with running water after user contact as the correct action. (පරිශීලකයෙකු සමඟ සම්බන්ධ වීමෙන් පසු නියමිත ක්‍රමවේදයට අනුව අත් පිරිසිදු කළ යුතුය. මූලාශ්‍රයේ පෙනෙන කොටස සහ පිළිතුරු යතුර අනුව ගලා යන ජලයෙන් අත් සේදීම නිවැරදි ක්‍රියාවයි.)",
+    "kind": "mcq",
+    "sinhalaText": "සේවා ස්ථානයේ ආසාදන අවදානම අඩු කිරීම සඳහා සුදුසු ක්‍රමයක් කුමක්ද?"
   },
   {
     "id": "main-paper-q031",
     "moduleId": "main-paper",
     "number": 31,
-    "question": "Proper sitting posture in the toilet;\nවැසිකිළියේ නිවැරදිව වාඩි වී සිටින ඉරියව්ව (Proper sitting posture in the toilet):\n\n\n",
+    "question": "Proper sitting posture in the toilet;",
     "options": [
       "(A ඉරියව්ව — 90° කෝණයකින් කෙෙ\nළින් වාඩි වී සිටීම)",
       "(B ඉරියව්ව — පාද ආධාරකයක් මත තබා මඳක් ඉදිරියට නැඹුරු වී සිටීම)",
@@ -578,13 +578,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 1,
     "explanation": "Option B — feet supported on a small footstool and leaning slightly forward. The original PDF explicitly marks B as the correct answer. (B — පාද කුඩා ආධාරකයක් මත තබා මඳක් ඉදිරියට නැඹුරු වී සිටීම. මුල් PDF එකේ නිවැරදි පිළිතුර B ලෙස පැහැදිලිව දක්වා ඇත.)",
     "kind": "mcq",
-    "sinhalaText": ""
+    "sinhalaText": "වැසිකිළියේ නිවැරදිව වාඩි වී සිටින ඉරියව්ව (Proper sitting posture in the toilet):"
   },
   {
     "id": "main-paper-q032",
     "moduleId": "main-paper",
     "number": 32,
-    "question": "Urinary incontinence appear as we grow older. Which statement best describe it?\nවයසට යත්ම මුත්‍රාා පාලනය කරගත නොහැකි වීම (Urinary incontinence) ඇති විය හැක. එය\nවඩාත් හොඳින් විස්තර කරන ප්‍රකාශය කුමක්ද?",
+    "question": "Urinary incontinence appear as we grow older. Which statement best describe it?",
     "options": [
       "It is more common in man and woman (එය පිරිමි සහ කාන්තා දෙෙපාර්ශ්වයේම බහුලව දක්නට\nලැබේ)",
       "It is the dysfunction where bladder cannot store urine (එය මුත්‍රාාශයට මුත්‍රාා රඳවා තබා ගත\nනොහැකි වන ක්‍රිියාකාරී අක්‍රමතාවයකි)",
@@ -594,13 +594,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 1,
     "explanation": "It is the dysfunction where bladder cannot store urine (එය\nමුත්‍රාාශයට මුත්‍රාා රඳවා තබා ගත නොහැකි වන ක්‍රිියාකාරී අක්‍රමතාවයකි)",
     "kind": "mcq",
-    "sinhalaText": ""
+    "sinhalaText": "වයසට යත්ම මුත්‍රාා පාලනය කරගත නොහැකි වීම (Urinary incontinence) ඇති විය හැක. එය\nවඩාත් හොඳින් විස්තර කරන ප්‍රකාශය කුමක්ද?"
   },
   {
     "id": "main-paper-q033",
     "moduleId": "main-paper",
     "number": 33,
-    "question": "Ms.Suzuki just finished her meal. Which position should you let Ms. Suzuki rest?\nසුසුකි මහත්මිය දැන්ම ඇගේ ආහාරය අවසන් කළාය. සුසුකි මහත්මියට විවේක ගැනීමට ඔබ\nසලස්වන්නේ කුමන ඉරියව්වකින්ද?",
+    "question": "Ms.Suzuki just finished her meal. Which position should you let Ms. Suzuki rest?",
     "options": [
       "Supine (උඩුබැලි අතට වැතිර සිටීම / Supine)",
       "Right Lateral Recumbent (දකුණු පැත්තට ඇලවී සිටීම / Right Lateral Recumbent)",
@@ -610,13 +610,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 2,
     "explanation": "Fowler's (ෆවුලර් ඉරියව්ව / Fowler's — ආහාර ජීර්ණයට පහසු\nවන අතර ශ්වාසනාලයට ආහාර යාම වළක්වයි)",
     "kind": "mcq",
-    "sinhalaText": ""
+    "sinhalaText": "සුසුකි මහත්මිය දැන්ම ඇගේ ආහාරය අවසන් කළාය. සුසුකි මහත්මියට විවේක ගැනීමට ඔබ\nසලස්වන්නේ කුමන ඉරියව්වකින්ද?"
   },
   {
     "id": "main-paper-q034",
     "moduleId": "main-paper",
     "number": 34,
-    "question": "Which of the following assistance is best about grooming?\nපෞද්ගලික පෙෙ\nනුම සහ සැරසීම (grooming) සම්බන්ධයෙෙ\nන් පහත සහායන් අතරින් වඩාත්\nසුදුසු වන්නේ කුමක්ද?",
+    "question": "Which of the following assistance is best about grooming?",
     "options": [
       "Help her/him on applying heavy makeup (ඇයට/ඔහුට තද මේකප් / heavy makeup දැමීමට උදව්\nකිරීම)",
       "Brush her hair to remove dirt (අපිරිසිදු ඉවත් කිරීමට ඇගේ කෙෙ\nස් පීරීම)",
@@ -626,13 +626,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 1,
     "explanation": "Brush her hair to remove dirt (අපිරිසිදු ඉවත් කිරීමට ඇගේ කෙෙ\nස්\nපීරීම)",
     "kind": "mcq",
-    "sinhalaText": ""
+    "sinhalaText": "පෞද්ගලික පෙෙ\nනුම සහ සැරසීම (grooming) සම්බන්ධයෙෙ\nන් පහත සහායන් අතරින් වඩාත්\nසුදුසු වන්නේ කුමක්ද?"
   },
   {
     "id": "main-paper-q035",
     "moduleId": "main-paper",
     "number": 35,
-    "question": "Choose one that is not appropriate to help the user sleep.\nපරිශීලකයාට නින්ද යාමට උපකාර කිරීම සඳහා සුදුසු නොවන එකක් තෝරන්න.",
+    "question": "Choose one that is not appropriate to help the user sleep.",
     "options": [
       "Recommend that [exercise properly in the day time] (දිවා කාලයේදී නිසි ලෙෙ\nස ව්‍යාායාම කරනලෙ\nෙ\nස නිර්දේශ කිරීම)",
       "Open the curtain in the morning and encourage them to take in the sun (උදෑසන තිර රෙෙදි\nවිවර කර හිරු එළිය ලබා ගැනීමට ඔවුන් දිරිමත් කිරීම)",
@@ -642,13 +642,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 3,
     "explanation": "Recommend that you eat and go to bed immediately (ආහාර ගත්\nවහාම නින්දට යන ලෙෙ\nස නිර්දේශ කිරීම)",
     "kind": "mcq",
-    "sinhalaText": ""
+    "sinhalaText": "පරිශීලකයාට නින්ද යාමට උපකාර කිරීම සඳහා සුදුසු නොවන එකක් තෝරන්න."
   },
   {
     "id": "main-paper-q036",
     "moduleId": "main-paper",
     "number": 36,
-    "question": "Choose the option that demonstrates the correct application of body mechanics.\nනිවැරදි ශරීර යාන්ත්‍ර විද්‍යා මූලධර්ම භාවිත කරන ආකාරය පෙන්වන විකල්පය තෝරන්න.",
+    "question": "Choose the option that demonstrates the correct application of body mechanics.",
     "options": [
       "A. Keep the back straight and move the load using a stable posture close to the body (කොන්ද කෙළින් තබාගෙන, ස්ථාවර ඉරියව්වකින් බර ශරීරයට ළං කරගෙන චලනය කිරීම)",
       "B. Bend from the waist with the knees straight when lifting (බර එසවීමේදී දණහිස් නොනමා ඉණෙන් ඉදිරියට නැමීම)",
@@ -658,13 +658,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 0,
     "explanation": "A is the correct posture shown in the matching source body-mechanics illustration. The safe principles are a stable/wide base of support, keeping the load close, maintaining a straight back, and avoiding twisting. (A නිවැරදි ඉරියව්වයි. ආරක්ෂිත මූලධර්ම වන්නේ පුළුල් හා ස්ථාවර ආධාරක පදනමක් පවත්වා ගැනීම, බර ශරීරයට ළං කර තබා ගැනීම, කොන්ද කෙළින් තබා ගැනීම සහ ශරීරය ඇඹරීමෙන් වැළකීමයි.)",
     "kind": "mcq",
-    "sinhalaText": ""
+    "sinhalaText": "නිවැරදි ශරීර යාන්ත්‍ර විද්‍යා මූලධර්ම භාවිත කරන ආකාරය පෙන්වන විකල්පය තෝරන්න."
   },
   {
     "id": "main-paper-q037",
     "moduleId": "main-paper",
     "number": 37,
-    "question": "Mechanism of hearing is aided with the ear. Which of the following part of the ear\nchanges the received vibration of the sound wave into signals?\nශ්‍රවණ යාන්ත්‍රණය කන ආශ්‍රයෙෙ\nන් සිදු වේ. ලැබෙෙ\nන ශබ්ද තරංග කම්පන සංඥා (signals)\nබවට පරිවර්තනය කරන්නේ කනේ පහත සඳහන් කුමන කොටසද?",
+    "question": "Mechanism of hearing is aided with the ear. Which of the following part of the ear\nchanges the received vibration of the sound wave into signals?",
     "options": [
       "Cochlea (කර්ණශංඛය / Cochlea)",
       "Auditory ossicles (ශ්‍රවණ අස්ථිකා / Auditory ossicles)",
@@ -674,13 +674,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 0,
     "explanation": "Cochlea (කර්ණශංඛය / Cochlea)",
     "kind": "mcq",
-    "sinhalaText": ""
+    "sinhalaText": "ශ්‍රවණ යාන්ත්‍රණය කන ආශ්‍රයෙෙ\nන් සිදු වේ. ලැබෙෙ\nන ශබ්ද තරංග කම්පන සංඥා (signals)\nබවට පරිවර්තනය කරන්නේ කනේ පහත සඳහන් කුමන කොටසද?"
   },
   {
     "id": "main-paper-q038",
     "moduleId": "main-paper",
     "number": 38,
-    "question": "Physical disability is a state in which a person has damaged limbs or trunk and having\ndifficulties in daily living due to that. Which of the following is correct regarding physical\ndisability?\nශාරීරික ආබාධිතභාවය (Physical disability) යනු පුද්ගලයෙෙ\nකුගේ අත් පා හෝ කඳට හානි\nසිදුවී ඒ හේතුවෙෙ\nන් එදිනෙෙ\nදා ජීවිතයේ අපහසුතා ඇති වන තත්ත්වයකි. ශාරීරික\nආබාධිතභාවය සම්බන්ධයෙෙ\nන් පහත ප්‍රකාශ අතරින් නිවැරදි වන්නේ කුමක්ද?",
+    "question": "Physical disability is a state in which a person has damaged limbs or trunk and having\ndifficulties in daily living due to that. Which of the following is correct regarding physical\ndisability?",
     "options": [
       "Degree of difficulty of daily activities are same from person to person if the damaged region\nof the body is same for them. (ශරීරයේ හානියට පත් කොටස සමාන නම්, එදිනෙෙ\nදා ක්‍රිියාකාරකම්වල\nදුෂ්කරතා මට්ටම පුද්ගලයාගෙෙ\nන් පුද්ගලයාට සමාන වේ.)",
       "Physical disability occurs concurrently with Intellectual disability (ශාරීරික ආබාධිතභාවය\nබුද්ධිමය ආබාධිතභාවය සමඟ එකවර සිදු වේ)",
@@ -690,13 +690,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 2,
     "explanation": "Sometimes intellectual disability occurs concurrently with motor\ndysfunction (සමහර විට චාලක අක්‍රිියතාව සමඟ බුද්ධිමය ආබාධිතභාවය එකවර ඇති වේ)\n",
     "kind": "mcq",
-    "sinhalaText": ""
+    "sinhalaText": "ශාරීරික ආබාධිතභාවය (Physical disability) යනු පුද්ගලයෙෙ\nකුගේ අත් පා හෝ කඳට හානි\nසිදුවී ඒ හේතුවෙෙ\nන් එදිනෙෙ\nදා ජීවිතයේ අපහසුතා ඇති වන තත්ත්වයකි. ශාරීරික\nආබාධිතභාවය සම්බන්ධයෙෙ\nන් පහත ප්‍රකාශ අතරින් නිවැරදි වන්නේ කුමක්ද?"
   },
   {
     "id": "main-paper-q039",
     "moduleId": "main-paper",
     "number": 39,
-    "question": "The causative diseases of dementia exclude;\nඩිමෙෙ\nන්ශියා (Dementia) රෝගය ඇති කරන රෝග අතරින් ඇතුළත් නොවන්නේ (exclude):",
+    "question": "The causative diseases of dementia exclude;",
     "options": [
       "Vascular dementia (සනාල ඩිමෙෙ\nන්ශියා / Vascular dementia)",
       "Alzheimer type (ඇල්සයිමර් වර්ගය / Alzheimer type)",
@@ -706,13 +706,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 2,
     "explanation": "Parietal dementia (පැරියෙෙ\nටල් ඩිමෙෙ\nන්ශියා / Parietal dementia)",
     "kind": "mcq",
-    "sinhalaText": ""
+    "sinhalaText": "ඩිමෙෙ\nන්ශියා (Dementia) රෝගය ඇති කරන රෝග අතරින් ඇතුළත් නොවන්නේ (exclude):"
   },
   {
     "id": "main-paper-q040",
     "moduleId": "main-paper",
     "number": 40,
-    "question": "Memory impairment is one of the peripheral symptoms of dementia (BPSD);\nමතක ශක්තිය දුර්වල වීම (Memory impairment) ඩිමෙෙ\nන්ශියා රෝගයේ පර්යන්ත රෝග\nලක්ෂණ (BPSD) වලින් එකකි;",
+    "question": "Memory impairment is one of the peripheral symptoms of dementia (BPSD);",
     "options": [
       "Yes (ඔව්)",
       "[No — Truncated in PDF] (නැත - PDF හි කැපී ඇත)"
@@ -720,13 +720,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 1,
     "explanation": "No (මතක ශක්තිය දුර්වල වීම ඩිමෙෙ\nන්ශියා රෝගයේ ප්‍රධාන රෝග\nලක්ෂණයක් / Core symptom වන අතර BPSD හෙෙ\nවත් පර්යන්ත රෝග ලක්ෂණයක් නොවේ)",
     "kind": "mcq",
-    "sinhalaText": ""
+    "sinhalaText": "මතක ශක්තිය දුර්වල වීම (Memory impairment) ඩිමෙෙ\nන්ශියා රෝගයේ පර්යන්ත රෝග\nලක්ෂණ (BPSD) වලින් එකකි;"
   },
   {
     "id": "main-paper-q041",
     "moduleId": "main-paper",
     "number": 41,
-    "question": "In wheelchair assistance, the wheelchair shall better go forward when going down a\nslope.\nරෝද පුටු සහායේදී, බෑවුමකින් (slope) පහළට යන විට රෝද පුටුව ඉදිරියට (forward) ගෙෙ\nන\nයාම වඩා හොඳය.",
+    "question": "In wheelchair assistance, the wheelchair shall better go forward when going down a\nslope.",
     "options": [
       "Yes (ඔව්)",
       "No (නැත)"
@@ -734,13 +734,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 1,
     "explanation": "No (නැත — බෑවුමකින් පහළට යන විට ආරක්ෂාව සඳහා රෝද\nපුටුව පිටුපසට / backward ගෙෙ\nන යා යුතුය)",
     "kind": "mcq",
-    "sinhalaText": ""
+    "sinhalaText": "රෝද පුටු සහායේදී, බෑවුමකින් (slope) පහළට යන විට රෝද පුටුව ඉදිරියට (forward) ගෙෙ\nන\nයාම වඩා හොඳය."
   },
   {
     "id": "main-paper-q042",
     "moduleId": "main-paper",
     "number": 42,
-    "question": "Before you perform bathing of the care user, which of the following you should\nconsider?\nසත්කාර ලබන පරිශීලකයා නෑවීමට පෙෙ\nර, පහත සඳහන් ඒවායින් ඔබ සලකා බැලිය යුත්තේ\nකුමක්ද?",
+    "question": "Before you perform bathing of the care user, which of the following you should\nconsider?",
     "options": [
       "Check the room temperature (කාමරයේ උෂ්ණත්වය පරීක්ෂා කිරීම)",
       "Prepare clothes, towel, etc. in advance (ඇඳුම්, තුවා ආදිය කලින් සූදානම් කර තැබීම)",
@@ -750,13 +750,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 3,
     "explanation": "All of above (ඉහත සියල්ල)\n",
     "kind": "mcq",
-    "sinhalaText": ""
+    "sinhalaText": "සත්කාර ලබන පරිශීලකයා නෑවීමට පෙෙ\nර, පහත සඳහන් ඒවායින් ඔබ සලකා බැලිය යුත්තේ\nකුමක්ද?"
   },
   {
     "id": "main-paper-q043",
     "moduleId": "main-paper",
     "number": 43,
-    "question": "Quality of life is important for the care user. Which best promote the QOL of the user?\nසත්කාර ලබන පරිශීලකයාට ජීවන තත්ත්වය (Quality of Life - QOL) වැදගත් වේ.\nපරිශීලකයාගේ QOL වඩාත් හොඳින් ප්‍රවර්ධනය කරන්නේ කුමක්ද?",
+    "question": "Quality of life is important for the care user. Which best promote the QOL of the user?",
     "options": [
       "Ask them what they want to do and allow them to experience it (ඔවුන්ට කිරීමට අවශ්‍ය දේ\nවිමසා එය අත්විඳීමට ඔවුන්ට ඉඩ දීම)",
       "Give them a task to do even if they refused it (ඔවුන් එය ප්‍රතික්ෂේප කළත් කිරීමට කාර්යයක්\nලබා දීම)",
@@ -766,13 +766,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 0,
     "explanation": "Ask them what they want to do and allow them to experience it\n(ඔවුන්ට කිරීමට අවශ්‍ය දේ විමසා එය අත්විඳීමට ඔවුන්ට ඉඩ දීම)",
     "kind": "mcq",
-    "sinhalaText": ""
+    "sinhalaText": "සත්කාර ලබන පරිශීලකයාට ජීවන තත්ත්වය (Quality of Life - QOL) වැදගත් වේ.\nපරිශීලකයාගේ QOL වඩාත් හොඳින් ප්‍රවර්ධනය කරන්නේ කුමක්ද?"
   },
   {
     "id": "main-paper-q044",
     "moduleId": "main-paper",
     "number": 44,
-    "question": "Which of the following is true about quality of life?\nජීවන තත්ත්වය (Quality of Life) පිළිබඳව පහත ප්‍රකාශ අතරින් සත්‍ය වන්නේ කුමක්ද?",
+    "question": "Which of the following is true about quality of life?",
     "options": [
       "The top most priority is to give activities concerning ADL (ADL සම්බන්ධ ක්‍රිියාකාරකම් ලබා දීම\nප්‍රමුඛතම කාර්යය වේ)",
       "Focuses on the happiness of the user (පරිශීලකයාගේ සතුට කෙෙරෙ\nෙහි අවධානය යොමු කරයි)",
@@ -782,13 +782,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 1,
     "explanation": "Focuses on the happiness of the user (පරිශීලකයාගේ සතුටකෙ\nෙරෙ\nෙහි අවධානය යොමු කරයි)",
     "kind": "mcq",
-    "sinhalaText": ""
+    "sinhalaText": "ජීවන තත්ත්වය (Quality of Life) පිළිබඳව පහත ප්‍රකාශ අතරින් සත්‍ය වන්නේ කුමක්ද?"
   },
   {
     "id": "main-paper-q045",
     "moduleId": "main-paper",
     "number": 45,
-    "question": "Our spinal cord shape looks like;\nඅපගේ කොඳු ඇට පෙෙ\nළේ/සුෂුම්නාවේ හැඩය පෙෙනෙ\nෙ\nන්නේ:",
+    "question": "Our spinal cord shape looks like;",
     "options": [
       "Letter S (S අකුර මෙෙ\nන්)",
       "Letter C (C අකුර මෙෙ\nන්)",
@@ -798,7 +798,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 0,
     "explanation": "Letter S (S අකුර මෙෙ\nන්)\n",
     "kind": "mcq",
-    "sinhalaText": ""
+    "sinhalaText": "අපගේ කොඳු ඇට පෙෙ\nළේ/සුෂුම්නාවේ හැඩය පෙෙනෙ\nෙ\nන්නේ:"
   },
   {
     "id": "lesson-02-q001",
@@ -1164,7 +1164,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Food (ආහාර)"
     ],
     "correctIndex": 2,
-    "explanation": "Pillow (සකාට්ටය)",
+    "explanation": "A pillow is not normally listed among the essential disaster-preparedness supplies in this question. The other options—money, water and food—are basic emergency supplies. (මෙම ප්‍රශ්නයේ ආපදා සූදානම සඳහා අවශ්‍ය මූලික සැපයුම් අතර කොට්ටයක් සාමාන්‍යයෙන් ඇතුළත් නොවේ. අනෙක් විකල්ප වන මුදල්, ජලය සහ ආහාර මූලික හදිසි සැපයුම් වේ.)",
     "kind": "mcq",
     "sinhalaText": "ආපදා වැළැේවීසම් ක්‍රියාමාර්ගයකදී සූදානම් කිරීමට අවශය  ැපයුම් පහත ඒවා සේ, නෙය හැර:"
   },
@@ -1228,7 +1228,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Back of the hand (අසත් පිටුප )"
     ],
     "correctIndex": 2,
-    "explanation": "Elbow (වැලමිට)",
+    "explanation": "The fingertips, spaces between the fingers and the back of the hand are areas that are commonly missed during handwashing. The elbow is not one of the listed high-miss areas in this item. (අත් සේදීමේදී බොහෝ විට මඟහැරෙන ප්‍රදේශ වන්නේ ඇඟිලි තුඩු, ඇඟිලි අතර ප්‍රදේශ සහ අතේ පිටුපසයි. මෙම ප්‍රශ්නයේ සඳහන් එවැනි ප්‍රදේශ අතර වැලමිට ඇතුළත් නොවේ.)",
     "kind": "mcq",
     "sinhalaText": "පහසුසවන් අපිරිසිදු වන සකාට ් වන්සන් පහත ඒවායින් කුමේද, නෙය හැර?"
   },
@@ -1356,7 +1356,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Nurse (සහදිය)"
     ],
     "correctIndex": 3,
-    "explanation": "Nurse (සහදිය)",
+    "explanation": "A nurse follows the doctor's instructions and assists in providing medical care. Care managers coordinate care, dietitians advise on nutrition, and doctors diagnose and prescribe treatment. (හෙදිය වෛද්‍යවරයාගේ උපදෙස් අනුගමනය කරමින් වෛද්‍ය සත්කාර ලබා දීමට සහාය වේ. සත්කාර කළමනාකරුවන් සත්කාර සම්බන්ධීකරණය කරති, පෝෂණවේදීන් පෝෂණ උපදෙස් දෙති, වෛද්‍යවරු රෝග නිර්ණය කර ප්‍රතිකාර නියම කරති.)",
     "kind": "mcq",
     "sinhalaText": "වවදයවරුන් ලබා සදන උපසද ් අනුගමනය කරමින් වවදය  ත්කාර ලබා දීමට  හාය වන්සන්:"
   },
@@ -6585,7 +6585,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Fever (උණ / Fever)"
     ],
     "correctIndex": 3,
-    "explanation": "Fever (උණ / Fever)",
+    "explanation": "Fever is a body temperature higher than the normal range. Dehydration and diarrhea may occur with illness, but they do not by themselves define an elevated body temperature. (උණ යනු ශරීර උෂ්ණත්වය සාමාන්‍ය පරාසයට වඩා ඉහළ යාමයි. විජලනය සහ පාචනය රෝගී තත්ත්ව සමඟ ඇති විය හැකි නමුත් ඒවා පමණක් ශරීර උෂ්ණත්වය ඉහළ යාම ලෙස අර්ථ දැක්වෙන්නේ නැත.)",
     "kind": "mcq",
     "sinhalaText": "ඔබට [හිස්තැන] ඇති විට ඔමබ් ශරීර උෂ්ණත්වය සාමානය ප්‍රමාණයට වඩා වැඩි මේ:"
   },
@@ -7611,7 +7611,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Legs (පාද / Legs)"
     ],
     "correctIndex": 2,
-    "explanation": "Legs (පාද / Legs)",
+    "explanation": "Use the strength of your legs and maintain a stable base when assisting a transfer. Avoid relying on the back or shoulders, and keep the load close to your body. (මාරු කිරීමකට සහාය වන විට පාදවල ශක්තිය භාවිත කර ස්ථාවර ආධාරක පදනමක් පවත්වා ගන්න. පිට හෝ උරහිස් මත පමණක් බර නොතබා, බර ශරීරයට ළං කර තබන්න.)",
     "kind": "mcq",
     "sinhalaText": "වසේවාදායකවයකු මාරු කරන (transferring) විට, වහද සහායකයා ආධාර ලබා ගත යුත්වත් තම:"
   },
@@ -7621,7 +7621,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 6,
     "question": "In walking, the care worker stands next to the affected side of the user :",
     "options": [
-      "Yes (ඔේ)",
+      "Yes (ඔව්)",
       "No (නැත)"
     ],
     "correctIndex": 0,
@@ -7635,11 +7635,11 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 7,
     "question": "When transferring from bed to a wheelchair shall be placed on the healthy side of the user :",
     "options": [
-      "Yes (ඔේ)",
+      "Yes (ඔව්)",
       "No (නැත)"
     ],
     "correctIndex": 0,
-    "explanation": "Yes (ඔේ)",
+    "explanation": "Yes. Place the wheelchair on the user's stronger/healthy side so the user can pivot toward it with better support. (ඔව්. පරිශීලකයාට වඩා හොඳ ආධාරයක් ලබාගෙන හැරී මාරු වීමට හැකි වන පරිදි රෝද පුටුව ඔහුගේ/ඇයගේ ශක්තිමත්, ආබාධයට ලක් නොවූ පැත්තේ තැබිය යුතුය.)",
     "kind": "mcq",
     "sinhalaText": "ඇවඳන් වරෝද පුටුවකට මාරු කරන විට [වරෝද පුටුව] පරිශීලකයාවේ නිවරෝගී පැත්වත් (healthy side) තැබිය යුතුය:"
   },
@@ -7649,7 +7649,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 8,
     "question": "It is recommended to change user's position once every 4hrs to prevent bedsore :",
     "options": [
-      "Yes (ඔේ)",
+      "Yes (ඔව්)",
       "No (නැත)"
     ],
     "correctIndex": 1,
@@ -7663,11 +7663,11 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 9,
     "question": "Care worker shall stand aside and half a step ahead of his visually handicapped user, and the user grabs the elbow",
     "options": [
-      "Yes (ඔේ)",
+      "Yes (ඔව්)",
       "No (නැත)"
     ],
     "correctIndex": 0,
-    "explanation": "Yes (ඔේ)",
+    "explanation": "Yes. Walk beside the person with visual impairment, slightly ahead, and let them hold your elbow so they can follow your movement safely. (ඔව්. දෘෂ්ටි ආබාධයක් ඇති පුද්ගලයා අසලින්, අඩක් පියවරක් පමණ ඉදිරියෙන් ගමන් කර, ආරක්ෂිතව අනුගමනය කිරීමට ඔහුට/ඇයට ඔබේ වැලමිට අල්ලා ගැනීමට ඉඩ දෙන්න.)",
     "kind": "mcq",
     "sinhalaText": "දෘශය ආබාධිත පරිශීලකයාට පවසකින් සහ අඩි පියවරක් ඉදිරිවයන් සත්කාර වසේවකයා සිටින අතර, පරිශීලකයා සත්කාර\nවසේවකයාවේ වැලමිට (elbow) අල්ලා ගනියි:"
   },
@@ -7677,7 +7677,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 10,
     "question": "When giving a dry bath to user, the care worker must wipe the user's body from the center toward the periphery :",
     "options": [
-      "Yes (ඔේ)",
+      "Yes (ඔව්)",
       "No (නැත)"
     ],
     "correctIndex": 1,
@@ -7691,7 +7691,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 11,
     "question": "In three motion walking in the cane, the legs are put out in order of (1) cane, (2) healthy, (3) [affected side —",
     "options": [
-      "Yes (ඔේ)",
+      "Yes (ඔව්)",
       "No (නැත)"
     ],
     "correctIndex": 1,
@@ -7705,11 +7705,11 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 12,
     "question": "When transferring from bed to a wheelchair, the care worker stands on the affected side of the user and protects",
     "options": [
-      "Yes (ඔේ)",
+      "Yes (ඔව්)",
       "No (නැත)"
     ],
     "correctIndex": 0,
-    "explanation": "Yes (ඔේ)",
+    "explanation": "Yes. During the transfer, stay on the affected side to guard the user and help prevent loss of balance. (ඔව්. මාරු කිරීමේදී සමබරතාවය නැතිවීම වැළැක්වීමට සහ පරිශීලකයා ආරක්ෂා කිරීමට ආබාධයට ලක්වූ පැත්තේ සිට සහාය විය යුතුය.)",
     "kind": "mcq",
     "sinhalaText": "ඇවඳන් වරෝද පුටුවකට මාරු කරන විට, සත්කාර වසේවකයා පරිශීලකයාවේ ආබාධිත පැත්වත් සිටවගන ආබාධිත දණහිස\nආරක්ෂා කරයි:"
   },
@@ -7719,7 +7719,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 13,
     "question": "When changing hemiplegic user's position to the lateral position, the care worker shall keep the user's healthy side",
     "options": [
-      "Yes (ඔේ)",
+      "Yes (ඔව්)",
       "No (නැත)"
     ],
     "correctIndex": 1,
@@ -7731,29 +7731,29 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "id": "lesson-08-q014",
     "moduleId": "lesson-08",
     "number": 14,
-    "question": "[Truncated in PDF] side first, then sleeves on the affected side:",
+    "question": "When dressing a person with hemiplegia, the healthy side should be put into the sleeve first, followed by the affected side.",
     "options": [
-      "Yes (ඔේ)",
+      "Yes (ඔව්)",
       "No (නැත)"
     ],
     "correctIndex": 1,
-    "explanation": "No (නැත) (When putting on clothes, the affected side goes in first; when\ntaking off clothes, the healthy/unaffected side comes out first.)",
-    "kind": "source-mcq",
-    "sinhalaText": "[PDF හි වකාටසක් කැපී ඇත] පැත්ත පළමුව, පසුව ආබාධිත පැත්වත් අත් බාහු:"
+    "explanation": "No. When putting clothing on, guide the affected arm into the sleeve first, then the unaffected arm. When removing clothing, remove the unaffected side first. (නැත. ඇඳුමක් අන්දන විට පළමුව ආබාධිත අත අත් බාහුවට දමා පසුව ආබාධයට ලක් නොවූ අත දමන්න. ඇඳුම ගලවන විට පළමුව ආබාධයට ලක් නොවූ පැත්තෙන් ගලවන්න.)",
+    "kind": "mcq",
+    "sinhalaText": "අර්ධ අංශභාගය ඇති පුද්ගලයෙකුට ඇඳුමක් අන්දන විට පළමුව නිවැරදි/ආබාධයට ලක් නොවූ පැත්තේ අත අත් බාහුවට දමා, පසුව ආබාධිත පැත්තේ අත දැමිය යුතුය."
   },
   {
     "id": "lesson-08-q015",
     "moduleId": "lesson-08",
     "number": 15,
-    "question": "[Truncated in PDF] healthy side, (3) affected side:",
+    "question": "In three-motion walking with a cane for a person with hemiplegia, the sequence is (1) cane, (2) healthy leg, (3) affected leg.",
     "options": [
-      "Yes (ඔේ)",
+      "Yes (ඔව්)",
       "No (නැත)"
     ],
     "correctIndex": 1,
-    "explanation": "No (නැත) (See Q11 note: cane → affected leg → healthy leg.)",
-    "kind": "source-mcq",
-    "sinhalaText": "[PDF හි වකාටසක් කැපී ඇත] නිවරෝගී පැත්ත, (3) ආබාධිත පැත්ත:"
+    "explanation": "No. In the sequence stated in the source lesson, the cane moves first, followed by the affected/weak leg, then the unaffected/strong leg. (නැත. මූලාශ්‍ර පාඩමේ දැක්වෙන අනුපිළිවෙළ අනුව පළමුව වේවැල, දෙවනුව ආබාධිත/දුර්වල පාදය, අවසානයේ ආබාධයට ලක් නොවූ/ශක්තිමත් පාදය ඉදිරියට ගෙන යයි.)",
+    "kind": "mcq",
+    "sinhalaText": "අර්ධ අංශභාගය ඇති පුද්ගලයෙකු වේවැලක් භාවිතයෙන් තුන්-පියවර ඇවිදීමේදී අනුපිළිවෙළ (1) වේවැල, (2) ආබාධයට ලක් නොවූ පාදය, (3) ආබාධිත පාදය වේ."
   },
   {
     "id": "lesson-08-q016",
@@ -7809,7 +7809,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 19,
     "question": "In the two step walking with the a cane, the legs are put in order of (1) cane and healthy, (2) affected side:",
     "options": [
-      "Yes (ඔේ)",
+      "Yes (ඔව්)",
       "No (නැත)"
     ],
     "correctIndex": 1,
@@ -7823,7 +7823,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 20,
     "question": "When transferring from bed to a wheelchair, the user holds the arm support with the hand on the healthy side :",
     "options": [
-      "Yes (ඔේ)",
+      "Yes (ඔව්)",
       "No (නැත)"
     ],
     "correctIndex": 1,
@@ -7837,7 +7837,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 21,
     "question": "The semi-sitting position (fowler position) on the bed, put a cushion under the knee of the user to prevent slipping",
     "options": [
-      "Yes (ඔේ)",
+      "Yes (ඔව්)",
       "No (නැත)"
     ],
     "correctIndex": 0,
@@ -7851,7 +7851,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 22,
     "question": "To prevent aspiration, the head of the user shall be bent slightly forward :",
     "options": [
-      "Yes (ඔේ)",
+      "Yes (ඔව්)",
       "No (නැත)"
     ],
     "correctIndex": 0,
@@ -7865,11 +7865,11 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 23,
     "question": "When wearing the outwear in dressing care, the care worker shall pass the sleeves on the affected side of the user",
     "options": [
-      "Yes (ඔේ)",
+      "Yes (ඔව්)",
       "No (නැත)"
     ],
     "correctIndex": 0,
-    "explanation": "Yes (ඔේ)",
+    "explanation": "Yes. When dressing a person with one-sided paralysis, put the garment onto the affected arm first; when undressing, remove the unaffected side first. (ඔව්. එක් පැත්තක අංශභාගය ඇති පුද්ගලයෙකුට ඇඳුමක් අන්දන විට පළමුව ආබාධයට ලක්වූ අතට අත් කොටස දමන්න. ගලවන විට පළමුව ආබාධයට ලක් නොවූ පැත්තෙන් ගලවන්න.)",
     "kind": "mcq",
     "sinhalaText": "ඇඳුම් ඇන්දවීවම් සත්කාරවේදී පිටතින් අඳින ඇඳුමක් (outwear) අන්දවන විට, සත්කාර වසේවකයා පළමුව පරිශීලකයාවේ\nආබාධිත පැත්වත් අත් බාහුව අන්දවා පසුව නිවරෝගී පැත්වත් අත් බාහුව අන්දවයි:"
   },
@@ -7879,7 +7879,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 24,
     "question": "Post meal oral care does not reduce the number of a bacteria in the oral cavity, so it cannot prevent aspiration",
     "options": [
-      "Yes (ඔේ)",
+      "Yes (ඔව්)",
       "No (නැත)"
     ],
     "correctIndex": 1,
@@ -7893,11 +7893,11 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 25,
     "question": "A hemiplegic user shall enter the bathtub from the healthy side :",
     "options": [
-      "Yes (ඔේ)",
+      "Yes (ඔව්)",
       "No (නැත)"
     ],
     "correctIndex": 0,
-    "explanation": "Yes (ඔේ)",
+    "explanation": "Yes. The stated approach is to enter the bathtub leading with the healthy side, while providing support and checking the user's balance and safety. (ඔව්. සඳහන් ක්‍රමය අනුව, ආධාරය ලබා දෙමින් සහ සමබරතාවය හා ආරක්ෂාව පරීක්ෂා කරමින්, පළමුව ශක්තිමත්/ආබාධයට ලක් නොවූ පැත්තෙන් නාන තටාකයට ඇතුළු විය යුතුය.)",
     "kind": "mcq",
     "sinhalaText": "අර්ධ අංශභාග පරිශීලකවයකු නිවරෝගී පැත්වතන් නාන තටාකයට (bathtub) ඇතුළු විය යුතුය:"
   },
@@ -7907,11 +7907,11 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 26,
     "question": "In wheelchair assistance, care worker shall push the wheelchair forward in the ascent of the slope:",
     "options": [
-      "Yes (ඔේ)",
+      "Yes (ඔව්)",
       "No (නැත)"
     ],
     "correctIndex": 0,
-    "explanation": "Yes (ඔේ)",
+    "explanation": "Yes. When going uphill, move the wheelchair forward while maintaining control and supporting it against the slope. (ඔව්. බෑවුමක ඉහළට යන විට රෝද පුටුව ඉදිරියට තල්ලු කරමින්, පාලනය සහ ස්ථාවරත්වය පවත්වා ගත යුතුය.)",
     "kind": "mcq",
     "sinhalaText": "වරෝද පුටු සහාවේදී, බෑවුමකින් ඉහළට (ascent of the slope) යන විට සත්කාර වසේවකයා වරෝද පුටුව ඉදිරියට තල්ු කළ\nයුතුය:"
   },
@@ -7971,7 +7971,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Legs (පාද / Legs)"
     ],
     "correctIndex": 2,
-    "explanation": "Legs (පාද / Legs)",
+    "explanation": "Use the strength of your legs and maintain a stable base when assisting a transfer. Avoid relying on the back or shoulders, and keep the load close to your body. (මාරු කිරීමකට සහාය වන විට පාදවල ශක්තිය භාවිත කර ස්ථාවර ආධාරක පදනමක් පවත්වා ගන්න. පිට හෝ උරහිස් මත පමණක් බර නොතබා, බර ශරීරයට ළං කර තබන්න.)",
     "kind": "mcq",
     "sinhalaText": "වසේවාදායකවයකු මාරු කරන විට, වහදිය/සහායකයා ආධාර ලබා ගත යුත්වත් තම:"
   },
@@ -8511,17 +8511,17 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "id": "lesson-08-q065",
     "moduleId": "lesson-08",
     "number": 65,
-    "question": "Which of the following shows the proper sequence of cleaning the face :",
+    "question": "Which of the following shows the correct sequence for cleaning the face?",
     "options": [
-      "Forehead nose eyes cheeks jaw Mouth (නළල → නාසය → ඇසේ → කම්මුල් → හකු → මුඛය)",
-      "[Truncated in PDF: Jaw ... Mouth] (PDF හි වකාටසක් කැපී ඇත)",
-      "Eyes [Truncated in PDF: eye ... Mouth Jaw ... Nose ... Forehead ... Cheeks] (PDF හි වකාටසක් කැපී\nඇත)",
-      "Eyes Nose Cheeks Forehead Nose Mouth Forehead Cheeks Jaw (PDF හි වකාටසක් කැපී ඇත)"
+      "Forehead → nose → eyes → cheeks → jaw → mouth (නළල → නාසය → ඇස් → කම්මුල් → හකු → මුඛය)",
+      "Mouth → jaw → cheeks → eyes → nose → forehead (මුඛය → හකු → කම්මුල් → ඇස් → නාසය → නළල)",
+      "Eyes → mouth → nose → jaw → forehead → cheeks (ඇස් → මුඛය → නාසය → හකු → නළල → කම්මුල්)",
+      "Nose → cheeks → mouth → forehead → jaw → eyes (නාසය → කම්මුල් → මුඛය → නළල → හකු → ඇස්)"
     ],
     "correctIndex": 0,
-    "explanation": "Forehead nose eyes cheeks jaw Mouth (නළල → නාසය → ඇසේ →\nකම්මුල් → හකු → මුඛය — Note: options b–d in the PDF contain garbled/truncated word strings.)",
+    "explanation": "The source answer key identifies the sequence: forehead, nose, eyes, cheeks, jaw and mouth. The other options rearrange the sequence and do not match the source key. (මූලාශ්‍ර පිළිතුරු යතුරේ නිවැරදි අනුපිළිවෙළ නළල, නාසය, ඇස්, කම්මුල්, හකු සහ මුඛය ලෙස දක්වා ඇත. අනෙක් විකල්පවල මෙම අනුපිළිවෙළ වෙනස් කර ඇත.)",
     "kind": "mcq",
-    "sinhalaText": "මුහුණ පිරිසිදු කිරීවම් නිවැරදි අනුපිළිවවළ පහත ඒවායින් වපන්නුම් කරන්වන් කුමක්ද:"
+    "sinhalaText": "මුහුණ පිරිසිදු කිරීමේ නිවැරදි අනුපිළිවෙළ පහත සඳහන් ඒවායින් පෙන්වන්නේ කුමක්ද?"
   },
   {
     "id": "lesson-08-q066",
