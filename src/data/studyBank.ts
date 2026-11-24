@@ -575,9 +575,9 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "(C ඉරියව්ව — දුරකථනයක් භාවිත කරමින් වාඩි වී සිටීම)",
       "(D ඉරියව්ව — කොන්ද නවාගෙෙ\nන දුරකථනයක් දෙෙස බලමින් වාඩි වී සිටීම)"
     ],
-    "correctIndex": -1,
-    "explanation": "(පාද කුඩා බංකුවක් මත තබා මඳක් ඉදිරියට නැඹුරු වීම මගින්\nමළපහ පිට කිරීම පහසු කරවයි; සමහර පරීක්ෂණවල 90° කෙෙ\nළින් ඉරියව්ව වන A ද දක්වා ඇත)",
-    "kind": "source-mcq",
+    "correctIndex": 1,
+    "explanation": "Option B — feet supported on a small footstool and leaning slightly forward. The original PDF explicitly marks B as the correct answer. (B — පාද කුඩා ආධාරකයක් මත තබා මඳක් ඉදිරියට නැඹුරු වී සිටීම. මුල් PDF එකේ නිවැරදි පිළිතුර B ලෙස පැහැදිලිව දක්වා ඇත.)",
+    "kind": "mcq",
     "sinhalaText": ""
   },
   {
