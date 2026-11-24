@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import {
   CheckCircle2,
   ChevronLeft,
@@ -18,7 +18,17 @@ export const QuizPractice: React.FC<QuizPracticeProps> = ({
   onSelectModule,
 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [answers, setAnswers] = useState<Record<string, number>>({});
+  const [answers, setAnswers] = useState<Record<string, number>>(() => {
+    try {
+      return JSON.parse(localStorage.getItem('caregiverjp.quiz-answers.v1') ?? '{}') as Record<string, number>;
+    } catch {
+      return {};
+    }
+  });
+
+  useEffect(() => {
+    localStorage.setItem('caregiverjp.quiz-answers.v1', JSON.stringify(answers));
+  }, [answers]);
   const [showMissedOnly, setShowMissedOnly] = useState(false);
 
   const activeModule =

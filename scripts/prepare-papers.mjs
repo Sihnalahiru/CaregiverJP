@@ -5,6 +5,8 @@ import { PDFDocument } from 'pdf-lib';
 const root = process.cwd();
 const sourceDir = path.join(root, 'data', 'papers');
 const publicDir = path.join(root, 'public');
+const imageSourceDir = path.join(root, 'assets', 'images');
+const imageTargetDir = path.join(publicDir, 'assets', 'images');
 const targetDir = path.join(publicDir, 'papers');
 const manifestPath = path.join(publicDir, 'papers-manifest.json');
 
@@ -90,12 +92,21 @@ for (const filename of names) {
     sizeBytes: buffer.byteLength,
     pageCount: pdf.getPageCount(),
     description: meta.description,
-    pdfUrl: `/api/papers/${encodeURIComponent(meta.id)}/pdf`,
-    downloadUrl: `/api/papers/${encodeURIComponent(meta.id)}/pdf?download=1`,
+    pdfUrl: `./papers/${encodeURIComponent(filename)}`,
+    downloadUrl: `./papers/${encodeURIComponent(filename)}`,
     quizModuleId: meta.quizModuleId,
     order: meta.order,
   });
 }
 papers.sort((a, b) => a.order - b.order);
 await fs.writeFile(manifestPath, JSON.stringify(papers.map(({ order, ...paper }) => paper), null, 2) + '\n');
-console.log(`Prepared ${papers.length} PDFs (${papers.reduce((sum, paper) => sum + paper.pageCount, 0)} pages) for Cloudflare Workers assets.`);
+try {
+  await fs.access(imageSourceDir);
+  await fs.mkdir(imageTargetDir, { recursive: true });
+  await fs.cp(imageSourceDir, imageTargetDir, { recursive: true, force: true });
+  console.log('Copied original image assets into the GitHub Pages build.');
+} catch (error) {
+  if (error?.code !== 'ENOENT') throw error;
+  console.log('No root assets/images directory found; no image copy was needed.');
+}
+console.log(`Prepared ${papers.length} PDFs (${papers.reduce((sum, paper) => sum + paper.pageCount, 0)} pages) for GitHub Pages.`);

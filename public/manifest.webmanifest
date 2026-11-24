@@ -1,0 +1,16 @@
+{
+  "id": "./",
+  "name": "CaregiverJP — Personal SSW Study",
+  "short_name": "CaregiverJP",
+  "description": "Personal offline-first SSW Nursing Care study and exam practice.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f8fafc",
+  "theme_color": "#0f172a",
+  "lang": "en",
+  "icons": [
+    { "src": "./icons/app-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
