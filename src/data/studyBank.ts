@@ -715,12 +715,12 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "question": "Memory impairment is one of the peripheral symptoms of dementia (BPSD);",
     "options": [
       "Yes (ඔව්)",
-      "[No — Truncated in PDF] (නැත - PDF හි කැපී ඇත)"
+      "No (නැත)"
     ],
     "correctIndex": 1,
-    "explanation": "No (මතක ශක්තිය දුර්වල වීම ඩිමෙ\nන්ශියා රෝගයේ ප්‍රධාන රෝග\nලක්ෂණයක් / Core symptom වන අතර BPSD හෙ\nවත් පර්යන්ත රෝග ලක්ෂණයක් නොවේ)",
+    "explanation": "No (මතක ශක්තිය දුර්වල වීම ඩිමෙන්ශියා රෝගයේ ප්‍රධාන රෝග\nලක්ෂණයක් / Core symptom වන අතර BPSD හෙවත් පර්යන්ත රෝග ලක්ෂණයක් නොවේ)",
     "kind": "mcq",
-    "sinhalaText": "මතක ශක්තිය දුර්වල වීම (Memory impairment) ඩිමෙ\nන්ශියා රෝගයේ පර්යන්ත රෝග\nලක්ෂණ (BPSD) වලින් එකකි;"
+    "sinhalaText": "මතක ශක්තිය දුර්වල වීම (Memory impairment) ඩිමෙන්ශියා රෝගයේ පර්යන්ත රෝග\nලක්ෂණ (BPSD) වලින් එකකි;"
   },
   {
     "id": "main-paper-q041",
@@ -8373,10 +8373,10 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 56,
     "question": "It is light weight and very user friendly :",
     "options": [
-      "Quad cane (Quad cane)",
+      "Quad cane (කකුල් හතරේ ආධාරක සැරයටිය / Quad cane)",
       "T.cane (T-වේවැල / T.cane)",
-      "Lift (Lift)",
-      "Wheelchair (Wheelchair)"
+      "Lift (එසවුම් උපකරණය / Lift)",
+      "Wheelchair (රෝද පුටුව / Wheelchair)"
     ],
     "correctIndex": 1,
     "explanation": "T.cane (T-වේවැල / T.cane)",
