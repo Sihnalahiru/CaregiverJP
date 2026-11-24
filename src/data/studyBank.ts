@@ -2131,15 +2131,15 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 7,
     "question": "What causes a person's lifestyle to differ?",
     "options": [
-      "Only age and room number. (වයස සහ කාමර අාංකය පමණි.)",
-      "It differs depending on the country's culture and customs, individual intentions, values,\npreferences, and more. (රසට්ට සාංසේකෘතිය, සම්ප්‍රදායන්, පුද්ගලයාසේ අදහස්, වටිනාකම් සහ විස ෂ කැමැත්ත අනුව ජීවන රටාව වෙනසේ වේ.)",
-      "Only the care worker's personal background. (සත්කාර සේවකයාසේ පෞද්ගලික පසුබිම පමණි.)",
-      "Lifestyles never differ among people in the same region. (එකම ප්‍රදේ සේ අය අතර ජීවන රටා කිසිවිසටකත් වෙනසේ නොසේ.)"
+      "Only age and room number. (වයස සහ කාමර අංකය පමණි.)",
+      "It differs depending on the country's culture and customs, individual intentions, values, preferences, and more. (රටේ සංස්කෘතිය හා සම්ප්‍රදායන්, පුද්ගලයාගේ අදහස්, වටිනාකම් සහ කැමැත්ත ආදිය අනුව එය වෙනස් වේ.)",
+      "Only the care worker's personal background. (සත්කාර සේවකයාගේ පෞද්ගලික පසුබිම පමණි.)",
+      "Lifestyles never differ among people in the same region. (එකම ප්‍රදේශයේ පුද්ගලයන් අතර ජීවන රටා කිසිවිටෙක වෙනස් නොවේ.)"
     ],
     "correctIndex": 1,
-    "explanation": "It differs depending on the country's culture and customs,\nindividual intentions, values, preferences, and more. (රසට්ට සාංසේකෘතිය, සම්ප්‍රදායන්, පුද්ගලයාසේ අදහස්,\nවටිනාකම් සහ විස ෂ කැමැත්ත අනුව ජීවන රටාව වෙනසේ වේ.)",
+    "explanation": "It differs depending on the country's culture and customs, individual intentions, values, preferences, and more. (රටේ සංස්කෘතිය හා සම්ප්‍රදායන්, පුද්ගලයාගේ අදහස්, වටිනාකම් සහ කැමැත්ත ආදිය අනුව ජීවන රටාව වෙනස් වේ.)",
     "kind": "mcq",
-    "sinhalaText": "පුද්ගලයෙකුගේ ජීවන රටාව වෙනසේ වීමට හේතු වන්නේ කුමක්ද?"
+    "sinhalaText": "පුද්ගලයෙකුගේ ජීවන රටාව වෙනස් වීමට හේතු වන්නේ කුමක්ද?"
   },
   {
     "id": "lesson-04-q008",
@@ -4995,15 +4995,15 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 19,
     "question": "How might crossing your legs look?",
     "options": [
-      "It may look improper or disrespectful depending on the situation. (අවස්ථාව අනුව අවශ්‍ෝභන ලෙස හෝ අගෞරවනීය ලෙස වපිය හැක.)",
-      "Always required during meals (ආහාර ගන්නනා විට සැමවිටම අවශ්‍ය වේ)",
-      "The best way to show active listening (සක්‍රීය සවන්නදීම පෙන්නවීමට හොඳම ක්‍රමය)",
-      "Equivalent to sign language (සංඥා භාෂාවට සමාන වේ)"
+      "It may look improper or disrespectful depending on the situation. (අවස්ථාව අනුව එය අශෝභන හෝ අගෞරවනීය ලෙස පෙනිය හැක.)",
+      "Always required during meals (ආහාර ගන්නා විට එය සැමවිටම අවශ්‍ය වේ.)",
+      "The best way to show active listening (සක්‍රීයව සවන් දෙන බව පෙන්වීමට හොඳම ක්‍රමයයි.)",
+      "Equivalent to sign language (එය සංඥා භාෂාවට සමාන වේ.)"
     ],
     "correctIndex": 0,
-    "explanation": "It may look improper or disrespectful depending on the situation. (අවස්ථාව අනුව අවශ්‍ෝභන ලෙස හෝඅගෞරවනීය ලෙස වපිය හැක.)",
+    "explanation": "It may look improper or disrespectful depending on the situation. (අවස්ථාව අනුව එය අශෝභන හෝ අගෞරවනීය ලෙස පෙනිය හැක.)",
     "kind": "mcq",
-    "sinhalaText": "කකුල් මාරු කර වාඩිවීම වකවස් වපිය හැකිද?"
+    "sinhalaText": "කකුලක් මත අනෙක් කකුල තබාගෙන වාඩිවීම කෙසේ පෙනී යා හැකිද?"
   },
   {
     "id": "lesson-06-q020",
@@ -5763,15 +5763,15 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 66,
     "question": "Why is the protection of personal information and preservation of confidentiality strongly demanded?",
     "options": [
-      "Strongly demanded as a professional ethic for workers. (වෘත්තිකයන්නවේ වෘත්තීය ආචාරධර්මයක් ලෙස දැඩි ලෙස අවප්ක්ෂා කරයි.)",
-      "Optional depending on mood (මනෝභාවය අනුව විකල්ප වේ)",
-      "Only for new trainees (නව පුහුණුලාභීන්නට පමණි)",
-      "Only during night shifts (රාත්‍රී වැඩ මුරවලදී පමණි)"
+      "Strongly demanded as a professional ethic for workers. (සේවකයන්ගේ වෘත්තීය ආචාරධර්මයක් ලෙස එය දැඩිව අපේක්ෂා කරයි.)",
+      "Optional depending on mood (මනෝභාවය අනුව තීරණය වන විකල්ප කරුණකි.)",
+      "Only for new trainees (නව පුහුණුවන්නන්ට පමණක් අදාළ වේ.)",
+      "Only during night shifts (රාත්‍රී වැඩ මුරවලදී පමණක් අදාළ වේ.)"
     ],
     "correctIndex": 0,
-    "explanation": "Strongly demanded as a professional ethic for workers. (වෘත්තිකයන්නවේ වෘත්තීය ආචාරධර්මයක් ලෙස දැඩිවලස අවප්ක්ෂා කරයි.)",
+    "explanation": "Strongly demanded as a professional ethic for workers. (සේවකයන්ගේ වෘත්තීය ආචාරධර්මයක් ලෙස එය දැඩිව අපේක්ෂා කරයි.)",
     "kind": "mcq",
-    "sinhalaText": "පුද්ගලික තොරතුරු ආරක්ෂා කිරීම සහ රහසයභාවය පවත්වා ගැනීම කුමක් ලෙස අවප්ක්ෂා කරන්නේද?"
+    "sinhalaText": "පුද්ගලික තොරතුරු ආරක්ෂා කිරීම සහ රහස්‍යභාවය පවත්වා ගැනීම දැඩිව අපේක්ෂා කරන්නේ ඇයි?"
   },
   {
     "id": "lesson-06-q067",
@@ -7956,7 +7956,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Tooth brush (දත් බුරුසුව / Tooth brush)"
     ],
     "correctIndex": 2,
-    "explanation": "Tooth brush (දත් බුරුසුව / Tooth brush) (Or a) Tooth ette / mouth wash\ndepending on whether basic toothbrushing or sponge/mouthwash care is tested; in standard caregiver oral care\nquestions, c Tooth brush is the primary answer.)",
+    "explanation": "Tooth brush (දත් බුරුසුව). (දත් මැදීම සඳහා දත් බුරුසුව භාවිත කරයි.)",
     "kind": "mcq",
     "sinhalaText": "මුඛ සත්කාරයට (oral care) සහාය වීමේදී ඔබට අවශය සුදුසු උපකරණය:"
   },
@@ -8373,10 +8373,10 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 56,
     "question": "It is light weight and very user friendly :",
     "options": [
-      "Quad cane (Quad cane)",
-      "T.cane (T-වේවැල / T.cane)",
-      "Lift (Lift)",
-      "Wheelchair (Wheelchair)"
+      "Quad cane (පාද හතරේ සැරයටිය / Quad cane)",
+      "T.cane (T-හැඩැති සැරයටිය / T.cane)",
+      "Lift (එසවුම් උපකරණය / Lift)",
+      "Wheelchair (රෝද පුටුව / Wheelchair)"
     ],
     "correctIndex": 1,
     "explanation": "T.cane (T-වේවැල / T.cane)",
