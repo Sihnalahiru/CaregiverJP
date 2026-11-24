@@ -1,12 +1,8 @@
-import { useCallback, useEffect, useState } from 'react';
+import { lazy, Suspense, useCallback, useEffect, useState } from 'react';
 import { AchievementToast } from './components/AchievementToast';
-import { AchievementsView } from './components/AchievementsView';
-import { Dashboard } from './components/Dashboard';
 import { Header, type AppView } from './components/Header';
 import { OfflineBanner } from './components/PWAInstallButton';
-import { PaperLibrary } from './components/PaperLibrary';
-import { QuizPractice, type PracticeSessionConfig } from './components/QuizPractice';
-import { SettingsView } from './components/SettingsView';
+import type { PracticeSessionConfig } from './components/QuizPractice';
 import { useStudyStore } from './hooks/useStudyStore';
 import {
   getPaperById,
@@ -15,6 +11,12 @@ import {
 } from './utils/papers';
 import { soundEngine } from './utils/sound';
 import type { PracticeMode } from './utils/storage';
+
+const Dashboard = lazy(() => import('./components/Dashboard').then((m) => ({ default: m.Dashboard })));
+const PaperLibrary = lazy(() => import('./components/PaperLibrary').then((m) => ({ default: m.PaperLibrary })));
+const AchievementsView = lazy(() => import('./components/AchievementsView').then((m) => ({ default: m.AchievementsView })));
+const QuizPractice = lazy(() => import('./components/QuizPractice').then((m) => ({ default: m.QuizPractice })));
+const SettingsView = lazy(() => import('./components/SettingsView').then((m) => ({ default: m.SettingsView })));
 
 export function App() {
   const {
@@ -183,6 +185,7 @@ export function App() {
         />
 
         <div className="flex-1">
+          <Suspense fallback={<div className="px-4 py-10 text-center text-sm text-slate-500" role="status">Loading study section…</div>}>
           {activeView === 'dashboard' && (
             <Dashboard
               answers={state.answers}
@@ -244,6 +247,7 @@ export function App() {
               onExit={() => setActiveView(returnView)}
             />
           )}
+          </Suspense>
         </div>
       </div>
     </div>
