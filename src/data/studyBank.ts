@@ -144,7 +144,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "[Missing / කැපී ඇත]"
     ],
     "correctIndex": 0,
-    "explanation": "/ b) / c) All listed options are forms of non-verbal communication\n(සියල්ල වාචික නොවන සන්නිවේදන ක්‍රම වේ)",
+    "explanation": "The source PDF answer key marks option A (Facial expressions). The question stem and option D are cut off in the scan; the source wording is preserved without inventing the missing text. (මුල් PDF පිළිතුරු යතුරේ A — Facial expressions ලෙස දක්වා ඇත. ප්‍රශ්නයේ කොටසක් සහ D විකල්පය scan එකේ කැපී ඇත.)",
     "kind": "source-mcq",
     "sinhalaText": ""
   },
@@ -160,7 +160,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Change the subject frequently (මාතෘකාව නිතර වෙෙ\nනස් කිරීම)"
     ],
     "correctIndex": 0,
-    "explanation": "or b) (Active listening cues such as nodding/eye contact; options c\nand d hinder listening — PDF හි a සහ b කැපී ඇත)",
+    "explanation": "The source PDF answer key marks option A, but the option text itself is cut off in the supplied scan. Keep the original visible fragments; do not invent the missing option wording. (මුල් PDF පිළිතුරු යතුර A ලෙස දක්වයි. නමුත් A විකල්පයේ පෙළ scan එකේ කැපී ඇති නිසා අනුමානයෙන් පුරවා නැත.)",
     "kind": "source-mcq",
     "sinhalaText": ""
   },
@@ -256,7 +256,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "of the user [Truncated] side (පරිශීලකයාගේ [කැපී ඇත] පැත්ත)"
     ],
     "correctIndex": 0,
-    "explanation": "Position [the wheelchair properly on the unaffected/strong side and\nlock brakes] (රෝද පුටුව නිසි ලෙෙ\nස ස්ථානගත කිරීම)",
+    "explanation": "The source PDF answer key marks option A. The visible fragment concerns positioning the wheelchair; the remaining option wording is cut off in the scan. (මුල් PDF පිළිතුරු යතුර A ලෙස දක්වයි. පෙනෙන කොටස රෝද පුටුව ස්ථානගත කිරීම ගැන වන අතර ඉතිරි පෙළ කැපී ඇත.)",
     "kind": "source-mcq",
     "sinhalaText": ""
   },
@@ -352,7 +352,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Field of [Truncated in PDF] (දෘෂ්ටි පරාසය - PDF හි කැපී ඇත)"
     ],
     "correctIndex": 3,
-    "explanation": "Field of [vision becomes narrower] (වයසට යාමත් සමඟ දෘෂ්ටි\nපරාසය පටු වේ — සටහන: අධි සංඛ්‍යාාත/උස් ශබ්ද ඇසීම අපහසු වන අතර පුද්ගල වෙෙ\nනස්කම් වැඩිය)",
+    "explanation": "The source PDF answer key marks option D. The option text is cut off; the visible fragment refers to the field of vision becoming narrower with age. (මුල් PDF පිළිතුරු යතුර D ලෙස දක්වයි. විකල්පයේ කොටසක් කැපී ඇති අතර පෙනෙන කොටස වයස සමඟ දෘෂ්ටි පරාසය පටු වීම ගැනයි.)",
     "kind": "source-mcq",
     "sinhalaText": ""
   },
