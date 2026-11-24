@@ -24,7 +24,7 @@ for (const q of questions) {
   if (!Array.isArray(q.options) || q.options.length < 2) errors.push(q.id + ': fewer than two options');
   if (!Number.isInteger(q.correctIndex) || q.correctIndex < 0 || q.correctIndex >= (q.options?.length || 0)) errors.push(q.id + ': invalid answer index');
   if (!q.explanation?.trim()) errors.push(q.id + ': empty explanation');
-  if (/[\\u3040-\\u30ff\\u3400-\\u9fff]/.test(JSON.stringify(q))) errors.push(q.id + ': Japanese characters are not allowed in this English + Sinhala app');
+  if (/[\u3040-\u30ff\u3400-\u9fff]/.test(JSON.stringify(q))) errors.push(q.id + ': Japanese characters are not allowed in this English + Sinhala app');
   if (/\[(?:truncated in pdf|missing)(?::[^\]]*)?(?:[^\]]*)\]/i.test(JSON.stringify(q))) sourceReview.push(q.id);
   if (!supplementalIds.has(q.id)) actualSourceCounts[q.moduleId] = (actualSourceCounts[q.moduleId] || 0) + 1;
 }
