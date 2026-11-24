@@ -17,6 +17,7 @@ const supplementalIds = new Set([
 const ids = new Set();
 const errors = [];
 const sourceReview = [];
+const missingSinhala = [];
 const actualSourceCounts = Object.create(null);
 for (const q of questions) {
   if (!q.id || ids.has(q.id)) errors.push('Missing or duplicate question id: ' + q.id);
@@ -25,6 +26,12 @@ for (const q of questions) {
   if (!Array.isArray(q.options) || q.options.length < 2) errors.push(q.id + ': fewer than two options');
   if (!Number.isInteger(q.correctIndex) || q.correctIndex < 0 || q.correctIndex >= (q.options?.length || 0)) errors.push(q.id + ': invalid answer index');
   if (!q.explanation?.trim()) errors.push(q.id + ': empty explanation');
+  const sinhala = /[\\u0D80-\\u0DFF]/u;
+  if (!sinhala.test(q.sinhalaText || q.question || '')) missingSinhala.push(q.id + ': question');
+  for (let i = 0; i < (q.options || []).length; i++) {
+    if (!sinhala.test(q.options[i])) missingSinhala.push(q.id + ': option ' + (i + 1));
+  }
+  if (!sinhala.test(q.explanation || '')) missingSinhala.push(q.id + ': explanation');
   if (/[\u3040-\u30ff\u3400-\u9fff]/u.test(JSON.stringify(q))) errors.push(q.id + ': Japanese characters are not allowed in this English + Sinhala app');
   if (/\[(?:truncated in pdf|missing)(?::[^\]]*)?(?:[^\]]*)\]/i.test(JSON.stringify(q))) sourceReview.push(q.id);
   if (!supplementalIds.has(q.id)) actualSourceCounts[q.moduleId] = (actualSourceCounts[q.moduleId] || 0) + 1;
@@ -37,6 +44,6 @@ for (const [moduleId, [min, max]] of Object.entries(sourceRanges)) {
 }
 for (const id of supplementalIds) if (!ids.has(id)) errors.push('Expected supplemental audit record missing from bank: ' + id);
 if (errors.length) { console.error(errors.join('\n')); process.exit(1); }
-console.log('Structural validation passed: 555 records; 510 source-range records match the nine supplied PDF ranges; 45 supplemental records are separately identified.');
+console.log('Structural validation passed: 555 records; 510 records fall within the configured source-number ranges; 45 supplemental records are separately identified. Required Sinhala text is present in every question, option, and explanation.');
 if (supplementalIds.size) console.warn('UNVERIFIED SUPPLEMENTAL records outside source-verified PDF ranges (' + supplementalIds.size + '): ' + [...supplementalIds].join(', '));
 if (sourceReview.length) console.warn('SOURCE CONTENT REVIEW required (' + sourceReview.length + '): ' + [...new Set(sourceReview)].join(', '));
