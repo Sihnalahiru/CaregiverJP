@@ -8514,12 +8514,12 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "question": "Which of the following shows the proper sequence of cleaning the face :",
     "options": [
       "Forehead nose eyes cheeks jaw Mouth (නළල → නාසය → ඇසේ → කම්මුල් → හකු → මුඛය)",
-      "[Truncated in PDF: Jaw ... Mouth] (PDF හි කොටසක් කැපී ඇත)",
-      "Eyes [Truncated in PDF: eye ... Mouth Jaw ... Nose ... Forehead ... Cheeks] (PDF හි කොටසක් කැපීඇත)",
-      "Eyes Nose Cheeks Forehead Nose Mouth Forehead Cheeks Jaw (PDF හි කොටසක් කැපී ඇත)"
+      "Option text is unreadable in the supplied source scan (මුල් PDF scan එකේ විකල්පයේ පෙළ කියවිය නොහැක)",
+      "Option text is unreadable in the supplied source scan (මුල් PDF scan එකේ විකල්පයේ පෙළ කියවිය නොහැක)",
+      "Option text is unreadable in the supplied source scan (මුල් PDF scan එකේ විකල්පයේ පෙළ කියවිය නොහැක)"
     ],
     "correctIndex": 0,
-    "explanation": "Forehead nose eyes cheeks jaw Mouth (නළල → නාසය → ඇසේ →\nකම්මුල් → හකු → මුඛය — Note: options b–d in the PDF contain garbled/truncated word strings.)",
+    "explanation": "The supplied source scan preserves option A as the correct sequence, but options B–D are not readable enough to reconstruct accurately. Keep this item flagged for source review rather than guessing the missing choices. (මුල් PDF scan එකේ A විකල්පය නිවැරදි අනුපිළිවෙළ ලෙස පෙනේ. B–D විකල්ප නිවැරදිව නැවත සකස් කිරීමට කියවිය නොහැකි බැවින් අනුමාන නොකර මූලාශ්‍ර පරීක්ෂාව සඳහා තබා ඇත.)",
     "kind": "mcq",
     "sinhalaText": "මුහුණ පිරිසිදු කිරීමේ නිවැරදි අනුපිළිවවළ පහත ඒවායින් පෙන්නුම් කරන්නේ කුමක්ද:"
   },
