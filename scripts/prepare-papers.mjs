@@ -97,5 +97,5 @@ for (const filename of names) {
   });
 }
 papers.sort((a, b) => a.order - b.order);
-await fs.writeFile(manifestPath, JSON.stringify(papers.map(({ order, ...paper }) => paper), null, 2) + '\\n');
+await fs.writeFile(manifestPath, JSON.stringify(papers.map(({ order, ...paper }) => paper), null, 2) + '\n');
 console.log(`Prepared ${papers.length} PDFs (${papers.reduce((sum, paper) => sum + paper.pageCount, 0)} pages) for Cloudflare Workers assets.`);
