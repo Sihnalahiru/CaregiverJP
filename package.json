@@ -9,7 +9,7 @@
     "preview": "vite preview --host 0.0.0.0",
     "lint": "tsc --noEmit",
     "start": "vite preview --host 0.0.0.0",
-    "deploy": "npm run build"
+    "deploy": "npm run build && wrangler deploy"
   },
   "dependencies": {
     "lucide-react": "^0.475.0",
