@@ -77,7 +77,7 @@ const papers = [];
 for (const filename of names) {
   const meta = catalog[filename] ?? {
     id: `paper-${filename.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}`,
-    title: filename.replace(/\\.pdf$/i, '').replace(/[_-]+/g, ' '),
+    title: filename.replace(/\.pdf$/i, '').replace(/[_-]+/g, ' '),
     category: 'Caregiver Guide',
     lessonCode: `Additional Paper ${papers.length + 1}`,
     language: 'Source PDF',
