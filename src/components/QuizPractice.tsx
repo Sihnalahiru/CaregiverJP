@@ -159,7 +159,10 @@ export const QuizPractice: React.FC<QuizPracticeProps> = ({
   const [reviewFilter, setReviewFilter] = useState<'all' | 'wrong'>('all');
 
   const advanceTimerRef = useRef<number | null>(null);
-  const completionRecordedRef = useRef(false);
+  const completionRecordedRef = useRef(
+    session.initialMode === 'study' && Boolean(paperId) &&
+    questions.every((question) => Boolean(persistedAnswers[question.id]))
+  );
   const examSubmittedRef = useRef(false);
   const current = questions[currentIndex];
 
@@ -307,7 +310,8 @@ export const QuizPractice: React.FC<QuizPracticeProps> = ({
     });
     setRemainingSeconds(questions.length * 60);
     examSubmittedRef.current = false;
-    completionRecordedRef.current = false;
+    completionRecordedRef.current = nextMode === 'study' && Boolean(paperId) &&
+      questions.every((question) => Boolean(persistedAnswers[question.id]));
   };
 
   const handleRestartExam = () => {
