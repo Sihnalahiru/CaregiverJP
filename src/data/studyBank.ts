@@ -3352,8 +3352,8 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Wipe off the water with a paper towel and dry them well (Paper towel එකකින් ජලෙ පිස දමා සහාඳින්\nවිෙළාගත යුුෙ)",
       "Leave them wet until they air dry (වාතසෙන් විෙසළන සතක් සතත පිටින් තබන්න)"
     ],
-    "correctIndex": 0,
-    "explanation": "Wipe off the water with a paper towel and dry them well (Paper\ntowel එකකින් ජලෙ පිස දමා සහාඳින් විෙළාගත යුුෙ)",
+    "correctIndex": 2,
+    "explanation": "Wipe off the water with a paper towel and dry them well (Paper towel එකකින් ජලය පිස දමා හොඳින් වියළාගත යුතුය). This matches the original Lesson 4 PDF answer key: c.",
     "kind": "mcq",
     "sinhalaText": "අත් සසේදීසමන් පසු, ඔසබ් අත් විෙළා ගන්සන් සකසසේද?"
   },
@@ -3368,9 +3368,9 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Because they wash their hands too often (ඔවුන් නිතරම අත් සසෝදන නිසා)",
       "Because they drink too much water (ඔවුන් ඕනෑවට වඩා ජලෙ පානෙ කරන නිසා)"
     ],
-    "correctIndex": -1,
-    "explanation": "Because their resistance/immunity may be weak (ඔවුන්සේ\nප්‍රිසරෝධක හැකිොව දුර්වල විෙ හැකි නිසා)",
-    "kind": "source-mcq",
+    "correctIndex": 0,
+    "explanation": "Because their resistance/immunity may be weak (ඔවුන්ගේ ප්‍රතිරෝධක හැකියාව / ප්‍රතිශක්තිය දුර්වල විය හැකි නිසා). This matches the original Lesson 4 PDF bonus question answer key: a.",
+    "kind": "mcq",
     "sinhalaText": "භාවිතා කරන්නන් (care recipients) සබෝවන සරෝගවලට පහසුසවන් සගාදුරු වන්සන් ඇයි?"
   },
   {
