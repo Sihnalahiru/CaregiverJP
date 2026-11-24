@@ -127,7 +127,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "sanitizer (සනීපාරක්ෂක දියර / Sanitizer)",
       "[Missing / කැපී ඇත]"
     ],
-    "correctIndex": -1,
+    "correctIndex": 0,
     "explanation": "Hand washing (අත් සේදීම)",
     "kind": "source-mcq",
     "sinhalaText": ""
@@ -143,7 +143,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "gestures (අභිනයන් / අත් ඉඟි)",
       "[Missing / කැපී ඇත]"
     ],
-    "correctIndex": -1,
+    "correctIndex": 0,
     "explanation": "/ b) / c) All listed options are forms of non-verbal communication\n(සියල්ල වාචික නොවන සන්නිවේදන ක්‍රම වේ)",
     "kind": "source-mcq",
     "sinhalaText": ""
@@ -159,7 +159,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "[Correct the user's] mistakes (පරිශීලකයාගේ වැරදි නිවැරදි කිරීම)",
       "Change the subject frequently (මාතෘකාව නිතර වෙෙ\nනස් කිරීම)"
     ],
-    "correctIndex": -1,
+    "correctIndex": 0,
     "explanation": "or b) (Active listening cues such as nodding/eye contact; options c\nand d hinder listening — PDF හි a සහ b කැපී ඇත)",
     "kind": "source-mcq",
     "sinhalaText": ""
@@ -223,7 +223,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Place them in a neat pile on the floor (ඒවා බිම පිළිවෙෙළකට ගොඩගැසීම)",
       "Carry them close to the nurse aide's body (හෙෙ\nද සහායකයාගේ ශරීරයට ළං කර ඒවා රැගෙෙ\nන\nයාම)"
     ],
-    "correctIndex": -1,
+    "correctIndex": 1,
     "explanation": "Put them in the dirty linen container (ඒවා අපිරිසිදු රෙෙදි බහාලුමේ\nදැමීම)",
     "kind": "source-mcq",
     "sinhalaText": ""
@@ -239,7 +239,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "In the user's wash basket (පරිශීලකයාගේ රෙෙදි සෝදන කූඩයේ)",
       "In the clean utility room (පිරිසිදු උපයෝගිතා කාමරයේ / Clean utility room)"
     ],
-    "correctIndex": -1,
+    "correctIndex": 1,
     "explanation": "In the designated receptacle (නියමිත කුණු බඳුනේ / බහාලුමේ)",
     "kind": "source-mcq",
     "sinhalaText": ""
@@ -255,7 +255,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "[Missing / කැපී ඇත]",
       "of the user [Truncated] side (පරිශීලකයාගේ [කැපී ඇත] පැත්ත)"
     ],
-    "correctIndex": -1,
+    "correctIndex": 0,
     "explanation": "Position [the wheelchair properly on the unaffected/strong side and\nlock brakes] (රෝද පුටුව නිසි ලෙෙ\nස ස්ථානගත කිරීම)",
     "kind": "source-mcq",
     "sinhalaText": ""
@@ -271,7 +271,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "user centric daily lifestyle (පරිශීලක කේන්ද්‍රීය දෛෛනික ජීවන රටාව)",
       "human dignity (මානව ගරුත්වය)"
     ],
-    "correctIndex": -1,
+    "correctIndex": 3,
     "explanation": "human dignity (මානව ගරුත්වය)",
     "kind": "source-mcq",
     "sinhalaText": ""
@@ -351,7 +351,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Become easy [Truncated in PDF] (පහසු වේ - PDF හි කැපී ඇත)",
       "Field of [Truncated in PDF] (දෘෂ්ටි පරාසය - PDF හි කැපී ඇත)"
     ],
-    "correctIndex": -1,
+    "correctIndex": 3,
     "explanation": "Field of [vision becomes narrower] (වයසට යාමත් සමඟ දෘෂ්ටි\nපරාසය පටු වේ — සටහන: අධි සංඛ්‍යාාත/උස් ශබ්ද ඇසීම අපහසු වන අතර පුද්ගල වෙෙ\nනස්කම් වැඩිය)",
     "kind": "source-mcq",
     "sinhalaText": ""
@@ -367,7 +367,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Listen to them watching their facial expressions (ඔවුන්ගේ මුහුණේ ඉරියව් දෙෙස බලා සවන් දීම)",
       "Try not to use gestures and hand gestures (අභිනයන් සහ අත් ඉඟි භාවිත නොකිරීමට උත්සාහ\nකිරීම)"
     ],
-    "correctIndex": -1,
+    "correctIndex": 2,
     "explanation": "Listen to them watching their facial expressions (ඔවුන්ගේ මුහුණේ\nඉරියව් දෙෙස බලා සවන් දීම)",
     "kind": "source-mcq",
     "sinhalaText": ""
@@ -559,7 +559,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "[Missing / කැපී ඇත]",
       "[Missing / කැපී ඇත]\nNursing Care Skills Evaluation Test (English + සිංහල)"
     ],
-    "correctIndex": -1,
+    "correctIndex": 1,
     "explanation": "[Wash] your hands after a contact with a user with running water\n(පරිශීලකයෙෙ\nකු සමඟ සම්බන්ධ වීමෙෙ\nන් පසු ගලා යන ජලයෙෙ\nන් අත් සේදීම)",
     "kind": "source-mcq",
     "sinhalaText": ""
@@ -575,9 +575,9 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "(C ඉරියව්ව — දුරකථනයක් භාවිත කරමින් වාඩි වී සිටීම)",
       "(D ඉරියව්ව — කොන්ද නවාගෙෙ\nන දුරකථනයක් දෙෙස බලමින් වාඩි වී සිටීම)"
     ],
-    "correctIndex": 1,
+    "correctIndex": -1,
     "explanation": "(පාද කුඩා බංකුවක් මත තබා මඳක් ඉදිරියට නැඹුරු වීම මගින්\nමළපහ පිට කිරීම පහසු කරවයි; සමහර පරීක්ෂණවල 90° කෙෙ\nළින් ඉරියව්ව වන A ද දක්වා ඇත)",
-    "kind": "mcq",
+    "kind": "source-mcq",
     "sinhalaText": ""
   },
   {
@@ -3352,7 +3352,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Wipe off the water with a paper towel and dry them well (Paper towel එකකින් ජලෙ පිස දමා සහාඳින්\nවිෙළාගත යුුෙ)",
       "Leave them wet until they air dry (වාතසෙන් විෙසළන සතක් සතත පිටින් තබන්න)"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "Wipe off the water with a paper towel and dry them well (Paper\ntowel එකකින් ජලෙ පිස දමා සහාඳින් විෙළාගත යුුෙ)",
     "kind": "mcq",
     "sinhalaText": "අත් සසේදීසමන් පසු, ඔසබ් අත් විෙළා ගන්සන් සකසසේද?"
@@ -3368,9 +3368,9 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Because they wash their hands too often (ඔවුන් නිතරම අත් සසෝදන නිසා)",
       "Because they drink too much water (ඔවුන් ඕනෑවට වඩා ජලෙ පානෙ කරන නිසා)"
     ],
-    "correctIndex": 0,
+    "correctIndex": -1,
     "explanation": "Because their resistance/immunity may be weak (ඔවුන්සේ\nප්‍රිසරෝධක හැකිොව දුර්වල විෙ හැකි නිසා)",
-    "kind": "mcq",
+    "kind": "source-mcq",
     "sinhalaText": "භාවිතා කරන්නන් (care recipients) සබෝවන සරෝගවලට පහසුසවන් සගාදුරු වන්සන් ඇයි?"
   },
   {
@@ -7736,7 +7736,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Yes (ඔේ)",
       "No (නැත)"
     ],
-    "correctIndex": -1,
+    "correctIndex": 1,
     "explanation": "No (නැත) (When putting on clothes, the affected side goes in first; when\ntaking off clothes, the healthy/unaffected side comes out first.)",
     "kind": "source-mcq",
     "sinhalaText": "[PDF හි වකාටසක් කැපී ඇත] පැත්ත පළමුව, පසුව ආබාධිත පැත්වත් අත් බාහු:"
@@ -7750,7 +7750,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Yes (ඔේ)",
       "No (නැත)"
     ],
-    "correctIndex": -1,
+    "correctIndex": 1,
     "explanation": "No (නැත) (See Q11 note: cane → affected leg → healthy leg.)",
     "kind": "source-mcq",
     "sinhalaText": "[PDF හි වකාටසක් කැපී ඇත] නිවරෝගී පැත්ත, (3) ආබාධිත පැත්ත:"
