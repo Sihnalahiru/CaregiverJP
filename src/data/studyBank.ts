@@ -397,7 +397,8 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Refrain from using clothes with buttons (බොත්තම් සහිත ඇඳුම් භාවිත කිරීමෙෙ\nන් වැළකී සිටීම)",
       "When putting on, put first the left arm and through the sleeve (අඳින විට, පළමුව වම් අත අත්\nබාහුව හරහා දැමීම)",
       "When putting off, take off the arm through the sleeve (ගලවන විට, අත් බාහුව හරහා අත\nපිටතට ගැනීම)",
-      "Provide total assistance (සම්පූර්ණ සහාය ලබා දීම)"    ],
+      "Provide total assistance (සම්පූර්ණ සහාය ලබා දීම)"
+    ],
     "correctIndex": 1,
     "explanation": "When putting on, put first the left arm and through the sleeve\n(අඳින විට, පළමුව වම් අත අත් බාහුව හරහා දැමීම)",
     "kind": "mcq",
@@ -796,7 +797,8 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     ],
     "correctIndex": 0,
     "explanation": "Letter S (S අකුර මෙෙ\nන්)\nNursing Care Skills Evaluation Test (English + සිංහල)\nPage 17 of 17",
-    "kind": "mcq",    "sinhalaText": ""
+    "kind": "mcq",
+    "sinhalaText": ""
   },
   {
     "id": "lesson-02-q001",
@@ -1195,7 +1197,8 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     ],
     "correctIndex": 1,
     "explanation": "Risk management (අවදානම් කළමනාකරණය / Risk management)",
-    "kind": "mcq",    "sinhalaText": "අවදානම් පුසරෝකථනය කිරීම,  ංවිධානයේ සල   ම්බන්ධ වීම  හ අනතුරු වැළැේවීමට කටයුතු කිරීම සමයින් අදහ ් සකසර්:"
+    "kind": "mcq",
+    "sinhalaText": "අවදානම් පුසරෝකථනය කිරීම,  ංවිධානයේ සල   ම්බන්ධ වීම  හ අනතුරු වැළැේවීමට කටයුතු කිරීම සමයින් අදහ ් සකසර්:"
   },
   {
     "id": "lesson-02-q026",
@@ -1594,7 +1597,8 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     ],
     "correctIndex": 0,
     "explanation": "Closed question (සංවෘත ප්‍රශ්නය / Closed question)",
-    "kind": "mcq",    "sinhalaText": "\"ඔේ\" වහෝ \"නැත\" වහෝ \"A\" වහෝ \"B\" වැි එක් වචනයක/වකටි ප්‍රතිචාරයක් අවනක් පාේශ්වවයන් ලො ගන්වන්:"
+    "kind": "mcq",
+    "sinhalaText": "\"ඔේ\" වහෝ \"නැත\" වහෝ \"A\" වහෝ \"B\" වැි එක් වචනයක/වකටි ප්‍රතිචාරයක් අවනක් පාේශ්වවයන් ලො ගන්වන්:"
   },
   {
     "id": "lesson-03-q006",
@@ -1993,7 +1997,8 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 1,
     "explanation": "Use easy to understand words (වත්රුම් ගැනීමට පහසු වචන භාිත කිරීම)",
     "kind": "mcq",
-    "sinhalaText": "ඩිවමන්ියා ඇති වරෝගිවයකු/පරිශීලකවයකු සමඟ සන්ිවේදනය කරන්වන් වකවස්ද:"  },
+    "sinhalaText": "ඩිවමන්ියා ඇති වරෝගිවයකු/පරිශීලකවයකු සමඟ සන්ිවේදනය කරන්වන් වකවස්ද:"
+  },
   {
     "id": "lesson-03-q031",
     "moduleId": "lesson-03",
@@ -2392,7 +2397,8 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "kind": "mcq",
     "sinhalaText": "කතා කිරීමට සහෝ ගිලීමට අපහසු භාවිතා කරන්නන් පුහුණු කරන්සන් කවුද?"
   },
-  {    "id": "lesson-04-q024",
+  {
+    "id": "lesson-04-q024",
     "moduleId": "lesson-04",
     "number": 24,
     "question": "Who is the specialist that creates menus considering nutritional balance?",
@@ -2791,7 +2797,8 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "kind": "mcq",
     "sinhalaText": "ගුරුත්වාකර්ෂණ සක්න්රෙ ළාං කිරීසමන් ඇිවන බලපෑම කුමක්ද?"
   },
-  {    "id": "lesson-04-q049",
+  {
+    "id": "lesson-04-q049",
     "moduleId": "lesson-04",
     "number": 49,
     "question": "When lifting a care recipient, what kind of muscles do you use?",
@@ -3190,7 +3197,8 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "kind": "mcq",
     "sinhalaText": "බැහැර කරන රවය (excretions) ෙනු සමානවාද?"
   },
-  {    "id": "lesson-04-q074",
+  {
+    "id": "lesson-04-q074",
     "moduleId": "lesson-04",
     "number": 74,
     "question": "To prevent infection, how do you handle blood and body fluids?",
@@ -3589,7 +3597,8 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "kind": "mcq",
     "sinhalaText": "‍රෝද පුටුවක් භාවිත කිරීමට ‍පර ටයේවල වායු පීඩනය පරීක්ෂා කිරීමට ‍ ේතුව කුමක්ද?"
   },
-  {    "id": "lesson-05-q015",
+  {
+    "id": "lesson-05-q015",
     "moduleId": "lesson-05",
     "number": 15,
     "question": "When transferring from a bed to a wheelchair, why is the wheelchair placed on the unaffected side?",
@@ -3988,7 +3997,8 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "kind": "mcq",
     "sinhalaText": "මුත්‍රා කිරීමට අවශයතාව දැනීමට ‍පර මුත්‍රාශ‍ේ මුත්‍රා ‍කාපමණ ප්‍රමාණයක් එකතු ‍ේද?"
   },
-  {    "id": "lesson-05-q040",
+  {
+    "id": "lesson-05-q040",
     "moduleId": "lesson-05",
     "number": 40,
     "question": "What role do the ureters play?",
@@ -4387,7 +4397,8 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "kind": "mcq",
     "sinhalaText": "ආසාදන‍ේ කරුණු තුන (three elements of infection) ‍මානවාද?"
   },
-  {    "id": "lesson-05-q065",
+  {
+    "id": "lesson-05-q065",
     "moduleId": "lesson-05",
     "number": 65,
     "question": "What is the basic method for preventing infectious diseases?",
@@ -4786,7 +4797,8 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "kind": "mcq",
     "sinhalaText": "සක්‍රීයෛ සෛන්න දීම (වකයිවචෝ) යනු කුමක්ද?"
   },
-  {    "id": "lesson-06-q007",
+  {
+    "id": "lesson-06-q007",
     "moduleId": "lesson-06",
     "number": 7,
     "question": "What is empathy (Kyoukan)?",
@@ -5185,7 +5197,8 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "kind": "mcq",
     "sinhalaText": "ස්ථානය වහෝ දිශ්‍ාෛ පැහැදිලි කරන විට කුමක් කළ යුතුද?"
   },
-  {    "id": "lesson-06-q032",
+  {
+    "id": "lesson-06-q032",
     "moduleId": "lesson-06",
     "number": 32,
     "question": "What method is used to convey the layout of food during meals?",
@@ -5584,7 +5597,8 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "kind": "mcq",
     "sinhalaText": "සත්කාරක වස්ෛාවේදී ෛාර්තා තැබීවම් ෛැදගත්කම කුමක්ද?"
   },
-  {    "id": "lesson-06-q057",
+  {
+    "id": "lesson-06-q057",
     "moduleId": "lesson-06",
     "number": 57,
     "question": "How do records relate to the practice of team care?",
@@ -5983,7 +5997,8 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "kind": "mcq",
     "sinhalaText": "මතාරතුරු නැවත ඔමබ් මනසට මගන ඒමම් (සිහිපත් කිරීමම්) මතක ක්‍රියාවලිය වන්මන්:"
   },
-  {    "id": "lesson-07-q007",
+  {
+    "id": "lesson-07-q007",
     "moduleId": "lesson-07",
     "number": 7,
     "question": "A process of memory which is to retain the information :",
@@ -6382,7 +6397,8 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "kind": "mcq",
     "sinhalaText": "ආහාර ජීර්ණය කර අවමශෝෂණය කර ගනිමින්, අවශය මපෝෂය පදාර්ථ ෙබාමගන අපද්‍රවය මළපහ මෙස බැහැර කරන්මන්:"
   },
-  {    "id": "lesson-07-q032",
+  {
+    "id": "lesson-07-q032",
     "moduleId": "lesson-07",
     "number": 32,
     "question": "Peristalsis begins when the food is sent to the",
@@ -6781,7 +6797,8 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "kind": "mcq",
     "sinhalaText": "ශ්‍රවණ ආබාධ ඇති අය සමඟ සන්නිමේදනය කිරීමම් මාධය පහත ඒවා මේ, මේවා හැර:"
   },
-  {    "id": "lesson-07-q056",
+  {
+    "id": "lesson-07-q056",
     "moduleId": "lesson-07",
     "number": 56,
     "question": "It is a state in which a person has difficulty communication using speech due to damage to the language center of the cerebrum :",
@@ -7180,7 +7197,8 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "kind": "mcq",
     "sinhalaText": "නව කරුණු සහ මතාරතුරු මතක තබා ගැනීමට මනාහැකි වන ආබාධයක් මපන්නුම් කරන ඩිමමන්ශියා හි මූලික මරෝග ෙක්ෂණයකි:"
   },
-  {    "id": "lesson-07-q081",
+  {
+    "id": "lesson-07-q081",
     "moduleId": "lesson-07",
     "number": 81,
     "question": "One of the core symptoms of dementia in which a person cannot remember procedures and becomes unable to carry out various activities :",
@@ -7579,7 +7597,8 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     ],
     "correctIndex": 1,
     "explanation": "Senuki (වසනුකි / Senuki)",
-    "kind": "mcq",    "sinhalaText": "වතරපුම් තුවාල (pressure ulcer) වැළැක්වීම සඳහා පරිශීලකයාවේ පිට ඇවඳන් ඉවතට/ඉහළට ගැනීවම් සුදුසු ක්‍රමය:"
+    "kind": "mcq",
+    "sinhalaText": "වතරපුම් තුවාල (pressure ulcer) වැළැක්වීම සඳහා පරිශීලකයාවේ පිට ඇවඳන් ඉවතට/ඉහළට ගැනීවම් සුදුසු ක්‍රමය:"
   },
   {
     "id": "lesson-08-q005",
@@ -7978,7 +7997,8 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 0,
     "explanation": "300ml (මිලිලීටර් 300 / 300ml) (A typical single voiding volume is roughly\naround 200–400 ml, making 300 ml the realistic voiding measurement here.)",
     "kind": "mcq",
-    "sinhalaText": "මුත්‍රා පිටවීවම් සුදුසු මිනුම කුමක්ද,"  },
+    "sinhalaText": "මුත්‍රා පිටවීවම් සුදුසු මිනුම කුමක්ද,"
+  },
   {
     "id": "lesson-08-q033",
     "moduleId": "lesson-08",
@@ -8377,7 +8397,8 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "moduleId": "lesson-08",
     "number": 58,
     "question": "Choose the appropriate time in changing user's position:",
-    "options": [      "Once every 6 hours (සෑම පැය 6කට වරක්)",
+    "options": [
+      "Once every 6 hours (සෑම පැය 6කට වරක්)",
       "Once every 2 hours (සෑම පැය 2කට වරක්)",
       "Once every 4 hours (සෑම පැය 4කට වරක්)"
     ],
@@ -8776,7 +8797,8 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "options": [
       "Use disposable gloves (ඉවත දැමිය හැකි අත්වැසුම් භාවිත කිරීම)",
       "Wash your hands very well (ඔවේ අත් ඉතා වහාඳින් වස්දීම)",
-      "Take oral medicine (මුඛ්‍ ඖෂධ ගැනීම)",      "Change clothes (ඇඳුම් මාරු කිරීම)"
+      "Take oral medicine (මුඛ්‍ ඖෂධ ගැනීම)",
+      "Change clothes (ඇඳුම් මාරු කිරීම)"
     ],
     "correctIndex": 1,
     "explanation": "Wash your hands very well (ඔවේ අත් ඉතා වහාඳින් වස්දීම)",
