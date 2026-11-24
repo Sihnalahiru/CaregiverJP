@@ -1,19 +1,18 @@
 import React from 'react';
 
-export type AppView = 'library' | 'practice' | 'reader';
+export type AppView = 'dashboard' | 'library' | 'practice' | 'reader';
 
 interface HeaderProps {
   activeView: AppView;
   onNavigate: (view: AppView) => void;
-  onStartPractice: () => void;
 }
 
 export const Header: React.FC<HeaderProps> = ({
   activeView,
   onNavigate,
-  onStartPractice,
 }) => {
   const navItems: { id: AppView; label: string }[] = [
+    { id: 'dashboard', label: 'Dashboard' },
     { id: 'library', label: 'Paper Library' },
     { id: 'practice', label: 'Practice Quiz' },
 
@@ -26,7 +25,7 @@ export const Header: React.FC<HeaderProps> = ({
         {/* Zone 1: Single text element wordmark */}
         <button
           type="button"
-          onClick={() => onNavigate('library')}
+          onClick={() => onNavigate('dashboard')}
           className="text-xl font-bold tracking-tight text-slate-900 whitespace-nowrap shrink-0 cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#0284C7]"
         >
           HiCare
@@ -56,16 +55,6 @@ export const Header: React.FC<HeaderProps> = ({
           })}
         </nav>
 
-        {/* Zone 3: 1 primary action */}
-        <div className="flex items-center shrink-0">
-          <button
-            type="button"
-            onClick={onStartPractice}
-            className="px-4 py-2 text-sm font-semibold text-white bg-[#0284C7] rounded-lg hover:bg-[#0369A1] transition-colors whitespace-nowrap shrink-0 cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#0284C7]"
-          >
-            Start Practice
-          </button>
-        </div>
       </div>
 
       {/* Mobile navigation strip */}
