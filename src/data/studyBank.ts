@@ -160,7 +160,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Change the subject frequently (මාතෘකාව නිතර වෙනස් කිරීම)"
     ],
     "correctIndex": 0,
-    "explanation": "Maintain gentle eye contact and nod attentively (මෘදු ඇස් සම්බන්ධතාවය පවත්වා ගෙන අවධානයෙන් හිස සැලීම) — Active listening (傾聴) combines eye contact at the user's level, nodding, and empathetic posture.",
+    "explanation": "Maintain gentle eye contact and nod attentively (මෘදු ඇස් සම්බන්ධතාවය පවත්වා ගෙන අවධානයෙන් හිස සැලීම) — Active listening combines eye contact at the user's level, nodding, and empathetic posture.",
     "kind": "source-mcq",
     "sinhalaText": "සත්කාර සේවකයෙකු උනන්දුවෙන් සිටින බවත් පරිශීලකයාට අවධානයෙන් සවන් දෙන බවත් පෙන්විය හැක්කේ කෙසේද?"
   },
@@ -272,7 +272,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Human dignity (මානව ගරුත්වය)"
     ],
     "correctIndex": 3,
-    "explanation": "Human dignity (මානව ගරුත්වය) — Respecting human dignity (尊厳の保持) and supporting independence are the foundational principles of Japanese nursing care (Kaigo).",
+    "explanation": "Human dignity (මානව ගරුත්වය) — Respecting human dignity and supporting independence are foundational principles of nursing care.",
     "kind": "source-mcq",
     "sinhalaText": "පරිශීලකයාගේ එදිනෙදා ජීවිතයට සහාය වීමේදී සත්කාර සේවකයෙකු සැමවිටම ආරක්ෂා කළ යුතු මූලික මූලධර්මය කුමක්ද?"
   },
@@ -7737,7 +7737,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "No (නැත)"
     ],
     "correctIndex": 1,
-    "explanation": "No (නැත) — Dressing rule (着脱の原則): Put clothes ON the affected side first (患側から着る); take clothes OFF the healthy side first (健側から脱ぐ).",
+    "explanation": "No (නැත) — Dressing rule: Put clothing on the affected side first; remove clothing from the unaffected side first.",
     "kind": "source-mcq",
     "sinhalaText": "අංශභාගය ඇති පරිශීලකයෙකුට ඇඳුමක් අන්දන විට, පළමුව නිරෝගී පැත්තේ අත් බාහුව දමා පසුව ආබාධිත පැත්තේ අත් බාහුව දැමිය යුතුය:"
   },
@@ -8123,7 +8123,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "options": [
       "Deactivate the brake when no one is using it (කිසිවවකු එය භාවිත නොකරන විට තිරිංගය / brake නිදහසේකිරීම)",
       "Raise the footplates when entering or exiting the chair (පුටුවට ඇතුළු වන විට හෝ ඉන් බසින විට\nfootplates ඉහළට එසවීම)",
-      "Go down the slope with the wheelchair facing backwards for the user, especially [truncated in PDF]\n(බෑවුමකින් පහළට යන විට රෝද පුටුව පිටුපසට හරවා ගෙන යාම)",
+      "Go down the slope with the wheelchair facing backwards for the user\n(බෑවුමකින් පහළට යන විට රෝද පුටුව පිටුපසට හරවා ගෙන යාම)",
       "Make sure that all of the parts of the wheelchair are in good condition including the tire, air\npressure and brake (ටයරය, වායු පීඩනය සහ තිරිංග ඇතුළුව රෝද පුටුවේ සියුම කොටසේ හොඳ තත්ත්වේ ඇතිබව තහවුරු කිරීම)"
     ],
     "correctIndex": 0,
