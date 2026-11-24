@@ -35,6 +35,26 @@
   ::selection { background: #C6FAFF; color: #1132D9; }
   * { scrollbar-width: thin; scrollbar-color: #BED3F0 transparent; }
 }
+
+/* Sinhala shaping: prefer proper Sinhala fonts on Windows, Android and iOS.
+   Noto Sans Sinhala is downloaded once and cached by the service worker;
+   installed system fonts remain an offline fallback. */
+:lang(si), [lang="si"], .sinhala-text {
+  font-family: "Noto Sans Sinhala", "Iskoola Pota", "Nirmala UI", "Malithi Web", sans-serif !important;
+  font-style: normal;
+  font-kerning: normal;
+  font-variant-ligatures: normal;
+  font-feature-settings: "ccmp" 1, "locl" 1, "mark" 1, "mkmk" 1;
+  text-rendering: optimizeLegibility;
+}
+.cbt-exam {
+  font-family: "Noto Sans Sinhala", "Iskoola Pota", "Nirmala UI", "Malithi Web", "Montserrat", system-ui, sans-serif;
+}
+.cbt-exam button, .cbt-exam p, .cbt-exam h1, .cbt-exam h2, .cbt-exam label, .cbt-exam span {
+  font-kerning: normal;
+  font-variant-ligatures: normal;
+}
+
 .font-mono-tabular { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
 
 .cbt-exam .border-slate-200, .cbt-exam .border-slate-100 { border-color: #E4EDF8; }
