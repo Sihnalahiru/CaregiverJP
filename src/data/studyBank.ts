@@ -112,7 +112,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Block off the area until it can be cleaned (පිරිසිදු කළ හැකි වන තෙෙ\nක් එම ප්‍රදේශය අවහිර කර\nතැබීම)"
     ],
     "correctIndex": 3,
-    "explanation": "Block off the area until it can be cleaned (පිරිසිදු කළ හැකි වනතෙ\nෙ\nක් එම ප්‍රදේශය අවහිර කර තැබීම)\nNursing Care Skills Evaluation Test (English + සිංහල)\nPage 1 of 17",
+    "explanation": "Block off the area until it can be cleaned (පිරිසිදු කළ හැකි වනතෙ\nෙ\nක් එම ප්‍රදේශය අවහිර කර තැබීම)\n",
     "kind": "mcq",
     "sinhalaText": ""
   },
@@ -127,9 +127,9 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "sanitizer (සනීපාරක්ෂක දියර / Sanitizer)",
       "[Missing / කැපී ඇත]"
     ],
-    "correctIndex": 0,
+    "correctIndex": -1,
     "explanation": "Hand washing (අත් සේදීම)",
-    "kind": "mcq",
+    "kind": "source-mcq",
     "sinhalaText": ""
   },
   {
@@ -143,9 +143,9 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "gestures (අභිනයන් / අත් ඉඟි)",
       "[Missing / කැපී ඇත]"
     ],
-    "correctIndex": 0,
+    "correctIndex": -1,
     "explanation": "/ b) / c) All listed options are forms of non-verbal communication\n(සියල්ල වාචික නොවන සන්නිවේදන ක්‍රම වේ)",
-    "kind": "mcq",
+    "kind": "source-mcq",
     "sinhalaText": ""
   },
   {
@@ -159,9 +159,9 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "[Correct the user's] mistakes (පරිශීලකයාගේ වැරදි නිවැරදි කිරීම)",
       "Change the subject frequently (මාතෘකාව නිතර වෙෙ\nනස් කිරීම)"
     ],
-    "correctIndex": 0,
+    "correctIndex": -1,
     "explanation": "or b) (Active listening cues such as nodding/eye contact; options c\nand d hinder listening — PDF හි a සහ b කැපී ඇත)",
-    "kind": "mcq",
+    "kind": "source-mcq",
     "sinhalaText": ""
   },
   {
@@ -176,7 +176,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Bring them home-baked cookies once a week (සතියකට වරක් නිවසේ සාදන ලද කුකීස්\nඔවුන්ට ගෙෙ\nනැවිත් දීම)"
     ],
     "correctIndex": 0,
-    "explanation": "Learn their non-verbal communication (ඔවුන්ගේ වාචික නොවන\nසන්නිවේදනය ඉගෙෙ\nන ගැනීම)\nNursing Care Skills Evaluation Test (English + සිංහල)\nPage 2 of 17",
+    "explanation": "Learn their non-verbal communication (ඔවුන්ගේ වාචික නොවන\nසන්නිවේදනය ඉගෙෙ\nන ගැනීම)\n",
     "kind": "mcq",
     "sinhalaText": ""
   },
@@ -223,25 +223,25 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Place them in a neat pile on the floor (ඒවා බිම පිළිවෙෙළකට ගොඩගැසීම)",
       "Carry them close to the nurse aide's body (හෙෙ\nද සහායකයාගේ ශරීරයට ළං කර ඒවා රැගෙෙ\nන\nයාම)"
     ],
-    "correctIndex": 1,
+    "correctIndex": -1,
     "explanation": "Put them in the dirty linen container (ඒවා අපිරිසිදු රෙෙදි බහාලුමේ\nදැමීම)",
-    "kind": "mcq",
+    "kind": "source-mcq",
     "sinhalaText": ""
   },
   {
     "id": "main-paper-q010",
     "moduleId": "main-paper",
     "number": 10,
-    "question": "Used disposable supplies and [Truncated in PDF]\nභාවිත කළ ඉවත දැමිය හැකි සැපයුම් සහ [PDF හි කොටසක් කැපී ඇත] ඉවත දැමිය\nයුත්තේ:\nNursing Care Skills Evaluation Test (English + සිංහල)\nPage 3 of 17",
+    "question": "Used disposable supplies and [Truncated in PDF]\nභාවිත කළ ඉවත දැමිය හැකි සැපයුම් සහ [PDF හි කොටසක් කැපී ඇත] ඉවත දැමිය\nයුත්තේ:\n",
     "options": [
       "Outside the user's room (පරිශීලකයාගේ කාමරයෙෙ\nන් පිටත)",
       "In the designated receptacle (නියමිත කුණු බඳුනේ / බහාලුමේ)",
       "In the user's wash basket (පරිශීලකයාගේ රෙෙදි සෝදන කූඩයේ)",
       "In the clean utility room (පිරිසිදු උපයෝගිතා කාමරයේ / Clean utility room)"
     ],
-    "correctIndex": 1,
+    "correctIndex": -1,
     "explanation": "In the designated receptacle (නියමිත කුණු බඳුනේ / බහාලුමේ)",
-    "kind": "mcq",
+    "kind": "source-mcq",
     "sinhalaText": ""
   },
   {
@@ -255,9 +255,9 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "[Missing / කැපී ඇත]",
       "of the user [Truncated] side (පරිශීලකයාගේ [කැපී ඇත] පැත්ත)"
     ],
-    "correctIndex": 0,
+    "correctIndex": -1,
     "explanation": "Position [the wheelchair properly on the unaffected/strong side and\nlock brakes] (රෝද පුටුව නිසි ලෙෙ\nස ස්ථානගත කිරීම)",
-    "kind": "mcq",
+    "kind": "source-mcq",
     "sinhalaText": ""
   },
   {
@@ -271,9 +271,9 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "user centric daily lifestyle (පරිශීලක කේන්ද්‍රීය දෛෛනික ජීවන රටාව)",
       "human dignity (මානව ගරුත්වය)"
     ],
-    "correctIndex": 3,
+    "correctIndex": -1,
     "explanation": "human dignity (මානව ගරුත්වය)",
-    "kind": "mcq",
+    "kind": "source-mcq",
     "sinhalaText": ""
   },
   {
@@ -296,7 +296,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "id": "main-paper-q014",
     "moduleId": "main-paper",
     "number": 14,
-    "question": "Physical restraint is to restrict the user's physical movements. Which of the following is\nnot considered as a physical restraint?\nභෞතික සීමා කිරීම (Physical restraint) යනු පරිශීලකයාගේ ශාරීරික චලනයන් සීමා කිරීමයි.\nපහත සඳහන් ඒවායින් භෞතික සීමා කිරීමක් ලෙෙ\nස නොසැලකෙෙ\nන්නේ කුමක්ද?\nNursing Care Skills Evaluation Test (English + සිංහල)\nPage 4 of 17",
+    "question": "Physical restraint is to restrict the user's physical movements. Which of the following is\nnot considered as a physical restraint?\nභෞතික සීමා කිරීම (Physical restraint) යනු පරිශීලකයාගේ ශාරීරික චලනයන් සීමා කිරීමයි.\nපහත සඳහන් ඒවායින් භෞතික සීමා කිරීමක් ලෙෙ\nස නොසැලකෙෙ\nන්නේ කුමක්ද?\n",
     "options": [
       "Use violence in the user's body (පරිශීලකයාගේ ශරීරයට හිංසනය/ප්‍රචණ්ඩත්වය යෙෙ\nදීම)",
       "Put safety rails around the bed so that the user cannot get off the bed by himself\n(පරිශීලකයාට තනිවම ඇඳෙෙන් බැසීමට නොහැකි වන පරිදි ඇඳ වටා ආරක්ෂිත වැටවල් දැමීම)",
@@ -344,16 +344,16 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "id": "main-paper-q017",
     "moduleId": "main-paper",
     "number": 17,
-    "question": "Regarding the changes in the body along with aging, choose one correct answer.\n[Truncated in PDF]\nවයසට යාමත් සමඟ ශරීරයේ සිදුවන වෙෙ\nනස්කම් සම්බන්ධයෙෙ\nන්, එක් නිවැරදි පිළිතුරක්\nතෝරන්න. [PDF හි කොටසක් කැපී ඇත]\nNursing Care Skills Evaluation Test (English + සිංහල)\nPage 5 of 17",
+    "question": "Regarding the changes in the body along with aging, choose one correct answer.\n[Truncated in PDF]\nවයසට යාමත් සමඟ ශරීරයේ සිදුවන වෙෙ\nනස්කම් සම්බන්ධයෙෙ\nන්, එක් නිවැරදි පිළිතුරක්\nතෝරන්න. [PDF හි කොටසක් කැපී ඇත]\n",
     "options": [
       "Difference among individuals are few (පුද්ගලයන් අතර වෙෙ\nනස්කම් අල්පය)",
       "Becomes difficult to hear low sound (පහත් ශබ්ද ඇසීමට අපහසු වේ)",
       "Become easy [Truncated in PDF] (පහසු වේ - PDF හි කැපී ඇත)",
       "Field of [Truncated in PDF] (දෘෂ්ටි පරාසය - PDF හි කැපී ඇත)"
     ],
-    "correctIndex": 3,
+    "correctIndex": -1,
     "explanation": "Field of [vision becomes narrower] (වයසට යාමත් සමඟ දෘෂ්ටි\nපරාසය පටු වේ — සටහන: අධි සංඛ්‍යාාත/උස් ශබ්ද ඇසීම අපහසු වන අතර පුද්ගල වෙෙ\nනස්කම් වැඩිය)",
-    "kind": "mcq",
+    "kind": "source-mcq",
     "sinhalaText": ""
   },
   {
@@ -367,9 +367,9 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Listen to them watching their facial expressions (ඔවුන්ගේ මුහුණේ ඉරියව් දෙෙස බලා සවන් දීම)",
       "Try not to use gestures and hand gestures (අභිනයන් සහ අත් ඉඟි භාවිත නොකිරීමට උත්සාහ\nකිරීම)"
     ],
-    "correctIndex": 2,
+    "correctIndex": -1,
     "explanation": "Listen to them watching their facial expressions (ඔවුන්ගේ මුහුණේ\nඉරියව් දෙෙස බලා සවන් දීම)",
-    "kind": "mcq",
+    "kind": "source-mcq",
     "sinhalaText": ""
   },
   {
@@ -392,7 +392,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "id": "main-paper-q020",
     "moduleId": "main-paper",
     "number": 20,
-    "question": "Among the explanation below when supporting to put on/off a shirt to care a person\nwith paralysis on the left hand side, choose one appropriate answer.\nවම් අත පැත්තේ අංශභාගය (paralysis on the left hand side) ඇති පුද්ගලයෙෙ\nකුට කමිසයක්\nඇඳීමට හෝ ගැලවීමට සහාය වන විට, පහත පැහැදිලි කිරීම් අතරින් එක් සුදුසු පිළිතුරක්\nතෝරන්න.\nNursing Care Skills Evaluation Test (English + සිංහල)\nPage 6 of 17",
+    "question": "Among the explanation below when supporting to put on/off a shirt to care a person\nwith paralysis on the left hand side, choose one appropriate answer.\nවම් අත පැත්තේ අංශභාගය (paralysis on the left hand side) ඇති පුද්ගලයෙෙ\nකුට කමිසයක්\nඇඳීමට හෝ ගැලවීමට සහාය වන විට, පහත පැහැදිලි කිරීම් අතරින් එක් සුදුසු පිළිතුරක්\nතෝරන්න.\n",
     "options": [
       "Refrain from using clothes with buttons (බොත්තම් සහිත ඇඳුම් භාවිත කිරීමෙෙ\nන් වැළකී සිටීම)",
       "When putting on, put first the left arm and through the sleeve (අඳින විට, පළමුව වම් අත අත්\nබාහුව හරහා දැමීම)",
@@ -448,7 +448,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Jelly (ජෙෙලි / Jelly)"
     ],
     "correctIndex": 2,
-    "explanation": "Miso soup (මිසෝ සුප් / Miso soup)\nNursing Care Skills Evaluation Test (English + සිංහල)\nPage 7 of 17",
+    "explanation": "Miso soup (මිසෝ සුප් / Miso soup)\n",
     "kind": "mcq",
     "sinhalaText": ""
   },
@@ -504,7 +504,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "id": "main-paper-q027",
     "moduleId": "main-paper",
     "number": 27,
-    "question": "If an accident occurs in the workplace which action should you take?\nසේවා ස්ථානයේ අනතුරක් සිදු වුවහොත් ඔබ ගත යුතු ක්‍රිියාමාර්ගය කුමක්ද?\nNursing Care Skills Evaluation Test (English + සිංහල)\nPage 8 of 17",
+    "question": "If an accident occurs in the workplace which action should you take?\nසේවා ස්ථානයේ අනතුරක් සිදු වුවහොත් ඔබ ගත යුතු ක්‍රිියාමාර්ගය කුමක්ද?\n",
     "options": [
       "Willingly leave for days until condition is ok (තත්ත්වය යහපත් වන තුරු කැමැත්තෙෙ\nන්ම දින\nගණනක් බැහැරව සිටීම)",
       "Think of the cause of the situation (එම තත්ත්වයට හේතුව ගැන සිතීම)",
@@ -559,16 +559,16 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "[Missing / කැපී ඇත]",
       "[Missing / කැපී ඇත]\nNursing Care Skills Evaluation Test (English + සිංහල)"
     ],
-    "correctIndex": 1,
+    "correctIndex": -1,
     "explanation": "[Wash] your hands after a contact with a user with running water\n(පරිශීලකයෙෙ\nකු සමඟ සම්බන්ධ වීමෙෙ\nන් පසු ගලා යන ජලයෙෙ\nන් අත් සේදීම)",
-    "kind": "mcq",
+    "kind": "source-mcq",
     "sinhalaText": ""
   },
   {
     "id": "main-paper-q031",
     "moduleId": "main-paper",
     "number": 31,
-    "question": "Proper sitting posture in the toilet;\nවැසිකිළියේ නිවැරදිව වාඩි වී සිටින ඉරියව්ව (Proper sitting posture in the toilet):\nNursing Care Skills Evaluation Test (English + සිංහල)\nPage 10 of 17\n\nFour toilet sitting postures labeled A, B, C, and D\nFigure 1 (Question 31): Sitting postures A, B, C, and D on the toilet / වැසිකිළියේ වාඩි වී සිටින ඉරියව් A,\nB, C, සහ D\nNursing Care Skills Evaluation Test (English + සිංහල)\nPage 11 of 17",
+    "question": "Proper sitting posture in the toilet;\nවැසිකිළියේ නිවැරදිව වාඩි වී සිටින ඉරියව්ව (Proper sitting posture in the toilet):\n\n\n",
     "options": [
       "(A ඉරියව්ව — 90° කෝණයකින් කෙෙ\nළින් වාඩි වී සිටීම)",
       "(B ඉරියව්ව — පාද ආධාරකයක් මත තබා මඳක් ඉදිරියට නැඹුරු වී සිටීම)",
@@ -648,7 +648,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "id": "main-paper-q036",
     "moduleId": "main-paper",
     "number": 36,
-    "question": "Choose the image which indicate implementation of the body mechanics with correct\nknowledge.\nනිවැරදි දැනුම ඇතිව ශරීර යාන්ත්‍ර විද්‍යාාව (body mechanics) ක්‍රිියාත්මක කිරීම පෙෙ\nන්නුම් කරන\nරූපය තෝරන්න.\nNursing Care Skills Evaluation Test (English + සිංහල)\nPage 13 of 17\n\nFour body mechanics scenes labeled A, B, C, and D\nFigure 2 (Question 36): Lifting and transfer body mechanics A, B, C, and D / ශරීර යාන්ත්‍ර විද්‍යාා ඉරියව් A,\nB, C, සහ D\nNursing Care Skills Evaluation Test (English + සිංහල)\nPage 14 of 17",
+    "question": "Choose the image which indicate implementation of the body mechanics with correct\nknowledge.\nනිවැරදි දැනුම ඇතිව ශරීර යාන්ත්‍ර විද්‍යාාව (body mechanics) ක්‍රිියාත්මක කිරීම පෙෙ\nන්නුම් කරන\nරූපය තෝරන්න.\n\n\n",
     "options": [
       "(A රූපය — දණහිස් නවා ගුරුත්ව කේන්ද්‍රය පහත් කර, කොන්ද කෙෙ\nළින් තබා බර ශරීරයට ළං කර\nඑසවීම)",
       "(B රූපය — දණහිස් නොනවා කොන්ද නවා එසවීම නිසා කොන්දේ වේදනාව ඇති වීම)",
@@ -688,7 +688,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Assistive devices can be used to treat intellectual disability (බුද්ධිමය ආබාධිතභාවයට ප්‍රතිකාර\nකිරීම සඳහා සහායක උපකරණ / Assistive devices භාවිත කළ හැක)"
     ],
     "correctIndex": 2,
-    "explanation": "Sometimes intellectual disability occurs concurrently with motor\ndysfunction (සමහර විට චාලක අක්‍රිියතාව සමඟ බුද්ධිමය ආබාධිතභාවය එකවර ඇති වේ)\nNursing Care Skills Evaluation Test (English + සිංහල)\nPage 15 of 17",
+    "explanation": "Sometimes intellectual disability occurs concurrently with motor\ndysfunction (සමහර විට චාලක අක්‍රිියතාව සමඟ බුද්ධිමය ආබාධිතභාවය එකවර ඇති වේ)\n",
     "kind": "mcq",
     "sinhalaText": ""
   },
@@ -748,7 +748,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "All of above (ඉහත සියල්ල)"
     ],
     "correctIndex": 3,
-    "explanation": "All of above (ඉහත සියල්ල)\nNursing Care Skills Evaluation Test (English + සිංහල)\nPage 16 of 17",
+    "explanation": "All of above (ඉහත සියල්ල)\n",
     "kind": "mcq",
     "sinhalaText": ""
   },
@@ -796,7 +796,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Letter W (W අකුර මෙෙ\nන්)"
     ],
     "correctIndex": 0,
-    "explanation": "Letter S (S අකුර මෙෙ\nන්)\nNursing Care Skills Evaluation Test (English + සිංහල)\nPage 17 of 17",
+    "explanation": "Letter S (S අකුර මෙෙ\nන්)\n",
     "kind": "mcq",
     "sinhalaText": ""
   },
@@ -7736,9 +7736,9 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Yes (ඔේ)",
       "No (නැත)"
     ],
-    "correctIndex": 1,
+    "correctIndex": -1,
     "explanation": "No (නැත) (When putting on clothes, the affected side goes in first; when\ntaking off clothes, the healthy/unaffected side comes out first.)",
-    "kind": "mcq",
+    "kind": "source-mcq",
     "sinhalaText": "[PDF හි වකාටසක් කැපී ඇත] පැත්ත පළමුව, පසුව ආබාධිත පැත්වත් අත් බාහු:"
   },
   {
@@ -7750,9 +7750,9 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Yes (ඔේ)",
       "No (නැත)"
     ],
-    "correctIndex": 1,
+    "correctIndex": -1,
     "explanation": "No (නැත) (See Q11 note: cane → affected leg → healthy leg.)",
-    "kind": "mcq",
+    "kind": "source-mcq",
     "sinhalaText": "[PDF හි වකාටසක් කැපී ඇත] නිවරෝගී පැත්ත, (3) ආබාධිත පැත්ත:"
   },
   {
