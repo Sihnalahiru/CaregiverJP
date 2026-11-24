@@ -8513,13 +8513,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 65,
     "question": "Which of the following shows the proper sequence of cleaning the face :",
     "options": [
-      "Forehead nose eyes cheeks jaw Mouth (නළල → නාසය → ඇසේ → කම්මුල් → හකු → මුඛය)",
-      "Option text is unreadable in the supplied source scan (මුල් PDF scan එකේ විකල්පයේ පෙළ කියවිය නොහැක)",
-      "Option text is unreadable in the supplied source scan (මුල් PDF scan එකේ විකල්පයේ පෙළ කියවිය නොහැක)",
-      "Option text is unreadable in the supplied source scan (මුල් PDF scan එකේ විකල්පයේ පෙළ කියවිය නොහැක)"
+      "Forehead nose eyes cheeks jaw Mouth (නළල → නාසය → ඇස් → කම්මුල් → හකු → මුඛය)",
+      "Jaw ... Mouth (මුල් PDF හි මෙම විකල්පයේ පෙළ කැපී ඇත: හකු ... මුඛය)",
+      "Eyes ... Mouth Jaw ... Nose ... Forehead ... Cheeks (මුල් PDF හි මෙම විකල්පයේ පෙළ කොටස් වශයෙන් පමණක් කියවිය හැක)",
+      "Eyes Nose Cheeks Forehead Nose Mouth Forehead Cheeks Jaw (මුල් PDF හි විකල්පයේ අනුපිළිවෙළ/පෙළ දෝෂ සහිතව පෙනේ)"
     ],
     "correctIndex": 0,
-    "explanation": "The supplied source scan preserves option A as the correct sequence, but options B–D are not readable enough to reconstruct accurately. Keep this item flagged for source review rather than guessing the missing choices. (මුල් PDF scan එකේ A විකල්පය නිවැරදි අනුපිළිවෙළ ලෙස පෙනේ. B–D විකල්ප නිවැරදිව නැවත සකස් කිරීමට කියවිය නොහැකි බැවින් අනුමාන නොකර මූලාශ්‍ර පරීක්ෂාව සඳහා තබා ඇත.)",
+    "explanation": "The supplied PDF preserves option A as the correct sequence. Options B–D contain truncated or garbled text in the source and are retained only as readable fragments; missing wording has not been reconstructed. (මුල් PDF හි A විකල්පය නිවැරදි අනුපිළිවෙළ ලෙස දක්වා ඇත. B–D විකල්පවල පෙළ කැපී හෝ විකෘති වී ඇති බැවින් කියවිය හැකි කොටස් පමණක් තබා ඇත; නැති පෙළ අනුමානයෙන් පුරවා නැත.)",
     "kind": "mcq",
     "sinhalaText": "මුහුණ පිරිසිදු කිරීමේ නිවැරදි අනුපිළිවවළ පහත ඒවායින් පෙන්නුම් කරන්නේ කුමක්ද:"
   },
