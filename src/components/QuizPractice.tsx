@@ -149,6 +149,11 @@ export const QuizPractice: React.FC<QuizPracticeProps> = ({
               <h2 className="text-lg sm:text-xl font-semibold text-slate-900 leading-snug">
                 {currentQuestion.question}
               </h2>
+              {currentQuestion.sinhalaText && (
+                <p className="text-sm sm:text-base text-slate-600 leading-relaxed whitespace-pre-line">
+                  {currentQuestion.sinhalaText}
+                </p>
+              )}
 
               {currentQuestion.kind === 'self-check' ? (
                 <div className="space-y-3">
@@ -230,11 +235,11 @@ export const QuizPractice: React.FC<QuizPracticeProps> = ({
 
               {currentQuestion.kind === 'source-mcq' && answers[currentQuestion.id] !== undefined && (
                 <div className="p-4 bg-amber-50 border border-amber-200 rounded-lg text-sm text-amber-900">
-                  The original PDF does not include an answer key for this question. Your selection is saved for practice but is not graded or counted as correct/missed.
+                  This source item does not have a reliable option key for automatic grading. Your selection is saved for practice but is not graded or counted as correct/missed.
                 </div>
               )}
 
-              {answers[currentQuestion.id] !== undefined && currentQuestion.kind !== 'self-check' && (
+              {answers[currentQuestion.id] !== undefined && currentQuestion.kind !== 'self-check' && currentQuestion.explanation && (
                 <div className="p-4 bg-slate-50 border border-slate-200 rounded-lg space-y-1">
                   <div className="text-xs font-semibold text-slate-700">
                     Study Explanation
