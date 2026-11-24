@@ -46,6 +46,9 @@ for (const [moduleId, [min, max]] of Object.entries(sourceRanges)) {
 for (const id of supplementalIds) if (!ids.has(id)) errors.push('Expected supplemental audit record missing from bank: ' + id);
 const imageMapPath = path.join(process.cwd(), 'src', 'data', 'questionImages.ts');
 const imageMapSource = await fs.readFile(imageMapPath, 'utf8');
+const mappedQuestionIds = [...imageMapSource.matchAll(/^\s*"([^"]+)":\s*\{\s*files:/gm)].map((item) => item[1]);
+const orphanImageMappings = mappedQuestionIds.filter((id) => !ids.has(id));
+if (orphanImageMappings.length) errors.push('Image mappings reference unknown question IDs: ' + orphanImageMappings.join(', '));
 const mappedFiles = [...imageMapSource.matchAll(/files:\s*\[([^\]]*)\]/g)]
   .flatMap((match) => [...match[1].matchAll(/"([^"]+)"/g)].map((item) => item[1]));
 for (const filename of new Set(mappedFiles)) {
