@@ -83,7 +83,6 @@ export const QUESTION_IMAGES: Record<string, QuestionImageSet> = {
   "lesson-03-q006": { files: ["203.jpg"], alt: "Care worker listening attentively and offering reassurance", auditBatch: "203-252" },
   "lesson-03-q009": { files: ["212.jpg", "223.jpg"], alt: "Appropriate posture and eye level during conversation", auditBatch: "203-252" },
   "lesson-03-q014": { files: ["220.jpg"], alt: "Sign language gestures used in communication", auditBatch: "203-252" },
-  "lesson-03-q040": { files: ["219.jpg", "224.jpg"], alt: "Written communication using a tablet and written notes", auditBatch: "203-252" },
   "lesson-06-q006": { files: ["203.jpg", "210.jpg"], alt: "Active listening and attentive communication", auditBatch: "203-252" },
   "lesson-06-q007": { files: ["203.jpg"], alt: "Care worker showing empathy and reassurance", auditBatch: "203-252" },
   "lesson-06-q034": { files: ["221.jpg"], alt: "Speaking face to face with a person who has hearing impairment", auditBatch: "203-252" },
