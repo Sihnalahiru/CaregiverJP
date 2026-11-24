@@ -655,9 +655,9 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "(C රූපය — කොන්ද ඇඹරී අසමබරව බර එසවීම)",
       "(D රූපය — ඇඳ මත රෝගියා මාරු කිරීමේ ඉරියව්ව)"
     ],
-    "correctIndex": 0,
+    "correctIndex": -1,
     "explanation": "(දණහිස් නවා ගුරුත්ව කේන්ද්‍රය පහත් කර, කොන්ද කෙෙ\nළින් තබා\nබර එසවීම නිවැරදි ශරීර යාන්ත්‍ර විද්‍යාාවයි)",
-    "kind": "mcq",
+    "kind": "source-mcq",
     "sinhalaText": ""
   },
   {
