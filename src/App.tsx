@@ -19,11 +19,28 @@ export function App() {
     async function fetchPapers() {
       try {
         setLoadingPapers(true);
-        const res = await fetch('/api/papers');
+        const res = await fetch('/api/papers', {
+          method: 'GET',
+          headers: { Accept: 'application/json' },
+          cache: 'no-store',
+        });
+        const contentType = res.headers.get('content-type') ?? '';
         if (!res.ok) {
-          throw new Error(`HTTP ${res.status}`);
+          const detail = await res.text();
+          throw new Error(
+            `Paper API HTTP ${res.status}: ${detail.slice(0, 180) || res.statusText}`
+          );
+        }
+        if (!contentType.toLowerCase().includes('application/json')) {
+          const detail = await res.text();
+          throw new Error(
+            `Paper API returned ${contentType || 'an unknown content type'} instead of JSON. The Cloudflare Worker API route may not be deployed. Response: ${detail.slice(0, 100)}`
+          );
         }
         const data = (await res.json()) as PaperMeta[];
+        if (!Array.isArray(data)) {
+          throw new Error('Paper API response is not a valid paper list.');
+        }
         if (!cancelled) {
           setPapers(data);
           if (data.length > 0) {
