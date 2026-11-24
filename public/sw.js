@@ -1,4 +1,4 @@
-const CACHE_PREFIX = 'caregiverjp-static-v2';
+const CACHE_PREFIX = 'caregiverjp-static-v3';
 const APP_SHELL = ['./', './index.html', './manifest.webmanifest', './papers-manifest.json'];
 
 self.addEventListener('install', (event) => {
