@@ -1,11 +1,10 @@
 import { useEffect, useState } from 'react';
+import type { ChangeEvent } from 'react';
 import { Header, type AppView } from './components/Header';
 import { PaperLibrary } from './components/PaperLibrary';
 import { QuizPractice } from './components/QuizPractice';
 import { PdfReader } from './components/PdfReader';
 import type { PaperMeta } from './types';
-
-const BACKUP_KEY = 'caregiverjp.personal-backup.v1';
 
 export function App() {
   const [activeView, setActiveView] = useState<AppView>('library');
@@ -67,7 +66,7 @@ export function App() {
     URL.revokeObjectURL(url);
   };
 
-  const importBackup = async (event: React.ChangeEvent<HTMLInputElement>) => {
+  const importBackup = async (event: ChangeEvent<HTMLInputElement>) => {
     const file = event.target.files?.[0];
     if (!file) return;
     try {
