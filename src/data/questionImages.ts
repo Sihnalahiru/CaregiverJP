@@ -1,7 +1,7 @@
 /**
- * Visually verified question-to-source-image links.
- * Batch 02: source images 53–102 (50 images reviewed).
- * Only topic matches supported by the image and question wording are included.
+ * Question-to-source-image mappings.
+ * This file records the current mapped question IDs and source image filenames.
+ * File existence is checked during build; semantic relevance still requires page-by-page visual audit.
  * Image files remain in public/assets/images via scripts/prepare-papers.mjs.
  */
 export interface QuestionImageSet {
@@ -97,11 +97,11 @@ export const QUESTION_IMAGES: Record<string, QuestionImageSet> = {
 };
 
 export const IMAGE_AUDIT_BATCHES = [
-  { range: "1-52", status: "VISUALLY_REVIEWED_IN_PRIOR_BATCH", mappedCount: null },
-  { range: "53-102", status: "VISUALLY_REVIEWED", mappedQuestionCount: 24, imageCount: 50 },
-  { range: "103-152", status: "VISUALLY_REVIEWED", mappedQuestionCount: 31, imageCount: 50 },
-  { range: "153-202", status: "VISUALLY_REVIEWED", mappedQuestionCount: 20, imageCount: 50 },
-  { range: "203-252", status: "VISUALLY_REVIEWED", mappedQuestionCount: 20, imageCount: 50 },
-  { range: "253-302", status: "VISUALLY_REVIEWED", mappedQuestionCount: 15, imageCount: 50 },
-  { range: "303-343", status: "VISUALLY_REVIEWED", mappedQuestionCount: 20, imageCount: 41 }
+  { range: "1-52", status: "NOT_MAPPED_IN_CURRENT_INDEX", mappedQuestionCount: 0, imageCount: 52 },
+  { range: "53-102", status: "MAPPED_REQUIRES_FINAL_VISUAL_AUDIT", mappedQuestionCount: 19, imageCount: 50 },
+  { range: "103-152", status: "MAPPED_REQUIRES_FINAL_VISUAL_AUDIT", mappedQuestionCount: 29, imageCount: 50 },
+  { range: "153-202", status: "MAPPED_REQUIRES_FINAL_VISUAL_AUDIT", mappedQuestionCount: 18, imageCount: 50 },
+  { range: "203-252", status: "MAPPED_REQUIRES_FINAL_VISUAL_AUDIT", mappedQuestionCount: 14, imageCount: 50 },
+  { range: "253-302", status: "NOT_MAPPED_IN_CURRENT_INDEX", mappedQuestionCount: 0, imageCount: 50 },
+  { range: "303-343", status: "NOT_MAPPED_IN_CURRENT_INDEX", mappedQuestionCount: 0, imageCount: 41 }
 ] as const;
