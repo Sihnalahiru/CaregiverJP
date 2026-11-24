@@ -11,7 +11,6 @@ export interface QuestionImageSet {
 }
 
 export const QUESTION_IMAGES: Record<string, QuestionImageSet> = {
-  "main-paper-q011": { files: ["99.jpg"], alt: "Wheelchair positioned beside a bed for a transfer", auditBatch: "53-102" },
   "main-paper-q021": { files: ["89.jpg"], alt: "Person standing with a walking cane", auditBatch: "53-102" },
   "lesson-02-q001": { files: ["68.jpg", "69.png", "70.png", "71.png", "72.png", "73.png", "74.png", "75.png", "76.png", "77.png", "78.png", "79.png", "80.png", "81.png", "82.png", "83.png", "84.png", "85.png"], alt: "Illustrated handwashing steps", auditBatch: "53-102" },
   "lesson-04-q040": { files: ["87.jpg", "88.jpg", "90.jpg", "91.jpg", "92.jpg", "93.jpg"], alt: "Examples of safe and unsafe lifting posture", auditBatch: "53-102" },
