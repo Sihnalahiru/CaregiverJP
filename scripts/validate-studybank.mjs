@@ -26,7 +26,7 @@ for (const q of questions) {
   if (!Array.isArray(q.options) || q.options.length < 2) errors.push(q.id + ': fewer than two options');
   if (!Number.isInteger(q.correctIndex) || q.correctIndex < 0 || q.correctIndex >= (q.options?.length || 0)) errors.push(q.id + ': invalid answer index');
   if (!q.explanation?.trim()) errors.push(q.id + ': empty explanation');
-  const sinhala = /[\\u0D80-\\u0DFF]/u;
+  const sinhala = /[\u0D80-\u0DFF]/u;
   if (!sinhala.test(q.sinhalaText || q.question || '')) missingSinhala.push(q.id + ': question');
   for (let i = 0; i < (q.options || []).length; i++) {
     if (!sinhala.test(q.options[i])) missingSinhala.push(q.id + ': option ' + (i + 1));
