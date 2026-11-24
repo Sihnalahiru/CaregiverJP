@@ -70,7 +70,10 @@ export default {
         if (!paper) return json({ error: 'Paper not found' }, 404);
 
         const assetUrl = new URL(`/papers/${encodeURIComponent(paper.filename)}`, request.url);
-        const assetRequest = new Request(assetUrl, {\n          method: request.method,\n          headers: request.headers,\n        });
+        const assetRequest = new Request(assetUrl, {
+          method: request.method,
+          headers: request.headers,
+        });
         const assetResponse = await env.ASSETS.fetch(assetRequest);
         if (!assetResponse.ok) {
           return json({ error: 'PDF asset not found', filename: paper.filename }, 404);
