@@ -1164,7 +1164,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Food (ආහාර)"
     ],
     "correctIndex": 2,
-    "explanation": "Pillow (සකාට්ටය)",
+    "explanation": "A pillow is not normally listed among the essential disaster-preparedness supplies in this question. The other options—money, water and food—are basic emergency supplies. (මෙම ප්‍රශ්නයේ ආපදා සූදානම සඳහා අවශ්‍ය මූලික සැපයුම් අතර කොට්ටයක් සාමාන්‍යයෙන් ඇතුළත් නොවේ. අනෙක් විකල්ප වන මුදල්, ජලය සහ ආහාර මූලික හදිසි සැපයුම් වේ.)",
     "kind": "mcq",
     "sinhalaText": "ආපදා වැළැේවීසම් ක්‍රියාමාර්ගයකදී සූදානම් කිරීමට අවශය  ැපයුම් පහත ඒවා සේ, නෙය හැර:"
   },
@@ -1228,7 +1228,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Back of the hand (අසත් පිටුප )"
     ],
     "correctIndex": 2,
-    "explanation": "Elbow (වැලමිට)",
+    "explanation": "The fingertips, spaces between the fingers and the back of the hand are areas that are commonly missed during handwashing. The elbow is not one of the listed high-miss areas in this item. (අත් සේදීමේදී බොහෝ විට මඟහැරෙන ප්‍රදේශ වන්නේ ඇඟිලි තුඩු, ඇඟිලි අතර ප්‍රදේශ සහ අතේ පිටුපසයි. මෙම ප්‍රශ්නයේ සඳහන් එවැනි ප්‍රදේශ අතර වැලමිට ඇතුළත් නොවේ.)",
     "kind": "mcq",
     "sinhalaText": "පහසුසවන් අපිරිසිදු වන සකාට ් වන්සන් පහත ඒවායින් කුමේද, නෙය හැර?"
   },
@@ -1356,7 +1356,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Nurse (සහදිය)"
     ],
     "correctIndex": 3,
-    "explanation": "Nurse (සහදිය)",
+    "explanation": "A nurse follows the doctor's instructions and assists in providing medical care. Care managers coordinate care, dietitians advise on nutrition, and doctors diagnose and prescribe treatment. (හෙදිය වෛද්‍යවරයාගේ උපදෙස් අනුගමනය කරමින් වෛද්‍ය සත්කාර ලබා දීමට සහාය වේ. සත්කාර කළමනාකරුවන් සත්කාර සම්බන්ධීකරණය කරති, පෝෂණවේදීන් පෝෂණ උපදෙස් දෙති, වෛද්‍යවරු රෝග නිර්ණය කර ප්‍රතිකාර නියම කරති.)",
     "kind": "mcq",
     "sinhalaText": "වවදයවරුන් ලබා සදන උපසද ් අනුගමනය කරමින් වවදය  ත්කාර ලබා දීමට  හාය වන්සන්:"
   },
@@ -6585,7 +6585,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Fever (උණ / Fever)"
     ],
     "correctIndex": 3,
-    "explanation": "Fever (උණ / Fever)",
+    "explanation": "Fever is a body temperature higher than the normal range. Dehydration and diarrhea may occur with illness, but they do not by themselves define an elevated body temperature. (උණ යනු ශරීර උෂ්ණත්වය සාමාන්‍ය පරාසයට වඩා ඉහළ යාමයි. විජලනය සහ පාචනය රෝගී තත්ත්ව සමඟ ඇති විය හැකි නමුත් ඒවා පමණක් ශරීර උෂ්ණත්වය ඉහළ යාම ලෙස අර්ථ දැක්වෙන්නේ නැත.)",
     "kind": "mcq",
     "sinhalaText": "ඔබට [හිස්තැන] ඇති විට ඔමබ් ශරීර උෂ්ණත්වය සාමානය ප්‍රමාණයට වඩා වැඩි මේ:"
   },
@@ -7611,7 +7611,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Legs (පාද / Legs)"
     ],
     "correctIndex": 2,
-    "explanation": "Legs (පාද / Legs)",
+    "explanation": "Use the strength of your legs and maintain a stable base when assisting a transfer. Avoid relying on the back or shoulders, and keep the load close to your body. (මාරු කිරීමකට සහාය වන විට පාදවල ශක්තිය භාවිත කර ස්ථාවර ආධාරක පදනමක් පවත්වා ගන්න. පිට හෝ උරහිස් මත පමණක් බර නොතබා, බර ශරීරයට ළං කර තබන්න.)",
     "kind": "mcq",
     "sinhalaText": "වසේවාදායකවයකු මාරු කරන (transferring) විට, වහද සහායකයා ආධාර ලබා ගත යුත්වත් තම:"
   },
@@ -7971,7 +7971,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Legs (පාද / Legs)"
     ],
     "correctIndex": 2,
-    "explanation": "Legs (පාද / Legs)",
+    "explanation": "Use the strength of your legs and maintain a stable base when assisting a transfer. Avoid relying on the back or shoulders, and keep the load close to your body. (මාරු කිරීමකට සහාය වන විට පාදවල ශක්තිය භාවිත කර ස්ථාවර ආධාරක පදනමක් පවත්වා ගන්න. පිට හෝ උරහිස් මත පමණක් බර නොතබා, බර ශරීරයට ළං කර තබන්න.)",
     "kind": "mcq",
     "sinhalaText": "වසේවාදායකවයකු මාරු කරන විට, වහදිය/සහායකයා ආධාර ලබා ගත යුත්වත් තම:"
   },
@@ -8511,17 +8511,17 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "id": "lesson-08-q065",
     "moduleId": "lesson-08",
     "number": 65,
-    "question": "Which of the following shows the proper sequence of cleaning the face :",
+    "question": "Which of the following shows the correct sequence for cleaning the face?",
     "options": [
-      "Forehead nose eyes cheeks jaw Mouth (නළල → නාසය → ඇසේ → කම්මුල් → හකු → මුඛය)",
-      "[Truncated in PDF: Jaw ... Mouth] (PDF හි වකාටසක් කැපී ඇත)",
-      "Eyes [Truncated in PDF: eye ... Mouth Jaw ... Nose ... Forehead ... Cheeks] (PDF හි වකාටසක් කැපී\nඇත)",
-      "Eyes Nose Cheeks Forehead Nose Mouth Forehead Cheeks Jaw (PDF හි වකාටසක් කැපී ඇත)"
+      "Forehead → nose → eyes → cheeks → jaw → mouth (නළල → නාසය → ඇස් → කම්මුල් → හකු → මුඛය)",
+      "Mouth → jaw → cheeks → eyes → nose → forehead (මුඛය → හකු → කම්මුල් → ඇස් → නාසය → නළල)",
+      "Eyes → mouth → nose → jaw → forehead → cheeks (ඇස් → මුඛය → නාසය → හකු → නළල → කම්මුල්)",
+      "Nose → cheeks → mouth → forehead → jaw → eyes (නාසය → කම්මුල් → මුඛය → නළල → හකු → ඇස්)"
     ],
     "correctIndex": 0,
-    "explanation": "Forehead nose eyes cheeks jaw Mouth (නළල → නාසය → ඇසේ →\nකම්මුල් → හකු → මුඛය — Note: options b–d in the PDF contain garbled/truncated word strings.)",
+    "explanation": "The source answer key identifies the sequence: forehead, nose, eyes, cheeks, jaw and mouth. The other options rearrange the sequence and do not match the source key. (මූලාශ්‍ර පිළිතුරු යතුරේ නිවැරදි අනුපිළිවෙළ නළල, නාසය, ඇස්, කම්මුල්, හකු සහ මුඛය ලෙස දක්වා ඇත. අනෙක් විකල්පවල මෙම අනුපිළිවෙළ වෙනස් කර ඇත.)",
     "kind": "mcq",
-    "sinhalaText": "මුහුණ පිරිසිදු කිරීවම් නිවැරදි අනුපිළිවවළ පහත ඒවායින් වපන්නුම් කරන්වන් කුමක්ද:"
+    "sinhalaText": "මුහුණ පිරිසිදු කිරීමේ නිවැරදි අනුපිළිවෙළ පහත සඳහන් ඒවායින් පෙන්වන්නේ කුමක්ද?"
   },
   {
     "id": "lesson-08-q066",
