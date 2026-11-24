@@ -94,7 +94,6 @@ export const QUESTION_IMAGES: Record<string, QuestionImageSet> = {
   "lesson-04-q057": { files: ["247.jpg", "248.jpg"], alt: "Ceiling and mobile hoist welfare equipment", auditBatch: "203-252" },
   "lesson-05-q044": { files: ["247.jpg", "248.jpg"], alt: "Mechanical lifting equipment for a bedridden care recipient", auditBatch: "203-252" },
   "lesson-08-q007": { files: ["229.jpg"], alt: "Wheelchair assistance", auditBatch: "203-252" },
-  "lesson-09-q038": { files: ["62.jpg", "63.jpg"], alt: "Examples showing correct mask wearing", auditBatch: "53-102" }
 };
 
 export const IMAGE_AUDIT_BATCHES = [
