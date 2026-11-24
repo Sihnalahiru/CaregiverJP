@@ -5,6 +5,8 @@ import { PDFDocument } from 'pdf-lib';
 const root = process.cwd();
 const sourceDir = path.join(root, 'data', 'papers');
 const publicDir = path.join(root, 'public');
+const imageSourceDir = path.join(root, 'assets', 'images');
+const imageTargetDir = path.join(publicDir, 'assets', 'images');
 const targetDir = path.join(publicDir, 'papers');
 const manifestPath = path.join(publicDir, 'papers-manifest.json');
 
@@ -90,8 +92,8 @@ for (const filename of names) {
     sizeBytes: buffer.byteLength,
     pageCount: pdf.getPageCount(),
     description: meta.description,
-    pdfUrl: `/api/papers/${encodeURIComponent(meta.id)}/pdf`,
-    downloadUrl: `/api/papers/${encodeURIComponent(meta.id)}/pdf?download=1`,
+    pdfUrl: `./papers/${encodeURIComponent(filename)}`,
+    downloadUrl: `./papers/${encodeURIComponent(filename)}`,
     quizModuleId: meta.quizModuleId,
     order: meta.order,
   });
