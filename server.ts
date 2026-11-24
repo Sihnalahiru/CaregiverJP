@@ -4,7 +4,7 @@ import path from 'node:path';
 import { PDFDocument } from 'pdf-lib';
 
 const PORT = Number(process.env.PORT) || 3000;
-const PAPERS_DIR = path.resolve(process.cwd(), 'data', 'originalpapers');
+const PAPERS_DIR = path.resolve(process.cwd(), 'data', 'papers');
 
 interface CatalogEntry {
   id: string;
@@ -18,95 +18,88 @@ interface CatalogEntry {
 }
 
 const KNOWN_CATALOG: Record<string, CatalogEntry> = {
-  'SSW Nursing Care paper 01-2-1.pdf': {
-    id: 'ssw-nursing-care-01',
-    title: 'SSW Nursing Care Skill — Paper 01',
+  'Nursing Care Skills Evaluation Test (English + Sinhala).pdf': {
+    id: 'main-paper',
+    title: 'Nursing Care Skills Evaluation Test — English + Sinhala',
     category: 'MCQ Exam',
-    lessonCode: 'Lesson 01',
-    language: 'English',
-    description:
-      'Core SSW Nursing Care concepts: human dignity, QOL, normalization, care process flow, body mechanics, infection control, and disaster preparedness.',
-    quizModuleId: 'lesson-01',
+    lessonCode: 'Main Paper',
+    language: 'English · සිංහල',
+    description: '45 source questions from the uploaded bilingual nursing care evaluation paper.',
+    quizModuleId: 'main-paper',
   },
-  'Mechanism of mind and body paper-1-1-1.pdf': {
-    id: 'mechanism-of-mind-and-body',
-    title: 'Mechanism of Mind & Body',
+  'Nursing Care Skills Evaluation Test [English] – Lesson 2.pdf': {
+    id: 'lesson-02-paper',
+    title: 'Nursing Care Skills Evaluation Test — Lesson 2',
     category: 'MCQ Exam',
     lessonCode: 'Lesson 02',
-    language: 'English',
-    description:
-      'Memory, stress, Maslow hierarchy, vital signs, nervous and cardiovascular systems, sleep stages, aging changes, dementia, and disabilities.',
+    language: 'English · සිංහල',
+    description: '45 source questions imported from Lesson 2.',
     quizModuleId: 'lesson-02',
   },
-  'Communication Skills-1-2-1.pdf': {
-    id: 'communication-skills',
-    title: 'Communication Skills',
+  'Nursing Care Skills Evaluation Test [English] – Lesson 3.pdf': {
+    id: 'lesson-03-paper',
+    title: 'Nursing Care Skills Evaluation Test — Lesson 3',
     category: 'MCQ Exam',
     lessonCode: 'Lesson 03',
-    language: 'English',
-    description:
-      'Verbal and non-verbal communication, empathy, acceptance, questioning techniques, visual/hearing impairment, aphasia, dementia, and team reporting.',
+    language: 'English · සිංහල',
+    description: '32 source questions imported from Lesson 3.',
     quizModuleId: 'lesson-03',
   },
-  'Skills for Providing Daily Assistance.pdf': {
-    id: 'skills-daily-assistance',
-    title: 'Skills for Providing Daily Assistance',
+  'Nursing Care Skills Evaluation Test [English] – Lesson 4.pdf': {
+    id: 'lesson-04-paper',
+    title: 'Nursing Care Skills Evaluation Test — Lesson 4',
     category: 'MCQ Exam',
     lessonCode: 'Lesson 04',
-    language: 'English',
-    description:
-      'Mobility, stair and wheelchair assistance, hemiplegia dressing/bathing, meal assistance, swallowing safety, excretion care, and illustrated care scenarios.',
+    language: 'English · සිංහල',
+    description: '84 source questions imported from Lesson 4, including its bonus check.',
     quizModuleId: 'lesson-04',
   },
-  'Exam questions 1.pdf': {
-    id: 'exam-questions-1',
-    title: 'Exam Questions 01 — Daily Care & Mobility',
-    category: 'Bilingual Q&A',
-    lessonCode: 'Study Set 01',
+  'Nursing Care Skills Evaluation Test [English] – Lesson 5.pdf': {
+    id: 'lesson-05-paper',
+    title: 'Nursing Care Skills Evaluation Test — Lesson 5',
+    category: 'MCQ Exam',
+    lessonCode: 'Lesson 05',
     language: 'English · සිංහල',
-    description:
-      'Bilingual English and Sinhala Q&A covering disuse syndrome, pressure ulcers, wheelchair transfers, swallowing phases, excretion, bathing, and dignity.',
-    bilingualSourceId: 'exam-q1',
+    description: '83 source questions imported from Lesson 5.',
+    quizModuleId: 'lesson-05',
   },
-  'Exam papers 2.pdf': {
-    id: 'exam-papers-2',
-    title: 'Exam Questions 02 — Ethics, Process & Safety',
-    category: 'Bilingual Q&A',
-    lessonCode: 'Study Set 02',
+  'Nursing Care Skills Evaluation Test [English] – Lesson 6.pdf': {
+    id: 'lesson-06-paper',
+    title: 'Nursing Care Skills Evaluation Test — Lesson 6',
+    category: 'MCQ Exam',
+    lessonCode: 'Lesson 06',
     language: 'English · සිංහල',
-    description:
-      'Bilingual English and Sinhala Q&A covering professional ethics, abuse prevention, care roles, care process, body mechanics, and infection control.',
-    bilingualSourceId: 'exam-q2',
+    description: '75 source questions imported from Lesson 6.',
+    quizModuleId: 'lesson-06',
   },
-  'exam questions 3.pdf': {
-    id: 'exam-questions-3',
-    title: 'Exam Questions 03 — Communication & Records',
-    category: 'Bilingual Q&A',
-    lessonCode: 'Study Set 03',
+  'Nursing Care Skills Evaluation Test [English] – Lesson 7.pdf': {
+    id: 'lesson-07-paper',
+    title: 'Nursing Care Skills Evaluation Test — Lesson 7',
+    category: 'MCQ Exam',
+    lessonCode: 'Lesson 07',
     language: 'English · සිංහල',
-    description:
-      'Bilingual English and Sinhala Q&A on Keichou, Kyoukan, Juyou, sensory impairment communication, aphasia, dementia, care records, and Soudan.',
-    bilingualSourceId: 'exam-q3',
+    description: '103 source questions imported from Lesson 7.',
+    quizModuleId: 'lesson-07',
   },
-  'cargiver 6 ^%.pdf': {
-    id: 'caregiver-06',
-    title: 'Caregiver Reference Paper 06',
-    category: 'Caregiver Guide',
-    lessonCode: 'Archive 06',
-    language: 'Bilingual / Reference',
-    description:
-      'Original caregiver training and assessment reference paper from the HiCare paper archive.',
+  'Nursing Care Skills Evaluation Test [English] – Lesson 8.pdf': {
+    id: 'lesson-08-paper',
+    title: 'Nursing Care Skills Evaluation Test — Lesson 8',
+    category: 'MCQ Exam',
+    lessonCode: 'Lesson 08',
+    language: 'English · සිංහල',
+    description: '68 source questions imported from Lesson 8, including source-truncated items.',
+    quizModuleId: 'lesson-08',
   },
-  'cargiver 8 %.pdf': {
-    id: 'caregiver-08',
-    title: 'Caregiver Reference Paper 08',
-    category: 'Caregiver Guide',
-    lessonCode: 'Archive 08',
-    language: 'Bilingual / Reference',
-    description:
-      'Original caregiver training and assessment reference paper from the HiCare paper archive.',
+  'Nursing Care Skills Evaluation Test [English] – Lesson 9.pdf': {
+    id: 'lesson-09-paper',
+    title: 'Nursing Care Skills Evaluation Test — Lesson 9',
+    category: 'MCQ Exam',
+    lessonCode: 'Lesson 09',
+    language: 'English · සිංහල',
+    description: '20 source questions imported from Lesson 9.',
+    quizModuleId: 'lesson-09',
   },
-};
+}
 
 interface ResolvedPaper {
   id: string;
@@ -174,7 +167,7 @@ async function loadPapersCatalog(): Promise<ResolvedPaper[]> {
       language: meta?.language ?? 'PDF',
       sizeBytes: stat.size,
       pageCount,
-      description: meta?.description ?? 'Original PDF study paper from data/originalpapers.',
+      description: meta?.description ?? 'Original PDF study paper from data/papers.',
       pdfUrl: `/api/papers/${encodeURIComponent(id)}/pdf`,
       downloadUrl: `/api/papers/${encodeURIComponent(id)}/pdf?download=1`,
       quizModuleId: meta?.quizModuleId,
@@ -185,15 +178,15 @@ async function loadPapersCatalog(): Promise<ResolvedPaper[]> {
 
   // Keep consistent pedagogical ordering
   const order = [
-    'ssw-nursing-care-01',
-    'mechanism-of-mind-and-body',
-    'communication-skills',
-    'skills-daily-assistance',
-    'exam-questions-1',
-    'exam-papers-2',
-    'exam-questions-3',
-    'caregiver-06',
-    'caregiver-08',
+    'main-paper',
+    'lesson-02',
+    'lesson-03',
+    'lesson-04',
+    'lesson-05',
+    'lesson-06',
+    'lesson-07',
+    'lesson-08',
+    'lesson-09',
   ];
   results.sort((a, b) => {
     const ia = order.indexOf(a.id);

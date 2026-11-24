@@ -12,7 +12,7 @@ export function App() {
   const [papersError, setPapersError] = useState<string | null>(null);
 
   const [selectedPaperId, setSelectedPaperId] = useState<string | null>(null);
-  const [selectedModuleId, setSelectedModuleId] = useState<string>('lesson-01');
+  const [selectedModuleId, setSelectedModuleId] = useState<string>('all-mixed');
 
   useEffect(() => {
     let cancelled = false;
@@ -97,7 +97,7 @@ export function App() {
       <footer className="border-t border-slate-200 bg-white mt-12">
         <div className="max-w-7xl mx-auto px-6 py-5 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
           <span>HiCare · SSW Nursing Care Study Portal</span>
-          <span>Original PDF Papers sourced from data/originalpapers</span>
+          <span>Original PDF Papers sourced from data/papers</span>
         </div>
       </footer>
     </div>
