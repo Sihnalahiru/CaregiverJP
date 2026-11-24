@@ -5,6 +5,11 @@ const PRECACHE_ASSETS = [
   "./",
   "./index.html",
   "./manifest.webmanifest",
+  "./icons/app-icon.svg",
+  "./icons/apple-touch-icon.png",
+  "./icons/pwa-192x192.png",
+  "./icons/pwa-512x512.png",
+  "./icons/pwa-maskable-512x512.png",
   "./papers-manifest.json"
 ];
 
