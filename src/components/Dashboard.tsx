@@ -1,27 +1,364 @@
-import React from 'react';
-import { ArrowRight, BookOpen, Brain, CheckCircle2, Clock3, FileQuestion, Layers3, Sparkles, Target } from 'lucide-react';
-import { ALL_QUIZ_QUESTIONS } from '../data/studyBank';
-interface DashboardProps { onStartQuiz: () => void; }
-const PAPER_SIZE=45;
-const PAPER_COUNT=Math.ceil(ALL_QUIZ_QUESTIONS.length/PAPER_SIZE);
-const statCards=[
- {label:'Question bank',value:ALL_QUIZ_QUESTIONS.length,detail:'Imported questions',Icon:FileQuestion,tint:'blue'},
- {label:'Practice papers',value:PAPER_COUNT,detail:'Available CBT sets',Icon:Layers3,tint:'mint'},
- {label:'Per full paper',value:PAPER_SIZE,detail:'Questions in each set',Icon:Target,tint:'peach'},
-];
-export const Dashboard:React.FC<DashboardProps>=({onStartQuiz})=><div className="mx-auto w-full max-w-6xl px-4 pb-28 pt-6 sm:px-6 sm:pb-12 sm:pt-9">
-  <section className="relative overflow-hidden rounded-[30px] bg-gradient-to-br from-[#1132D9] via-[#2948E8] to-[#3A58F5] px-5 py-7 text-white shadow-[0_18px_44px_rgba(17,50,217,.2)] sm:px-9 sm:py-10">
-    <div className="absolute -right-10 -top-16 h-56 w-56 rounded-full border-[32px] border-white/10"/><div className="absolute -bottom-24 right-20 h-52 w-52 rounded-full bg-[#02F993]/10 blur-2xl"/>
-    <div className="relative max-w-xl"><span className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1.5 text-[10px] font-bold uppercase tracking-[.18em] text-[#C6FAFF]"><Sparkles className="h-3.5 w-3.5"/> Your learning space</span>
-    <p className="mt-5 text-sm font-medium text-white/75">Welcome back</p><h1 className="mt-1 text-[32px] font-extrabold leading-[1.12] tracking-tight sm:text-[42px]">Ready to care.<br/><span className="font-serif font-medium italic text-[#FFF3C7]">Ready to succeed.</span></h1>
-    <p className="mt-4 max-w-md text-[13px] leading-6 text-white/80 sm:text-sm">Build confidence for your SSW Nursing Care CBT exam with focused practice, one paper at a time.</p>
-    <button type="button" onClick={onStartQuiz} className="mt-6 inline-flex min-h-12 w-full items-center justify-center gap-3 rounded-2xl bg-white px-5 py-3 text-sm font-extrabold text-[#1132D9] shadow-lg transition hover:-translate-y-0.5 hover:bg-[#FFF3C7] sm:w-auto sm:min-w-52">Explore question papers <ArrowRight className="h-4 w-4"/></button></div>
-    <div className="absolute bottom-8 right-9 hidden h-32 w-32 items-center justify-center rounded-[34px] border border-white/20 bg-white/10 backdrop-blur sm:flex"><Brain className="h-16 w-16 text-[#C6FAFF]"/></div>
-  </section>
-  <section className="mt-8"><div className="mb-4 flex items-end justify-between"><div><p className="text-[10px] font-extrabold uppercase tracking-[.2em] text-[#3A58F5]">Your study overview</p><h2 className="mt-1 text-xl font-extrabold tracking-tight text-[#222248]">Study at a glance</h2></div><span className="rounded-full bg-[#EAF0FF] px-3 py-1.5 text-[10px] font-bold text-[#3A58F5]">Live bank totals</span></div>
-    <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4">{statCards.map(({label,value,detail,Icon,tint})=><article key={label} className={`rounded-[22px] border border-[#E4EDF8] bg-white p-4 shadow-[0_5px_20px_rgba(34,34,72,.035)] sm:p-5 ${label==='Per full paper'?'col-span-2 sm:col-span-1':''}`}><div className="flex items-center justify-between"><span className="text-[11px] font-bold text-[#747E99]">{label}</span><span className={`flex h-9 w-9 items-center justify-center rounded-xl ${tint==='blue'?'bg-[#EAF0FF] text-[#1132D9]':tint==='mint'?'bg-[#DDFBF0] text-[#07996A]':'bg-[#FFF3C7] text-[#A56A13]'}`}><Icon className="h-[18px] w-[18px]"/></span></div><p className="mt-4 text-[30px] font-extrabold leading-none tracking-tight text-[#222248] tabular-nums">{value}</p><p className="mt-2 text-[10px] font-medium text-[#9CA5B8]">{detail}</p></article>)}</div>
-  </section>
-  <section className="mt-8 grid gap-4 sm:grid-cols-[1.2fr_.8fr]"><article className="rounded-[24px] border border-[#E4EDF8] bg-white p-5 sm:p-6"><div className="flex items-center gap-3"><span className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#EAF0FF] text-[#1132D9]"><BookOpen className="h-5 w-5"/></span><div><h2 className="text-sm font-extrabold text-[#222248]">Your CBT paper collection</h2><p className="mt-0.5 text-[11px] text-[#9CA5B8]">Organised for focused exam practice</p></div></div><div className="mt-5 flex items-center gap-2"><div className="h-2 flex-1 overflow-hidden rounded-full bg-[#E4EDF8]"><div className="h-full w-full rounded-full bg-[#3A58F5]"/></div><span className="text-xs font-extrabold text-[#1132D9]">{PAPER_COUNT} sets</span></div><p className="mt-3 text-xs leading-5 text-[#747E99]">12 complete papers contain 45 questions each. The final set contains the remaining questions. All original question records are preserved.</p><button onClick={onStartQuiz} className="mt-4 inline-flex items-center gap-2 text-xs font-extrabold text-[#1132D9]">Browse all papers <ArrowRight className="h-4 w-4"/></button></article>
-  <article className="rounded-[24px] border border-[#E4EDF8] bg-[#FFF9E8] p-5 sm:p-6"><span className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#FFF0C2] text-[#A56A13]"><Clock3 className="h-5 w-5"/></span><h2 className="mt-4 text-sm font-extrabold text-[#222248]">Exam-ready sessions</h2><p className="mt-2 text-xs leading-5 text-[#747E99]">Timed CBT practice with a countdown, question navigator, quick auto-next and final score review.</p><div className="mt-4 flex items-center gap-2 text-[11px] font-bold text-[#A56A13]"><CheckCircle2 className="h-4 w-4"/>One paper at a time</div></article></section>
-  <p className="mt-7 text-center text-[10px] font-medium text-[#9CA5B8]">CaregiverJP · Personal SSW Nursing Care study companion</p>
-</div>;
+import React, { useMemo, useState } from 'react';
+import {
+  AlertCircle,
+  ArrowRight,
+  Bookmark,
+  ChevronRight,
+  Flame,
+  Hash,
+  Layers,
+  Play,
+} from 'lucide-react';
+import { PAPER_SETS, TOTAL_PAPERS, TOTAL_QUESTIONS } from '../utils/papers';
+import { soundEngine } from '../utils/sound';
+import type { AnswerRecord, PaperProgressRecord, PracticeMode } from '../utils/storage';
+import type { StudyMetrics } from '../utils/achievements';
+
+interface DashboardProps {
+  answers: Record<string, AnswerRecord>;
+  bookmarks: string[];
+  paperProgress: Record<string, PaperProgressRecord>;
+  metrics: StudyMetrics;
+  effectiveStreak: number;
+  defaultMode: PracticeMode;
+  onStartPaper: (paperId: string, mode?: PracticeMode, startIndex?: number) => void;
+  onStartWeakReview: () => void;
+  onStartBookmarksReview: () => void;
+  onStartUnansweredReview: () => void;
+  onJumpToQuestion: (globalNumber: number) => void;
+  onOpenPapers: () => void;
+}
+
+export const Dashboard: React.FC<DashboardProps> = ({
+  answers,
+  bookmarks,
+  paperProgress,
+  metrics,
+  effectiveStreak,
+  defaultMode,
+  onStartPaper,
+  onStartWeakReview,
+  onStartBookmarksReview,
+  onStartUnansweredReview,
+  onJumpToQuestion,
+  onOpenPapers,
+}) => {
+  const [jumpValue, setJumpValue] = useState('');
+  const [jumpError, setJumpError] = useState('');
+
+  const completionPercent = Math.round((metrics.answeredCount / TOTAL_QUESTIONS) * 100);
+
+  const weakCount = useMemo(
+    () => Object.values(answers).filter((a) => !a.isCorrect).length,
+    [answers]
+  );
+
+  const unansweredCount = TOTAL_QUESTIONS - metrics.answeredCount;
+
+  // Determine the best paper to resume next
+  const resumeTarget = useMemo(() => {
+    for (const paper of PAPER_SETS) {
+      const answeredInPaper = paper.questions.filter((q) => Boolean(answers[q.id])).length;
+      if (answeredInPaper < paper.questions.length) {
+        const firstUnansweredIdx = paper.questions.findIndex((q) => !answers[q.id]);
+        return {
+          paper,
+          answeredInPaper,
+          startIndex:
+            firstUnansweredIdx >= 0
+              ? firstUnansweredIdx
+              : paperProgress[paper.id]?.lastIndex ?? 0,
+        };
+      }
+    }
+    return { paper: PAPER_SETS[0], answeredInPaper: PAPER_SETS[0].questions.length, startIndex: 0 };
+  }, [answers, paperProgress]);
+
+  // SVG progress ring math
+  const ringRadius = 42;
+  const ringCircumference = 2 * Math.PI * ringRadius;
+  const ringOffset = ringCircumference - (completionPercent / 100) * ringCircumference;
+
+  const handleJumpSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    const num = Number(jumpValue.trim());
+    if (!Number.isInteger(num) || num < 1 || num > TOTAL_QUESTIONS) {
+      soundEngine.playWrong();
+      setJumpError(`Enter a number between 1 and ${TOTAL_QUESTIONS}`);
+      return;
+    }
+    soundEngine.playTap();
+    setJumpError('');
+    setJumpValue('');
+    onJumpToQuestion(num);
+  };
+
+  return (
+    <div className="animate-fade-slide space-y-5 px-4 pb-24 pt-4">
+      {/* Primary Hero Progress Overview Card */}
+      <section className="rounded-3xl border border-[#E6EAF2] bg-white p-5 shadow-[0_6px_24px_rgba(19,26,44,0.04)] dark:border-[#23304A] dark:bg-[#131B2C] dark:shadow-none">
+        <div className="flex items-center gap-4">
+          {/* Circular Completion Ring */}
+          <div className="relative flex h-[104px] w-[104px] shrink-0 items-center justify-center">
+            <svg className="h-full w-full -rotate-90" viewBox="0 0 100 100" aria-hidden="true">
+              <circle
+                cx="50"
+                cy="50"
+                r={ringRadius}
+                fill="none"
+                strokeWidth="8"
+                className="stroke-[#EEF2F7] dark:stroke-[#1E2A42]"
+              />
+              <circle
+                cx="50"
+                cy="50"
+                r={ringRadius}
+                fill="none"
+                strokeWidth="8"
+                strokeLinecap="round"
+                strokeDasharray={ringCircumference}
+                strokeDashoffset={ringOffset}
+                className="stroke-[#1D4ED8] transition-all duration-500 ease-out dark:stroke-[#5B8BFF]"
+              />
+            </svg>
+            <div className="absolute inset-0 flex flex-col items-center justify-center">
+              <span className="font-mono-tabular text-xl font-bold leading-none text-[#131A2C] dark:text-[#F1F5FB]">
+                {completionPercent}%
+              </span>
+              <span className="mt-1 text-[10px] font-medium text-[#5A647B] dark:text-[#94A3B8]">
+                Done
+              </span>
+            </div>
+          </div>
+
+          {/* Core Headline Metrics */}
+          <div className="min-w-0 flex-1">
+            <p className="text-xs font-medium text-[#5A647B] dark:text-[#94A3B8]">
+              SSW Nursing Care · EN + සිංහල
+            </p>
+            <h1 className="mt-1 font-mono-tabular text-2xl font-extrabold tracking-tight text-[#131A2C] dark:text-[#F1F5FB]">
+              {metrics.answeredCount}
+              <span className="text-base font-semibold text-[#94A3B8] dark:text-[#64748B]">
+                {' '}
+                / {TOTAL_QUESTIONS}
+              </span>
+            </h1>
+            <p className="mt-1 text-xs text-[#5A647B] dark:text-[#94A3B8]">
+              {metrics.completedPapersCount} of {TOTAL_PAPERS} papers completed
+            </p>
+
+            {/* Clean inline metadata strip */}
+            <div className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs font-semibold text-[#131A2C] dark:text-[#E2E8F0]">
+              <span className="font-mono-tabular">
+                {metrics.accuracyPercent}% accuracy
+              </span>
+              <span className="text-[#CBD5E1] dark:text-[#334155]" aria-hidden="true">
+                ·
+              </span>
+              <span className="inline-flex items-center gap-1 font-mono-tabular text-amber-700 dark:text-amber-300">
+                <Flame className="h-3.5 w-3.5" />
+                {effectiveStreak}d streak
+              </span>
+            </div>
+          </div>
+        </div>
+
+        {/* Single Dominant Primary CTA */}
+        <button
+          type="button"
+          onClick={() => {
+            soundEngine.playTap();
+            onStartPaper(resumeTarget.paper.id, defaultMode, resumeTarget.startIndex);
+          }}
+          className="mt-5 flex min-h-[48px] w-full items-center justify-center gap-2 rounded-2xl bg-[#1D4ED8] px-4 py-3 text-sm font-bold text-white transition active:scale-[0.98] hover:bg-[#1E40AF] dark:bg-[#5B8BFF] dark:text-[#0B101B] dark:hover:bg-[#739CFF]"
+        >
+          <Play className="h-4 w-4 fill-current" />
+          <span>
+            {metrics.answeredCount === 0
+              ? 'Start Paper 01'
+              : `Continue ${resumeTarget.paper.title} · Q${resumeTarget.paper.startNumber + resumeTarget.startIndex}`}
+          </span>
+          <ArrowRight className="h-4 w-4" />
+        </button>
+      </section>
+
+      {/* Quick Jump (1–555) & Smart Review Filters */}
+      <section className="space-y-3">
+        <form onSubmit={handleJumpSubmit} className="flex items-center gap-2">
+          <div className="relative flex-1">
+            <Hash className="pointer-events-none absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-[#64748B]" />
+            <input
+              type="number"
+              inputMode="numeric"
+              min={1}
+              max={TOTAL_QUESTIONS}
+              value={jumpValue}
+              onChange={(e) => {
+                setJumpValue(e.target.value);
+                if (jumpError) setJumpError('');
+              }}
+              placeholder={`Jump to question (1–${TOTAL_QUESTIONS})`}
+              aria-label="Jump to question number"
+              className="min-h-[44px] w-full rounded-2xl border border-[#E6EAF2] bg-white pl-9 pr-3 text-sm font-medium text-[#131A2C] placeholder-[#8A94A8] outline-none transition focus:border-[#1D4ED8] focus:ring-2 focus:ring-[#1D4ED8]/15 dark:border-[#23304A] dark:bg-[#131B2C] dark:text-[#F1F5FB] dark:placeholder-[#64748B] dark:focus:border-[#5B8BFF]"
+            />
+          </div>
+          <button
+            type="submit"
+            className="min-h-[44px] shrink-0 whitespace-nowrap rounded-2xl bg-[#131A2C] px-4 text-sm font-semibold text-white transition active:scale-95 hover:bg-[#1E293B] dark:bg-[#22304D] dark:text-[#F1F5FB] dark:hover:bg-[#2B3D61]"
+          >
+            Go
+          </button>
+        </form>
+        {jumpError && (
+          <p className="px-1 text-xs font-medium text-[#C83254] dark:text-[#FB7185]">{jumpError}</p>
+        )}
+
+        {/* Smart Review Quick Triggers */}
+        <div className="grid grid-cols-3 gap-2.5">
+          <button
+            type="button"
+            disabled={weakCount === 0}
+            onClick={() => {
+              soundEngine.playTap();
+              onStartWeakReview();
+            }}
+            className="flex min-h-[76px] flex-col items-start justify-between rounded-2xl border border-[#E6EAF2] bg-white p-3 text-left transition active:scale-[0.98] disabled:opacity-50 dark:border-[#23304A] dark:bg-[#131B2C]"
+          >
+            <AlertCircle className="h-4 w-4 text-[#C83254] dark:text-[#FB7185]" />
+            <div>
+              <p className="font-mono-tabular text-base font-bold leading-none text-[#131A2C] dark:text-[#F1F5FB]">
+                {weakCount}
+              </p>
+              <p className="mt-1 text-[11px] font-medium text-[#5A647B] dark:text-[#94A3B8]">
+                Weak
+              </p>
+            </div>
+          </button>
+
+          <button
+            type="button"
+            disabled={bookmarks.length === 0}
+            onClick={() => {
+              soundEngine.playTap();
+              onStartBookmarksReview();
+            }}
+            className="flex min-h-[76px] flex-col items-start justify-between rounded-2xl border border-[#E6EAF2] bg-white p-3 text-left transition active:scale-[0.98] disabled:opacity-50 dark:border-[#23304A] dark:bg-[#131B2C]"
+          >
+            <Bookmark className="h-4 w-4 text-amber-600 dark:text-amber-400" />
+            <div>
+              <p className="font-mono-tabular text-base font-bold leading-none text-[#131A2C] dark:text-[#F1F5FB]">
+                {bookmarks.length}
+              </p>
+              <p className="mt-1 text-[11px] font-medium text-[#5A647B] dark:text-[#94A3B8]">
+                Saved
+              </p>
+            </div>
+          </button>
+
+          <button
+            type="button"
+            disabled={unansweredCount === 0}
+            onClick={() => {
+              soundEngine.playTap();
+              onStartUnansweredReview();
+            }}
+            className="flex min-h-[76px] flex-col items-start justify-between rounded-2xl border border-[#E6EAF2] bg-white p-3 text-left transition active:scale-[0.98] disabled:opacity-50 dark:border-[#23304A] dark:bg-[#131B2C]"
+          >
+            <Layers className="h-4 w-4 text-[#1D4ED8] dark:text-[#7FA4FF]" />
+            <div>
+              <p className="font-mono-tabular text-base font-bold leading-none text-[#131A2C] dark:text-[#F1F5FB]">
+                {unansweredCount}
+              </p>
+              <p className="mt-1 text-[11px] font-medium text-[#5A647B] dark:text-[#94A3B8]">
+                Remaining
+              </p>
+            </div>
+          </button>
+        </div>
+      </section>
+
+      {/* Per-Paper Breakdown (All 13 Paper Sets) */}
+      <section>
+        <div className="mb-3 flex items-baseline justify-between px-0.5">
+          <div>
+            <h2 className="text-base font-bold tracking-tight text-[#131A2C] dark:text-[#F1F5FB]">
+              All 13 Paper Sets
+            </h2>
+            <p className="text-xs text-[#5A647B] dark:text-[#94A3B8]">
+              Paper 01 – Paper 13 · {TOTAL_QUESTIONS} questions
+            </p>
+          </div>
+          <button
+            type="button"
+            onClick={() => {
+              soundEngine.playTap();
+              onOpenPapers();
+            }}
+            className="min-h-[36px] text-xs font-semibold text-[#1D4ED8] hover:underline dark:text-[#7FA4FF]"
+          >
+            Exam modes
+          </button>
+        </div>
+
+        <div className="divide-y divide-[#EEF2F7] overflow-hidden rounded-3xl border border-[#E6EAF2] bg-white dark:divide-[#1E2A42] dark:border-[#23304A] dark:bg-[#131B2C]">
+          {PAPER_SETS.map((paper) => {
+            const answered = paper.questions.filter((q) => Boolean(answers[q.id])).length;
+            const correct = paper.questions.filter((q) => answers[q.id]?.isCorrect).length;
+            const pct = Math.round((answered / paper.questions.length) * 100);
+            const acc = answered > 0 ? Math.round((correct / answered) * 100) : null;
+            const nextIdx = paper.questions.findIndex((q) => !answers[q.id]);
+            const resumeIdx = nextIdx >= 0 ? nextIdx : 0;
+
+            return (
+              <button
+                key={paper.id}
+                type="button"
+                onClick={() => {
+                  soundEngine.playTap();
+                  onStartPaper(paper.id, defaultMode, resumeIdx);
+                }}
+                className="flex min-h-[68px] w-full items-center gap-3 px-4 py-3 text-left transition active:bg-slate-50 hover:bg-slate-50/70 dark:active:bg-[#1A243A] dark:hover:bg-[#182236]"
+              >
+                <div
+                  className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-xl font-mono-tabular text-sm font-bold ${
+                    pct === 100
+                      ? 'bg-emerald-50 text-emerald-700 dark:bg-emerald-950/60 dark:text-emerald-300'
+                      : answered > 0
+                        ? 'bg-[#EEF3FF] text-[#1D4ED8] dark:bg-[#1E2E52] dark:text-[#7FA4FF]'
+                        : 'bg-[#F3F5F9] text-[#5A647B] dark:bg-[#1B253A] dark:text-[#94A3B8]'
+                  }`}
+                >
+                  {String(paper.number).padStart(2, '0')}
+                </div>
+
+                <div className="min-w-0 flex-1">
+                  <div className="flex items-baseline justify-between gap-2">
+                    <span className="truncate text-sm font-bold text-[#131A2C] dark:text-[#F1F5FB]">
+                      {paper.title}
+                    </span>
+                    <span className="shrink-0 font-mono-tabular text-xs font-semibold text-[#5A647B] dark:text-[#94A3B8]">
+                      {answered}/{paper.questions.length}
+                      {acc !== null ? ` · ${acc}%` : ''}
+                    </span>
+                  </div>
+                  <div className="mt-1.5 h-1.5 w-full overflow-hidden rounded-full bg-[#EEF2F7] dark:bg-[#1E2A42]">
+                    <div
+                      className={`h-full rounded-full transition-all duration-300 ${
+                        pct === 100
+                          ? 'bg-emerald-600 dark:bg-emerald-400'
+                          : 'bg-[#1D4ED8] dark:bg-[#5B8BFF]'
+                      }`}
+                      style={{ width: `${pct}%` }}
+                    />
+                  </div>
+                </div>
+
+                <ChevronRight className="h-4 w-4 shrink-0 text-[#94A3B8]" />
+              </button>
+            );
+          })}
+        </div>
+      </section>
+    </div>
+  );
+};

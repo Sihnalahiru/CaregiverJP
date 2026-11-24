@@ -1,16 +1,40 @@
 {
   "id": "./",
-  "name": "CaregiverJP — Personal SSW Study",
+  "name": "CaregiverJP — SSW Nursing Care Study",
   "short_name": "CaregiverJP",
-  "description": "Personal offline-first SSW Nursing Care study and exam practice.",
+  "description": "Mobile-only offline-first SSW Nursing Care Skills Exam preparation with 555 English and Sinhala MCQs across 13 paper sets.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait-primary",
-  "background_color": "#f8fafc",
-  "theme_color": "#0f172a",
+  "background_color": "#F6F7FB",
+  "theme_color": "#1D4ED8",
   "lang": "en",
+  "categories": ["education", "medical"],
   "icons": [
-    { "src": "./icons/app-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+    {
+      "src": "./icons/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./icons/app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
   ]
 }

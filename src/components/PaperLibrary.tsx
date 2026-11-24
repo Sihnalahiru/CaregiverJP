@@ -1,20 +1,184 @@
-import React,{useMemo,useState} from 'react';
-import {ArrowRight,BookOpen,Clock3,FileQuestion,Search,Sparkles} from 'lucide-react';
-import {ALL_QUIZ_QUESTIONS} from '../data/studyBank';
-interface PaperSet{id:string;number:number;questions:typeof ALL_QUIZ_QUESTIONS;}
-interface PaperLibraryProps{onStartQuiz:(paperSetId:string)=>void;}
-const QUESTIONS_PER_PAPER=45;
-const paperSets:PaperSet[]=Array.from({length:Math.ceil(ALL_QUIZ_QUESTIONS.length/QUESTIONS_PER_PAPER)},(_,index)=>({id:`cbt-paper-${String(index+1).padStart(2,'0')}`,number:index+1,questions:ALL_QUIZ_QUESTIONS.slice(index*QUESTIONS_PER_PAPER,(index+1)*QUESTIONS_PER_PAPER)}));
-const colors=[['#EAF0FF','#1132D9'],['#DDFBF0','#07996A'],['#FFF3C7','#A56A13'],['#FFE3F6','#C13E8B'],['#C6FAFF','#087C9A']];
-export const PaperLibrary:React.FC<PaperLibraryProps>=({onStartQuiz})=>{
- const[query,setQuery]=useState('');
- const filtered=useMemo(()=>paperSets.filter(p=>`paper ${p.number}`.includes(query.trim().toLowerCase())),[query]);
- return <div className="mx-auto w-full max-w-6xl px-4 pb-28 pt-6 sm:px-6 sm:pb-12 sm:pt-9">
-  <section className="relative overflow-hidden rounded-[26px] bg-[#222248] px-5 py-6 text-white sm:px-8 sm:py-8"><div className="absolute -right-10 -top-12 h-44 w-44 rounded-full bg-[#3A58F5]/30 blur-2xl"/><div className="relative"><span className="inline-flex items-center gap-2 text-[10px] font-extrabold uppercase tracking-[.2em] text-[#C6FAFF]"><Sparkles className="h-3.5 w-3.5"/> CBT library</span><h1 className="mt-3 text-2xl font-extrabold tracking-tight sm:text-3xl">Choose your paper</h1><p className="mt-2 max-w-lg text-xs leading-5 text-white/65 sm:text-sm">Pick a question set and start a timed exam session. Each full paper contains 45 questions.</p></div></section>
-  <section className="mt-5 grid grid-cols-3 gap-2">{[{v:paperSets.length,l:'Paper sets'},{v:ALL_QUIZ_QUESTIONS.length,l:'Questions'},{v:QUESTIONS_PER_PAPER,l:'Per full set'}].map(x=><div key={x.l} className="rounded-2xl border border-[#E4EDF8] bg-white px-3 py-3 text-center"><p className="text-xl font-extrabold tabular-nums text-[#222248]">{x.v}</p><p className="mt-1 text-[9px] font-bold uppercase tracking-wider text-[#9CA5B8]">{x.l}</p></div>)}</section>
-  <div className="mb-4 mt-7 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between"><div><p className="text-[10px] font-extrabold uppercase tracking-[.2em] text-[#3A58F5]">Your collection</p><h2 className="mt-1 text-lg font-extrabold text-[#222248]">Available practice papers</h2></div><label className="relative block w-full sm:max-w-xs"><Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-[#9CA5B8]"/><input value={query} onChange={e=>setQuery(e.target.value)} placeholder="Search paper number" aria-label="Search paper number" className="min-h-11 w-full rounded-xl border border-[#E4EDF8] bg-white pl-9 pr-3 text-xs font-medium text-[#222248] outline-none transition focus:border-[#3A58F5] focus:ring-4 focus:ring-[#3A58F5]/10"/></label></div>
-  <section className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3" aria-label="Available CBT papers">{filtered.map(paper=>{const start=(paper.number-1)*QUESTIONS_PER_PAPER+1;const end=start+paper.questions.length-1;const tint=colors[(paper.number-1)%colors.length];return <article key={paper.id} className="group flex min-h-[218px] flex-col rounded-[23px] border border-[#E4EDF8] bg-white p-4 shadow-[0_5px_20px_rgba(34,34,72,.035)] transition duration-200 hover:-translate-y-1 hover:border-[#B5C7FF] hover:shadow-[0_14px_30px_rgba(34,34,72,.09)] sm:p-5"><div className="flex items-center justify-between"><span className="flex h-11 w-11 items-center justify-center rounded-[15px]" style={{backgroundColor:tint[0],color:tint[1]}}><BookOpen className="h-5 w-5"/></span><span className="rounded-full bg-[#F5F7FC] px-3 py-1.5 text-[9px] font-extrabold uppercase tracking-wider text-[#747E99]">Paper {String(paper.number).padStart(2,'0')}</span></div><h3 className="mt-4 text-base font-extrabold text-[#222248]">CBT Practice Paper {paper.number}</h3><p className="mt-1 text-[11px] font-medium text-[#9CA5B8]">{paper.questions.length} questions <span className="mx-1">·</span> Q{start}–{end}</p><div className="mt-3 flex items-center gap-2 text-[10px] font-bold text-[#747E99]"><Clock3 className="h-3.5 w-3.5"/> {paper.questions.length} minute session</div><button type="button" onClick={()=>onStartQuiz(paper.id)} className="mt-auto inline-flex min-h-11 items-center justify-center gap-2 rounded-xl bg-[#1132D9] px-4 py-3 text-xs font-extrabold text-white transition hover:bg-[#3A58F5] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1132D9]">Start exam <ArrowRight className="h-4 w-4"/></button></article>;})}</section>
-  {filtered.length===0&&<p className="rounded-2xl border border-[#E4EDF8] bg-white p-8 text-center text-sm text-[#9CA5B8]">No paper sets match your search.</p>}
-  <p className="mt-6 flex items-center justify-center gap-2 text-center text-[10px] font-medium text-[#9CA5B8]"><FileQuestion className="h-3.5 w-3.5"/> Original question bank is preserved without content changes.</p>
- </div>;
+import React, { useMemo, useState } from 'react';
+import { BookOpen, Clock3, Search } from 'lucide-react';
+import { PAPER_SETS, TOTAL_PAPERS, TOTAL_QUESTIONS } from '../utils/papers';
+import { soundEngine } from '../utils/sound';
+import type { AnswerRecord, PaperProgressRecord, PracticeMode } from '../utils/storage';
+
+interface PaperLibraryProps {
+  answers: Record<string, AnswerRecord>;
+  paperProgress: Record<string, PaperProgressRecord>;
+  onStartPaper: (paperId: string, mode: PracticeMode, startIndex?: number) => void;
+}
+
+type FilterStatus = 'all' | 'in-progress' | 'completed' | 'unstarted';
+
+export const PaperLibrary: React.FC<PaperLibraryProps> = ({
+  answers,
+  paperProgress,
+  onStartPaper,
+}) => {
+  const [query, setQuery] = useState('');
+  const [statusFilter, setStatusFilter] = useState<FilterStatus>('all');
+
+  const enrichedPapers = useMemo(() => {
+    return PAPER_SETS.map((paper) => {
+      const answered = paper.questions.filter((q) => Boolean(answers[q.id])).length;
+      const correct = paper.questions.filter((q) => answers[q.id]?.isCorrect).length;
+      const pct = Math.round((answered / paper.questions.length) * 100);
+      const accuracy = answered > 0 ? Math.round((correct / answered) * 100) : null;
+      const status: Exclude<FilterStatus, 'all'> =
+        answered === 0 ? 'unstarted' : answered >= paper.questions.length ? 'completed' : 'in-progress';
+      const firstUnansweredIdx = paper.questions.findIndex((q) => !answers[q.id]);
+      const bestScore = paperProgress[paper.id]?.bestScore ?? accuracy ?? 0;
+
+      return {
+        paper,
+        answered,
+        correct,
+        pct,
+        accuracy,
+        bestScore,
+        status,
+        resumeIdx: firstUnansweredIdx >= 0 ? firstUnansweredIdx : 0,
+      };
+    });
+  }, [answers, paperProgress]);
+
+  const filtered = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    return enrichedPapers.filter(({ paper, status }) => {
+      if (statusFilter !== 'all' && status !== statusFilter) return false;
+      if (!q) return true;
+      return (
+        paper.title.toLowerCase().includes(q) ||
+        `paper ${paper.number}`.includes(q) ||
+        String(paper.number) === q ||
+        paper.subtitle.toLowerCase().includes(q)
+      );
+    });
+  }, [enrichedPapers, query, statusFilter]);
+
+  const filters: Array<{ id: FilterStatus; label: string }> = [
+    { id: 'all', label: `All (${TOTAL_PAPERS})` },
+    { id: 'in-progress', label: 'Active' },
+    { id: 'completed', label: 'Done' },
+    { id: 'unstarted', label: 'New' },
+  ];
+
+  return (
+    <div className="animate-fade-slide space-y-4 px-4 pb-24 pt-4">
+      <div>
+        <h1 className="text-xl font-extrabold tracking-tight text-[#131A2C] dark:text-[#F1F5FB]">
+          Exam Paper Sets
+        </h1>
+        <p className="mt-0.5 text-xs text-[#5A647B] dark:text-[#94A3B8]">
+          {TOTAL_PAPERS} practice papers · {TOTAL_QUESTIONS} bilingual questions · Study or Timed CBT Exam
+        </p>
+      </div>
+
+      {/* Search */}
+      <div className="relative">
+        <Search className="pointer-events-none absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-[#64748B]" />
+        <input
+          type="search"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          placeholder="Search paper number (1–13)..."
+          aria-label="Search paper sets"
+          className="min-h-[44px] w-full rounded-2xl border border-[#E6EAF2] bg-white pl-10 pr-4 text-sm font-medium text-[#131A2C] placeholder-[#8A94A8] outline-none transition focus:border-[#1D4ED8] focus:ring-2 focus:ring-[#1D4ED8]/15 dark:border-[#23304A] dark:bg-[#131B2C] dark:text-[#F1F5FB] dark:placeholder-[#64748B]"
+        />
+      </div>
+
+      {/* Interactive Filter Segmented Control */}
+      <div className="grid grid-cols-4 gap-1 rounded-2xl bg-[#EAEFF6] p-1 dark:bg-[#131B2C]">
+        {filters.map((f) => {
+          const active = statusFilter === f.id;
+          return (
+            <button
+              key={f.id}
+              type="button"
+              onClick={() => {
+                soundEngine.playTap();
+                setStatusFilter(f.id);
+              }}
+              className={`min-h-[38px] whitespace-nowrap rounded-xl px-2 text-xs font-semibold transition ${
+                active
+                  ? 'bg-white text-[#131A2C] shadow-xs dark:bg-[#22304D] dark:text-[#F1F5FB]'
+                  : 'text-[#5A647B] hover:text-[#131A2C] dark:text-[#94A3B8] dark:hover:text-[#F1F5FB]'
+              }`}
+            >
+              {f.label}
+            </button>
+          );
+        })}
+      </div>
+
+      {/* Paper Cards List */}
+      <div className="space-y-3">
+        {filtered.map(({ paper, answered, pct, accuracy, resumeIdx }) => (
+          <article
+            key={paper.id}
+            className="rounded-2xl border border-[#E6EAF2] bg-white p-4 dark:border-[#23304A] dark:bg-[#131B2C]"
+          >
+            <div className="flex items-start justify-between gap-3">
+              <div className="min-w-0">
+                <h2 className="text-base font-bold text-[#131A2C] dark:text-[#F1F5FB]">
+                  {paper.title}
+                </h2>
+                <p className="mt-0.5 text-xs text-[#5A647B] dark:text-[#94A3B8]">
+                  Questions {paper.startNumber}–{paper.endNumber} · {paper.questions.length} MCQs
+                  {accuracy !== null ? ` · ${accuracy}% accuracy` : ''}
+                </p>
+              </div>
+              <span className="shrink-0 font-mono-tabular text-xs font-bold text-[#1D4ED8] dark:text-[#7FA4FF]">
+                {answered}/{paper.questions.length}
+              </span>
+            </div>
+
+            <div className="mt-3 h-1.5 w-full overflow-hidden rounded-full bg-[#EEF2F7] dark:bg-[#1E2A42]">
+              <div
+                className={`h-full rounded-full transition-all duration-300 ${
+                  pct === 100
+                    ? 'bg-emerald-600 dark:bg-emerald-400'
+                    : 'bg-[#1D4ED8] dark:bg-[#5B8BFF]'
+                }`}
+                style={{ width: `${pct}%` }}
+              />
+            </div>
+
+            <div className="mt-3.5 grid grid-cols-2 gap-2">
+              <button
+                type="button"
+                onClick={() => {
+                  soundEngine.playTap();
+                  onStartPaper(paper.id, 'study', resumeIdx);
+                }}
+                className="flex min-h-[44px] items-center justify-center gap-1.5 whitespace-nowrap rounded-xl bg-[#1D4ED8] px-3 text-xs font-bold text-white transition active:scale-[0.98] hover:bg-[#1E40AF] dark:bg-[#5B8BFF] dark:text-[#0B101B]"
+              >
+                <BookOpen className="h-3.5 w-3.5" />
+                <span>{answered > 0 && answered < paper.questions.length ? 'Resume Study' : 'Study Mode'}</span>
+              </button>
+              <button
+                type="button"
+                onClick={() => {
+                  soundEngine.playTap();
+                  onStartPaper(paper.id, 'exam', 0);
+                }}
+                className="flex min-h-[44px] items-center justify-center gap-1.5 whitespace-nowrap rounded-xl border border-[#DCE3F0] bg-[#F8FAFC] px-3 text-xs font-bold text-[#131A2C] transition active:scale-[0.98] hover:bg-[#EEF2F7] dark:border-[#2B3B5C] dark:bg-[#1A253B] dark:text-[#F1F5FB]"
+              >
+                <Clock3 className="h-3.5 w-3.5" />
+                <span>Timed Exam</span>
+              </button>
+            </div>
+          </article>
+        ))}
+
+        {filtered.length === 0 && (
+          <div className="rounded-2xl border border-[#E6EAF2] bg-white p-8 text-center text-sm text-[#5A647B] dark:border-[#23304A] dark:bg-[#131B2C] dark:text-[#94A3B8]">
+            No paper sets match your filter.
+          </div>
+        )}
+      </div>
+    </div>
+  );
 };

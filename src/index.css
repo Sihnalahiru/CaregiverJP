@@ -1,58 +1,200 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&family=Noto+Sans+Sinhala:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600;700&family=Noto+Sans+Sinhala:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --color-brand: #1132D9;
-  --color-brand-light: #3A58F5;
-  --color-ink: #222248;
-  --color-mint: #02F993;
-  --color-surface: #F9F9F9;
-  --color-line: #E4EDF8;
+  --color-brand: #1D4ED8;
+  --color-brand-dark: #5B8BFF;
+  --color-ink: #131A2C;
+  --color-surface: #F6F7FB;
+  --color-card: #FFFFFF;
+  --color-line: #E6EAF2;
+  --color-success: #0F8A5F;
+  --color-danger: #C83254;
+  --color-amber: #C27803;
 }
 
 @layer base {
   :root {
-    --font-sans: "Noto Sans Sinhala", "Montserrat", system-ui, -apple-system, sans-serif;
-    --font-serif: "Playfair Display", Georgia, serif;
-    --font-mono: ui-monospace, SFMono-Regular, monospace;
+    --font-sans: "Plus Jakarta Sans", "Noto Sans Sinhala", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-sinhala: "Noto Sans Sinhala", "Iskoola Pota", "Nirmala UI", system-ui, sans-serif;
+    --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
     color-scheme: light;
     font-synthesis: none;
     text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
     -webkit-tap-highlight-color: transparent;
   }
-  html { min-height: 100%; background: #F9F9F9; }
+
+  html.dark {
+    color-scheme: dark;
+  }
+
+  html {
+    min-height: 100%;
+    overflow-x: hidden;
+    background-color: #EDF0F6;
+  }
+
+  html.dark {
+    background-color: #060911;
+  }
+
   body {
     min-width: 320px;
-    min-height: 100vh;
+    min-height: 100dvh;
     margin: 0;
     font-family: var(--font-sans);
-    background: #F9F9F9;
-    color: #222248;
+    overflow-x: hidden;
     overscroll-behavior-y: none;
   }
-  button, input { font: inherit; }
-  button { touch-action: manipulation; }
-  ::selection { background: #C6FAFF; color: #1132D9; }
-  * { scrollbar-width: thin; scrollbar-color: #BED3F0 transparent; }
-}
-.font-mono-tabular { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
 
-.cbt-exam .border-slate-200, .cbt-exam .border-slate-100 { border-color: #E4EDF8; }
-.cbt-exam .bg-slate-50, .cbt-exam .bg-slate-100 { background-color: #F5F7FC; }
-.cbt-exam .text-slate-950, .cbt-exam .text-slate-900, .cbt-exam .text-slate-800 { color: #222248; }
-.cbt-exam .text-slate-600, .cbt-exam .text-slate-700, .cbt-exam .text-slate-500 { color: #747E99; }
-.cbt-exam .bg-sky-600, .cbt-exam .bg-sky-500 { background-color: #1132D9; }
-.cbt-exam .hover\\:bg-sky-700:hover, .cbt-exam .hover\\:bg-sky-400:hover { background-color: #3A58F5; }
-.cbt-exam .border-sky-600 { border-color: #1132D9; }
-.cbt-exam .text-sky-700, .cbt-exam .text-sky-800 { color: #1132D9; }
-.cbt-exam .bg-sky-50 { background-color: #EAF0FF; }
-.cbt-exam .ring-sky-600 { --tw-ring-color: #1132D9; }
-.cbt-exam .bg-emerald-50 { background-color: #DDFBF0; }
-.cbt-exam .text-emerald-800, .cbt-exam .text-emerald-700 { color: #087C60; }
-.cbt-exam .border-emerald-300 { border-color: #8CE8C5; }
-.cbt-exam .bg-red-50 { background-color: #FFE3F6; }
-.cbt-exam .text-red-700, .cbt-exam .text-red-800 { color: #B52D6F; }
+  button,
+  input,
+  select {
+    font: inherit;
+  }
+
+  button {
+    touch-action: manipulation;
+  }
+
+  ::selection {
+    background: rgba(29, 78, 216, 0.16);
+    color: #1D4ED8;
+  }
+
+  html.dark ::selection {
+    background: rgba(91, 139, 255, 0.28);
+    color: #E2EBFF;
+  }
+
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(148, 163, 184, 0.45) transparent;
+  }
+}
+
+/* Dedicated Sinhala Unicode shaping integrity (iOS Safari + Android Chrome) */
+.sinhala-text {
+  font-family: var(--font-sinhala);
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures contextual;
+  font-feature-settings: "kern" 1, "liga" 1, "clig" 1;
+  letter-spacing: 0 !important;
+  word-spacing: normal;
+  line-height: 1.75;
+  overflow-wrap: break-word;
+}
+
+.font-mono-tabular {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.pt-safe {
+  padding-top: env(safe-area-inset-top, 0px);
+}
+
+.pb-safe {
+  padding-bottom: max(env(safe-area-inset-bottom, 0px), 10px);
+}
+
+/* GPU-composited micro-animations */
+@keyframes ssw-fade-slide {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 8px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes ssw-pop-in {
+  0% {
+    opacity: 0;
+    transform: scale3d(0.92, 0.92, 1) translate3d(0, -10px, 0);
+  }
+  65% {
+    opacity: 1;
+    transform: scale3d(1.02, 1.02, 1) translate3d(0, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
+  }
+}
+
+@keyframes ssw-sheet-up {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 28px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes ssw-shake {
+  0%, 100% {
+    transform: translate3d(0, 0, 0);
+  }
+  20% {
+    transform: translate3d(-5px, 0, 0);
+  }
+  45% {
+    transform: translate3d(5px, 0, 0);
+  }
+  70% {
+    transform: translate3d(-3px, 0, 0);
+  }
+  85% {
+    transform: translate3d(2px, 0, 0);
+  }
+}
+
+@keyframes ssw-correct-pulse {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+  40% {
+    transform: scale3d(1.015, 1.015, 1);
+  }
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.animate-fade-slide {
+  animation: ssw-fade-slide 190ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.animate-pop-in {
+  animation: ssw-pop-in 280ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.animate-sheet-up {
+  animation: ssw-sheet-up 220ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.animate-shake {
+  animation: ssw-shake 280ms cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+
+.animate-correct-pulse {
+  animation: ssw-correct-pulse 260ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
 
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; transition-duration: .01ms !important; }
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }
