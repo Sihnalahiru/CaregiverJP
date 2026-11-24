@@ -69,14 +69,21 @@ const names = (await fs.readdir(sourceDir, { withFileTypes: true }))
   .filter((entry) => entry.isFile() && entry.name.toLowerCase().endsWith('.pdf'))
   .map((entry) => entry.name);
 
-if (names.length !== 9) {
-  throw new Error(`Expected exactly 9 source PDFs in data/papers; found ${names.length}. Refusing to publish an incomplete paper library.`);
+if (names.length < 9) {
+  throw new Error(`Expected at least the 9 original source PDFs in data/papers; found ${names.length}. Refusing to publish an incomplete paper library.`);
 }
 
 const papers = [];
 for (const filename of names) {
-  const meta = catalog[filename];
-  if (!meta) throw new Error(`PDF is not mapped in the paper catalog: ${filename}`);
+  const meta = catalog[filename] ?? {
+    id: `paper-${filename.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}`,
+    title: filename.replace(/\\.pdf$/i, '').replace(/[_-]+/g, ' '),
+    category: 'Caregiver Guide',
+    lessonCode: `Additional Paper ${papers.length + 1}`,
+    language: 'Source PDF',
+    description: 'Additional study paper. Add verified quiz questions separately to include them in the question bank.',
+    order: 1000 + papers.length,
+  };
   const sourcePath = path.join(sourceDir, filename);
   const buffer = await fs.readFile(sourcePath);
   const pdf = await PDFDocument.load(buffer, { ignoreEncryption: true });
@@ -94,7 +101,7 @@ for (const filename of names) {
     description: meta.description,
     pdfUrl: `./papers/${encodeURIComponent(filename)}`,
     downloadUrl: `./papers/${encodeURIComponent(filename)}`,
-    quizModuleId: meta.quizModuleId,
+    ...(meta.quizModuleId ? { quizModuleId: meta.quizModuleId } : {}),
     order: meta.order,
   });
 }
