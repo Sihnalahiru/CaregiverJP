@@ -7621,7 +7621,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 6,
     "question": "In walking, the care worker stands next to the affected side of the user :",
     "options": [
-      "Yes (ඔේ)",
+      "Yes (ඔව්)",
       "No (නැත)"
     ],
     "correctIndex": 0,
@@ -7635,11 +7635,11 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 7,
     "question": "When transferring from bed to a wheelchair shall be placed on the healthy side of the user :",
     "options": [
-      "Yes (ඔේ)",
+      "Yes (ඔව්)",
       "No (නැත)"
     ],
     "correctIndex": 0,
-    "explanation": "Yes (ඔේ)",
+    "explanation": "Yes. Place the wheelchair on the user's stronger/healthy side so the user can pivot toward it with better support. (ඔව්. පරිශීලකයාට වඩා හොඳ ආධාරයක් ලබාගෙන හැරී මාරු වීමට හැකි වන පරිදි රෝද පුටුව ඔහුගේ/ඇයගේ ශක්තිමත්, ආබාධයට ලක් නොවූ පැත්තේ තැබිය යුතුය.)",
     "kind": "mcq",
     "sinhalaText": "ඇවඳන් වරෝද පුටුවකට මාරු කරන විට [වරෝද පුටුව] පරිශීලකයාවේ නිවරෝගී පැත්වත් (healthy side) තැබිය යුතුය:"
   },
@@ -7649,7 +7649,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 8,
     "question": "It is recommended to change user's position once every 4hrs to prevent bedsore :",
     "options": [
-      "Yes (ඔේ)",
+      "Yes (ඔව්)",
       "No (නැත)"
     ],
     "correctIndex": 1,
@@ -7663,11 +7663,11 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 9,
     "question": "Care worker shall stand aside and half a step ahead of his visually handicapped user, and the user grabs the elbow",
     "options": [
-      "Yes (ඔේ)",
+      "Yes (ඔව්)",
       "No (නැත)"
     ],
     "correctIndex": 0,
-    "explanation": "Yes (ඔේ)",
+    "explanation": "Yes. Walk beside the person with visual impairment, slightly ahead, and let them hold your elbow so they can follow your movement safely. (ඔව්. දෘෂ්ටි ආබාධයක් ඇති පුද්ගලයා අසලින්, අඩක් පියවරක් පමණ ඉදිරියෙන් ගමන් කර, ආරක්ෂිතව අනුගමනය කිරීමට ඔහුට/ඇයට ඔබේ වැලමිට අල්ලා ගැනීමට ඉඩ දෙන්න.)",
     "kind": "mcq",
     "sinhalaText": "දෘශය ආබාධිත පරිශීලකයාට පවසකින් සහ අඩි පියවරක් ඉදිරිවයන් සත්කාර වසේවකයා සිටින අතර, පරිශීලකයා සත්කාර\nවසේවකයාවේ වැලමිට (elbow) අල්ලා ගනියි:"
   },
@@ -7677,7 +7677,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 10,
     "question": "When giving a dry bath to user, the care worker must wipe the user's body from the center toward the periphery :",
     "options": [
-      "Yes (ඔේ)",
+      "Yes (ඔව්)",
       "No (නැත)"
     ],
     "correctIndex": 1,
@@ -7691,7 +7691,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 11,
     "question": "In three motion walking in the cane, the legs are put out in order of (1) cane, (2) healthy, (3) [affected side —",
     "options": [
-      "Yes (ඔේ)",
+      "Yes (ඔව්)",
       "No (නැත)"
     ],
     "correctIndex": 1,
@@ -7705,11 +7705,11 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 12,
     "question": "When transferring from bed to a wheelchair, the care worker stands on the affected side of the user and protects",
     "options": [
-      "Yes (ඔේ)",
+      "Yes (ඔව්)",
       "No (නැත)"
     ],
     "correctIndex": 0,
-    "explanation": "Yes (ඔේ)",
+    "explanation": "Yes. During the transfer, stay on the affected side to guard the user and help prevent loss of balance. (ඔව්. මාරු කිරීමේදී සමබරතාවය නැතිවීම වැළැක්වීමට සහ පරිශීලකයා ආරක්ෂා කිරීමට ආබාධයට ලක්වූ පැත්තේ සිට සහාය විය යුතුය.)",
     "kind": "mcq",
     "sinhalaText": "ඇවඳන් වරෝද පුටුවකට මාරු කරන විට, සත්කාර වසේවකයා පරිශීලකයාවේ ආබාධිත පැත්වත් සිටවගන ආබාධිත දණහිස\nආරක්ෂා කරයි:"
   },
@@ -7719,7 +7719,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 13,
     "question": "When changing hemiplegic user's position to the lateral position, the care worker shall keep the user's healthy side",
     "options": [
-      "Yes (ඔේ)",
+      "Yes (ඔව්)",
       "No (නැත)"
     ],
     "correctIndex": 1,
@@ -7733,7 +7733,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 14,
     "question": "[Truncated in PDF] side first, then sleeves on the affected side:",
     "options": [
-      "Yes (ඔේ)",
+      "Yes (ඔව්)",
       "No (නැත)"
     ],
     "correctIndex": 1,
@@ -7747,7 +7747,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 15,
     "question": "[Truncated in PDF] healthy side, (3) affected side:",
     "options": [
-      "Yes (ඔේ)",
+      "Yes (ඔව්)",
       "No (නැත)"
     ],
     "correctIndex": 1,
@@ -7809,7 +7809,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 19,
     "question": "In the two step walking with the a cane, the legs are put in order of (1) cane and healthy, (2) affected side:",
     "options": [
-      "Yes (ඔේ)",
+      "Yes (ඔව්)",
       "No (නැත)"
     ],
     "correctIndex": 1,
@@ -7823,7 +7823,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 20,
     "question": "When transferring from bed to a wheelchair, the user holds the arm support with the hand on the healthy side :",
     "options": [
-      "Yes (ඔේ)",
+      "Yes (ඔව්)",
       "No (නැත)"
     ],
     "correctIndex": 1,
@@ -7837,7 +7837,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 21,
     "question": "The semi-sitting position (fowler position) on the bed, put a cushion under the knee of the user to prevent slipping",
     "options": [
-      "Yes (ඔේ)",
+      "Yes (ඔව්)",
       "No (නැත)"
     ],
     "correctIndex": 0,
@@ -7851,7 +7851,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 22,
     "question": "To prevent aspiration, the head of the user shall be bent slightly forward :",
     "options": [
-      "Yes (ඔේ)",
+      "Yes (ඔව්)",
       "No (නැත)"
     ],
     "correctIndex": 0,
@@ -7865,11 +7865,11 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 23,
     "question": "When wearing the outwear in dressing care, the care worker shall pass the sleeves on the affected side of the user",
     "options": [
-      "Yes (ඔේ)",
+      "Yes (ඔව්)",
       "No (නැත)"
     ],
     "correctIndex": 0,
-    "explanation": "Yes (ඔේ)",
+    "explanation": "Yes. When dressing a person with one-sided paralysis, put the garment onto the affected arm first; when undressing, remove the unaffected side first. (ඔව්. එක් පැත්තක අංශභාගය ඇති පුද්ගලයෙකුට ඇඳුමක් අන්දන විට පළමුව ආබාධයට ලක්වූ අතට අත් කොටස දමන්න. ගලවන විට පළමුව ආබාධයට ලක් නොවූ පැත්තෙන් ගලවන්න.)",
     "kind": "mcq",
     "sinhalaText": "ඇඳුම් ඇන්දවීවම් සත්කාරවේදී පිටතින් අඳින ඇඳුමක් (outwear) අන්දවන විට, සත්කාර වසේවකයා පළමුව පරිශීලකයාවේ\nආබාධිත පැත්වත් අත් බාහුව අන්දවා පසුව නිවරෝගී පැත්වත් අත් බාහුව අන්දවයි:"
   },
@@ -7879,7 +7879,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 24,
     "question": "Post meal oral care does not reduce the number of a bacteria in the oral cavity, so it cannot prevent aspiration",
     "options": [
-      "Yes (ඔේ)",
+      "Yes (ඔව්)",
       "No (නැත)"
     ],
     "correctIndex": 1,
@@ -7893,11 +7893,11 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 25,
     "question": "A hemiplegic user shall enter the bathtub from the healthy side :",
     "options": [
-      "Yes (ඔේ)",
+      "Yes (ඔව්)",
       "No (නැත)"
     ],
     "correctIndex": 0,
-    "explanation": "Yes (ඔේ)",
+    "explanation": "Yes. The stated approach is to enter the bathtub leading with the healthy side, while providing support and checking the user's balance and safety. (ඔව්. සඳහන් ක්‍රමය අනුව, ආධාරය ලබා දෙමින් සහ සමබරතාවය හා ආරක්ෂාව පරීක්ෂා කරමින්, පළමුව ශක්තිමත්/ආබාධයට ලක් නොවූ පැත්තෙන් නාන තටාකයට ඇතුළු විය යුතුය.)",
     "kind": "mcq",
     "sinhalaText": "අර්ධ අංශභාග පරිශීලකවයකු නිවරෝගී පැත්වතන් නාන තටාකයට (bathtub) ඇතුළු විය යුතුය:"
   },
@@ -7907,11 +7907,11 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 26,
     "question": "In wheelchair assistance, care worker shall push the wheelchair forward in the ascent of the slope:",
     "options": [
-      "Yes (ඔේ)",
+      "Yes (ඔව්)",
       "No (නැත)"
     ],
     "correctIndex": 0,
-    "explanation": "Yes (ඔේ)",
+    "explanation": "Yes. When going uphill, move the wheelchair forward while maintaining control and supporting it against the slope. (ඔව්. බෑවුමක ඉහළට යන විට රෝද පුටුව ඉදිරියට තල්ලු කරමින්, පාලනය සහ ස්ථාවරත්වය පවත්වා ගත යුතුය.)",
     "kind": "mcq",
     "sinhalaText": "වරෝද පුටු සහාවේදී, බෑවුමකින් ඉහළට (ascent of the slope) යන විට සත්කාර වසේවකයා වරෝද පුටුව ඉදිරියට තල්ු කළ\nයුතුය:"
   },
