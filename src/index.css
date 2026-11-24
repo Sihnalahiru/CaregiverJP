@@ -24,6 +24,8 @@
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
   }
 
   html.dark {
@@ -79,12 +81,16 @@
 .sinhala-text {
   font-family: var(--font-sinhala);
   font-kerning: normal;
-  font-variant-ligatures: common-ligatures contextual;
-  font-feature-settings: "kern" 1, "liga" 1, "clig" 1;
+  font-variant-ligatures: normal;
+  font-feature-settings: normal;
+  font-synthesis: none;
+  -webkit-text-size-adjust: 100%;
   letter-spacing: 0 !important;
   word-spacing: normal;
-  line-height: 1.75;
+  line-height: 1.8;
+  word-break: normal;
   overflow-wrap: break-word;
+  hyphens: none;
 }
 
 .font-mono-tabular {
