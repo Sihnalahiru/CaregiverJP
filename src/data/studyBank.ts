@@ -1,4 +1,4 @@
-import type { QuizModule, QuizQuestion } from '../types';
+import type { BilingualCard, QuizModule, QuizQuestion } from '../types';
 
 export const QUIZ_MODULES: QuizModule[] = [
   {
@@ -8886,3 +8886,5 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "sinhalaText": "පහත සඳහන් ඒවායින් ශරීර යාන්ර විදයාවේ (body mechanics) නිවැරදි මූලධර්මය කුමක්වද:"
   }
 ];
+
+export const BILINGUAL_CARDS: BilingualCard[] = [];
