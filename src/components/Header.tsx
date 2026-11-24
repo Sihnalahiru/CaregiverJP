@@ -1,85 +1,10 @@
 import React from 'react';
-
-export type AppView = 'dashboard' | 'library' | 'practice' | 'reader';
-
-interface HeaderProps {
-  activeView: AppView;
-  onNavigate: (view: AppView) => void;
-}
-
-export const Header: React.FC<HeaderProps> = ({
-  activeView,
-  onNavigate,
-}) => {
-  const navItems: { id: AppView; label: string }[] = [
+export type AppView = 'dashboard' | 'library' | 'practice';
+interface HeaderProps { activeView: AppView; onNavigate: (view: AppView) => void; }
+export const Header: React.FC<HeaderProps> = ({ activeView, onNavigate }) => {
+  const items: { id: AppView; label: string }[] = [
     { id: 'dashboard', label: 'Dashboard' },
     { id: 'library', label: 'Paper Library' },
-    { id: 'practice', label: 'Practice Quiz' },
-
-    { id: 'reader', label: 'PDF Reader' },
   ];
-
-  return (
-    <header className="sticky top-0 z-30 bg-white/95 backdrop-blur-sm border-b border-slate-200">
-      <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between gap-8">
-        {/* Zone 1: Single text element wordmark */}
-        <button
-          type="button"
-          onClick={() => onNavigate('dashboard')}
-          className="text-xl font-bold tracking-tight text-slate-900 whitespace-nowrap shrink-0 cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#0284C7]"
-        >
-          HiCare
-        </button>
-
-        {/* Zone 2: Concise single-line navigation links */}
-        <nav
-          aria-label="Primary navigation"
-          className="hidden md:flex items-center gap-6"
-        >
-          {navItems.map((item) => {
-            const isActive = activeView === item.id;
-            return (
-              <button
-                key={item.id}
-                type="button"
-                onClick={() => onNavigate(item.id)}
-                className={`py-2 text-sm font-medium transition-colors whitespace-nowrap shrink-0 cursor-pointer border-b-2 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#0284C7] ${
-                  isActive
-                    ? 'text-[#0284C7] border-[#0284C7]'
-                    : 'text-slate-600 border-transparent hover:text-slate-900 hover:border-slate-300'
-                }`}
-              >
-                {item.label}
-              </button>
-            );
-          })}
-        </nav>
-
-      </div>
-
-      {/* Mobile navigation strip */}
-      <nav
-        aria-label="Mobile navigation"
-        className="flex md:hidden items-center gap-4 px-6 pb-3 overflow-x-auto"
-      >
-        {navItems.map((item) => {
-          const isActive = activeView === item.id;
-          return (
-            <button
-              key={item.id}
-              type="button"
-              onClick={() => onNavigate(item.id)}
-              className={`py-1 text-xs font-medium whitespace-nowrap shrink-0 border-b-2 transition-colors ${
-                isActive
-                  ? 'text-[#0284C7] border-[#0284C7]'
-                  : 'text-slate-600 border-transparent hover:text-slate-900'
-              }`}
-            >
-              {item.label}
-            </button>
-          );
-        })}
-      </nav>
-    </header>
-  );
+  return <header className="sticky top-0 z-30 border-b border-slate-200 bg-white/95 backdrop-blur"><div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-4 sm:px-6"><button type="button" onClick={() => onNavigate('dashboard')} className="shrink-0 text-xl font-bold tracking-tight text-slate-900">HiCare</button><nav aria-label="Main navigation" className="flex items-center gap-5 sm:gap-7">{items.map((item) => <button key={item.id} type="button" onClick={() => onNavigate(item.id)} aria-current={activeView === item.id ? 'page' : undefined} className={`border-b-2 py-2 text-sm font-medium transition ${activeView === item.id ? 'border-sky-600 text-sky-700' : 'border-transparent text-slate-600 hover:text-slate-950'}`}>{item.label}</button>)}</nav></div></header>;
 };
