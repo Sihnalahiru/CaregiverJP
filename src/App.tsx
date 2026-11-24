@@ -1,13 +1,14 @@
 import { useEffect, useState } from 'react';
 import type { ChangeEvent } from 'react';
 import { Header, type AppView } from './components/Header';
+import { Dashboard } from './components/Dashboard';
 import { PaperLibrary } from './components/PaperLibrary';
 import { QuizPractice } from './components/QuizPractice';
 import { PdfReader } from './components/PdfReader';
 import type { PaperMeta } from './types';
 
 export function App() {
-  const [activeView, setActiveView] = useState<AppView>('library');
+  const [activeView, setActiveView] = useState<AppView>('dashboard');
   const [papers, setPapers] = useState<PaperMeta[]>([]);
   const [loadingPapers, setLoadingPapers] = useState(true);
   const [papersError, setPapersError] = useState<string | null>(null);
@@ -102,6 +103,7 @@ export function App() {
     <div className="min-h-screen flex flex-col bg-[#F8FAFC] text-[#0F172A]">
       <Header activeView={activeView} onNavigate={setActiveView} onStartPractice={() => setActiveView('practice')} />
       <main className="flex-1">
+        {activeView === 'dashboard' && <Dashboard papers={papers} loading={loadingPapers} onStartQuiz={() => setActiveView('practice')} />}
         {activeView === 'library' && <PaperLibrary papers={papers} loading={loadingPapers} error={papersError} onOpenReader={handleOpenReader} onOpenQuiz={handleOpenQuiz} />}
         {activeView === 'practice' && <QuizPractice selectedModuleId={selectedModuleId} onSelectModule={setSelectedModuleId} />}
         {activeView === 'reader' && <PdfReader papers={papers} selectedPaperId={selectedPaperId} onSelectPaper={setSelectedPaperId} />}
