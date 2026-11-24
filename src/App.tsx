@@ -41,14 +41,14 @@ export function App() {
   };
   const startPaper = (paperSetId: string) => { setSelectedPaperSetId(paperSetId); setActiveView('practice'); };
 
-  return <div className="flex min-h-screen flex-col bg-slate-50 text-slate-900">
+  return <div className="flex min-h-screen flex-col bg-[#F9F9F9] text-[#222248]">
     <Header activeView={activeView} onNavigate={setActiveView} />
     <main className="flex-1">
       {activeView === 'dashboard' && <Dashboard onStartQuiz={() => setActiveView('library')} />}
       {activeView === 'library' && <PaperLibrary onStartQuiz={startPaper} />}
       {activeView === 'practice' && <QuizPractice key={selectedPaperSetId} paperSetId={selectedPaperSetId} onExit={() => setActiveView('library')} />}
     </main>
-    <footer className="mt-8 border-t border-slate-200 bg-white"><div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-3 px-4 py-4 text-xs text-slate-500 sm:flex-row sm:px-6"><span>CaregiverJP · Offline CBT study app</span><div className="flex items-center gap-4"><button type="button" onClick={exportBackup} className="underline underline-offset-2">Export backup</button><label className="cursor-pointer underline underline-offset-2">Import backup<input type="file" accept="application/json,.json" onChange={importBackup} className="hidden" /></label></div></div></footer>
+    <footer className="mt-8 border-t border-[#E4EDF8] bg-white pb-20 sm:pb-0"><div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-3 px-4 py-4 text-xs text-slate-500 sm:flex-row sm:px-6"><span>CaregiverJP · Your personal study companion</span><div className="flex items-center gap-4"><button type="button" onClick={exportBackup} className="underline underline-offset-2">Export backup</button><label className="cursor-pointer underline underline-offset-2">Import backup<input type="file" accept="application/json,.json" onChange={importBackup} className="hidden" /></label></div></div></footer>
   </div>;
 }
 export default App;
