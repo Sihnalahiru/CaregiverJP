@@ -5,72 +5,95 @@ import { QuizPractice } from './components/QuizPractice';
 import { PdfReader } from './components/PdfReader';
 import type { PaperMeta } from './types';
 
+const BACKUP_KEY = 'caregiverjp.personal-backup.v1';
+
 export function App() {
   const [activeView, setActiveView] = useState<AppView>('library');
   const [papers, setPapers] = useState<PaperMeta[]>([]);
   const [loadingPapers, setLoadingPapers] = useState(true);
   const [papersError, setPapersError] = useState<string | null>(null);
-
   const [selectedPaperId, setSelectedPaperId] = useState<string | null>(null);
   const [selectedModuleId, setSelectedModuleId] = useState<string>('all-mixed');
 
   useEffect(() => {
     let cancelled = false;
-    async function fetchPapers() {
-      try {
-        setLoadingPapers(true);
-        const res = await fetch('/api/papers', {
-          method: 'GET',
-          headers: { Accept: 'application/json' },
-          cache: 'no-store',
-        });
-        const contentType = res.headers.get('content-type') ?? '';
-        if (!res.ok) {
-          const detail = await res.text();
-          throw new Error(
-            `Paper API HTTP ${res.status}: ${detail.slice(0, 180) || res.statusText}`
-          );
-        }
-        if (!contentType.toLowerCase().includes('application/json')) {
-          const detail = await res.text();
-          throw new Error(
-            `Paper API returned ${contentType || 'an unknown content type'} instead of JSON. The Cloudflare Worker API route may not be deployed. Response: ${detail.slice(0, 100)}`
-          );
-        }
-        const data = (await res.json()) as PaperMeta[];
-        if (!Array.isArray(data)) {
-          throw new Error('Paper API response is not a valid paper list.');
-        }
+    fetch('./papers-manifest.json')
+      .then((res) => {
+        if (!res.ok) throw new Error(`Paper catalog HTTP ${res.status}`);
+        return res.json() as Promise<PaperMeta[]>;
+      })
+      .then((data) => {
+        if (!Array.isArray(data)) throw new Error('Paper catalog is invalid.');
         if (!cancelled) {
           setPapers(data);
-          if (data.length > 0) {
-            setSelectedPaperId(data[0].id);
-          }
+          setSelectedPaperId(data[0]?.id ?? null);
           setPapersError(null);
         }
-      } catch (err) {
-        if (!cancelled) {
-          setPapersError(
-            err instanceof Error ? err.message : 'Failed to load papers'
-          );
-        }
-      } finally {
-        if (!cancelled) {
-          setLoadingPapers(false);
+      })
+      .catch((err: unknown) => {
+        if (!cancelled) setPapersError(err instanceof Error ? err.message : 'Unable to load paper catalog');
+      })
+      .finally(() => { if (!cancelled) setLoadingPapers(false); });
+    return () => { cancelled = true; };
+  }, []);
+
+  useEffect(() => {
+    if (!('serviceWorker' in navigator)) return;
+    const base = new URL('./', window.location.href);
+    if (window.location.protocol === 'https:' || window.location.hostname === 'localhost') {
+      navigator.serviceWorker.register(new URL('sw.js', base)).catch((error) => {
+        console.error('Service worker registration failed:', error);
+      });
+    }
+  }, []);
+
+  const exportBackup = () => {
+    const payload = {
+      app: 'CaregiverJP',
+      version: 1,
+      exportedAt: new Date().toISOString(),
+      data: Object.fromEntries(
+        Object.keys(localStorage)
+          .filter((key) => key.startsWith('caregiverjp.'))
+          .map((key) => [key, localStorage.getItem(key)])
+      ),
+    };
+    const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const anchor = document.createElement('a');
+    anchor.href = url;
+    anchor.download = `caregiverjp-backup-${new Date().toISOString().slice(0, 10)}.json`;
+    anchor.click();
+    URL.revokeObjectURL(url);
+  };
+
+  const importBackup = async (event: React.ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0];
+    if (!file) return;
+    try {
+      const parsed = JSON.parse(await file.text());
+      if (parsed?.app !== 'CaregiverJP' || parsed?.version !== 1 || !parsed?.data || typeof parsed.data !== 'object') {
+        throw new Error('This is not a valid CaregiverJP backup file.');
+      }
+      if (!window.confirm('Import this backup? Matching CaregiverJP local data will be replaced.')) return;
+      for (const [key, value] of Object.entries(parsed.data)) {
+        if (key.startsWith('caregiverjp.') && (typeof value === 'string' || value === null)) {
+          if (value === null) localStorage.removeItem(key);
+          else localStorage.setItem(key, value);
         }
       }
+      window.location.reload();
+    } catch (error) {
+      window.alert(error instanceof Error ? error.message : 'Backup import failed.');
+    } finally {
+      event.target.value = '';
     }
-    fetchPapers();
-    return () => {
-      cancelled = true;
-    };
-  }, []);
+  };
 
   const handleOpenReader = (paperId: string) => {
     setSelectedPaperId(paperId);
     setActiveView('reader');
   };
-
   const handleOpenQuiz = (moduleId: string) => {
     setSelectedModuleId(moduleId);
     setActiveView('practice');
@@ -78,47 +101,22 @@ export function App() {
 
   return (
     <div className="min-h-screen flex flex-col bg-[#F8FAFC] text-[#0F172A]">
-      <Header
-        activeView={activeView}
-        onNavigate={setActiveView}
-        onStartPractice={() => setActiveView('practice')}
-      />
-
+      <Header activeView={activeView} onNavigate={setActiveView} onStartPractice={() => setActiveView('practice')} />
       <main className="flex-1">
-        {activeView === 'library' && (
-          <PaperLibrary
-            papers={papers}
-            loading={loadingPapers}
-            error={papersError}
-            onOpenReader={handleOpenReader}
-            onOpenQuiz={handleOpenQuiz}
-          />
-        )}
-
-        {activeView === 'practice' && (
-          <QuizPractice
-            selectedModuleId={selectedModuleId}
-            onSelectModule={setSelectedModuleId}
-          />
-        )}
-
-        {activeView === 'reader' && (
-          <PdfReader
-            papers={papers}
-            selectedPaperId={selectedPaperId}
-            onSelectPaper={setSelectedPaperId}
-          />
-        )}
+        {activeView === 'library' && <PaperLibrary papers={papers} loading={loadingPapers} error={papersError} onOpenReader={handleOpenReader} onOpenQuiz={handleOpenQuiz} />}
+        {activeView === 'practice' && <QuizPractice selectedModuleId={selectedModuleId} onSelectModule={setSelectedModuleId} />}
+        {activeView === 'reader' && <PdfReader papers={papers} selectedPaperId={selectedPaperId} onSelectPaper={setSelectedPaperId} />}
       </main>
-
       <footer className="border-t border-slate-200 bg-white mt-12">
         <div className="max-w-7xl mx-auto px-6 py-5 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
-          <span>HiCare · SSW Nursing Care Study Portal</span>
-          <span>Original PDF Papers sourced from data/papers</span>
+          <span>CaregiverJP · Personal offline study app</span>
+          <div className="flex items-center gap-3">
+            <button type="button" onClick={exportBackup} className="underline underline-offset-2">Export backup</button>
+            <label className="cursor-pointer underline underline-offset-2">Import backup<input type="file" accept="application/json,.json" onChange={importBackup} className="hidden" /></label>
+          </div>
         </div>
       </footer>
     </div>
   );
 }
-
 export default App;
