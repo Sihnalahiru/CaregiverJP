@@ -1,10 +1,9 @@
-{
-  "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "caregiverjp",
-  "compatibility_date": "2026-11-24",
-  "assets": {
-    "directory": "./dist",
-    "not_found_handling": "single-page-application"
-  },
-  "previews": {}
-}
+name = "caregiverjp"
+main = "src/worker.ts"
+compatibility_date = "2026-11-24"
+
+[assets]
+directory = "./dist"
+not_found_handling = "single-page-application"
+
+[previews]
