@@ -44,7 +44,7 @@ export function App() {
   return <div className="flex min-h-screen flex-col bg-slate-50 text-slate-900">
     <Header activeView={activeView} onNavigate={setActiveView} />
     <main className="flex-1">
-      {activeView === 'dashboard' && <Dashboard papers={[]} loading={false} onStartQuiz={() => setActiveView('library')} />}
+      {activeView === 'dashboard' && <Dashboard onStartQuiz={() => setActiveView('library')} />}
       {activeView === 'library' && <PaperLibrary onStartQuiz={startPaper} />}
       {activeView === 'practice' && <QuizPractice key={selectedPaperSetId} paperSetId={selectedPaperSetId} onExit={() => setActiveView('library')} />}
     </main>
