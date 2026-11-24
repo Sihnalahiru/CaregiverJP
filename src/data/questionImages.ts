@@ -66,11 +66,33 @@ export const QUESTION_IMAGES: Record<string, QuestionImageSet> = {
   "lesson-07-q096": { files: ["114.png"], alt: "Pulse measurement location at the wrist", auditBatch: "103-152" },
   "lesson-07-q100": { files: ["115.jpg"], alt: "Blood pressure and blood vessel illustration", auditBatch: "103-152" },
   "lesson-07-q101": { files: ["115.jpg"], alt: "Blood pressure and blood vessel illustration", auditBatch: "103-152" },
+
+  "main-paper-q011": { files: ["156.jpg"], alt: "Care worker assisting a wheelchair user to board a train using a ramp", auditBatch: "153-202" },
+  "lesson-03-q002": { files: ["159.jpg", "178.jpg"], alt: "Non-verbal communication using facial expression and gestures", auditBatch: "153-202" },
+  "lesson-03-q014": { files: ["199.jpg"], alt: "Care worker and older person communicating using sign language", auditBatch: "153-202" },
+  "lesson-03-q010": { files: ["158.jpg"], alt: "Examples of how visual impairment changes what a person sees", auditBatch: "153-202" },
+  "lesson-03-q013": { files: ["160.jpg"], alt: "Hearing aid device", auditBatch: "153-202" },
+  "lesson-06-q025": { files: ["158.jpg"], alt: "Examples of visual impairment", auditBatch: "153-202" },
+  "lesson-06-q041": { files: ["199.jpg"], alt: "Sign language communication", auditBatch: "153-202" },
+  "lesson-06-q042": { files: ["160.jpg"], alt: "Hearing aid device", auditBatch: "153-202" },
+  "lesson-07-q017": { files: ["153.jpg"], alt: "Human respiratory system and lungs", auditBatch: "153-202" },
+  "lesson-07-q050": { files: ["155.jpg"], alt: "Fall injuries and fractures involving bones", auditBatch: "153-202" },
+  "lesson-07-q058": { files: ["166.jpg", "167.jpg"], alt: "Portable and stationary oxygen therapy equipment", auditBatch: "153-202" },
+  "lesson-07-q059": { files: ["154.png"], alt: "Dialysis treatment for a care recipient", auditBatch: "153-202" },
+  "lesson-07-q073": { files: ["182.png", "183.png", "184.png", "185.png"], alt: "Brain illustrations used to explain dementia-related changes", auditBatch: "153-202" },
+  "lesson-07-q074": { files: ["182.png", "183.png", "184.png", "185.png"], alt: "Brain illustrations used to explain dementia-related changes", auditBatch: "153-202" },
+  "lesson-07-q079": { files: ["187.jpg"], alt: "Older person confused about the date on a calendar", auditBatch: "153-202" },
+  "lesson-07-q080": { files: ["186.jpg"], alt: "Older person forgetting how to use a familiar item", auditBatch: "153-202" },
+  "lesson-07-q082": { files: ["193.jpg"], alt: "Older person wandering at night", auditBatch: "153-202" },
+  "lesson-07-q084": { files: ["191.jpg"], alt: "Older person experiencing a visual hallucination", auditBatch: "153-202" },
+  "lesson-07-q085": { files: ["194.jpg"], alt: "Older person believing a personal item has been stolen", auditBatch: "153-202" },
+  "lesson-06-q048": { files: ["186.jpg", "187.jpg", "188.jpg", "189.jpg", "190.jpg", "191.jpg", "192.jpg", "193.jpg", "194.jpg"], alt: "Illustrations of dementia-related communication and behavioral symptoms", auditBatch: "153-202" }
   "lesson-09-q038": { files: ["62.jpg", "63.jpg"], alt: "Examples showing correct mask wearing", auditBatch: "53-102" }
 };
 
 export const IMAGE_AUDIT_BATCHES = [
   { range: "1-52", status: "VISUALLY_REVIEWED_IN_PRIOR_BATCH", mappedCount: null },
   { range: "53-102", status: "VISUALLY_REVIEWED", mappedQuestionCount: 24, imageCount: 50 },
-  { range: "103-152", status: "VISUALLY_REVIEWED", mappedQuestionCount: 31, imageCount: 50 }
+  { range: "103-152", status: "VISUALLY_REVIEWED", mappedQuestionCount: 31, imageCount: 50 },
+  { range: "153-202", status: "VISUALLY_REVIEWED", mappedQuestionCount: 20, imageCount: 50 }
 ] as const;
