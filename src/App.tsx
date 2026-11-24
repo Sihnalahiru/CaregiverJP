@@ -13,7 +13,7 @@ export function App() {
     if (!('serviceWorker' in navigator)) return;
     const base = new URL('./', window.location.href);
     if (window.location.protocol === 'https:' || window.location.hostname === 'localhost') {
-      navigator.serviceWorker.register(new URL('sw.js', base)).catch((error) => console.error('Service worker registration failed:', error));
+      navigator.serviceWorker.register(new URL('sw.js', base), { updateViaCache: 'none' }).then((registration) => registration.update()).catch((error) => console.error('Service worker registration failed:', error));
     }
   }, []);
 
