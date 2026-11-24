@@ -44,6 +44,15 @@ for (const [moduleId, [min, max]] of Object.entries(sourceRanges)) {
   if (actual !== expected) errors.push(moduleId + ': expected ' + expected + ' source-range records, found ' + actual);
 }
 for (const id of supplementalIds) if (!ids.has(id)) errors.push('Expected supplemental audit record missing from bank: ' + id);
+const imageMapPath = path.join(process.cwd(), 'src', 'data', 'questionImages.ts');
+const imageMapSource = await fs.readFile(imageMapPath, 'utf8');
+const mappedFiles = [...imageMapSource.matchAll(/files:\s*\[([^\]]*)\]/g)]
+  .flatMap((match) => [...match[1].matchAll(/"([^"]+)"/g)].map((item) => item[1]));
+for (const filename of new Set(mappedFiles)) {
+  try { await fs.access(path.join(process.cwd(), 'assets', 'images', filename)); }
+  catch { missingImages.push(filename); }
+}
+if (missingImages.length) errors.push('Question image files missing from assets/images: ' + missingImages.join(', '));
 if (errors.length) { console.error(errors.join('\n')); process.exit(1); }
 console.log('Structural validation passed: 555 records; 510 records fall within the configured source-number ranges; 45 supplemental records are separately identified. Required Sinhala text is present in every question, option, and explanation. Mapped question image files exist.');
 if (supplementalIds.size) console.warn('UNVERIFIED SUPPLEMENTAL records outside source-verified PDF ranges (' + supplementalIds.size + '): ' + [...supplementalIds].join(', '));
