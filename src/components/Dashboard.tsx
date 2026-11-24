@@ -14,7 +14,7 @@ export const Dashboard: React.FC<DashboardProps> = ({ papers, loading, onStartQu
   const gradedCount = useMemo(() => ALL_QUIZ_QUESTIONS.filter((question) => question.kind !== 'source-mcq' && question.kind !== 'self-check').length, []);
 
   return (
-    <main className="mx-auto w-full max-w-5xl px-4 pb-10 pt-6 sm:px-6 sm:pt-10">
+    <div className="mx-auto w-full max-w-5xl px-4 pb-10 pt-6 sm:px-6 sm:pt-10">
       <section className="overflow-hidden rounded-3xl bg-slate-950 px-5 py-7 text-white shadow-xl sm:px-8 sm:py-10">
         <p className="text-xs font-semibold uppercase tracking-[0.2em] text-sky-300">Personal SSW study app</p>
         <h1 className="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">CaregiverJP</h1>
@@ -57,6 +57,6 @@ export const Dashboard: React.FC<DashboardProps> = ({ papers, loading, onStartQu
         </p>
         <p className="mt-3 text-xs text-slate-500">{gradedCount} questions have a reliable answer key for automatic grading; source items without a reliable key remain ungraded.</p>
       </section>
-    </main>
+    </div>
   );
 };
