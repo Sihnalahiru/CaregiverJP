@@ -78,12 +78,11 @@ export const QUESTION_IMAGES: Record<string, QuestionImageSet> = {
   "lesson-07-q082": { files: ["193.jpg"], alt: "Older person wandering at night", auditBatch: "153-202" },
   "lesson-07-q084": { files: ["191.jpg"], alt: "Older person experiencing a visual hallucination", auditBatch: "153-202" },
   "lesson-07-q085": { files: ["194.jpg"], alt: "Older person believing a personal item has been stolen", auditBatch: "153-202" },
-  "lesson-06-q048": { files: ["186.jpg", "187.jpg", "188.jpg", "189.jpg", "190.jpg", "191.jpg", "192.jpg", "193.jpg", "194.jpg"], alt: "Illustrations of dementia-related communication and behavioral symptoms", auditBatch: "153-202" }
+  "lesson-06-q048": { files: ["186.jpg", "187.jpg", "188.jpg", "189.jpg", "190.jpg", "191.jpg", "192.jpg", "193.jpg", "194.jpg"], alt: "Illustrations of dementia-related communication and behavioral symptoms", auditBatch: "153-202" },
 
   "lesson-03-q006": { files: ["203.jpg"], alt: "Care worker listening attentively and offering reassurance", auditBatch: "203-252" },
   "lesson-03-q009": { files: ["212.jpg", "223.jpg"], alt: "Appropriate posture and eye level during conversation", auditBatch: "203-252" },
   "lesson-03-q014": { files: ["220.jpg"], alt: "Sign language gestures used in communication", auditBatch: "203-252" },
-  "lesson-03-q040": { files: ["219.jpg", "224.jpg"], alt: "Written communication using a tablet and written notes", auditBatch: "203-252" },
   "lesson-06-q006": { files: ["203.jpg", "210.jpg"], alt: "Active listening and attentive communication", auditBatch: "203-252" },
   "lesson-06-q007": { files: ["203.jpg"], alt: "Care worker showing empathy and reassurance", auditBatch: "203-252" },
   "lesson-06-q034": { files: ["221.jpg"], alt: "Speaking face to face with a person who has hearing impairment", auditBatch: "203-252" },
@@ -95,7 +94,6 @@ export const QUESTION_IMAGES: Record<string, QuestionImageSet> = {
   "lesson-04-q057": { files: ["247.jpg", "248.jpg"], alt: "Ceiling and mobile hoist welfare equipment", auditBatch: "203-252" },
   "lesson-05-q044": { files: ["247.jpg", "248.jpg"], alt: "Mechanical lifting equipment for a bedridden care recipient", auditBatch: "203-252" },
   "lesson-08-q007": { files: ["229.jpg"], alt: "Wheelchair assistance", auditBatch: "203-252" },
-  "lesson-09-q038": { files: ["62.jpg", "63.jpg"], alt: "Examples showing correct mask wearing", auditBatch: "53-102" }
 };
 
 export const IMAGE_AUDIT_BATCHES = [
