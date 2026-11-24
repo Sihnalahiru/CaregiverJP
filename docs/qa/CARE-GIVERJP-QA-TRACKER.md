@@ -445,3 +445,64 @@
   - Q20 says records should be kept “at the end of your shift”; app explanation changes this to “immediately while memory is fresh”. Source Q&A page 8 says write immediately while memory is clear. Keep the MCQ source wording and Q&A evidence distinct; textbook should decide the correct answer.
 - Important: this audit checks source mapping and wording, NOT answer correctness. All 25 app correctIndex values remain unverified against the original textbook. No question was deleted or changed in this batch.
 - File metadata discrepancy resolved: Library search returned both `Communication Skills-1-2-1(1).pdf` and `Communication Skills-1-2-1.pdf` with identical byte size (506,308 bytes). The app metadata filename without “(1)” corresponds to a Library item of the same size; byte-for-byte identity has not been proven.
+
+
+## Batch 13 — Full repository structural and source-alignment audit (2026-11-24)
+
+### Scope and evidence
+- Audited the current `main` branch tree, `src/App.tsx`, `src/components/{QuizPractice,BilingualStudy,PaperLibrary,PdfReader,Header}.tsx`, `src/types.ts`, `src/data/studyBank.ts`, `server.ts`, `vite.config.ts`, `src/index.css`, `package.json`, `.github/workflows/ci.yml`, and this QA tracker.
+- Reopened the official March 2025 RV2 English PDF `001471475_compressed.pdf` (276 pages) and inspected the relevant Part 1 pages 10–17, including normalization and physical-restraint definitions.
+- Reopened original source PDFs in Library, including `cargiver 8 %.pdf` and `Skills for Providing Daily Assistance.pdf`, including rendered page images for the first two pages of each.
+- This batch is a structural/source-alignment audit, not a completed independent textbook verification of every one of the 288 keyed MCQs. No quiz data or answer key was modified in this batch.
+
+### Current repository/data inventory
+- The repository contains 9 original exam PDFs under `data/originalpapers/`, the official 276-page RV2 textbook PDF at repository root, and 343 numbered image assets under `assets/images/`.
+- Current `SOURCE_PDF_MCQ_QUESTIONS`: 288 records, 288 unique IDs, distributed as:
+  - Mechanism of Mind & Body: 98
+  - Caregiver Final: 40
+  - Caregiver Lesson 1: 45
+  - Daily Assistance: 66
+  - Paper 01: 39
+- Current `BILINGUAL_CARDS`: 246 records, 246 unique IDs:
+  - Exam Questions 01: 94
+  - Exam Questions 02: 81
+  - Exam Questions 03: 71 (19 of these are tagged as Communication Skills for module display)
+- `ALL_QUIZ_QUESTIONS` is 534 = 288 source MCQs + 246 bilingual recall cards. These are different item types and must not be described as 534 MCQs.
+- The preliminary source inventory in this tracker adds to 614 entries (39+45+45+32+83+94+72+102+102), not the stated total of 612. The source inventory and total need reconciliation.
+- Against the preliminary source counts, the current bank is short by at least 77 MCQ entries: Caregiver Final 5, Communication Skills 32, Mechanism of Mind & Body 4, and Daily Assistance 36. The current bilingual-card set is short by 3 Q&A entries: Exam Questions 02 has 81 vs 83; Exam Questions 03 has 71 vs 72. Do not fill these gaps until exact source-page extraction and duplicate checks are completed.
+
+### Confirmed data integrity findings
+1. `srcmcq-142` is malformed: the original `cargiver 8 %.pdf` page 1 has four choices for Q4 and marks option B (Normalization); RV2 pp.12–13 defines Normalization accordingly. The app record has only two merged options and `correctIndex: 2`, which is out of range. Restore the exact four source choices and use index 1 only after preserving the source wording.
+2. `srcmcq-147` maps to `cargiver 8 %.pdf` Q9. The source PDF visually marks option C, while RV2 p.17 explicitly lists all four listed actions in this question (bed rails, locking the room, tying body/hands/feet, excess psychotropic medication) as physical-restraint examples. Therefore the source question has no valid EXCEPT choice under RV2; the app's key D and explanation that excess psychotropic medication is not a restraint are not supported by RV2. Keep this item ungraded/PENDING rather than silently choosing the marked source option.
+3. `srcmcq-284` has a similar stem but different choices in Paper 01. It is not safe to deduplicate with Q147 by stem alone; RV2 distinguishes physical restraint from physical abuse, so its option about physically hurting the user is conceptually different.
+4. `srcmcq-113` has a key (index 2) even though its own explanation says there is no valid unique option as worded.
+5. `srcmcq-155` has a key (index 0) even though its own explanation says all four choices are positive mental-health practices and there is no valid EXCEPT answer.
+6. `srcmcq-209` is keyed No while its explanation says pushing forward uphill is generally appropriate and the exact technique needs source checking.
+7. `srcmcq-215` is keyed to 300 ml while its explanation explicitly says none of the three listed values is a reliable standard answer.
+8. `srcmcq-235` is keyed to option B while its explanation says no option matches the stated cane/affected/unaffected sequence.
+9. `srcmcq-245` is keyed to “Promoting” while its explanation says that option is incomplete and cannot be keyed confidently.
+10. `srcmcq-141` is keyed despite its explanation identifying the pathogen/disease category wording as ambiguous.
+11. `srcmcq-229` is keyed despite its explanation noting that the selected option text is incomplete and needs source inspection.
+12. `srcmcq-86` and `srcmcq-93` still have imported option wording that is incomplete/unclear; explanations alone do not establish source-faithful option content.
+13. `srcmcq-101` has two stored option strings with multiple answer labels merged into them; the source option structure needs restoration before it can be treated as a normal four-choice MCQ.
+- A broad structural scan found one invalid answer index (`srcmcq-142`), one exact normalized duplicate stem pair (`srcmcq-147`/`srcmcq-284`), 23 two-option records (most are Yes/No statements; each still needs source-form checking), and 26 three-option records. Different option counts are not automatically errors.
+- At least 10 MCQs have explanations that explicitly state the answer is ambiguous, incomplete, unanswerable, or requires further checking while a `correctIndex` is still stored. The records above are the identified cases; further source-by-source review may find more.
+
+### RV2/source evidence and tracker discrepancies
+- RV2 pp.12–13 defines Normalization as people with disabilities living normally without prejudice and with their human rights respected; this directly supports the intended answer to `srcmcq-142`.
+- RV2 p.17 lists all five examples of physical restraint, including excess psychotropic medication. This directly conflicts with the current explanation/key for `srcmcq-147`.
+- The original `cargiver 8 %.pdf` has visible blue-underlined answer marks on the rendered source pages (for example Q1, Q2, Q3, Q4, Q5, Q7, Q9–Q13 on pages 1–2). This contradicts earlier tracker statements that no answer key was marked in that source. These markings are source evidence but must still be checked against RV2; Q9 demonstrates that a marked source answer can conflict with RV2.
+- Current bank explanations are not consistently page-evidenced: only 95 of 288 contain the exact phrase `MHLW 2025 Study Text`; 154 have no explicit MHLW/textbook/page citation string. Some records cite “MHLW 2024 Study Text” rather than the current March 2025 RV2 edition. Reconcile all citations to RV2 page references during answer verification.
+
+### Confirmed application/functionality findings
+1. Quiz module IDs are inconsistent. `App.tsx` initializes `selectedModuleId` to `lesson-01`; `server.ts` catalog sends `lesson-01` through `lesson-04`; current quiz modules use IDs such as `paper-01`, `mechanism-mind-body`, `caregiver-final`, and `daily-assistance`. `QuizPractice.tsx` falls back to the first module for an unknown ID but then filters using the unknown selected ID, so the initial quiz view and paper-card quiz launch can show an empty question set.
+2. All 288 `source-mcq` records are excluded from scoring in `QuizPractice.tsx`: the stats loop skips them, the missed-only filter excludes them, and answer feedback is suppressed. This remains true even though `correctIndex` values are stored. Consequently the app currently does not grade the 288 MCQs as an exam quiz.
+3. `BilingualStudy.tsx` exists but is not imported/rendered by `App.tsx` or linked from `Header.tsx`. Its standalone bilingual-card search/bookmark/flashcard interface is therefore unreachable through the current app navigation; the cards are instead routed through the self-check quiz implementation.
+4. The current question schema has no source filename/page/question evidence fields, no answer verification state, and no original-image reference field. The 343 image assets cannot be traced from the MCQ records through the current schema.
+5. Paper 01 Q38–Q39 are represented as text descriptions in `srcmcq-287` and `srcmcq-288`; the question type and quiz UI have no image field/rendering path to show the corresponding original illustration.
+6. `src/index.css` names Noto Sans Sinhala as a fallback but does not load or bundle a Sinhala font asset. Rendering depends on the user's installed fonts/browser fallback.
+7. `package.json` has no test script and the CI workflow runs only TypeScript validation and Vite production build. Passing CI does not test question counts, answer-index bounds, source coverage, answer correctness, image mapping, or quiz grading behavior.
+
+### CI status and next audit actions
+- The latest code commit at the time of this audit is `adddb2b0a17d9f4fb6fafceb1bb9d1ae0e3004d5`; its two latest GitHub Actions runs completed successfully. This validates TypeScript/build only, not the findings above.
+- Next: reconcile all 9 source PDFs against the current bank; restore missing MCQ/Q&A entries without duplicates; map each question to RV2 page(s); verify every answer and option list; explicitly mark invalid source questions ungraded; fix module routing and MCQ scoring; map original images; then add automated data-integrity tests.
