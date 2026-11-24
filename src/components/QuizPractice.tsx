@@ -158,7 +158,7 @@ export const QuizPractice: React.FC<QuizPracticeProps> = ({
   const [feedbackPulse, setFeedbackPulse] = useState<'correct' | 'wrong' | null>(null);
   const [reviewFilter, setReviewFilter] = useState<'all' | 'wrong'>('all');
 
-  const advanceTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const advanceTimerRef = useRef<ReturnType<typeof window.setTimeout> | null>(null);
   const current = questions[currentIndex];
 
   // Track last position in paper for resume
