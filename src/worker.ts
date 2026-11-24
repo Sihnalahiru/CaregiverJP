@@ -78,6 +78,14 @@ export default {
         if (!assetResponse.ok) {
           return json({ error: 'PDF asset not found', filename: paper.filename }, 404);
         }
+        const assetType = assetResponse.headers.get('content-type') ?? '';
+        if (!assetType.toLowerCase().includes('application/pdf')) {
+          return json({
+            error: 'The requested PDF asset is missing from the deployed static assets',
+            filename: paper.filename,
+            receivedContentType: assetType || 'unknown',
+          }, 404);
+        }
 
         const headers = new Headers(assetResponse.headers);
         headers.set('Content-Type', 'application/pdf');
