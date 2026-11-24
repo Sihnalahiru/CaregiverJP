@@ -22,3 +22,5 @@ jobs:
         run: npm run lint
       - name: Production build
         run: npm run build
+      - name: Validate Cloudflare Workers deployment bundle
+        run: npx wrangler@4.168.0 deploy --dry-run
