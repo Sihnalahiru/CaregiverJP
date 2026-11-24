@@ -488,15 +488,15 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "id": "main-paper-q026",
     "moduleId": "main-paper",
     "number": 26,
-    "question": "Mr. Kazuo receives news that his son died due to accident. He seems to be depresses\nand stays on just one corner of the room. How should you approach Mr.Kazuo?\nකසුඕ මහතාට තම පුත්‍රයා අනතුරකින් මිය ගිය බවට පුවතක් ලැබේ. ඔහු මානසික\nපීඩනයකින්/විෂාදයකින් සිටින බව පෙෙනෙ\nෙ\nන අතර කාමරයේ එක් කෙෙ\nළවරකට වී සිටියි. ඔබ\nකසුඕ මහතා වෙෙ\nත ප්‍රවේශ විය යුත්තේ කෙෙ\nසේද?",
+    "question": "Mr. Kazuo receives news that his son died in an accident. He seems depressed and stays in one corner of the room. How should you approach Mr. Kazuo?\nකසුඕ මහතාට තම පුතා අනතුරකින් මියගිය බවට ආරංචිය ලැබේ. ඔහු දැඩි ශෝකයෙන් සිටින බව පෙනෙන අතර කාමරයේ එක් මුල්ලක නිහඬව රැඳී සිටියි. ඔබ කසුඕ මහතා වෙත ළඟා විය යුත්තේ කෙසේද?",
     "options": [
-      "Give him space and time to grief (ශෝක වීමට ඔහුට ඉඩකඩ සහ කාලය ලබා දීම)",
-      "Listen to user on what he/she wants to say (පරිශීලකයාට පැවසීමට අවශ්‍ය දේට සවන් දීම)",
-      "Crack some jokes (විහිළු කිහිපයක් පැවසීම)",
-      "Encourage them to join recreational activities (විනෝදාත්මක ක්‍රිියාකාරකම්වලට එක්වන ලෙෙ\nස\nඔවුන් දිරිමත් කිරීම)"
+      "Give him space and time to grieve (ඔහුට ශෝකය විඳීමට අවශ්‍ය ඉඩකඩ සහ කාලය ලබා දෙන්න)",
+      "Listen to him and let him say what he wants to say (ඔහුට පැවසීමට අවශ්‍ය දේට අවධානයෙන් සවන් දෙන්න)",
+      "Crack some jokes (විහිළු කිහිපයක් කියන්න)",
+      "Encourage him to join recreational activities (විනෝදාත්මක ක්‍රියාකාරකම්වලට සහභාගි වීමට ඔහු දිරිමත් කරන්න)"
     ],
     "correctIndex": 1,
-    "explanation": "Listen to user on what he/she wants to say (පරිශීලකයාට\nපැවසීමට අවශ්‍ය දේට සවන් දීම)",
+    "explanation": "Correct answer: B — Listen to him and let him say what he wants to say. Give him a calm, supportive presence, listen without pressure, and allow him to express his grief in his own time. Do not try to cheer him up with jokes or push him into activities. (නිවැරදි පිළිතුර: B — ඔහුට පැවසීමට අවශ්‍ය දේට අවධානයෙන් සවන් දෙන්න. බලපෑම් නොකර සන්සුන්ව සහ සහයෝගයෙන් ඔහු අසල සිටිමින්, ඔහුගේ ශෝකය ඔහුට කැමති වේලාවට ප්‍රකාශ කිරීමට ඉඩ දෙන්න. විහිළු කියා ඔහුගේ දුක අඩු කිරීමට උත්සාහ කිරීම හෝ ක්‍රියාකාරකම්වලට බලෙන් යොමු කිරීම සුදුසු නොවේ.)",
     "kind": "mcq",
     "sinhalaText": ""
   },
