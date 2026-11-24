@@ -76,7 +76,7 @@ export const PaperLibrary: React.FC<PaperLibraryProps> = ({
         <div className="lg:col-span-4 grid grid-cols-3 gap-4 bg-white border border-slate-200 rounded-xl p-5">
           <div>
             <div className="text-2xl font-bold text-slate-900 font-mono-tabular">
-              {papers.length || 9}
+              {papers.length}
             </div>
             <div className="text-xs text-slate-500 mt-1">Original PDFs</div>
           </div>
