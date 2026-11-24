@@ -91,14 +91,14 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "question": "While emptying the trash in a user's room, you get stuck by a needle that should have\nbeen placed in the sharp container. What is the first thing to do?",
     "options": [
       "Try to squeeze the blood out (ලේ මිරිකා ඉවත් කිරීමට උත්සාහ කිරීම)",
-      "Call your personal physician (ඔබේ පෞද්ගලික වෛෛ\nද්‍යවරයා ඇමතීම)",
+      "Call your personal physician (ඔබේ පෞද්ගලික වෛ\nද්‍යවරයා ඇමතීම)",
       "Wash the site for several hours (ඇනුණු ස්ථානය පැය ගණනක් සේදීම)",
       "Fill out an incident report (සිදුවීම් වාර්තාවක් පිරවීම)"
     ],
     "correctIndex": 2,
     "explanation": "Wash the site for several hours (ඇනුණු ස්ථානය පැය ගණනක්\nසේදීම)",
     "kind": "mcq",
-    "sinhalaText": "පරිශීලකයෙෙ\nකුගේ කාමරයේ කුණු හිස් කරන අතරතුර, sharp container (තියුණු ආයුධ\nබහාලුමේ) තැබිය යුතුව තිබූ ඉඳිකටුවකින් ඔබට ඇනුණි. පළමුව කළ යුත්තේ කුමක්ද?"
+    "sinhalaText": "පරිශීලකයෙ\nකුගේ කාමරයේ කුණු හිස් කරන අතරතුර, sharp container (තියුණු ආයුධ\nබහාලුමේ) තැබිය යුතුව තිබූ ඉඳිකටුවකින් ඔබට ඇනුණි. පළමුව කළ යුත්තේ කුමක්ද?"
   },
   {
     "id": "main-paper-q002",
@@ -106,15 +106,15 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 2,
     "question": "During dinner, a client who is HIV-positive accidently breaks a glass and cuts himself.\nWhat is the proper procedure?",
     "options": [
-      "Call the paramedics to treat the client (සේවාදායකයාට ප්‍රතිකාර කිරීමට හදිසි වෛෛ\nද්‍ය\nකණ්ඩායමක් කැඳවීම)",
+      "Call the paramedics to treat the client (සේවාදායකයාට ප්‍රතිකාර කිරීමට හදිසි වෛ\nද්‍ය\nකණ්ඩායමක් කැඳවීම)",
       "Use a long-handled mop to wipe up the blood (ලේ පිස දැමීමට දිගු මිටක් සහිත මොප් එකක්\nභාවිත කිරීම)",
       "Begin to fill out an incident report (සිදුවීම් වාර්තාවක් පිරවීම ආරම්භ කිරීම)",
-      "Block off the area until it can be cleaned (පිරිසිදු කළ හැකි වන තෙෙ\nක් එම ප්‍රදේශය අවහිර කර\nතැබීම)"
+      "Block off the area until it can be cleaned (පිරිසිදු කළ හැකි වන තෙ\nක් එම ප්‍රදේශය අවහිර කර\nතැබීම)"
     ],
     "correctIndex": 3,
-    "explanation": "Block off the area until it can be cleaned (පිරිසිදු කළ හැකි වනතෙ\nෙ\nක් එම ප්‍රදේශය අවහිර කර තැබීම)\n",
+    "explanation": "Block off the area until it can be cleaned (පිරිසිදු කළ හැකි වනතෙ\nෙ\nක් එම ප්‍රදේශය අවහිර කර තැබීම)",
     "kind": "mcq",
-    "sinhalaText": "රාත්‍රීී ආහාරය අතරතුර, HIV ධනාත්මක (HIV-positive) සේවාදායකයෙෙ\nකු අහම්බෙෙ\nන් වීදුරුවක්\nබිඳගෙෙ\nන තමන්ටම කපා ගනී. නිසි ක්‍රිියා පටිපාටිය කුමක්ද?"
+    "sinhalaText": "රාත්‍රී ආහාරය අතරතුර, HIV ධනාත්මක (HIV-positive) සේවාදායකයෙ\nකු අහම්බෙ\nන් වීදුරුවක්\nබිඳගෙ\nන තමන්ටම කපා ගනී. නිසි ක්‍රිියා පටිපාටිය කුමක්ද?"
   },
   {
     "id": "main-paper-q003",
@@ -170,15 +170,15 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 6,
     "question": "A good way to build a relationship with a user is to:",
     "options": [
-      "Learn their non-verbal communication (ඔවුන්ගේ වාචික නොවන සන්නිවේදනය තේරුම් ගැනීම /\nඉගෙෙ\nන ගැනීම)",
+      "Learn their non-verbal communication (ඔවුන්ගේ වාචික නොවන සන්නිවේදනය තේරුම් ගැනීම /\nඉගෙ\nන ගැනීම)",
       "Compliment them every day on their outfit (සෑම දිනකම ඔවුන්ගේ ඇඳුම ගැන ප්‍රශංසා කිරීම)",
-      "Learn their favourite kind of joke so you can make them laugh (ඔවුන්ව සිනස්සවීමට හැකි\nවන පරිදි ඔවුන් කැමතිම විහිළු වර්ගය ඉගෙෙ\nන ගැනීම)",
-      "Bring them home-baked cookies once a week (සතියකට වරක් නිවසේ සාදන ලද කුකීස්\nඔවුන්ට ගෙෙ\nනැවිත් දීම)"
+      "Learn their favourite kind of joke so you can make them laugh (ඔවුන්ව සිනස්සවීමට හැකි\nවන පරිදි ඔවුන් කැමතිම විහිළු වර්ගය ඉගෙ\nන ගැනීම)",
+      "Bring them home-baked cookies once a week (සතියකට වරක් නිවසේ සාදන ලද කුකීස්\nඔවුන්ට ගෙ\nනැවිත් දීම)"
     ],
     "correctIndex": 0,
-    "explanation": "Learn their non-verbal communication (ඔවුන්ගේ වාචික නොවන\nසන්නිවේදනය ඉගෙෙ\nන ගැනීම)\n",
+    "explanation": "Learn their non-verbal communication (ඔවුන්ගේ වාචික නොවන\nසන්නිවේදනය ඉගෙ\nන ගැනීම)",
     "kind": "mcq",
-    "sinhalaText": "පරිශීලකයෙෙ\nකු සමඟ හොඳ සබඳතාවක් ගොඩනඟා ගැනීමට හොඳ ක්‍රමයක් වන්නේ:"
+    "sinhalaText": "පරිශීලකයෙ\nකු සමඟ හොඳ සබඳතාවක් ගොඩනඟා ගැනීමට හොඳ ක්‍රමයක් වන්නේ:"
   },
   {
     "id": "main-paper-q007",
@@ -188,7 +188,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "options": [
       "\"what kind of work do you do\" (\"ඔබ කරන්නේ මොන වගේ රැකියාවක්ද?\")",
       "\"is your room warm enough\" (\"ඔබේ කාමරය ප්‍රමාණවත් තරම් උණුසුම්ද?\")",
-      "\"are you feeling great today\" (\"අද ඔබට හොඳින් දැනෙෙ\nනවාද?\")",
+      "\"are you feeling great today\" (\"අද ඔබට හොඳින් දැනෙ\nනවාද?\")",
       "\"are you ready to eat breakfast\" (\"ඔබ උදෑසන ආහාරය ගැනීමට සූදානම්ද?\")"
     ],
     "correctIndex": 0,
@@ -204,13 +204,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "options": [
       "Tease the user about their fashion sense (පරිශීලකයාගේ විලාසිතා රටාව ගැන විහිළු කිරීම)",
       "Make the resident go back and fix their mistake (නේවාසිකයාට ආපසු ගොස් තම වරද නිවැරදි\nකර ගැනීමට සැලැස්වීම)",
-      "Tell the user to get help next time (ඊළඟ වතාවේ උදව් ලබා ගන්නා ලෙෙ\nස පරිශීලකයාට පැවසීම)",
+      "Tell the user to get help next time (ඊළඟ වතාවේ උදව් ලබා ගන්නා ලෙ\nස පරිශීලකයාට පැවසීම)",
       "Quietly ask if the user notices the slippers (පාවහන් ගැන පරිශීලකයාට අවධානය යොමු වී\nතිබේදැයි නිහඬව විමසීම)"
     ],
     "correctIndex": 3,
     "explanation": "Quietly ask if the user notices the slippers (පාවහන් ගැන\nපරිශීලකයාට අවධානය යොමු වී තිබේදැයි නිහඬව විමසීම)",
     "kind": "mcq",
-    "sinhalaText": "පරිශීලකයෙෙ\nකු නොගැළපෙෙ\nන පාවහන් (mismatched slippers) පැළඳ තම කාමරයෙෙ\nන් එළියට\nඑන විට සත්කාර සේවකයා කළ යුත්තේ කුමක්ද?"
+    "sinhalaText": "පරිශීලකයෙ\nකු නොගැළපෙ\nන පාවහන් (mismatched slippers) පැළඳ තම කාමරයෙ\nන් එළියට\nඑන විට සත්කාර සේවකයා කළ යුත්තේ කුමක්ද?"
   },
   {
     "id": "main-paper-q009",
@@ -282,10 +282,10 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 13,
     "question": "An airborne infection is;",
     "options": [
-      "Noro virus (නොරෝ වෛෛ\nරසය / Noro virus)",
+      "Noro virus (නොරෝ වෛ\nරසය / Noro virus)",
       "E-coli (ඊ-කෝලි / E-coli)",
       "Measles (සරම්ප / Measles)",
-      "Influenza (ඉන්ෆ්ලුවෙෙ\nන්සා / Influenza)"
+      "Influenza (ඉන්ෆ්ලුවෙ\nන්සා / Influenza)"
     ],
     "correctIndex": 2,
     "explanation": "Measles (සරම්ප / Measles)",
@@ -298,15 +298,15 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 14,
     "question": "Physical restraint is to restrict the user's physical movements. Which of the following is\nnot considered as a physical restraint?",
     "options": [
-      "Use violence in the user's body (පරිශීලකයාගේ ශරීරයට හිංසනය/ප්‍රචණ්ඩත්වය යෙෙ\nදීම)",
-      "Put safety rails around the bed so that the user cannot get off the bed by himself\n(පරිශීලකයාට තනිවම ඇඳෙෙන් බැසීමට නොහැකි වන පරිදි ඇඳ වටා ආරක්ෂිත වැටවල් දැමීම)",
+      "Use violence in the user's body (පරිශීලකයාගේ ශරීරයට හිංසනය/ප්‍රචණ්ඩත්වය යෙ\nදීම)",
+      "Put safety rails around the bed so that the user cannot get off the bed by himself\n(පරිශීලකයාට තනිවම ඇඳෙන් බැසීමට නොහැකි වන පරිදි ඇඳ වටා ආරක්ෂිත වැටවල් දැමීම)",
       "Administer excess amount of psychological medication (අධික මානසික ඖෂධ ප්‍රමාණයක් ලබා\nදීම)",
       "Lock the door of the room to keep the user inside (පරිශීලකයා ඇතුළත තබා ගැනීමට\nකාමරයේ දොර අගුළු දැමීම)"
     ],
     "correctIndex": 2,
     "explanation": "Administer excess amount of psychological medication (අධික\nමානසික ඖෂධ ප්‍රමාණයක් ලබා දීම — රසායනික සීමා කිරීමකි / Chemical restraint)",
     "kind": "mcq",
-    "sinhalaText": "භෞතික සීමා කිරීම (Physical restraint) යනු පරිශීලකයාගේ ශාරීරික චලනයන් සීමා කිරීමයි.\nපහත සඳහන් ඒවායින් භෞතික සීමා කිරීමක් ලෙෙ\nස නොසැලකෙෙ\nන්නේ කුමක්ද?"
+    "sinhalaText": "භෞතික සීමා කිරීම (Physical restraint) යනු පරිශීලකයාගේ ශාරීරික චලනයන් සීමා කිරීමයි.\nපහත සඳහන් ඒවායින් භෞතික සීමා කිරීමක් ලෙ\nස නොසැලකෙ\nන්නේ කුමක්ද?"
   },
   {
     "id": "main-paper-q015",
@@ -314,7 +314,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 15,
     "question": "Various professionals other than care workers works as a team for a user, using their\nrespective expertise. Choose the professional out of the following which is not included for\nthe nursing care team.",
     "options": [
-      "Nurse (හෙෙ\nදිය)",
+      "Nurse (හෙ\nදිය)",
       "Care manager (සත්කාර කළමනාකරු / Care manager)",
       "Care worker (සත්කාර සේවකයා / Care worker)",
       "Social worker (සමාජ සේවකයා / Social worker)"
@@ -322,7 +322,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 3,
     "explanation": "Social worker (සමාජ සේවකයා / Social worker)",
     "kind": "mcq",
-    "sinhalaText": "සත්කාර සේවකයින්ට අමතරව විවිධ වෘත්තිකයන් තම තමන්ගේ විශේෂඥ දැනුම භාවිත\nකරමින් පරිශීලකයෙෙ\nකු වෙෙ\nනුවෙෙ\nන් කණ්ඩායමක් ලෙෙ\nස කටයුතු කරයි. පහත සඳහන් අය\nඅතරින් හෙෙ\nද සත්කාර කණ්ඩායමට ඇතුළත් නොවන වෘත්තිකයා තෝරන්න."
+    "sinhalaText": "සත්කාර සේවකයින්ට අමතරව විවිධ වෘත්තිකයන් තම තමන්ගේ විශේෂඥ දැනුම භාවිත\nකරමින් පරිශීලකයෙ\nකු වෙ\nනුවෙ\nන් කණ්ඩායමක් ලෙ\nස කටයුතු කරයි. පහත සඳහන් අය\nඅතරින් හෙ\nද සත්කාර කණ්ඩායමට ඇතුළත් නොවන වෘත්තිකයා තෝරන්න."
   },
   {
     "id": "main-paper-q016",
@@ -332,13 +332,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "options": [
       "Opinion of the family members (පවුලේ සාමාජිකයන්ගේ මතය)",
       "What the person who needs care wants (සත්කාර අවශ්‍ය පුද්ගලයාට අවශ්‍ය දේ)",
-      "Consideration of the doctor (වෛෛ\nද්‍යවරයාගේ සලකා බැලීම)",
+      "Consideration of the doctor (වෛ\nද්‍යවරයාගේ සලකා බැලීම)",
       "Economic condition (ආර්ථික තත්ත්වය)"
     ],
     "correctIndex": 1,
     "explanation": "What the person who needs care wants (සත්කාර අවශ්‍ය\nපුද්ගලයාට අවශ්‍ය දේ)",
     "kind": "mcq",
-    "sinhalaText": "පරිශීලකයාගේ ස්වයං තීරණ ගැනීමට (self-decision) සහාය වන විට, ඔබ දැනගත යුතු\nකරුණ ලෙෙ\nස සුදුසු පිළිතුරක් තෝරන්න."
+    "sinhalaText": "පරිශීලකයාගේ ස්වයං තීරණ ගැනීමට (self-decision) සහාය වන විට, ඔබ දැනගත යුතු\nකරුණ ලෙ\nස සුදුසු පිළිතුරක් තෝරන්න."
   },
   {
     "id": "main-paper-q017",
@@ -378,9 +378,9 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 19,
     "question": "Among the explanation below for the care of excretion, choose one appropriate answer.",
     "options": [
-      "Refrain from taking water when user has diarrhea (පරිශීලකයාට පාචනය ඇති විට ජලය පානය\nකිරීමෙෙ\nන් වැළකී සිටීම)",
-      "For the improvement of constipation, exercise isn't effective (මලබද්ධය වැඩිදියුණු කිරීම සඳහා\nව්‍යාායාම ඵලදායී නොවේ)",
-      "Use positively diapers (ඩයපර් ධනාත්මකව/සක්‍රීීයව භාවිත කිරීම)",
+      "Refrain from taking water when user has diarrhea (පරිශීලකයාට පාචනය ඇති විට ජලය පානය\nකිරීමෙ\nන් වැළකී සිටීම)",
+      "For the improvement of constipation, exercise isn't effective (මලබද්ධය වැඩිදියුණු කිරීම සඳහා\nව්‍යායාම ඵලදායී නොවේ)",
+      "Use positively diapers (ඩයපර් ධනාත්මකව/සක්‍රීයව භාවිත කිරීම)",
       "Be considerate of privacy (පෞද්ගලිකත්වය ගැන සැලකිලිමත් වීම)"
     ],
     "correctIndex": 3,
@@ -394,7 +394,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 20,
     "question": "Among the explanation below when supporting to put on/off a shirt to care a person\nwith paralysis on the left hand side, choose one appropriate answer.",
     "options": [
-      "Refrain from using clothes with buttons (බොත්තම් සහිත ඇඳුම් භාවිත කිරීමෙෙ\nන් වැළකී සිටීම)",
+      "Refrain from using clothes with buttons (බොත්තම් සහිත ඇඳුම් භාවිත කිරීමෙ\nන් වැළකී සිටීම)",
       "When putting on, put first the left arm and through the sleeve (අඳින විට, පළමුව වම් අත අත්\nබාහුව හරහා දැමීම)",
       "When putting off, take off the arm through the sleeve (ගලවන විට, අත් බාහුව හරහා අත\nපිටතට ගැනීම)",
       "Provide total assistance (සම්පූර්ණ සහාය ලබා දීම)"
@@ -402,7 +402,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 1,
     "explanation": "When putting on, put first the left arm and through the sleeve\n(අඳින විට, පළමුව වම් අත අත් බාහුව හරහා දැමීම)",
     "kind": "mcq",
-    "sinhalaText": "වම් අත පැත්තේ අංශභාගය (paralysis on the left hand side) ඇති පුද්ගලයෙෙ\nකුට කමිසයක්\nඇඳීමට හෝ ගැලවීමට සහාය වන විට, පහත පැහැදිලි කිරීම් අතරින් එක් සුදුසු පිළිතුරක්\nතෝරන්න."
+    "sinhalaText": "වම් අත පැත්තේ අංශභාගය (paralysis on the left hand side) ඇති පුද්ගලයෙ\nකුට කමිසයක්\nඇඳීමට හෝ ගැලවීමට සහාය වන විට, පහත පැහැදිලි කිරීම් අතරින් එක් සුදුසු පිළිතුරක්\nතෝරන්න."
   },
   {
     "id": "main-paper-q021",
@@ -418,7 +418,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 1,
     "explanation": "Caregiver stands at the right back position (සත්කාරකයා දකුණු\nපිටුපස ස්ථානයේ සිටියි)",
     "kind": "mcq",
-    "sinhalaText": "දකුණු පැත්තේ අංශභාගය (paralysis on the right side) ඇති පුද්ගලයෙෙ\nකුට වේවැලකින් (cane)\nඇවිදීමට මූලික සහාය ලබා දීම සඳහා, එක් සුදුසු පිළිතුරක් තෝරන්න."
+    "sinhalaText": "දකුණු පැත්තේ අංශභාගය (paralysis on the right side) ඇති පුද්ගලයෙ\nකුට වේවැලකින් (cane)\nඇවිදීමට මූලික සහාය ලබා දීම සඳහා, එක් සුදුසු පිළිතුරක් තෝරන්න."
   },
   {
     "id": "main-paper-q022",
@@ -445,12 +445,12 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Yoghurt (යෝගට් / Yoghurt)",
       "Porridge (කැඳ / Porridge)",
       "Miso soup (මිසෝ සුප් / Miso soup)",
-      "Jelly (ජෙෙලි / Jelly)"
+      "Jelly (ජෙලි / Jelly)"
     ],
     "correctIndex": 2,
-    "explanation": "Miso soup (මිසෝ සුප් / Miso soup)\n",
+    "explanation": "Miso soup (මිසෝ සුප් / Miso soup)",
     "kind": "mcq",
-    "sinhalaText": "පහත සඳහන් ඒවායින් ශ්වාසනාලයට/පෙෙ\nනහළුවලට යාමේ (aspiration) අවදානම පහසුවෙෙ\nන්\nඇතිවන්නේ කුමකින්ද?"
+    "sinhalaText": "පහත සඳහන් ඒවායින් ශ්වාසනාලයට/පෙ\nනහළුවලට යාමේ (aspiration) අවදානම පහසුවෙ\nන්\nඇතිවන්නේ කුමකින්ද?"
   },
   {
     "id": "main-paper-q024",
@@ -459,12 +459,12 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "question": "Which is appropriate about heat shock?",
     "options": [
       "It is common during summer (එය ගිම්හාන කාලයේදී බහුලව දක්නට ලැබේ)",
-      "Eliminate the temperature difference between changing room and the bathroom (ඇඳුම් මාරු\nකරන කාමරය සහ නාන කාමරය අතර උෂ්ණත්ව වෙෙ\nනස ඉවත් කිරීම)",
+      "Eliminate the temperature difference between changing room and the bathroom (ඇඳුම් මාරු\nකරන කාමරය සහ නාන කාමරය අතර උෂ්ණත්ව වෙ\nනස ඉවත් කිරීම)",
       "Common to people with high blood pressure (අධි රුධිර පීඩනය ඇති පුද්ගලයින්ට බහුලව ඇති\nවේ)",
       "The temperature of the bath tub is at 38°C (නාන තටාකයේ උෂ්ණත්වය 38°C කි)"
     ],
     "correctIndex": 1,
-    "explanation": "Eliminate the temperature difference between changing room and\nthe bathroom (ඇඳුම් මාරු කරන කාමරය සහ නාන කාමරය අතර උෂ්ණත්ව වෙෙ\nනස ඉවත් කිරීම)",
+    "explanation": "Eliminate the temperature difference between changing room and\nthe bathroom (ඇඳුම් මාරු කරන කාමරය සහ නාන කාමරය අතර උෂ්ණත්ව වෙ\nනස ඉවත් කිරීම)",
     "kind": "mcq",
     "sinhalaText": "තාප කම්පනය (heat shock) පිළිබඳව සුදුසු වන්නේ කුමක්ද?"
   },
@@ -474,9 +474,9 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 25,
     "question": "Appropriate prevention of disuse syndrome;",
     "options": [
-      "Change body position every 4 hours (සෑම පැය 4කට වරක් ශරීර ඉරියව් වෙෙ\nනස් කිරීම)",
-      "Have a rest and spend the time in supine position (විවේක ගෙෙ\nන උඩුබැලි අතට / supine\nඉරියව්වෙෙ\nන් කාලය ගත කිරීම)",
-      "ADL perform in full support (ADL / එදිනෙෙ\nදා ක්‍රිියාකාරකම් සම්පූර්ණ සහාය ඇතිව සිදු කිරීම)",
+      "Change body position every 4 hours (සෑම පැය 4කට වරක් ශරීර ඉරියව් වෙ\nනස් කිරීම)",
+      "Have a rest and spend the time in supine position (විවේක ගෙ\nන උඩුබැලි අතට / supine\nඉරියව්වෙ\nන් කාලය ගත කිරීම)",
+      "ADL perform in full support (ADL / එදිනෙ\nදා ක්‍රිියාකාරකම් සම්පූර්ණ සහාය ඇතිව සිදු කිරීම)",
       "Incorporate individual recreational activities (පුද්ගලික විනෝදාත්මක ක්‍රිියාකාරකම් ඇතුළත් කිරීම)"
     ],
     "correctIndex": 3,
@@ -506,7 +506,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 27,
     "question": "If an accident occurs in the workplace which action should you take?",
     "options": [
-      "Willingly leave for days until condition is ok (තත්ත්වය යහපත් වන තුරු කැමැත්තෙෙ\nන්ම දින\nගණනක් බැහැරව සිටීම)",
+      "Willingly leave for days until condition is ok (තත්ත්වය යහපත් වන තුරු කැමැත්තෙ\nන්ම දින\nගණනක් බැහැරව සිටීම)",
       "Think of the cause of the situation (එම තත්ත්වයට හේතුව ගැන සිතීම)",
       "Keep a record, record it. (වාර්තාවක් තබා ගැනීම, එය සටහන් කිරීම.)",
       "Continue on working no matter the situation (තත්ත්වය කුමක් වුවත් දිගටම වැඩ කිරීම)"
@@ -524,7 +524,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "options": [
       "Let the user decide which to eat (කුමක් අනුභව කළ යුතුද යන්න තීරණය කිරීමට පරිශීලකයාට\nඉඩ දීම)",
       "It is the act of treating each user fairly (එය එක් එක් පරිශීලකයාට සාධාරණව සැලකීමේ\nක්‍රිියාවයි)",
-      "Decide for the user which dress to put on since the patient has dementia (රෝගියාට\nඩිමෙෙ\nන්ශියා ඇති බැවින් කුමන ඇඳුමක් ඇඳිය යුතුද යන්න පරිශීලකයා වෙෙ\nනුවෙෙ\nන් තීරණය කිරීම)",
+      "Decide for the user which dress to put on since the patient has dementia (රෝගියාට\nඩිමෙ\nන්ශියා ඇති බැවින් කුමන ඇඳුමක් ඇඳිය යුතුද යන්න පරිශීලකයා වෙ\nනුවෙ\nන් තීරණය කිරීම)",
       "Proper execution of task given to care workers (සත්කාර සේවකයින්ට ලබා දී ඇති කාර්යය නිසිලෙ\nෙ\nස ඉටු කිරීම)"
     ],
     "correctIndex": 0,
@@ -546,7 +546,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 1,
     "explanation": "Small intestine (කුඩා අන්ත්‍රය / Small intestine)",
     "kind": "mcq",
-    "sinhalaText": "පෝෂ්‍ය පදාර්ථ අවශෝෂණය (absorption of nutrients) සිදුවන්නේ මෙෙ\nහිදීය:"
+    "sinhalaText": "පෝෂ්‍ය පදාර්ථ අවශෝෂණය (absorption of nutrients) සිදුවන්නේ මෙ\nහිදීය:"
   },
   {
     "id": "main-paper-q030",
@@ -570,10 +570,10 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 31,
     "question": "Proper sitting posture in the toilet;",
     "options": [
-      "(A ඉරියව්ව — 90° කෝණයකින් කෙෙ\nළින් වාඩි වී සිටීම)",
+      "(A ඉරියව්ව — 90° කෝණයකින් කෙ\nළින් වාඩි වී සිටීම)",
       "(B ඉරියව්ව — පාද ආධාරකයක් මත තබා මඳක් ඉදිරියට නැඹුරු වී සිටීම)",
       "(C ඉරියව්ව — දුරකථනයක් භාවිත කරමින් වාඩි වී සිටීම)",
-      "(D ඉරියව්ව — කොන්ද නවාගෙෙ\nන දුරකථනයක් දෙෙස බලමින් වාඩි වී සිටීම)"
+      "(D ඉරියව්ව — කොන්ද නවාගෙ\nන දුරකථනයක් දෙස බලමින් වාඩි වී සිටීම)"
     ],
     "correctIndex": 1,
     "explanation": "Option B — feet supported on a small footstool and leaning slightly forward. The original PDF explicitly marks B as the correct answer. (B — පාද කුඩා ආධාරකයක් මත තබා මඳක් ඉදිරියට නැඹුරු වී සිටීම. මුල් PDF එකේ නිවැරදි පිළිතුර B ලෙස පැහැදිලිව දක්වා ඇත.)",
@@ -586,15 +586,15 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 32,
     "question": "Urinary incontinence appear as we grow older. Which statement best describe it?",
     "options": [
-      "It is more common in man and woman (එය පිරිමි සහ කාන්තා දෙෙපාර්ශ්වයේම බහුලව දක්නට\nලැබේ)",
-      "It is the dysfunction where bladder cannot store urine (එය මුත්‍රාාශයට මුත්‍රාා රඳවා තබා ගත\nනොහැකි වන ක්‍රිියාකාරී අක්‍රමතාවයකි)",
+      "It is more common in man and woman (එය පිරිමි සහ කාන්තා දෙපාර්ශ්වයේම බහුලව දක්නට\nලැබේ)",
+      "It is the dysfunction where bladder cannot store urine (එය මුත්‍රාශයට මුත්‍රා රඳවා තබා ගත\nනොහැකි වන ක්‍රිියාකාරී අක්‍රමතාවයකි)",
       "Can cause kidney diseases (වකුගඩු රෝග ඇති කළ හැක)",
       "The kidney felt sudden pressure (වකුගඩුවට හදිසි පීඩනයක් දැනුණි)"
     ],
     "correctIndex": 1,
-    "explanation": "It is the dysfunction where bladder cannot store urine (එය\nමුත්‍රාාශයට මුත්‍රාා රඳවා තබා ගත නොහැකි වන ක්‍රිියාකාරී අක්‍රමතාවයකි)",
+    "explanation": "It is the dysfunction where bladder cannot store urine (එය\nමුත්‍රාශයට මුත්‍රා රඳවා තබා ගත නොහැකි වන ක්‍රිියාකාරී අක්‍රමතාවයකි)",
     "kind": "mcq",
-    "sinhalaText": "වයසට යත්ම මුත්‍රාා පාලනය කරගත නොහැකි වීම (Urinary incontinence) ඇති විය හැක. එය\nවඩාත් හොඳින් විස්තර කරන ප්‍රකාශය කුමක්ද?"
+    "sinhalaText": "වයසට යත්ම මුත්‍රා පාලනය කරගත නොහැකි වීම (Urinary incontinence) ඇති විය හැක. එය\nවඩාත් හොඳින් විස්තර කරන ප්‍රකාශය කුමක්ද?"
   },
   {
     "id": "main-paper-q033",
@@ -604,7 +604,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "options": [
       "Supine (උඩුබැලි අතට වැතිර සිටීම / Supine)",
       "Right Lateral Recumbent (දකුණු පැත්තට ඇලවී සිටීම / Right Lateral Recumbent)",
-      "Fowler's (ෆවුලර් ඉරියව්ව - අර්ධ වශයෙෙ\nන් හිස ඔසවා සිටීම / Fowler's)",
+      "Fowler's (ෆවුලර් ඉරියව්ව - අර්ධ වශයෙ\nන් හිස ඔසවා සිටීම / Fowler's)",
       "Prone (මුනින් අතට වැතිර සිටීම / Prone)"
     ],
     "correctIndex": 2,
@@ -619,14 +619,14 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "question": "Which of the following assistance is best about grooming?",
     "options": [
       "Help her/him on applying heavy makeup (ඇයට/ඔහුට තද මේකප් / heavy makeup දැමීමට උදව්\nකිරීම)",
-      "Brush her hair to remove dirt (අපිරිසිදු ඉවත් කිරීමට ඇගේ කෙෙ\nස් පීරීම)",
-      "Massage in between toes of a user with diabetic (දියවැඩියාව ඇති පරිශීලකයෙෙ\nකුගේ ඇඟිලි\nඅතර සම්බාහනය කිරීම)",
-      "Cut the nails in a curve manner (නියපොතු වක්‍රාාකාරව කැපීම)\nNursing Care Skills Evaluation Test (English + සිංහල)"
+      "Brush her hair to remove dirt (අපිරිසිදු ඉවත් කිරීමට ඇගේ කෙ\nස් පීරීම)",
+      "Massage in between toes of a user with diabetic (දියවැඩියාව ඇති පරිශීලකයෙ\nකුගේ ඇඟිලි\nඅතර සම්බාහනය කිරීම)",
+      "Cut the nails in a curve manner (නියපොතු වක්‍රාකාරව කැපීම)\nNursing Care Skills Evaluation Test (English + සිංහල)"
     ],
     "correctIndex": 1,
-    "explanation": "Brush her hair to remove dirt (අපිරිසිදු ඉවත් කිරීමට ඇගේ කෙෙ\nස්\nපීරීම)",
+    "explanation": "Brush her hair to remove dirt (අපිරිසිදු ඉවත් කිරීමට ඇගේ කෙ\nස්\nපීරීම)",
     "kind": "mcq",
-    "sinhalaText": "පෞද්ගලික පෙෙ\nනුම සහ සැරසීම (grooming) සම්බන්ධයෙෙ\nන් පහත සහායන් අතරින් වඩාත්\nසුදුසු වන්නේ කුමක්ද?"
+    "sinhalaText": "පෞද්ගලික පෙ\nනුම සහ සැරසීම (grooming) සම්බන්ධයෙ\nන් පහත සහායන් අතරින් වඩාත්\nසුදුසු වන්නේ කුමක්ද?"
   },
   {
     "id": "main-paper-q035",
@@ -634,13 +634,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 35,
     "question": "Choose one that is not appropriate to help the user sleep.",
     "options": [
-      "Recommend that [exercise properly in the day time] (දිවා කාලයේදී නිසි ලෙෙ\nස ව්‍යාායාම කරනලෙ\nෙ\nස නිර්දේශ කිරීම)",
-      "Open the curtain in the morning and encourage them to take in the sun (උදෑසන තිර රෙෙදි\nවිවර කර හිරු එළිය ලබා ගැනීමට ඔවුන් දිරිමත් කිරීම)",
+      "Recommend that [exercise properly in the day time] (දිවා කාලයේදී නිසි ලෙ\nස ව්‍යායාම කරනලෙ\nෙ\nස නිර්දේශ කිරීම)",
+      "Open the curtain in the morning and encourage them to take in the sun (උදෑසන තිර රෙදි\nවිවර කර හිරු එළිය ලබා ගැනීමට ඔවුන් දිරිමත් කිරීම)",
       "Prepare clean, dry bedding (පිරිසිදු, වියළි ඇඳ ඇතිරිලි සකස් කිරීම)",
-      "Recommend that you eat and go to bed immediately (ආහාර ගත් වහාම නින්දට යන ලෙෙ\nස\nනිර්දේශ කිරීම)"
+      "Recommend that you eat and go to bed immediately (ආහාර ගත් වහාම නින්දට යන ලෙ\nස\nනිර්දේශ කිරීම)"
     ],
     "correctIndex": 3,
-    "explanation": "Recommend that you eat and go to bed immediately (ආහාර ගත්\nවහාම නින්දට යන ලෙෙ\nස නිර්දේශ කිරීම)",
+    "explanation": "Recommend that you eat and go to bed immediately (ආහාර ගත්\nවහාම නින්දට යන ලෙ\nස නිර්දේශ කිරීම)",
     "kind": "mcq",
     "sinhalaText": "පරිශීලකයාට නින්ද යාමට උපකාර කිරීම සඳහා සුදුසු නොවන එකක් තෝරන්න."
   },
@@ -668,13 +668,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "options": [
       "Cochlea (කර්ණශංඛය / Cochlea)",
       "Auditory ossicles (ශ්‍රවණ අස්ථිකා / Auditory ossicles)",
-      "Tympanic membrane (කර්ණපටහය - කන් බෙෙ\nරය / Tympanic membrane)",
+      "Tympanic membrane (කර්ණපටහය - කන් බෙ\nරය / Tympanic membrane)",
       "Auditory nerves (ශ්‍රවණ ස්නායු / Auditory nerves)"
     ],
     "correctIndex": 0,
     "explanation": "Cochlea (කර්ණශංඛය / Cochlea)",
     "kind": "mcq",
-    "sinhalaText": "ශ්‍රවණ යාන්ත්‍රණය කන ආශ්‍රයෙෙ\nන් සිදු වේ. ලැබෙෙ\nන ශබ්ද තරංග කම්පන සංඥා (signals)\nබවට පරිවර්තනය කරන්නේ කනේ පහත සඳහන් කුමන කොටසද?"
+    "sinhalaText": "ශ්‍රවණ යාන්ත්‍රණය කන ආශ්‍රයෙ\nන් සිදු වේ. ලැබෙ\nන ශබ්ද තරංග කම්පන සංඥා (signals)\nබවට පරිවර්තනය කරන්නේ කනේ පහත සඳහන් කුමන කොටසද?"
   },
   {
     "id": "main-paper-q038",
@@ -682,15 +682,15 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 38,
     "question": "Physical disability is a state in which a person has damaged limbs or trunk and having\ndifficulties in daily living due to that. Which of the following is correct regarding physical\ndisability?",
     "options": [
-      "Degree of difficulty of daily activities are same from person to person if the damaged region\nof the body is same for them. (ශරීරයේ හානියට පත් කොටස සමාන නම්, එදිනෙෙ\nදා ක්‍රිියාකාරකම්වල\nදුෂ්කරතා මට්ටම පුද්ගලයාගෙෙ\nන් පුද්ගලයාට සමාන වේ.)",
+      "Degree of difficulty of daily activities are same from person to person if the damaged region\nof the body is same for them. (ශරීරයේ හානියට පත් කොටස සමාන නම්, එදිනෙ\nදා ක්‍රිියාකාරකම්වල\nදුෂ්කරතා මට්ටම පුද්ගලයාගෙ\nන් පුද්ගලයාට සමාන වේ.)",
       "Physical disability occurs concurrently with Intellectual disability (ශාරීරික ආබාධිතභාවය\nබුද්ධිමය ආබාධිතභාවය සමඟ එකවර සිදු වේ)",
       "Sometimes intellectual disability occurs concurrently with motor dysfunction (සමහර විට චාලක\nඅක්‍රිියතාව සමඟ බුද්ධිමය ආබාධිතභාවය එකවර ඇති වේ)",
       "Assistive devices can be used to treat intellectual disability (බුද්ධිමය ආබාධිතභාවයට ප්‍රතිකාර\nකිරීම සඳහා සහායක උපකරණ / Assistive devices භාවිත කළ හැක)"
     ],
     "correctIndex": 2,
-    "explanation": "Sometimes intellectual disability occurs concurrently with motor\ndysfunction (සමහර විට චාලක අක්‍රිියතාව සමඟ බුද්ධිමය ආබාධිතභාවය එකවර ඇති වේ)\n",
+    "explanation": "Sometimes intellectual disability occurs concurrently with motor\ndysfunction (සමහර විට චාලක අක්‍රිියතාව සමඟ බුද්ධිමය ආබාධිතභාවය එකවර ඇති වේ)",
     "kind": "mcq",
-    "sinhalaText": "ශාරීරික ආබාධිතභාවය (Physical disability) යනු පුද්ගලයෙෙ\nකුගේ අත් පා හෝ කඳට හානි\nසිදුවී ඒ හේතුවෙෙ\nන් එදිනෙෙ\nදා ජීවිතයේ අපහසුතා ඇති වන තත්ත්වයකි. ශාරීරික\nආබාධිතභාවය සම්බන්ධයෙෙ\nන් පහත ප්‍රකාශ අතරින් නිවැරදි වන්නේ කුමක්ද?"
+    "sinhalaText": "ශාරීරික ආබාධිතභාවය (Physical disability) යනු පුද්ගලයෙ\nකුගේ අත් පා හෝ කඳට හානි\nසිදුවී ඒ හේතුවෙ\nන් එදිනෙ\nදා ජීවිතයේ අපහසුතා ඇති වන තත්ත්වයකි. ශාරීරික\nආබාධිතභාවය සම්බන්ධයෙ\nන් පහත ප්‍රකාශ අතරින් නිවැරදි වන්නේ කුමක්ද?"
   },
   {
     "id": "main-paper-q039",
@@ -698,15 +698,15 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 39,
     "question": "The causative diseases of dementia exclude;",
     "options": [
-      "Vascular dementia (සනාල ඩිමෙෙ\nන්ශියා / Vascular dementia)",
+      "Vascular dementia (සනාල ඩිමෙ\nන්ශියා / Vascular dementia)",
       "Alzheimer type (ඇල්සයිමර් වර්ගය / Alzheimer type)",
-      "Parietal dementia (පැරියෙෙ\nටල් ඩිමෙෙ\nන්ශියා / Parietal dementia)",
-      "Frontotemporal dementia (ෆ්‍රොන්ටොටෙෙම්පෝරල් ඩිමෙෙ\nන්ශියා / Frontotemporal dementia)"
+      "Parietal dementia (පැරියෙ\nටල් ඩිමෙ\nන්ශියා / Parietal dementia)",
+      "Frontotemporal dementia (ෆ්‍රොන්ටොටෙම්පෝරල් ඩිමෙ\nන්ශියා / Frontotemporal dementia)"
     ],
     "correctIndex": 2,
-    "explanation": "Parietal dementia (පැරියෙෙ\nටල් ඩිමෙෙ\nන්ශියා / Parietal dementia)",
+    "explanation": "Parietal dementia (පැරියෙ\nටල් ඩිමෙ\nන්ශියා / Parietal dementia)",
     "kind": "mcq",
-    "sinhalaText": "ඩිමෙෙ\nන්ශියා (Dementia) රෝගය ඇති කරන රෝග අතරින් ඇතුළත් නොවන්නේ (exclude):"
+    "sinhalaText": "ඩිමෙ\nන්ශියා (Dementia) රෝගය ඇති කරන රෝග අතරින් ඇතුළත් නොවන්නේ (exclude):"
   },
   {
     "id": "main-paper-q040",
@@ -718,9 +718,9 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "[No — Truncated in PDF] (නැත - PDF හි කැපී ඇත)"
     ],
     "correctIndex": 1,
-    "explanation": "No (මතක ශක්තිය දුර්වල වීම ඩිමෙෙ\nන්ශියා රෝගයේ ප්‍රධාන රෝග\nලක්ෂණයක් / Core symptom වන අතර BPSD හෙෙ\nවත් පර්යන්ත රෝග ලක්ෂණයක් නොවේ)",
+    "explanation": "No (මතක ශක්තිය දුර්වල වීම ඩිමෙ\nන්ශියා රෝගයේ ප්‍රධාන රෝග\nලක්ෂණයක් / Core symptom වන අතර BPSD හෙ\nවත් පර්යන්ත රෝග ලක්ෂණයක් නොවේ)",
     "kind": "mcq",
-    "sinhalaText": "මතක ශක්තිය දුර්වල වීම (Memory impairment) ඩිමෙෙ\nන්ශියා රෝගයේ පර්යන්ත රෝග\nලක්ෂණ (BPSD) වලින් එකකි;"
+    "sinhalaText": "මතක ශක්තිය දුර්වල වීම (Memory impairment) ඩිමෙ\nන්ශියා රෝගයේ පර්යන්ත රෝග\nලක්ෂණ (BPSD) වලින් එකකි;"
   },
   {
     "id": "main-paper-q041",
@@ -732,9 +732,9 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "No (නැත)"
     ],
     "correctIndex": 1,
-    "explanation": "No (නැත — බෑවුමකින් පහළට යන විට ආරක්ෂාව සඳහා රෝද\nපුටුව පිටුපසට / backward ගෙෙ\nන යා යුතුය)",
+    "explanation": "No (නැත — බෑවුමකින් පහළට යන විට ආරක්ෂාව සඳහා රෝද\nපුටුව පිටුපසට / backward ගෙ\nන යා යුතුය)",
     "kind": "mcq",
-    "sinhalaText": "රෝද පුටු සහායේදී, බෑවුමකින් (slope) පහළට යන විට රෝද පුටුව ඉදිරියට (forward) ගෙෙ\nන\nයාම වඩා හොඳය."
+    "sinhalaText": "රෝද පුටු සහායේදී, බෑවුමකින් (slope) පහළට යන විට රෝද පුටුව ඉදිරියට (forward) ගෙ\nන\nයාම වඩා හොඳය."
   },
   {
     "id": "main-paper-q042",
@@ -748,9 +748,9 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "All of above (ඉහත සියල්ල)"
     ],
     "correctIndex": 3,
-    "explanation": "All of above (ඉහත සියල්ල)\n",
+    "explanation": "All of above (ඉහත සියල්ල)",
     "kind": "mcq",
-    "sinhalaText": "සත්කාර ලබන පරිශීලකයා නෑවීමට පෙෙ\nර, පහත සඳහන් ඒවායින් ඔබ සලකා බැලිය යුත්තේ\nකුමක්ද?"
+    "sinhalaText": "සත්කාර ලබන පරිශීලකයා නෑවීමට පෙ\nර, පහත සඳහන් ඒවායින් ඔබ සලකා බැලිය යුත්තේ\nකුමක්ද?"
   },
   {
     "id": "main-paper-q043",
@@ -775,9 +775,9 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "question": "Which of the following is true about quality of life?",
     "options": [
       "The top most priority is to give activities concerning ADL (ADL සම්බන්ධ ක්‍රිියාකාරකම් ලබා දීම\nප්‍රමුඛතම කාර්යය වේ)",
-      "Focuses on the happiness of the user (පරිශීලකයාගේ සතුට කෙෙරෙ\nෙහි අවධානය යොමු කරයි)",
+      "Focuses on the happiness of the user (පරිශීලකයාගේ සතුට කෙරෙ\nෙහි අවධානය යොමු කරයි)",
       "Environmental factors should be consider when giving activities (ක්‍රිියාකාරකම් ලබා දීමේදී\nපාරිසරික සාධක සලකා බැලිය යුතුය)",
-      "It is to treat each individual normally (එය එක් එක් පුද්ගලයාට සාමාන්‍ය ලෙෙ\nස සැලකීමයි)"
+      "It is to treat each individual normally (එය එක් එක් පුද්ගලයාට සාමාන්‍ය ලෙ\nස සැලකීමයි)"
     ],
     "correctIndex": 1,
     "explanation": "Focuses on the happiness of the user (පරිශීලකයාගේ සතුටකෙ\nෙරෙ\nෙහි අවධානය යොමු කරයි)",
@@ -790,15 +790,15 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 45,
     "question": "Our spinal cord shape looks like;",
     "options": [
-      "Letter S (S අකුර මෙෙ\nන්)",
-      "Letter C (C අකුර මෙෙ\nන්)",
-      "Letter I (I අකුර මෙෙ\nන්)",
-      "Letter W (W අකුර මෙෙ\nන්)"
+      "Letter S (S අකුර මෙ\nන්)",
+      "Letter C (C අකුර මෙ\nන්)",
+      "Letter I (I අකුර මෙ\nන්)",
+      "Letter W (W අකුර මෙ\nන්)"
     ],
     "correctIndex": 0,
-    "explanation": "Letter S (S අකුර මෙෙ\nන්)\n",
+    "explanation": "Letter S (S අකුර මෙ\nන්)",
     "kind": "mcq",
-    "sinhalaText": "අපගේ කොඳු ඇට පෙෙ\nළේ/සුෂුම්නාවේ හැඩය පෙෙනෙ\nෙ\nන්නේ:"
+    "sinhalaText": "අපගේ කොඳු ඇට පෙ\nළේ/සුෂුම්නාවේ හැඩය පෙනෙ\nෙ\nන්නේ:"
   },
   {
     "id": "lesson-02-q001",
@@ -1598,7 +1598,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 0,
     "explanation": "Closed question (සංවෘත ප්‍රශ්නය / Closed question)",
     "kind": "mcq",
-    "sinhalaText": "\"ඔේ\" වහෝ \"නැත\" වහෝ \"A\" වහෝ \"B\" වැි එක් වචනයක/වකටි ප්‍රතිචාරයක් අවනක් පාේශ්වවයන් ලො ගන්වන්:"
+    "sinhalaText": "\"ඔේ\" වහෝ \"නැත\" වහෝ \"A\" වහෝ \"B\" වැි එක් වචනයක/වකටි ප්‍රතිචාරයක් අවනක් පාේශ්වවයන් ලො ගන්වන්:"
   },
   {
     "id": "lesson-03-q006",
@@ -1614,7 +1614,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 1,
     "explanation": "Repeating (නැවත පැවසීම / Repeating)",
     "kind": "mcq",
-    "sinhalaText": "පරිශීලකයා පැවසූ වේ [හිස්තැන] කිරීවමන් \"මම සවන් දීවගන සිටිනවා\" යන පණිිඩය සත්කාර වස්වකයාට ලො දිය හැකිය:"
+    "sinhalaText": "පරිශීලකයා පැවසූ වේ [හිස්තැන] කිරීවමන් \"මම සවන් දීවගන සිටිනවා\" යන පණිිඩය සත්කාර වස්වකයාට ලො දිය හැකිය:"
   },
   {
     "id": "lesson-03-q007",
@@ -1646,7 +1646,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 0,
     "explanation": "Wording (වචන භාිතය / Wording)",
     "kind": "mcq",
-    "sinhalaText": "සත්කාර වස්වකයින් ආචාරශීලී [හිස්තැන] භාිත කිරීමට මතක තො ගියි:"
+    "sinhalaText": "සත්කාර වස්වකයින් ආචාරශීලී [හිස්තැන] භාිත කිරීමට මතක තො ගියි:"
   },
   {
     "id": "lesson-03-q009",
@@ -1673,12 +1673,12 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Call the person by name and talk to him/her (පුේගලයාවේ නම කියා අමතා ඔහු/ඇය සමඟ කතා කිරීම)",
       "Make it clear to whom you are talking (ඔෙ කතා කරන්වන් කා සමඟද යන්න පැහැදිලි කිරීම)",
       "Explain the location and direction (ස්ථානය සහ දිශාව පැහැදිලි කිරීම)",
-      "Use the information obtained from visual perception (දෘශය සංජානනවයන් / visual perception ලොගත් වතාරුරු භාිත කිරීම)"
+      "Use the information obtained from visual perception (දෘශය සංජානනවයන් / visual perception ලොගත් වතාරුරු භාිත කිරීම)"
     ],
     "correctIndex": 3,
-    "explanation": "Use the information obtained from visual perception (දෘශය සංජානනවයන් ලොගත් වතාරුරු භාිත කිරීම)",
+    "explanation": "Use the information obtained from visual perception (දෘශය සංජානනවයන් ලොගත් වතාරුරු භාිත කිරීම)",
     "kind": "mcq",
-    "sinhalaText": "දෘශය ආොධිතභාවය (visual impairment) ඇති පුේගලවයකු සමඟ සන්ිවේදනය කිරීවම්දී මතක තො ගත යුු කරුණු පහත ඒවා වේ. මේවා හැර:"
+    "sinhalaText": "දෘශය ආොධිතභාවය (visual impairment) ඇති පුේගලවයකු සමඟ සන්ිවේදනය කිරීවම්දී මතක තො ගත යුු කරුණු පහත ඒවා වේ. මේවා හැර:"
   },
   {
     "id": "lesson-03-q011",
@@ -1719,14 +1719,14 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "question": "The following are the points to remember when communicating a person with hearing disorder, EXCEPT :",
     "options": [
       "Converse with the user in as quiet place as possible (හැකිතාක් ිශ්ශබද ස්ථානයක පරිශීලකයා සමඟ සංවාදවේ වයදීම)",
-      "Talk to side of less impaired ears (ශ්‍රවණ ආොධය අඩු කන ඇති පැත්තට කතා කිරීම)",
+      "Talk to side of less impaired ears (ශ්‍රවණ ආොධය අඩු කන ඇති පැත්තට කතා කිරීම)",
       "Talk unnecessarily loudly (අනවශය වලස ශබද නඟා කතා කිරීම)",
       "Face the user while talking (කතා කරන ිට පරිශීලකයාට මුහුණලා සිටීම)"
     ],
     "correctIndex": 2,
     "explanation": "Talk unnecessarily loudly (අනවශය වලස ශබද නඟා කතා කිරීම)",
     "kind": "mcq",
-    "sinhalaText": "ශ්‍රවණ ආොධයක් (hearing disorder) ඇති පුේගලවයකු සමඟ සන්ිවේදනය කිරීවම්දී මතක තො ගත යුු කරුණු පහත ඒවා වේ, මේවා හැර:"
+    "sinhalaText": "ශ්‍රවණ ආොධයක් (hearing disorder) ඇති පුේගලවයකු සමඟ සන්ිවේදනය කිරීවම්දී මතක තො ගත යුු කරුණු පහත ඒවා වේ, මේවා හැර:"
   },
   {
     "id": "lesson-03-q014",
@@ -1751,7 +1751,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "question": "It is a state in which a person's function to listen and understand others, to read and understand documents, etc. declines due to the",
     "options": [
       "Dementia (ඩිවමන්ියා / Dementia)",
-      "Aphasia (ඇව ්සියා - භාෂා චලන ආොධය / Aphasia)",
+      "Aphasia (ඇව ්සියා - භාෂා චලන ආොධය / Aphasia)",
       "Aphycusia (Aphycusia — PDF හි ඇති පදය)",
       "Basybachia (Basybachia — PDF හි ඇති පදය)"
     ],
@@ -1774,7 +1774,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 0,
     "explanation": "Ask open type question (ිවෘත ආකාරවේ ප්‍රශ්න ඇසීම) (With aphasia, simple/closed or easily\nanswerable questions are generally easier than complex open-ended questions.)\nSensory and accessible communication illustration (clock position, braille, and hearing support)",
     "kind": "mcq",
-    "sinhalaText": "ඇව ්සියා (aphasia) තත්ත්වය ඇති පුේගලවයකු සමඟ සන්ිවේදනය කිරීවම්දී මතක තො ගත යුු කරුණු පහත ඒවා වේ. මේවා හැර:"
+    "sinhalaText": "ඇව ්සියා (aphasia) තත්ත්වය ඇති පුේගලවයකු සමඟ සන්ිවේදනය කිරීවම්දී මතක තො ගත යුු කරුණු පහත ඒවා වේ. මේවා හැර:"
   },
   {
     "id": "lesson-03-q017",
@@ -1790,7 +1790,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 0,
     "explanation": "Ask open type question (ිවෘත ආකාරවේ ප්‍රශ්න ඇසීම)",
     "kind": "mcq",
-    "sinhalaText": "ඩිවමන්ියා (dementia) ඇති පුේගලවයකු සමඟ සන්ිවේදනය කිරීවම්දී මතක තො ගත යුු කරුණු පහත ඒවා වේ. මේවා හැර:"
+    "sinhalaText": "ඩිවමන්ියා (dementia) ඇති පුේගලවයකු සමඟ සන්ිවේදනය කිරීවම්දී මතක තො ගත යුු කරුණු පහත ඒවා වේ. මේවා හැර:"
   },
   {
     "id": "lesson-03-q018",
@@ -1817,7 +1817,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Reporting (වාේතා කිරීම / Reporting)",
       "Hand and body gestures (අත් සහ ශරීර ඉඟි / Hand and body gestures)",
       "Holding a meeting (රැස්වීමක් පැවැත්වීම / Holding a meeting)",
-      "Keeping records (වාේතා තො ගැනීම / Keeping records)"
+      "Keeping records (වාේතා තො ගැනීම / Keeping records)"
     ],
     "correctIndex": 1,
     "explanation": "Hand and body gestures (අත් සහ ශරීර ඉඟි / Hand and body gestures) (In care information\nmanagement, reporting, holding meetings, and keeping records are formal information-sharing methods.)",
@@ -1830,15 +1830,15 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 20,
     "question": "The following are the basics of keeping records of nursing care, EXCEPT :",
     "options": [
-      "Keep records at the end of your shift (ඔවබ වැඩ මුරය අවසානවේ වාේතා තො ගැනීම)",
+      "Keep records at the end of your shift (ඔවබ වැඩ මුරය අවසානවේ වාේතා තො ගැනීම)",
       "Record the time accurately (වේලාව ිවැරදිව සටහන් කිරීම)",
       "Record Facts (කරුණු / Facts සටහන් කිරීම)",
       "Record the date to when the incident happened (සිදුවීම සිදු වූ දිනය සටහන් කිරීම)"
     ],
     "correctIndex": 0,
-    "explanation": "Keep records at the end of your shift (ඔවබ වැඩ මුරය අවසානවේ වාේතා තො ගැනීම) (Records should be\nwritten promptly/accurately while details are fresh rather than delayed until the end of a shift.)",
+    "explanation": "Keep records at the end of your shift (ඔවබ වැඩ මුරය අවසානවේ වාේතා තො ගැනීම) (Records should be\nwritten promptly/accurately while details are fresh rather than delayed until the end of a shift.)",
     "kind": "mcq",
-    "sinhalaText": "වහද සත්කාර වාේතා තො ගැනීවම් මූලික කරුණු පහත ඒවා වේ, මේවා හැර:"
+    "sinhalaText": "වහද සත්කාර වාේතා තො ගැනීවම් මූලික කරුණු පහත ඒවා වේ, මේවා හැර:"
   },
   {
     "id": "lesson-03-q021",
@@ -1902,7 +1902,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 0,
     "explanation": "Report it concisely (වකටිවයන් වාේතා කිරීම) (The receiver listens, takes notes, distinguishes facts from\nopinions, and confirms/repeats back; \"report it concisely\" describes the person reporting/providing information.)",
     "kind": "mcq",
-    "sinhalaText": "වතාරුරු ලො ගන්නා පුේගලයාට අදාළව පහත ඒවායින් ඇතුළත් මනාවන්මන් කුමක්ද:"
+    "sinhalaText": "වතාරුරු ලො ගන්නා පුේගලයාට අදාළව පහත ඒවායින් ඇතුළත් මනාවන්මන් කුමක්ද:"
   },
   {
     "id": "lesson-03-q025",
@@ -1912,11 +1912,11 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "options": [
       "Recording (වාේතාගත කිරීම / Recording)",
       "Reporting (වාේතා කිරීම / Reporting)",
-      "Consulting (උපවදස් ලො ගැනීම / Consulting)",
+      "Consulting (උපවදස් ලො ගැනීම / Consulting)",
       "Confirming (තහවුරු කිරීම / Confirming)"
     ],
     "correctIndex": 2,
-    "explanation": "Consulting (උපවදස් ලො ගැනීම / Consulting)",
+    "explanation": "Consulting (උපවදස් ලො ගැනීම / Consulting)",
     "kind": "mcq",
     "sinhalaText": "ඔෙට ගැටලුවක් ඇති වූ ිට වහෝ ඔෙට වනාවත්වරන යමක් ඇති ිට, සගයන්වගන්, ිවශ්ෂඥයන්වගන් ආදිවයන් උපවදස් පැතීම වන්වන්:"
   },
@@ -1926,10 +1926,10 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 26,
     "question": "Which of the following is NOT true in Aphasia :",
     "options": [
-      "Aphasia is a Communication disorder (ඇව ්සියා යනු සන්ිවේදන ආොධයකි)",
+      "Aphasia is a Communication disorder (ඇව ්සියා යනු සන්ිවේදන ආොධයකි)",
       "It refers to problems in swallowing certain food or liquids (එය ඇතැම් ආහාර වහෝ ද්‍රව ගිලීවම් ගැටලු වපන්නුම් කරයි)",
       "A person with aphasia can have trouble speaking, reading, writing and understanding language. (ඇව ්සියා ඇති පුේගලවයකුට කතා කිරීම,\nකියවීම, ලිවීම සහ භාෂාව වත්රුම් ගැනීවම් ගැටලු ඇති ිය හැක.)",
-      "It is a disorder that results from damage to portions of the brain that are responsible for language. It interferes with one's verbal\ncommunication, written communication or both. (එය භාෂාවට වගකිව යුු වමාළවේ වකාටස්වලට සිදුවන හාිවයන් ඇතිවන ආොධයකි. එය\nපුේගලවයකුවේ වාචික සන්ිවේදනයට, ලිඛිත සන්ිවේදනයට වහෝ වදකටම ොධා කරයි.)"
+      "It is a disorder that results from damage to portions of the brain that are responsible for language. It interferes with one's verbal\ncommunication, written communication or both. (එය භාෂාවට වගකිව යුු වමාළවේ වකාටස්වලට සිදුවන හාිවයන් ඇතිවන ආොධයකි. එය\nපුේගලවයකුවේ වාචික සන්ිවේදනයට, ලිඛිත සන්ිවේදනයට වහෝ වදකටම ොධා කරයි.)"
     ],
     "correctIndex": 1,
     "explanation": "It refers to problems in swallowing certain food or liquids (එය ඇතැම් ආහාර වහෝ ද්‍රව ගිලීවම් ගැටලු\nවපන්නුම් කරයි) (Swallowing difficulty is dysphagia, not aphasia.)",
@@ -1966,7 +1966,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 0,
     "explanation": "Aphasia (ඇව ්සියා / Aphasia)",
     "kind": "mcq",
-    "sinhalaText": "භාෂාවට වගකිව යුු වමාළවේ වකාටසට සිදුවන වමාළවේ හාියකින් ඇතිවන ආොධය පහත ඒවායින් කුමක්ද:"
+    "sinhalaText": "භාෂාවට වගකිව යුු වමාළවේ වකාටසට සිදුවන වමාළවේ හාියකින් ඇතිවන ආොධය පහත ඒවායින් කුමක්ද:"
   },
   {
     "id": "lesson-03-q029",
@@ -2012,7 +2012,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 0,
     "explanation": "To promote safety the user (පරිශීලකයාවේ ආරක්ෂාව ප්‍රවේධනය කිරීම) / b) Team communication\n(කේඩායම් සන්ිවේදනය) (In caregiving documentation, accurate records support user safety and continuity/communication across the\ncare team.)",
     "kind": "mcq",
-    "sinhalaText": "වාේතා තො ගැනීවම් සුදුසු අරමුණ කුමක්ද:"
+    "sinhalaText": "වාේතා තො ගැනීවම් සුදුසු අරමුණ කුමක්ද:"
   },
   {
     "id": "lesson-03-q032",
@@ -2035,15 +2035,15 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 1,
     "question": "What kind of specialized profession is a care worker, and what kind of work do they do?",
     "options": [
-      "They support people who have difficulties in their daily lives due to aging or disabilities so that they\ncan continue living a lifestyle unique to themselves. (වෙසේගත වීම සහෝ ආබාධෙක් නිසා දදනික ජීවිතෙට\nඅපහසුතා ඇි පුද්ගලෙන්ට, ඔවුන්සේම ජීවන රටාව දිගටම පවත්වා සගන ොමට සහාෙ වීම Caregiver සේ කාර්ෙෙයි.)",
+      "They support people who have difficulties in their daily lives due to aging or disabilities so that they\ncan continue living a lifestyle unique to themselves. (වෙසේගත වීම සහෝ ආබාධෙක් නිසා දදනික ජීවිතෙට\nඅපහසුතා ඇි පුද්ගලෙන්ට, ඔවුන්සේම ජීවන රටාව දිගටම පවත්වා සගන ොමට සහාෙ වීම Caregiver සේ කාර්ෙයි.)",
       "They diagnose illnesses and prescribe hospital surgery schedules. (ඔවුන් සරෝග හඳුනාසගන සරෝහල්\nලයකර්ම කාලසටහන් නිෙම කරයි.)",
       "They only manage building maintenance and accounting ledgers. (ඔවුන් සගාඩනැඟිලි නඩත්ුව සහ\nගිණුම් සපාත් පමණක් කළමනාකරණෙ කරයි.)",
-      "They replace family members and make all legal and financial decisions for the user. (ඔවුන් පවුසල්\nසාමාජිකෙන් සවනුවට සපනී සිටිමින් පරිශීලකොසේ සිෙලු නීිමෙ හා මූලය තීරණ ගනියි.)"
+      "They replace family members and make all legal and financial decisions for the user. (ඔවුන් පවුසල්\nසාමාජිකෙන් සවනුවට සපනී සිටිමින් පරිශීලකොසේ සිෙලු නීිමෙ හා මූලය තීරණ ගනියි.)"
     ],
     "correctIndex": 0,
-    "explanation": "They support people who have difficulties in their daily lives due to\naging or disabilities so that they can continue living a lifestyle unique to themselves. (වෙසේගත වීම සහෝ\nආබාධෙක් නිසා දදනික ජීවිතෙට අපහසුතා ඇි පුද්ගලෙන්ට, ඔවුන්සේම ජීවන රටාව දිගටම පවත්වා සගන ොමට\nසහාෙ වීම Caregiver සේ කාර්ෙෙයි.)",
+    "explanation": "They support people who have difficulties in their daily lives due to\naging or disabilities so that they can continue living a lifestyle unique to themselves. (වෙසේගත වීම සහෝ\nආබාධෙක් නිසා දදනික ජීවිතෙට අපහසුතා ඇි පුද්ගලෙන්ට, ඔවුන්සේම ජීවන රටාව දිගටම පවත්වා සගන ොමට\nසහාෙ වීම Caregiver සේ කාර්ෙයි.)",
     "kind": "mcq",
-    "sinhalaText": "සත්කාර සසේවකසෙකු (care worker) ෙනු කුමන ආකාරසේ විස ේෂිත වෘත්ිෙක්ද, සහ ඔවුන් කරන්සන් කුමන ආකාරසේ\nකාර්ෙෙක්ද?"
+    "sinhalaText": "සත්කාර සසේවකසෙකු (care worker) ෙනු කුමන ආකාරසේ විස ේෂිත වෘත්ිෙක්ද, සහ ඔවුන් කරන්සන් කුමන ආකාරසේ\nකාර්ෙක්ද?"
   },
   {
     "id": "lesson-04-q002",
@@ -2053,7 +2053,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "options": [
       "It means that each and every person is respected as an individual. (සෑම පුද්ගලසෙකුම සවනම\nපුද්ගලසෙකු සලස සගෞරවෙට ලක් කිරීම මිනිසේ සගෞරවෙයි.)",
       "It means prioritizing facility rules over a person's personal feelings. (පුද්ගලසෙකුසේ හැඟීම්වලට වඩා\nආෙතනසේ නීිවලට ප්‍රමුඛත්වෙ දීමයි.)",
-      "It means giving care only when the user has no family support. (පරිශීලකොට පවුසල් සහාෙක් සනාමැි\nවිට පමණක් සත්කාර ලබා දීමයි.)",
+      "It means giving care only when the user has no family support. (පරිශීලකොට පවුසල් සහාෙක් සනාමැි\nවිට පමණක් සත්කාර ලබා දීමයි.)",
       "It means treating all users identically without considering individual differences. (පුද්ගල සවනසේකම්\nසනාසලකා සිෙලු පරිශීලකෙන්ට එකම ආකාරසෙන් සැලකීමයි.)"
     ],
     "correctIndex": 0,
@@ -2067,7 +2067,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 3,
     "question": "What kinds of things are included in QOL (Quality of Life)?",
     "options": [
-      "Only physical strength and muscle mass measurements. ( ාරීරික  ක්ිෙ සහ මාාං  සේශි මිනුම් පමණි.)",
+      "Only physical strength and muscle mass measurements. ( ාරීරික  ක්ිෙ සහ මාං  සේශි මිනුම් පමණි.)",
       "It includes satisfaction and happiness with life, reasons for living (ikigai), and so on. (QOL ුළ\nජීවිතෙ පිළිබඳ තෘේිෙ, සුට සහ ජීවිතසේ අරමුණ වැනි කරුණු ඇුළත් සේ.)",
       "Strict daily schedules controlled entirely by staff. (කාර්ෙ මණ්ඩලෙ විසින් සම්ූර්ණසෙන් පාලනෙ කරන දැඩි\nදදනික කාලසටහන්.)",
       "Limiting outdoor walks to prevent minor fatigue. (සුළු සතසහට්ටුවක් වළක්වා ගැනීමට එළිමහන් ඇවිදීම් සීමා\nකිරීම.)"
@@ -2099,15 +2099,15 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 5,
     "question": "When supporting the independence of a care recipient, what does the care worker do?",
     "options": [
-      "They do every task for the recipient so nothing takes extra time. (කාලෙ ඉිරි කර ගැනීමට සිෙලු\nකාර්ෙෙන් තමන්ම කරයි.)",
-      "They support the care recipient so that they can make their own choices, decide for themselves,\nand do what they can by themselves. (රැකවරණ ලබන පුද්ගලොට තමන්ම සතෝරා සගන තීරණෙ කිරීමටත්,\nතමන්ට කළ හැකි සද් තමන්ම කිරීමටත් සහාෙ දිෙ යුුෙ.)",
-      "They make decisions on behalf of the family without asking the recipient. (පරිශීලකොසගන් සනාඅසා\nපවුල සවනුසවන් තීරණ ගනියි.)",
+      "They do every task for the recipient so nothing takes extra time. (කාලෙ ඉිරි කර ගැනීමට සිෙලු\nකාර්ෙන් තමන්ම කරයි.)",
+      "They support the care recipient so that they can make their own choices, decide for themselves,\nand do what they can by themselves. (රැකවරණ ලබන පුද්ගලොට තමන්ම සතෝරා සගන තීරණෙ කිරීමටත්,\nතමන්ට කළ හැකි සද් තමන්ම කිරීමටත් සහාෙ දිෙ යුුෙ.)",
+      "They make decisions on behalf of the family without asking the recipient. (පරිශීලකොසගන් සනාඅසා\nපවුල සවනුසවන් තීරණ ගනියි.)",
       "They restrict choices when a recipient is slow to answer. (පිළිුරු දීමට ප්‍රමාද වන විට සත්රීම් සීමා කරයි.)"
     ],
     "correctIndex": 1,
-    "explanation": "They support the care recipient so that they can make their own\nchoices, decide for themselves, and do what they can by themselves. (රැකවරණ ලබන පුද්ගලොට තමන්ම\nසතෝරා සගන තීරණෙ කිරීමටත්, තමන්ට කළ හැකි සද් තමන්ම කිරීමටත් සහාෙ දිෙ යුුෙ.)",
+    "explanation": "They support the care recipient so that they can make their own\nchoices, decide for themselves, and do what they can by themselves. (රැකවරණ ලබන පුද්ගලොට තමන්ම\nසතෝරා සගන තීරණෙ කිරීමටත්, තමන්ට කළ හැකි සද් තමන්ම කිරීමටත් සහාෙ දිෙ යුුෙ.)",
     "kind": "mcq",
-    "sinhalaText": "රැකවරණ ලබන්සනකුසේ සේවාධීනත්වෙට (independence) සහාෙ වන විට, සත්කාර සසේවකො කරන්සන් කුමක්ද?"
+    "sinhalaText": "රැකවරණ ලබන්සනකුසේ සේවාධීනත්වෙට (independence) සහාෙ වන විට, සත්කාර සසේවකො කරන්සන් කුමක්ද?"
   },
   {
     "id": "lesson-04-q006",
@@ -2115,15 +2115,15 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 6,
     "question": "What does self-selection mean?",
     "options": [
-      "It means choosing what to do by oneself according to one's lifestyle and values. (තම ජීවන රටාව සහ\nවටිනාකම් අනුව කළ යුු සද් තමන් විසින්ම සතෝරා ගැනීම සේවොං සත්රීමයි.)",
-      "It means letting the care worker pick meals and clothes every day. (සෑම දිනකම ආහාර සහ ඇඳුම්\nසත්කාර සසේවකොට සතෝරා ගැනීමට ඉඩ දීමයි.)",
+      "It means choosing what to do by oneself according to one's lifestyle and values. (තම ජීවන රටාව සහ\nවටිනාකම් අනුව කළ යුු සද් තමන් විසින්ම සතෝරා ගැනීම සේවොං සත්රීමයි.)",
+      "It means letting the care worker pick meals and clothes every day. (සෑම දිනකම ආහාර සහ ඇඳුම්\nසත්කාර සසේවකොට සතෝරා ගැනීමට ඉඩ දීමයි.)",
       "It means following only the preferences of roommates. (කාමර සගෙන්සේ කැමැත්ත පමණක් අනුගමනෙ\nකිරීමයි.)",
       "It means avoiding personal preferences to fit a group norm. (සමූහ රටාවකට ගැළපීමට සපෞද්ගලික\nකැමැත්ත මඟ හැරීමයි.)"
     ],
     "correctIndex": 0,
-    "explanation": "It means choosing what to do by oneself according to one's\nlifestyle and values. (තම ජීවන රටාව සහ වටිනාකම් අනුව කළ යුු සද් තමන් විසින්ම සතෝරා ගැනීම සේවොං\nසත්රීමයි.)",
+    "explanation": "It means choosing what to do by oneself according to one's\nlifestyle and values. (තම ජීවන රටාව සහ වටිනාකම් අනුව කළ යුු සද් තමන් විසින්ම සතෝරා ගැනීම සේවොං\nසත්රීමයි.)",
     "kind": "mcq",
-    "sinhalaText": "සේවොං සත්රීම (self-selection) ෙන්සනන් අදහසේ කරන්සන් කුමක්ද?"
+    "sinhalaText": "සේවොං සත්රීම (self-selection) ෙන්සනන් අදහසේ කරන්සන් කුමක්ද?"
   },
   {
     "id": "lesson-04-q007",
@@ -2132,12 +2132,12 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "question": "What causes a person's lifestyle to differ?",
     "options": [
       "Only age and room number. (වෙස සහ කාමර අාංකෙ පමණි.)",
-      "It differs depending on the country's culture and customs, individual intentions, values,\npreferences, and more. (රසට්ට සාංසේකෘිෙ, සම්ප්‍රදාෙන්, පුද්ගලොසේ අදහසේ, වටිනාකම් සහ විස ේෂ කැමැත්ත අනුව\nජීවන රටාව සවනසේ සේ.)",
-      "Only the care worker's personal background. (සත්කාර සසේවකොසේ සපෞද්ගලික පසුබිම පමණි.)",
+      "It differs depending on the country's culture and customs, individual intentions, values,\npreferences, and more. (රසට්ට සාංසේකෘිෙ, සම්ප්‍රදාෙන්, පුද්ගලොසේ අදහසේ, වටිනාකම් සහ විස ේෂ කැමැත්ත අනුව\nජීවන රටාව සවනසේ සේ.)",
+      "Only the care worker's personal background. (සත්කාර සසේවකොසේ සපෞද්ගලික පසුබිම පමණි.)",
       "Lifestyles never differ among people in the same region. (එකම ප්‍රසද් සේ අෙ අතර ජීවන රටා කිසි\nවිසටකත් සවනසේ සනාසේ.)"
     ],
     "correctIndex": 1,
-    "explanation": "It differs depending on the country's culture and customs,\nindividual intentions, values, preferences, and more. (රසට්ට සාංසේකෘිෙ, සම්ප්‍රදාෙන්, පුද්ගලොසේ අදහසේ,\nවටිනාකම් සහ විස ේෂ කැමැත්ත අනුව ජීවන රටාව සවනසේ සේ.)",
+    "explanation": "It differs depending on the country's culture and customs,\nindividual intentions, values, preferences, and more. (රසට්ට සාංසේකෘිෙ, සම්ප්‍රදාෙන්, පුද්ගලොසේ අදහසේ,\nවටිනාකම් සහ විස ේෂ කැමැත්ත අනුව ජීවන රටාව සවනසේ සේ.)",
     "kind": "mcq",
     "sinhalaText": "පුද්ගලසෙකුසේ ජීවන රටාව සවනසේ වීමට සහේු වන්සන් කුමක්ද?"
   },
@@ -2150,12 +2150,12 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "They protect privacy so that the care recipient does not feel embarrassed. (සේනානෙ සහෝ මලපහ\nකිරීසම්දී ලැජ්ජාවක් සහෝ අපහසුතාවෙක් ඇි සනාවන සලස භාවිතා කරන්නාසේ සපෞද්ගලිකත්වෙ ආරක්ෂා කළ යුුෙ.)",
       "They keep doors open for quick staff monitoring. (කාර්ෙ මණ්ඩලෙට ඉක්මනින් බැලීමට සදාරවල් විවෘතව\nතබයි.)",
       "They discuss bathing details loudly in common hallways. (සපාදු සකාරිසඩෝවල සේනානෙ කිරීසම් විසේතර\nබ්ද නඟා කතා කරයි.)",
-      "They take photos to show family members without asking. (සනාඅසා පවුසල් අෙට සපන්වීමට ඡාොරූප\nගනියි.)"
+      "They take photos to show family members without asking. (සනාඅසා පවුසල් අෙට සපන්වීමට ඡාොරූප\nගනියි.)"
     ],
     "correctIndex": 0,
     "explanation": "They protect privacy so that the care recipient does not feel\nembarrassed. (සේනානෙ සහෝ මලපහ කිරීසම්දී ලැජ්ජාවක් සහෝ අපහසුතාවෙක් ඇි සනාවන සලස භාවිතා\nකරන්නාසේ සපෞද්ගලිකත්වෙ ආරක්ෂා කළ යුුෙ.)",
     "kind": "mcq",
-    "sinhalaText": "සේනානෙ කිරීසම්දී සහ මළපහ/මුත්‍ර පිට කිරීසම්දී (bathing and excretion), සත්කාර සසේවකො සපෞද්ගලිකත්වෙ ගැන\nසැලකිලිමත් වන්සන් සකසසේද?"
+    "sinhalaText": "සේනානෙ කිරීසම්දී සහ මළපහ/මුත්‍ර පිට කිරීසම්දී (bathing and excretion), සත්කාර සසේවකො සපෞද්ගලිකත්වෙ ගැන\nසැලකිලිමත් වන්සන් සකසසේද?"
   },
   {
     "id": "lesson-04-q009",
@@ -2179,8 +2179,8 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 10,
     "question": "Is it okay to post a care recipient's information on SNS without obtaining their consent?",
     "options": [
-      "Yes, if the photo looks cheerful. (ඔේ, ඡාොරූපෙ සුටින් සපසන් නම්.)",
-      "Yes, if names are not written. (ඔේ, නම් ලිො නැි නම්.)",
+      "Yes, if the photo looks cheerful. (ඔේ, ඡාොරූපෙ සුටින් සපසන් නම්.)",
+      "Yes, if names are not written. (ඔේ, නම් ලිො නැි නම්.)",
       "No, you must not post it without obtaining consent. (නැත. භාවිතා කරන්නාසේ කැමැත්ත ලබා සනාසගන\nඔහු/ඇෙ පිළිබඳ සතාරුරු SNS සහෝ අන්තර්ජාලසේ පළ කළ සනාහැක.)",
       "Yes, if posted on a private account. (ඔේ, සපෞද්ගලික ගිණුමක පළ කරන්සන් නම්.)"
     ],
@@ -2196,14 +2196,14 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "question": "What kind of acts are included in physical restraint?",
     "options": [
       "Offering verbal encouragement and holding a hand gently for balance. (සමබරතාව සඳහා වාචික\nදිරිගැන්වීමක් ලබා දී මෘදු සලස අතක් අල්ලා ගැනීම.)",
-      "Acts such as tying hands and feet with strings, locking them inside a room, or using a restraint belt.\n(අත් පා ලණුවකින් බැඳීම, කාමරෙට අගුළු දමා සිර කිරීම, restraint belt එකක් භාවිතා කර චලනෙ වීම වැළැක්වීම වැනි\nක්‍රිො  ාරීරික සීමා කිරීම් සේ.)",
+      "Acts such as tying hands and feet with strings, locking them inside a room, or using a restraint belt.\n(අත් පා ලණුවකින් බැඳීම, කාමරෙට අගුළු දමා සිර කිරීම, restraint belt එකක් භාවිතා කර චලනෙ වීම වැළැක්වීම වැනි\nක්‍රිො  ාරීරික සීමා කිරීම් සේ.)",
       "Adjusting lighting and room temperature for comfort. (පහසුව සඳහා ආසලෝකෙ සහ කාමර උෂේණත්වෙ\nසකසේ කිරීම.)",
-      "Providing a walking cane requested by the user. (පරිශීලකො ඉල්ලා සිටින ඇවිදින සේවැලක් ලබා දීම.)"
+      "Providing a walking cane requested by the user. (පරිශීලකො ඉල්ලා සිටින ඇවිදින සේවැලක් ලබා දීම.)"
     ],
     "correctIndex": 1,
-    "explanation": "Acts such as tying hands and feet with strings, locking them inside\na room, or using a restraint belt. (අත් පා ලණුවකින් බැඳීම, කාමරෙට අගුළු දමා සිර කිරීම, restraint belt එකක්\nභාවිතා කර චලනෙ වීම වැළැක්වීම වැනි ක්‍රිො  ාරීරික සීමා කිරීම් සේ.)",
+    "explanation": "Acts such as tying hands and feet with strings, locking them inside\na room, or using a restraint belt. (අත් පා ලණුවකින් බැඳීම, කාමරෙට අගුළු දමා සිර කිරීම, restraint belt එකක්\nභාවිතා කර චලනෙ වීම වැළැක්වීම වැනි ක්‍රිො  ාරීරික සීමා කිරීම් සේ.)",
     "kind": "mcq",
-    "sinhalaText": "සභෞික සීමා කිරීම් (physical restraint) ුළ ඇුළත් වන්සන් කුමන ආකාරසේ ක්‍රිොද?"
+    "sinhalaText": "සභෞික සීමා කිරීම් (physical restraint) ුළ ඇුළත් වන්සන් කුමන ආකාරසේ ක්‍රිොද?"
   },
   {
     "id": "lesson-04-q012",
@@ -2212,12 +2212,12 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "question": "What is it called when you hit or push a care recipient and cause physical injury?",
     "options": [
       "Economic abuse (ආර්ික අපසෙෝජනෙ)",
-      "It is called physical abuse. (පහර දීම, තල්ලු කිරීම වැනි ක්‍රිොවලින්  රීරෙට හානි කිරීම  ාරීරික අපසෙෝජනෙ\nසලස හැඳින්සේ.)",
+      "It is called physical abuse. (පහර දීම, තල්ලු කිරීම වැනි ක්‍රිොවලින්  රීරෙට හානි කිරීම  ාරීරික අපසෙෝජනෙ\nසලස හැඳින්සේ.)",
       "Normalization (සාමානයකරණෙ)",
       "Assessment (තක්සසේරුව)"
     ],
     "correctIndex": 1,
-    "explanation": "It is called physical abuse. (පහර දීම, තල්ලු කිරීම වැනි ක්‍රිොවලින්\nරීරෙට හානි කිරීම  ාරීරික අපසෙෝජනෙ සලස හැඳින්සේ.)",
+    "explanation": "It is called physical abuse. (පහර දීම, තල්ලු කිරීම වැනි ක්‍රිොවලින්\nරීරෙට හානි කිරීම  ාරීරික අපසෙෝජනෙ සලස හැඳින්සේ.)",
     "kind": "mcq",
     "sinhalaText": "රැකවරණ ලබන්සනකුට පහර දීසමන් සහෝ තල්ලු කිරීසමන්  ාරීරික හානිෙක් සිදු කරන විට එෙ හඳුන්වන්සන් කුමක් සලසද?"
   },
@@ -2227,13 +2227,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 13,
     "question": "What is it called when you threaten or make fun of a care recipient to cause psychological injury?",
     "options": [
-      "It is called psychological abuse. (බිෙ ගැන්වීම, අපහාස කිරීම වැනි ක්‍රිො වලින් මානසික හානිෙක් සිදු කිරීම\nමානසික අපසෙෝජනෙයි.)",
+      "It is called psychological abuse. (බිෙ ගැන්වීම, අපහාස කිරීම වැනි ක්‍රිො වලින් මානසික හානිෙක් සිදු කිරීම\nමානසික අපසෙෝජනෙයි.)",
       "Physical therapy (සභෞත චිකිත්සාව)",
       "Care plan evaluation (සත්කාර සැලසුම් ඇගයීම)",
-      "Self-selection (සේවොං සත්රීම)"
+      "Self-selection (සේවොං සත්රීම)"
     ],
     "correctIndex": 0,
-    "explanation": "It is called psychological abuse. (බිෙ ගැන්වීම, අපහාස කිරීම වැනි ක්‍රිො\nවලින් මානසික හානිෙක් සිදු කිරීම මානසික අපසෙෝජනෙයි.)",
+    "explanation": "It is called psychological abuse. (බිෙ ගැන්වීම, අපහාස කිරීම වැනි ක්‍රිො\nවලින් මානසික හානිෙක් සිදු කිරීම මානසික අපසෙෝජනෙයි.)",
     "kind": "mcq",
     "sinhalaText": "රැකවරණ ලබන්සනකුට මානසික හානිෙක් සිදු කිරීම සඳහා තර්ජනෙ කිරීම සහෝ විහිළුවට/අපහාසෙට ලක් කිරීම\nහඳුන්වන්සන් කුමක් සලසද?"
   },
@@ -2275,15 +2275,15 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 16,
     "question": "What is it called when you perform a sexual act on a care recipient?",
     "options": [
-      "It is called sexual abuse. (භාවිතා කරන්නාට අස ෝභන සහෝ ලිාංගික සේවභාවසේ ක්‍රිො සිදු කිරීම ලිාංගික\nඅපසෙෝජනෙයි.)",
+      "It is called sexual abuse. (භාවිතා කරන්නාට අස ෝභන සහෝ ලිාංගික සේවභාවසේ ක්‍රිො සිදු කිරීම ලිාංගික\nඅපසෙෝජනෙයි.)",
       "Psychological abuse (මානසික අපසෙෝජනෙ)",
       "Economic abuse (ආර්ික අපසෙෝජනෙ)",
       "Rehabilitation (පුනරුත්ථාපනෙ)"
     ],
     "correctIndex": 0,
-    "explanation": "It is called sexual abuse. (භාවිතා කරන්නාට අස ෝභන සහෝ ලිාංගික\nසේවභාවසේ ක්‍රිො සිදු කිරීම ලිාංගික අපසෙෝජනෙයි.)",
+    "explanation": "It is called sexual abuse. (භාවිතා කරන්නාට අස ෝභන සහෝ ලිාංගික\nසේවභාවසේ ක්‍රිො සිදු කිරීම ලිාංගික අපසෙෝජනෙයි.)",
     "kind": "mcq",
-    "sinhalaText": "රැකවරණ ලබන්සනකුට ලිාංගික සේවභාවසේ ක්‍රිොවක් සිදු කරන විට එෙ හඳුන්වන්සන් කුමක් සලසද?"
+    "sinhalaText": "රැකවරණ ලබන්සනකුට ලිාංගික සේවභාවසේ ක්‍රිොවක් සිදු කරන විට එෙ හඳුන්වන්සන් කුමක් සලසද?"
   },
   {
     "id": "lesson-04-q017",
@@ -2291,15 +2291,15 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 17,
     "question": "Who is the specialist that performs medical acts?",
     "options": [
-      "Doctors and nursing staff. (දවදය ක්‍රිො සිදු කරන වෘත්ිකෙන් කවුද? - දවදයවරො සහ සහද නිලධාරිො.)",
+      "Doctors and nursing staff. (දවදය ක්‍රිො සිදු කරන වෘත්ිකෙන් කවුද? - දවදයවරො සහ සහද නිලධාරිො.)",
       "Care workers only. (සත්කාර සසේවකයින් පමණි.)",
       "Care managers only. (සත්කාර කළමනාකරුවන් පමණි.)",
       "Kitchen and laundry staff. (මුළුතැන්සගයි සහ සරදි සසේදුම් කාර්ෙ මණ්ඩලෙ.)"
     ],
     "correctIndex": 0,
-    "explanation": "Doctors and nursing staff. (දවදය ක්‍රිො සිදු කරන වෘත්ිකෙන් කවුද? -\nදවදයවරො සහ සහද නිලධාරිො.)",
+    "explanation": "Doctors and nursing staff. (දවදය ක්‍රිො සිදු කරන වෘත්ිකෙන් කවුද? -\nදවදයවරො සහ සහද නිලධාරිො.)",
     "kind": "mcq",
-    "sinhalaText": "දවදය ක්‍රිො (medical acts) සිදු කරන වෘත්ිකො/විස ේෂඥො කවුද?"
+    "sinhalaText": "දවදය ක්‍රිො (medical acts) සිදු කරන වෘත්ිකො/විස ේෂඥො කවුද?"
   },
   {
     "id": "lesson-04-q018",
@@ -2307,15 +2307,15 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 18,
     "question": "Can a care worker perform medical acts as a general rule?",
     "options": [
-      "Yes, whenever a doctor is busy. (ඔේ, දවදයවරො කාර්ෙබහුල වූ විට.)",
-      "No, they cannot. (රැකවරණ සසේවකොට මූලික ව සෙන් දවදය ක්‍රිො සිදු කළ හැකිද? - නැත.)",
+      "Yes, whenever a doctor is busy. (ඔේ, දවදයවරො කාර්ෙබහුල වූ විට.)",
+      "No, they cannot. (රැකවරණ සසේවකොට මූලික ව සෙන් දවදය ක්‍රිො සිදු කළ හැකිද? - නැත.)",
       "Yes, for any medication or injection. (ඔේ, ඕනෑම ඖෂධෙක් සහෝ එන්නතක් සඳහා.)",
-      "Yes, if the user asks. (ඔේ, පරිශීලකො ඉල්ලා සිටිෙසහාත්.)"
+      "Yes, if the user asks. (ඔේ, පරිශීලකො ඉල්ලා සිටිෙසහාත්.)"
     ],
     "correctIndex": 1,
-    "explanation": "No, they cannot. (රැකවරණ සසේවකොට මූලික ව සෙන් දවදය ක්‍රිො සිදු\nකළ හැකිද? - නැත.)",
+    "explanation": "No, they cannot. (රැකවරණ සසේවකොට මූලික ව සෙන් දවදය ක්‍රිො සිදු\nකළ හැකිද? - නැත.)",
     "kind": "mcq",
-    "sinhalaText": "රැකවරණ සසේවකොට මූලික ව සෙන්/සාමානය රීිෙක් සලස දවදය ක්‍රිො සිදු කළ හැකිද?"
+    "sinhalaText": "රැකවරණ සසේවකොට මූලික ව සෙන්/සාමානය රීිෙක් සලස දවදය ක්‍රිො සිදු කළ හැකිද?"
   },
   {
     "id": "lesson-04-q019",
@@ -2323,15 +2323,15 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 19,
     "question": "What kind of work does a doctor do?",
     "options": [
-      "They diagnose and treat illnesses. (දවදයවරොසේ ප්‍රධාන කාර්ෙෙ කුමක්ද? - සරෝග හඳුනාසගන ප්‍රිකාර\nකිරීම.)",
+      "They diagnose and treat illnesses. (දවදයවරොසේ ප්‍රධාන කාර්ෙ කුමක්ද? - සරෝග හඳුනාසගන ප්‍රිකාර\nකිරීම.)",
       "They coordinate care plans across agencies. (ආෙතන හරහා සත්කාර සැලසුම් සම්බන්ධීකරණෙ කරයි.)",
       "They wash facility bed linens. (ආෙතනසේ ඇඳ ඇිරිලි සසෝදයි.)",
       "They teach sign language exclusively. (සාංඥා භාෂාව පමණක් උගන්වයි.)"
     ],
     "correctIndex": 0,
-    "explanation": "They diagnose and treat illnesses. (දවදයවරොසේ ප්‍රධාන කාර්ෙෙ\nකුමක්ද? - සරෝග හඳුනාසගන ප්‍රිකාර කිරීම.)",
+    "explanation": "They diagnose and treat illnesses. (දවදයවරොසේ ප්‍රධාන කාර්ෙ\nකුමක්ද? - සරෝග හඳුනාසගන ප්‍රිකාර කිරීම.)",
     "kind": "mcq",
-    "sinhalaText": "දවදයවරොසේ ප්‍රධාන කාර්ෙෙ කුමක්ද?"
+    "sinhalaText": "දවදයවරොසේ ප්‍රධාන කාර්ෙ කුමක්ද?"
   },
   {
     "id": "lesson-04-q020",
@@ -2339,15 +2339,15 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 20,
     "question": "Under whose instructions does the nursing staff perform their work?",
     "options": [
-      "They work under the instructions of a doctor. (සහද නිලධාරිො කාසේ උපසදසේ අනුව කටයුු කරයිද? -\nදවදයවරොසේ උපසදසේ අනුව.)",
-      "Under the instructions of a cook. (සකෝකිොසේ උපසදසේ අනුව.)",
+      "They work under the instructions of a doctor. (සහද නිලධාරිො කාසේ උපසදසේ අනුව කටයුු කරයිද? -\nදවදයවරොසේ උපසදසේ අනුව.)",
+      "Under the instructions of a cook. (සකෝකිොසේ උපසදසේ අනුව.)",
       "Under no medical supervision. (කිසිදු දවදය අධීක්ෂණෙකින් සතාරව.)",
       "Only under family instructions. (පවුසල් උපසදසේ මත පමණි.)"
     ],
     "correctIndex": 0,
-    "explanation": "They work under the instructions of a doctor. (සහද නිලධාරිො කාසේ\nඋපසදසේ අනුව කටයුු කරයිද? - දවදයවරොසේ උපසදසේ අනුව.)",
+    "explanation": "They work under the instructions of a doctor. (සහද නිලධාරිො කාසේ\nඋපසදසේ අනුව කටයුු කරයිද? - දවදයවරොසේ උපසදසේ අනුව.)",
     "kind": "mcq",
-    "sinhalaText": "සහද නිලධාරිො/කාර්ෙ මණ්ඩලෙ කාසේ උපසදසේ අනුව කටයුු කරයිද?"
+    "sinhalaText": "සහද නිලධාරිො/කාර්ෙ මණ්ඩලෙ කාසේ උපසදසේ අනුව කටයුු කරයිද?"
   },
   {
     "id": "lesson-04-q021",
@@ -2355,15 +2355,15 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 21,
     "question": "Who is the specialist that trains people in movement abilities such as walking?",
     "options": [
-      "A physical therapist. (ඇවිදීම වැනි චලන හැකිොවන් පුහුණු කරන්සන් කවුද? - සභෞික චිකිත්සකො.)",
-      "A registered dietitian. (ලිොපදිාංචි සපෝෂණසේදිො.)",
+      "A physical therapist. (ඇවිදීම වැනි චලන හැකිොවන් පුහුණු කරන්සන් කවුද? - සභෞික චිකිත්සකො.)",
+      "A registered dietitian. (ලිොපදිාංචි සපෝෂණසේදිො.)",
       "A care manager. (සත්කාර කළමනාකරු.)",
-      "A pharmacist. (ඖෂධසේදිො.)"
+      "A pharmacist. (ඖෂධසේදිො.)"
     ],
     "correctIndex": 0,
-    "explanation": "A physical therapist. (ඇවිදීම වැනි චලන හැකිොවන් පුහුණු කරන්සන්\nකවුද? - සභෞික චිකිත්සකො.)",
+    "explanation": "A physical therapist. (ඇවිදීම වැනි චලන හැකිොවන් පුහුණු කරන්සන්\nකවුද? - සභෞික චිකිත්සකො.)",
     "kind": "mcq",
-    "sinhalaText": "ඇවිදීම වැනි චලන හැකිොවන් පුහුණු කරන්සන් කවුද?"
+    "sinhalaText": "ඇවිදීම වැනි චලන හැකිොවන් පුහුණු කරන්සන් කවුද?"
   },
   {
     "id": "lesson-04-q022",
@@ -2371,15 +2371,15 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 22,
     "question": "Who is the specialist that trains people in necessary activities for daily living?",
     "options": [
-      "An occupational therapist. (දදනික ජීවිතෙට අව ය ක්‍රිොකාරකම් පුහුණු කරන්සන් කවුද? - වෘත්තීෙ\nචිකිත්සකො.)",
-      "A dentist. (දන්ත දවදයවරො.)",
-      "A security guard. (ආරක්ෂක නිලධාරිො.)",
-      "A receptionist. (පිළිගැනීසම් නිලධාරිො.)"
+      "An occupational therapist. (දදනික ජීවිතෙට අව ය ක්‍රිොකාරකම් පුහුණු කරන්සන් කවුද? - වෘත්තීෙ\nචිකිත්සකො.)",
+      "A dentist. (දන්ත දවදයවරො.)",
+      "A security guard. (ආරක්ෂක නිලධාරිො.)",
+      "A receptionist. (පිළිගැනීසම් නිලධාරිො.)"
     ],
     "correctIndex": 0,
-    "explanation": "An occupational therapist. (දදනික ජීවිතෙට අව ය ක්‍රිොකාරකම් පුහුණු\nකරන්සන් කවුද? - වෘත්තීෙ චිකිත්සකො.)",
+    "explanation": "An occupational therapist. (දදනික ජීවිතෙට අව ය ක්‍රිොකාරකම් පුහුණු\nකරන්සන් කවුද? - වෘත්තීෙ චිකිත්සකො.)",
     "kind": "mcq",
-    "sinhalaText": "දදනික ජීවිතෙට අව ය ක්‍රිොකාරකම් පුහුණු කරන්සන් කවුද?"
+    "sinhalaText": "දදනික ජීවිතෙට අව ය ක්‍රිොකාරකම් පුහුණු කරන්සන් කවුද?"
   },
   {
     "id": "lesson-04-q023",
@@ -2387,13 +2387,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 23,
     "question": "Who is the specialist that trains care recipients who have difficulty speaking or swallowing?",
     "options": [
-      "A speech-language-hearing therapist. (කතා කිරීමට සහෝ ගිලීමට අපහසු භාවිතා කරන්නන් පුහුණු කරන්සන්\nකවුද? - භාෂා හා ශ්‍රවණ චිකිත්සකො.)",
-      "A physical therapist. (සභෞික චිකිත්සකො.)",
-      "A registered dietitian. (සපෝෂණසේදිො.)",
-      "A care worker. (සත්කාර සසේවකො.)"
+      "A speech-language-hearing therapist. (කතා කිරීමට සහෝ ගිලීමට අපහසු භාවිතා කරන්නන් පුහුණු කරන්සන්\nකවුද? - භාෂා හා ශ්‍රවණ චිකිත්සකො.)",
+      "A physical therapist. (සභෞික චිකිත්සකො.)",
+      "A registered dietitian. (සපෝෂණසේදිො.)",
+      "A care worker. (සත්කාර සසේවකො.)"
     ],
     "correctIndex": 0,
-    "explanation": "A speech-language-hearing therapist. (කතා කිරීමට සහෝ ගිලීමට\nඅපහසු භාවිතා කරන්නන් පුහුණු කරන්සන් කවුද? - භාෂා හා ශ්‍රවණ චිකිත්සකො.)",
+    "explanation": "A speech-language-hearing therapist. (කතා කිරීමට සහෝ ගිලීමට\nඅපහසු භාවිතා කරන්නන් පුහුණු කරන්සන් කවුද? - භාෂා හා ශ්‍රවණ චිකිත්සකො.)",
     "kind": "mcq",
     "sinhalaText": "කතා කිරීමට සහෝ ගිලීමට අපහසු භාවිතා කරන්නන් පුහුණු කරන්සන් කවුද?"
   },
@@ -2403,13 +2403,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 24,
     "question": "Who is the specialist that creates menus considering nutritional balance?",
     "options": [
-      "A registered dietitian. (සපෝෂණ සමුලිතතාවෙ සලකා සමනු සකසේ කරන්සන් කවුද? - කළමනාකරණ\nසපෝෂණසේදිො.)",
-      "A speech-language-hearing therapist. (භාෂා හා ශ්‍රවණ චිකිත්සකො.)",
-      "A physical therapist. (සභෞික චිකිත්සකො.)",
+      "A registered dietitian. (සපෝෂණ සමුලිතතාවෙ සලකා සමනු සකසේ කරන්සන් කවුද? - කළමනාකරණ\nසපෝෂණසේදිො.)",
+      "A speech-language-hearing therapist. (භාෂා හා ශ්‍රවණ චිකිත්සකො.)",
+      "A physical therapist. (සභෞික චිකිත්සකො.)",
       "A driver. (රිෙදුරු.)"
     ],
     "correctIndex": 0,
-    "explanation": "A registered dietitian. (සපෝෂණ සමුලිතතාවෙ සලකා සමනු සකසේ\nකරන්සන් කවුද? - කළමනාකරණ සපෝෂණසේදිො.)",
+    "explanation": "A registered dietitian. (සපෝෂණ සමුලිතතාවෙ සලකා සමනු සකසේ\nකරන්සන් කවුද? - කළමනාකරණ සපෝෂණසේදිො.)",
     "kind": "mcq",
     "sinhalaText": "සපෝෂණ සමුලිතතාවෙ සලකා සමනු (menus) සකසේ කරන්සන් කවුද?"
   },
@@ -2422,7 +2422,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "They provide consultation, liaison, and coordination. (Care Manager භාවිතා කරන්නා සහ පවුල\nසම්බන්ධසෙන් සිදු කරන්සන් කුමක්ද? - උපසද් න, සම්බන්ධතා සහ සම්බන්ධීකරණ කටයුු.)",
       "They perform surgeries. ( ලයකර්ම සිදු කරයි.)",
       "They cook all meals in the kitchen. (මුළුතැන්සගයි සිෙලු ආහාර පිසියි.)",
-      "They repair wheelchairs. (සරෝද පුු අලුත්වැඩිො කරයි.)"
+      "They repair wheelchairs. (සරෝද පුු අලුත්වැඩිො කරයි.)"
     ],
     "correctIndex": 0,
     "explanation": "They provide consultation, liaison, and coordination. (Care\nManager භාවිතා කරන්නා සහ පවුල සම්බන්ධසෙන් සිදු කරන්සන් කුමක්ද? - උපසද් න, සම්බන්ධතා සහ\nසම්බන්ධීකරණ කටයුු.)",
@@ -2454,7 +2454,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Day-type services (Day care). (දිවා කාලසේ රැකවරණ මධයසේථානෙකට සගාසේ සසේවා ලබා ගැනීම කුමක්ද? -\nදිවා රැකවරණ සසේවාව.)",
       "Visiting-type services. (නිවසට පැමිණ ලබාසදන සසේවාව.)",
       "Facility-admitting-type services (Residential services). (සන්වාසික රැකවරණ සසේවාව.)",
-      "Self-care only. (සේවොං රැකවරණෙ පමණි.)"
+      "Self-care only. (සේවොං රැකවරණෙ පමණි.)"
     ],
     "correctIndex": 0,
     "explanation": "Day-type services (Day care). (දිවා කාලසේ රැකවරණ මධයසේථානෙකට\nසගාසේ සසේවා ලබා ගැනීම කුමක්ද? - දිවා රැකවරණ සසේවාව.)",
@@ -2483,15 +2483,15 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 29,
     "question": "What is created for each care recipient in the care process?",
     "options": [
-      "A care plan. (රැකවරණ ක්‍රිොවලිසේදී එක් එක් භාවිතා කරන්නා සඳහා සකසේ කරන්සන් කුමක්ද? – රැකවරණ\nසැලැසේම.)",
+      "A care plan. (රැකවරණ ක්‍රිොවලිසේදී එක් එක් භාවිතා කරන්නා සඳහා සකසේ කරන්සන් කුමක්ද? – රැකවරණ\nසැලැසේම.)",
       "A tax return. (බදු වාර්තාවක්.)",
       "A shopping receipt. (සාේපු රිසිට්ටපතක්.)",
       "A construction blueprint. (ඉදිකිරීම් සැලැසේමක්.)"
     ],
     "correctIndex": 0,
-    "explanation": "A care plan. (රැකවරණ ක්‍රිොවලිසේදී එක් එක් භාවිතා කරන්නා සඳහා සකසේ\nකරන්සන් කුමක්ද? – රැකවරණ සැලැසේම.)",
+    "explanation": "A care plan. (රැකවරණ ක්‍රිොවලිසේදී එක් එක් භාවිතා කරන්නා සඳහා සකසේ\nකරන්සන් කුමක්ද? – රැකවරණ සැලැසේම.)",
     "kind": "mcq",
-    "sinhalaText": "රැකවරණ ක්‍රිොවලිසේදී එක් එක් භාවිතා කරන්නා සඳහා සකසේ කරන්සන් කුමක්ද?"
+    "sinhalaText": "රැකවරණ ක්‍රිොවලිසේදී එක් එක් භාවිතා කරන්නා සඳහා සකසේ කරන්සන් කුමක්ද?"
   },
   {
     "id": "lesson-04-q030",
@@ -2501,7 +2501,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "options": [
       "Information regarding the care recipient is collected and analyzed. (Assessment හිදී මුලින් සිදු\nකරන්සන් කුමක්ද? - භාවිතා කරන්නා පිළිබඳ සතාරුරු රැසේ කර වි ේසල්ෂණෙ කිරීම.)",
       "The service is terminated immediately. (සසේවාව වහාම අවසන් සකසර්.)",
-      "The recipient is moved to another country. (පරිශීලකො සවනත් රටකට මාරු සකසර්.)",
+      "The recipient is moved to another country. (පරිශීලකො සවනත් රටකට මාරු සකසර්.)",
       "Meals are skipped for evaluation. (ඇගයීම සඳහා ආහාර මඟ හැසර්.)"
     ],
     "correctIndex": 0,
@@ -2516,7 +2516,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "question": "What is the stage called where the contents of the care plan are decided?",
     "options": [
       "Care plan creation (Planning). (රැකවරණ සැලැසේසම් අන්තර්ගතෙ තීරණෙ කරන අදිෙර කුමක්ද? - සැලැසේම\nසකසේ කිරීම.)",
-      "Implementation. (ක්‍රිොත්මක කිරීම.)",
+      "Implementation. (ක්‍රිොත්මක කිරීම.)",
       "Evaluation. (ඇගයීම.)",
       "Discharge. (මුදා හැරීම.)"
     ],
@@ -2531,13 +2531,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 32,
     "question": "What is the stage called where care is provided based on the care plan?",
     "options": [
-      "Implementation. (රැකවරණ සැලැසේම අනුව රැකවරණෙ ලබාසදන අදිෙර කුමක්ද? - ක්‍රිොත්මක කිරීම.)",
+      "Implementation. (රැකවරණ සැලැසේම අනුව රැකවරණෙ ලබාසදන අදිෙර කුමක්ද? - ක්‍රිොත්මක කිරීම.)",
       "Assessment. (තක්සසේරුව.)",
       "Care plan creation (Planning). (සැලැසේම සකසේ කිරීම.)",
       "Admission. (ඇුළත් කර ගැනීම.)"
     ],
     "correctIndex": 0,
-    "explanation": "Implementation. (රැකවරණ සැලැසේම අනුව රැකවරණෙ ලබාසදන අදිෙර\nකුමක්ද? - ක්‍රිොත්මක කිරීම.)",
+    "explanation": "Implementation. (රැකවරණ සැලැසේම අනුව රැකවරණෙ ලබාසදන අදිෙර\nකුමක්ද? - ක්‍රිොත්මක කිරීම.)",
     "kind": "mcq",
     "sinhalaText": "රැකවරණ සැලැසේම අනුව රැකවරණෙ ලබාසදන අදිෙර කුමක්ද?"
   },
@@ -2550,7 +2550,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Evaluation. (රැකවරණ සැලැසේම භාවිතා කරන්නාට ගැළසපනවා දැයි පරීක්ෂා කරන අදිෙර කුමක්ද? - ඇගයීම.)",
       "Assessment. (තක්සසේරුව.)",
       "Care plan creation. (සැලැසේම සකසේ කිරීම.)",
-      "Implementation. (ක්‍රිොත්මක කිරීම.)"
+      "Implementation. (ක්‍රිොත්මක කිරීම.)"
     ],
     "correctIndex": 0,
     "explanation": "Evaluation. (රැකවරණ සැලැසේම භාවිතා කරන්නාට ගැළසපනවා දැයි පරීක්ෂා\nකරන අදිෙර කුමක්ද? - ඇගයීම.)",
@@ -2563,15 +2563,15 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 34,
     "question": "What is the correct flow of the care process?",
     "options": [
-      "Assessment -> Care plan creation -> Implementation -> Evaluation. (රැකවරණ ක්‍රිොවලිසේ නිවැරදි\nඅනුපිළිසවළ කුමක්ද? - Assessment - සැලැසේම සකසේ කිරීම – ක්‍රිොත්මක කිරීම – ඇගයීම)",
-      "Evaluation -> Implementation -> Care plan creation -> Assessment. (ඇගයීම -> ක්‍රිොත්මක කිරීම ->\nසැලැසේම සකසේ කිරීම -> තක්සසේරුව.)",
-      "Implementation -> Assessment -> Evaluation -> Care plan creation. (ක්‍රිොත්මක කිරීම -> තක්සසේරුව ->\nඇගයීම -> සැලැසේම සකසේ කිරීම.)",
-      "Care plan creation -> Evaluation -> Assessment -> Implementation. (සැලැසේම සකසේ කිරීම -> ඇගයීම -\n> තක්සසේරුව -> ක්‍රිොත්මක කිරීම.)"
+      "Assessment -> Care plan creation -> Implementation -> Evaluation. (රැකවරණ ක්‍රිොවලිසේ නිවැරදි\nඅනුපිළිසවළ කුමක්ද? - Assessment - සැලැසේම සකසේ කිරීම – ක්‍රිොත්මක කිරීම – ඇගයීම)",
+      "Evaluation -> Implementation -> Care plan creation -> Assessment. (ඇගයීම -> ක්‍රිොත්මක කිරීම ->\nසැලැසේම සකසේ කිරීම -> තක්සසේරුව.)",
+      "Implementation -> Assessment -> Evaluation -> Care plan creation. (ක්‍රිොත්මක කිරීම -> තක්සසේරුව ->\nඇගයීම -> සැලැසේම සකසේ කිරීම.)",
+      "Care plan creation -> Evaluation -> Assessment -> Implementation. (සැලැසේම සකසේ කිරීම -> ඇගයීම -\n> තක්සසේරුව -> ක්‍රිොත්මක කිරීම.)"
     ],
     "correctIndex": 0,
-    "explanation": "Assessment -> Care plan creation -> Implementation ->\nEvaluation. (රැකවරණ ක්‍රිොවලිසේ නිවැරදි අනුපිළිසවළ කුමක්ද? - Assessment - සැලැසේම සකසේ කිරීම –\nක්‍රිොත්මක කිරීම – ඇගයීම)",
+    "explanation": "Assessment -> Care plan creation -> Implementation ->\nEvaluation. (රැකවරණ ක්‍රිොවලිසේ නිවැරදි අනුපිළිසවළ කුමක්ද? - Assessment - සැලැසේම සකසේ කිරීම –\nක්‍රිොත්මක කිරීම – ඇගයීම)",
     "kind": "mcq",
-    "sinhalaText": "රැකවරණ ක්‍රිොවලිසේ නිවැරදි අනුපිළිසවළ කුමක්ද?"
+    "sinhalaText": "රැකවරණ ක්‍රිොවලිසේ නිවැරදි අනුපිළිසවළ කුමක්ද?"
   },
   {
     "id": "lesson-04-q035",
@@ -2597,7 +2597,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "options": [
       "It is utilized to make the care recipient's life better. (භාවිතා කරන්නාසේ ජීවිතෙ වඩා ෙහපත් කිරීමට\nනිරීක්ෂණෙ උපසෙෝගී සේ.)",
       "It is kept secret from the care team. (සත්කාර කණ්ඩාෙසමන් රහසිගතව තබා ගැසන්.)",
-      "It is used to criticize the recipient. (පරිශීලකො විසේචනෙ කිරීමට භාවිතා සකසර්.)",
+      "It is used to criticize the recipient. (පරිශීලකො විසේචනෙ කිරීමට භාවිතා සකසර්.)",
       "It is discarded at the end of the day. (දවස අවසානසේ ඉවත දැසම්.)"
     ],
     "correctIndex": 0,
@@ -2629,7 +2629,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "options": [
       "It is obtained by interacting with the care recipient and through measurements. (භාවිතා කරන්නා සමඟ\nසම්බන්ධ වීසමන් සහ මිනුම් කිරීම වැනි ක්‍රමවලින් සතාරුරු ලබාගනී.)",
       "Only by reading rumors. (කටකතා කිෙවීසමන් පමණි.)",
-      "By avoiding conversation with the recipient. (පරිශීලකො සමඟ කතා කිරීසමන් වැළකී සිටීසමන්.)",
+      "By avoiding conversation with the recipient. (පරිශීලකො සමඟ කතා කිරීසමන් වැළකී සිටීසමන්.)",
       "Only by guessing their mood from a distance. (දුර සිට මසනෝභාවෙ අනුමාන කිරීසමන් පමණි.)"
     ],
     "correctIndex": 0,
@@ -2645,13 +2645,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "options": [
       "Because if you are not healthy yourself, you cannot provide better care. (තමන් සසෞඛය සම්පන්න\nසනාසේ නම් සහාඳ රැකවරණෙක් ලබාදිෙ සනාහැකි නිසා තමන්සේ සසෞඛයෙ වැදගත් සේ.)",
       "Because healthy workers never need rest breaks. (සසෞඛය සම්පන්න සසේවකයින්ට කිසි විසටකත් විසේක\nඅව ය සනාවන නිසා.)",
-      "Because it eliminates the need for body mechanics. (එමඟින්  රීර ොන්ත්‍ර විදයාසේ අව යතාව නැි වන\nනිසා.)",
+      "Because it eliminates the need for body mechanics. (එමඟින්  රීර ොන්ත්‍ර විදයාසේ අව යතාව නැි වන\nනිසා.)",
       "Because it replaces care planning. (එමඟින් සත්කාර සැලසුම් කිරීම සවනුවට ආසද්  වන නිසා.)"
     ],
     "correctIndex": 0,
     "explanation": "Because if you are not healthy yourself, you cannot provide better\ncare. (තමන් සසෞඛය සම්පන්න සනාසේ නම් සහාඳ රැකවරණෙක් ලබාදිෙ සනාහැකි නිසා තමන්සේ සසෞඛයෙ වැදගත්\nසේ.)",
     "kind": "mcq",
-    "sinhalaText": "සත්කාර සසේවකොසේම සසෞඛයෙ වැදගත් වන්සන් ඇයි?"
+    "sinhalaText": "සත්කාර සසේවකොසේම සසෞඛයෙ වැදගත් වන්සන් ඇයි?"
   },
   {
     "id": "lesson-04-q040",
@@ -2662,7 +2662,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "It is necessary to acquire correct knowledge and methods. (සකාන්සද් සේදනාව වැළැක්වීමට නිවැරදි\nදැනුම සහ ක්‍රම ඉසගන ගැනීම අව ය සේ.)",
       "Lifting heavy loads with a rounded back and locked knees. (සකාන්ද නවාසගන සහ දණහිසේ සකළින්\nතබාසගන බර එසවීම.)",
       "Twisting the spine while carrying weight. (බර රැසගන ෙන අතරුර සකාඳු ඇට සපළ ඇඹරීම.)",
-      "Standing far away from the person being moved. (චලනෙ කරන පුද්ගලොසගන් ඈත්ව සිටීම.)"
+      "Standing far away from the person being moved. (චලනෙ කරන පුද්ගලොසගන් ඈත්ව සිටීම.)"
     ],
     "correctIndex": 0,
     "explanation": "It is necessary to acquire correct knowledge and methods.\n(සකාන්සද් සේදනාව වැළැක්වීමට නිවැරදි දැනුම සහ ක්‍රම ඉසගන ගැනීම අව ය සේ.)",
@@ -2691,13 +2691,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 42,
     "question": "What do you do when stress builds up?",
     "options": [
-      "Find a stress-relief method that suits you. (ආතිෙ එකු වූ විට තමන්ට ගැළසපන ආතිෙ අඩු කිරීසම්\nක්‍රමෙක් සසාොගත යුුෙ.)",
+      "Find a stress-relief method that suits you. (ආතිෙ එකු වූ විට තමන්ට ගැළසපන ආතිෙ අඩු කිරීසම්\nක්‍රමෙක් සසාොගත යුුෙ.)",
       "Take anger out on a care recipient. (රැකවරණ ලබන්සනකු පිට සකෝපෙ පිට කිරීම.)",
       "Ignore stress until burnout occurs. (මානසික බිඳවැටීමක් සිදුවන ුරු ආතිෙ සනාසලකා හැරීම.)",
-      "Refuse teamwork completely. (කණ්ඩාෙම් ක්‍රිොකාරකම් සම්ූර්ණසෙන් ප්‍රික්සෂේප කිරීම.)"
+      "Refuse teamwork completely. (කණ්ඩාෙම් ක්‍රිොකාරකම් සම්ූර්ණසෙන් ප්‍රික්සෂේප කිරීම.)"
     ],
     "correctIndex": 0,
-    "explanation": "Find a stress-relief method that suits you. (ආතිෙ එකු වූ විට\nතමන්ට ගැළසපන ආතිෙ අඩු කිරීසම් ක්‍රමෙක් සසාොගත යුුෙ.)",
+    "explanation": "Find a stress-relief method that suits you. (ආතිෙ එකු වූ විට\nතමන්ට ගැළසපන ආතිෙ අඩු කිරීසම් ක්‍රමෙක් සසාොගත යුුෙ.)",
     "kind": "mcq",
     "sinhalaText": "මානසික ආතිෙ (stress) එකු වූ විට ඔබ කරන්සන් කුමක්ද?"
   },
@@ -2707,15 +2707,15 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 43,
     "question": "When you have worries at work, who do you consult?",
     "options": [
-      "Consult seniors or colleagues. (රැකිොසේ ගැටලුවක් ඇි විට සජයෂේඨෙන් සහෝ සසහෝදර සසේවකෙන් සමඟ\nසාකච්ඡා කළ යුුෙ.)",
+      "Consult seniors or colleagues. (රැකිොසේ ගැටලුවක් ඇි විට සජයෂේඨෙන් සහෝ සසහෝදර සසේවකෙන් සමඟ\nසාකච්ඡා කළ යුුෙ.)",
       "Post complaints publicly on social media. (සමාජ මාධයවල ප්‍රසිද්ිසේ පැමිණිලි පළ කිරීම.)",
-      "Keep it hidden from the supervisor. (අධීක්ෂකවරොසගන් සඟවා තබා ගැනීම.)",
+      "Keep it hidden from the supervisor. (අධීක්ෂකවරොසගන් සඟවා තබා ගැනීම.)",
       "Ask strangers on the street. (මඟසතාසට්ට නාඳුනන අෙසගන් විමසීම.)"
     ],
     "correctIndex": 0,
-    "explanation": "Consult seniors or colleagues. (රැකිොසේ ගැටලුවක් ඇි විට\nසජයෂේඨෙන් සහෝ සසහෝදර සසේවකෙන් සමඟ සාකච්ඡා කළ යුුෙ.)",
+    "explanation": "Consult seniors or colleagues. (රැකිොසේ ගැටලුවක් ඇි විට\nසජයෂේඨෙන් සහෝ සසහෝදර සසේවකෙන් සමඟ සාකච්ඡා කළ යුුෙ.)",
     "kind": "mcq",
-    "sinhalaText": "රැකිොසේදී ගැටලු/කනසේසල්ල ඇි වූ විට, ඔබ උපසදසේ ලබා ගන්සන් කාසගන්ද?"
+    "sinhalaText": "රැකිොසේදී ගැටලු/කනසේසල්ල ඇි වූ විට, ඔබ උපසදසේ ලබා ගන්සන් කාසගන්ද?"
   },
   {
     "id": "lesson-04-q044",
@@ -2723,13 +2723,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 44,
     "question": "Body mechanics is body movement based on what?",
     "options": [
-      "It is body movement based on the interrelationship between bones and muscles. (Body Mechanics\nෙනු අසේි හා මාාං  සේශි අතර අන්තර් සම්බන්ධතාවෙ මත සිදුවන  රීර චලනෙයි.)",
+      "It is body movement based on the interrelationship between bones and muscles. (Body Mechanics\nෙනු අසේි හා මාං  සේශි අතර අන්තර් සම්බන්ධතාවෙ මත සිදුවන  රීර චලනෙයි.)",
       "Movement based on random jerking motions. (අහඹු සලස ගැසේසසන චලනෙන් මත පදනම් වූ චලනෙ.)",
       "Movement without bending joints. (සන්ි සනානවා සිදු කරන චලනෙ.)",
       "Movement relying solely on spine bending. (සකාඳු ඇට සපළ නැමීම මත පමණක් රඳා පවින චලනෙ.)"
     ],
     "correctIndex": 0,
-    "explanation": "It is body movement based on the interrelationship between\nbones and muscles. (Body Mechanics ෙනු අසේි හා මාාං  සේශි අතර අන්තර් සම්බන්ධතාවෙ මත සිදුවන  රීර\nචලනෙයි.)",
+    "explanation": "It is body movement based on the interrelationship between\nbones and muscles. (Body Mechanics ෙනු අසේි හා මාං  සේශි අතර අන්තර් සම්බන්ධතාවෙ මත සිදුවන  රීර\nචලනෙයි.)",
     "kind": "mcq",
     "sinhalaText": "Body mechanics ෙනු කුමක් මත පදනම් වූ  රීර චලනෙක්ද?"
   },
@@ -2739,13 +2739,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 45,
     "question": "What is the purpose of utilizing body mechanics?",
     "options": [
-      "To protect the safety of the care recipient and reduce the burden on the care worker. (භාවිතා\nකරන්නාසේ ආරක්ෂාව තහවුරු කිරීම සහ රැකවරණ සසේවකොසේ බර අඩු කිරීම අරමුණයි.)",
+      "To protect the safety of the care recipient and reduce the burden on the care worker. (භාවිතා\nකරන්නාසේ ආරක්ෂාව තහවුරු කිරීම සහ රැකවරණ සසේවකොසේ බර අඩු කිරීම අරමුණයි.)",
       "To lift heavier loads without equipment or assistance. (උපකරණ සහෝ සහාෙ සනාමැිව අික බර\nඑසවීමට.)",
-      "To increase muscle strain on the lower back. (පහළ සකාඳු ඇට සපසළේ මාාං  සේශි ආතිෙ වැඩි කිරීමට.)",
+      "To increase muscle strain on the lower back. (පහළ සකාඳු ඇට සපසළේ මාං  සේශි ආතිෙ වැඩි කිරීමට.)",
       "To speed up transfers recklessly. (සනාසැලකිලිමත් සලස මාරු කිරීම් සේගවත් කිරීමට.)"
     ],
     "correctIndex": 0,
-    "explanation": "To protect the safety of the care recipient and reduce the burden\non the care worker. (භාවිතා කරන්නාසේ ආරක්ෂාව තහවුරු කිරීම සහ රැකවරණ සසේවකොසේ බර අඩු කිරීම\nඅරමුණයි.)",
+    "explanation": "To protect the safety of the care recipient and reduce the burden\non the care worker. (භාවිතා කරන්නාසේ ආරක්ෂාව තහවුරු කිරීම සහ රැකවරණ සසේවකොසේ බර අඩු කිරීම\nඅරමුණයි.)",
     "kind": "mcq",
     "sinhalaText": "Body mechanics භාවිතා කිරීසම් අරමුණ කුමක්ද?"
   },
@@ -2771,15 +2771,15 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 47,
     "question": "What do you do with the centers of gravity of the care worker and the care recipient?",
     "options": [
-      "Bring them as close together as possible. (රැකවරණ සසේවකොසේ සහ භාවිතා කරන්නාසේ ගුරුත්ව සක්න්ර\nහැකිතාක් ළාං කරයි.)",
+      "Bring them as close together as possible. (රැකවරණ සසේවකොසේ සහ භාවිතා කරන්නාසේ ගුරුත්ව සක්න්ර\nහැකිතාක් ළාං කරයි.)",
       "Push them as far apart as possible. (හැකිතාක් ඈත් කරයි.)",
       "Keep the recipient suspended away from the body. (රැකවරණ ලබන්නා  රීරසෙන් ඈත්ව තබයි.)",
       "Twist away while lifting. (ඔසවන විට පැත්තකට ඇඹසරයි.)"
     ],
     "correctIndex": 0,
-    "explanation": "Bring them as close together as possible. (රැකවරණ සසේවකොසේ සහ\nභාවිතා කරන්නාසේ ගුරුත්ව සක්න්ර හැකිතාක් ළාං කරයි.)",
+    "explanation": "Bring them as close together as possible. (රැකවරණ සසේවකොසේ සහ\nභාවිතා කරන්නාසේ ගුරුත්ව සක්න්ර හැකිතාක් ළාං කරයි.)",
     "kind": "mcq",
-    "sinhalaText": "සත්කාර සසේවකොසේ සහ රැකවරණ ලබන්නාසේ ගුරුත්වාකර්ෂණ සක්න්ර (centers of gravity) සම්බන්ධසෙන් ඔබ\nකරන්සන් කුමක්ද?"
+    "sinhalaText": "සත්කාර සසේවකොසේ සහ රැකවරණ ලබන්නාසේ ගුරුත්වාකර්ෂණ සක්න්ර (centers of gravity) සම්බන්ධසෙන් ඔබ\nකරන්සන් කුමක්ද?"
   },
   {
     "id": "lesson-04-q048",
@@ -2803,15 +2803,15 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 49,
     "question": "When lifting a care recipient, what kind of muscles do you use?",
     "options": [
-      "Large muscles such as the thighs and buttocks. (භාවිතා කරන්නා එසවීසම්දී කලවා සහ තට්ටටම් වැනි වි ාල\nමාාං  සේශි භාවිතා කරයි.)",
-      "Only small finger and wrist muscles. (කුඩා ඇඟිලි සහ මැණික් කුසේ මාාං  සේශි පමණි.)",
-      "Only neck muscles. (සගසල් මාාං  සේශි පමණි.)",
-      "Only lower back muscles while keeping legs straight. (කකුල් සකළින් තබාසගන පහළ සකාන්සද් මාාං\nසේශි පමණි.)"
+      "Large muscles such as the thighs and buttocks. (භාවිතා කරන්නා එසවීසම්දී කලවා සහ තට්ටටම් වැනි වි ාල\nමාං  සේශි භාවිතා කරයි.)",
+      "Only small finger and wrist muscles. (කුඩා ඇඟිලි සහ මැණික් කුසේ මාං  සේශි පමණි.)",
+      "Only neck muscles. (සගසල් මාං  සේශි පමණි.)",
+      "Only lower back muscles while keeping legs straight. (කකුල් සකළින් තබාසගන පහළ සකාන්සද් මාං\nසේශි පමණි.)"
     ],
     "correctIndex": 0,
-    "explanation": "Large muscles such as the thighs and buttocks. (භාවිතා කරන්නා\nඑසවීසම්දී කලවා සහ තට්ටටම් වැනි වි ාල මාාං  සේශි භාවිතා කරයි.)",
+    "explanation": "Large muscles such as the thighs and buttocks. (භාවිතා කරන්නා\nඑසවීසම්දී කලවා සහ තට්ටටම් වැනි වි ාල මාං  සේශි භාවිතා කරයි.)",
     "kind": "mcq",
-    "sinhalaText": "රැකවරණ ලබන්සනකු ඔසවන විට, ඔබ භාවිතා කරන්සන් කුමන ආකාරසේ මාාං  සේශිද?"
+    "sinhalaText": "රැකවරණ ලබන්සනකු ඔසවන විට, ඔබ භාවිතා කරන්සන් කුමන ආකාරසේ මාං  සේශිද?"
   },
   {
     "id": "lesson-04-q050",
@@ -2820,14 +2820,14 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "question": "Is the method of stretching your knees and lifting using only your back muscles correct?",
     "options": [
       "Yes, it is the safest lifting method. (ඔේ, එෙ ආරක්ෂිතම එසවීසම් ක්‍රමෙයි.)",
-      "No, it is not correct. (දණහිසේ දිගහැර සකාන්සද් මාාං  සේශි පමණක් භාවිතසෙන් එසවීම නිවැරදි ක්‍රමෙක්\nසනාසේ.)",
+      "No, it is not correct. (දණහිසේ දිගහැර සකාන්සද් මාං  සේශි පමණක් භාවිතසෙන් එසවීම නිවැරදි ක්‍රමෙක්\nසනාසේ.)",
       "Yes, for all adult transfers. (ඔේ, සිෙලු වැඩිහිටි මාරු කිරීම් සඳහා.)",
       "Yes, when lifting from the floor. (ඔේ, බිසමන් ඔසවන විට.)"
     ],
     "correctIndex": 1,
-    "explanation": "No, it is not correct. (දණහිසේ දිගහැර සකාන්සද් මාාං  සේශි පමණක්\nභාවිතසෙන් එසවීම නිවැරදි ක්‍රමෙක් සනාසේ.)",
+    "explanation": "No, it is not correct. (දණහිසේ දිගහැර සකාන්සද් මාං  සේශි පමණක්\nභාවිතසෙන් එසවීම නිවැරදි ක්‍රමෙක් සනාසේ.)",
     "kind": "mcq",
-    "sinhalaText": "දණහිසේ දිගහැර සකාන්සද් මාාං  සේශි පමණක් භාවිතසෙන් එසවීම නිවැරදි ක්‍රමෙක්ද?"
+    "sinhalaText": "දණහිසේ දිගහැර සකාන්සද් මාං  සේශි පමණක් භාවිතසෙන් එසවීම නිවැරදි ක්‍රමෙක්ද?"
   },
   {
     "id": "lesson-04-q051",
@@ -2853,7 +2853,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "options": [
       "Try to pull toward yourself. (තල්ලු කිරීමට වඩා තමන් සදසට ඇදීමට උත්සාහ කරයි.)",
       "Shove forcefully with stiff arms. (දැඩි අත්වලින් බලහත්කාරසෙන් තල්ලු කරයි.)",
-      "Leap backward while holding the user. (පරිශීලකො අල්ලාසගන පිුපසට පනියි.)",
+      "Leap backward while holding the user. (පරිශීලකො අල්ලාසගන පිුපසට පනියි.)",
       "Lean backward away from the load. (බසරන් ඈත්ව පිුපසට නැසමයි.)"
     ],
     "correctIndex": 0,
@@ -2883,15 +2883,15 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 54,
     "question": "To avoid twisting your body, where do you point the tips of your toes?",
     "options": [
-      "Point them in the direction you are moving. ( රීරෙ සනාපැටලැවීමට පාදසේ ඇඟිලි ගමන් කරන දි ාවට\nසොමු කරයි.)",
-      "Point them in the opposite direction of movement. (චලනෙ වන දි ාවට ප්‍රිවිරුද්ධ දි ාවට සොමු කරයි.)",
-      "Point them inward toward each other at all times. (සෑම විටම එකිසනකා සදසට ඇුළට සොමු කරයි.)",
+      "Point them in the direction you are moving. ( රීරෙ සනාපැටලැවීමට පාදසේ ඇඟිලි ගමන් කරන දි ාවට\nසොමු කරයි.)",
+      "Point them in the opposite direction of movement. (චලනෙ වන දි ාවට ප්‍රිවිරුද්ධ දි ාවට සොමු කරයි.)",
+      "Point them inward toward each other at all times. (සෑම විටම එකිසනකා සදසට ඇුළට සොමු කරයි.)",
       "Keep one foot in the air while turning. (හැසරන විට එක් පාදෙක් වාතසේ තබයි.)"
     ],
     "correctIndex": 0,
-    "explanation": "Point them in the direction you are moving. ( රීරෙ සනාපැටලැවීමට\nපාදසේ ඇඟිලි ගමන් කරන දි ාවට සොමු කරයි.)",
+    "explanation": "Point them in the direction you are moving. ( රීරෙ සනාපැටලැවීමට\nපාදසේ ඇඟිලි ගමන් කරන දි ාවට සොමු කරයි.)",
     "kind": "mcq",
-    "sinhalaText": "රීරෙ ඇඹරීම (twisting) වළක්වා ගැනීමට, ඔසබ් පාදසේ ඇඟිලි ුඩු (tips of your toes) සොමු කරන්සන් සකාහාටද?"
+    "sinhalaText": "රීරෙ ඇඹරීම (twisting) වළක්වා ගැනීමට, ඔසබ් පාදසේ ඇඟිලි ුඩු (tips of your toes) සොමු කරන්සන් සකාහාටද?"
   },
   {
     "id": "lesson-04-q055",
@@ -2901,7 +2901,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "options": [
       "Utilize it. (Lever principle එක භාවිතා කරයි.)",
       "Ignore it completely. (සම්ූර්ණසෙන් සනාසලකා හරියි.)",
-      "Work against leverage using extra force. (අමතර බලෙක් සොදා ලීවර මූලධර්මෙට එසරහිව ක්‍රිො කරයි.)",
+      "Work against leverage using extra force. (අමතර බලෙක් සොදා ලීවර මූලධර්මෙට එසරහිව ක්‍රිො කරයි.)",
       "Replace it with twisting motions. (ඇඹසරන චලනවලින් එෙ ආසද්  කරයි.)"
     ],
     "correctIndex": 0,
@@ -2915,13 +2915,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 56,
     "question": "To prevent lower back pain, what do you check about the care recipient?",
     "options": [
-      "Check the state and ability of the care recipient. (සකාන්සද් සේදනාව වැළැක්වීමට භාවිතා කරන්නාසේ\nතත්ත්වෙ සහ හැකිොව පරීක්ෂා කරයි.)",
+      "Check the state and ability of the care recipient. (සකාන්සද් සේදනාව වැළැක්වීමට භාවිතා කරන්නාසේ\nතත්ත්වෙ සහ හැකිොව පරීක්ෂා කරයි.)",
       "Check only the clock on the wall. (බිත්ිසේ ඇි ඔරසලෝසුව පමණක් පරීක්ෂා කරයි.)",
       "Check only the color of the bedsheet. (ඇඳ ඇිරිල්සල් වර්ණෙ පමණක් පරීක්ෂා කරයි.)",
       "Nothing needs to be checked before lifting. (එසවීමට සපර කිසිවක් පරීක්ෂා කිරීමට අව ය නැත.)"
     ],
     "correctIndex": 0,
-    "explanation": "Check the state and ability of the care recipient. (සකාන්සද් සේදනාව\nවැළැක්වීමට භාවිතා කරන්නාසේ තත්ත්වෙ සහ හැකිොව පරීක්ෂා කරයි.)",
+    "explanation": "Check the state and ability of the care recipient. (සකාන්සද් සේදනාව\nවැළැක්වීමට භාවිතා කරන්නාසේ තත්ත්වෙ සහ හැකිොව පරීක්ෂා කරයි.)",
     "kind": "mcq",
     "sinhalaText": "සකාන්සද් සේදනාව වැළැක්වීමට, රැකවරණ ලබන්නා සම්බන්ධසෙන් ඔබ පරීක්ෂා කරන්සන් කුමක්ද?"
   },
@@ -2947,13 +2947,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 58,
     "question": "What is important in daily habits to prevent lower back pain?",
     "options": [
-      "Moderate exercise, nutrition, and rest are important. (මධයසේථ වයාොම, සපෝෂණෙ සහ විසේකෙ වැදගත්ෙ.)",
+      "Moderate exercise, nutrition, and rest are important. (මධයසේථ වයාොම, සපෝෂණෙ සහ විසේකෙ වැදගත්ෙ.)",
       "Prolonged sitting without movement and poor sleep. (චලනෙකින් සතාරව දිගු සේලාවක් වාඩි වී සිටීම සහ\nදුර්වල නින්ද.)",
       "Skipping meals and overworking. (ආහාර මඟ හැරීම සහ අික සලස වැඩ කිරීම.)",
       "Avoiding all stretching and posture awareness. (සිෙලු ඇදීම් සහ ඉරිෙේ අවධානෙ මඟ හැරීම.)"
     ],
     "correctIndex": 0,
-    "explanation": "Moderate exercise, nutrition, and rest are important. (මධයසේථ\nවයාොම, සපෝෂණෙ සහ විසේකෙ වැදගත්ෙ.)",
+    "explanation": "Moderate exercise, nutrition, and rest are important. (මධයසේථ\nවයාොම, සපෝෂණෙ සහ විසේකෙ වැදගත්ෙ.)",
     "kind": "mcq",
     "sinhalaText": "සකාන්සද් සේදනාව වැළැක්වීම සඳහා දදනික පුරුදු (daily habits) ුළ වැදගත් වන්සන් කුමක්ද?"
   },
@@ -2979,13 +2979,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 60,
     "question": "Why are care recipients prone to contracting infectious diseases?",
     "options": [
-      "Because their resistance/immunity may be weak. (භාවිතා කරන්නන්සේ ප්‍රිසරෝධක හැකිොව දුර්වල විෙ\nහැකි නිසා ආසාදන සරෝග වලට පහසුසවන් සගාදුරු විෙ හැක.)",
+      "Because their resistance/immunity may be weak. (භාවිතා කරන්නන්සේ ප්‍රිසරෝධක හැකිොව දුර්වල විෙ\nහැකි නිසා ආසාදන සරෝග වලට පහසුසවන් සගාදුරු විෙ හැක.)",
       "Because they wash their hands too often. (ඔවුන් නිතරම අත් සසෝදන නිසා.)",
       "Because clean rooms increase infection risk. (පිරිසිදු කාමර ආසාදන අවදානම වැඩි කරන නිසා.)",
       "Because nutrition strengthens pathogens. (සපෝෂණෙ සරෝග කාරක  ක්ිමත් කරන නිසා.)"
     ],
     "correctIndex": 0,
-    "explanation": "Because their resistance/immunity may be weak. (භාවිතා\nකරන්නන්සේ ප්‍රිසරෝධක හැකිොව දුර්වල විෙ හැකි නිසා ආසාදන සරෝග වලට පහසුසවන් සගාදුරු විෙ හැක.)",
+    "explanation": "Because their resistance/immunity may be weak. (භාවිතා\nකරන්නන්සේ ප්‍රිසරෝධක හැකිොව දුර්වල විෙ හැකි නිසා ආසාදන සරෝග වලට පහසුසවන් සගාදුරු විෙ හැක.)",
     "kind": "mcq",
     "sinhalaText": "රැකවරණ ලබන්නන් ආසාදන සරෝගවලට සගාදුරු වීසම් ප්‍රවණතාව වැඩි වන්සන් ඇයි?"
   },
@@ -3011,13 +3011,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 62,
     "question": "What kinds of things are pathogens?",
     "options": [
-      "Viruses, bacteria, fungi, parasites, etc. (සරෝගකාරක අතර දවරසේ, බැක්ටීරිො, දිලීර සහ පරසපෝෂිතෙන්\nඇත.)",
+      "Viruses, bacteria, fungi, parasites, etc. (සරෝගකාරක අතර දවරසේ, බැක්ටීරිො, දිලීර සහ පරසපෝෂිතෙන්\nඇත.)",
       "Chairs, tables, and curtains. (පුු, සම්ස සහ ිර සරදි.)",
       "Sliding boards and lifts. (sliding boards සහ lifts.)",
       "Care plans and notebooks. (සත්කාර සැලසුම් සහ සටහන් සපාත්.)"
     ],
     "correctIndex": 0,
-    "explanation": "Viruses, bacteria, fungi, parasites, etc. (සරෝගකාරක අතර දවරසේ,\nබැක්ටීරිො, දිලීර සහ පරසපෝෂිතෙන් ඇත.)",
+    "explanation": "Viruses, bacteria, fungi, parasites, etc. (සරෝගකාරක අතර දවරසේ,\nබැක්ටීරිො, දිලීර සහ පරසපෝෂිතෙන් ඇත.)",
     "kind": "mcq",
     "sinhalaText": "සරෝග කාරක (pathogens) ෙනු කුමන ආකාරසේ සද්වල්ද?"
   },
@@ -3043,13 +3043,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 64,
     "question": "What are the three elements of infection?",
     "options": [
-      "Source of infection, route of transmission, and susceptible host (ආසාදන මූලාශ්‍රෙ, ආසාදන මාර්ගෙ සහ\nධාරකො)",
-      "Fever, coughing, and sneezing (උණ, කැසේස සහ කිවිසුම් ොම)",
+      "Source of infection, route of transmission, and susceptible host (ආසාදන මූලාශ්‍රෙ, ආසාදන මාර්ගෙ සහ\nධාරකො)",
+      "Fever, coughing, and sneezing (උණ, කැසේස සහ කිවිසුම් ොම)",
       "Gloves, mask, and vinyl apron (අත්වැසුම්, මුඛ ආවරණ සහ වයිනයිල් ඒප්‍රන්)",
-      "Hospital, doctor, and medicine (සරෝහල, දවදයවරො සහ ඖෂධ)"
+      "Hospital, doctor, and medicine (සරෝහල, දවදයවරො සහ ඖෂධ)"
     ],
     "correctIndex": 0,
-    "explanation": "Source of infection, route of transmission, and susceptible host\n(ආසාදන මූලාශ්‍රෙ, ආසාදන මාර්ගෙ සහ ධාරකො)",
+    "explanation": "Source of infection, route of transmission, and susceptible host\n(ආසාදන මූලාශ්‍රෙ, ආසාදන මාර්ගෙ සහ ධාරකො)",
     "kind": "mcq",
     "sinhalaText": "ආසාදනෙක කරුණු/සාධක ුන (three elements of infection) සමානවාද?"
   },
@@ -3062,7 +3062,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Keeping all doors locked (සිෙලුම සදාරවල් අගුළු දමා තැබීම)",
       "Breaking the chain of infection (ආසාදන දාමෙ බිඳ දැමීම)",
       "Stopping all family visits (පවුසල් සාමාජිකෙන්සේ පැමිණීම සම්ූර්ණසෙන් නැවැත්වීම)",
-      "Avoiding physical exercise ( ාරීරික වයාොමවලින් වැළකී සිටීම)"
+      "Avoiding physical exercise ( ාරීරික වයාොමවලින් වැළකී සිටීම)"
     ],
     "correctIndex": 1,
     "explanation": "Breaking the chain of infection (ආසාදන දාමෙ බිඳ දැමීම)",
@@ -3075,7 +3075,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 66,
     "question": "What is the countermeasure against the source of infection?",
     "options": [
-      "Improve resistance/immunity (ප්‍රිසරෝධක හැකිොව වැඩි කිරීම)",
+      "Improve resistance/immunity (ප්‍රිසරෝධක හැකිොව වැඩි කිරීම)",
       "Eliminate the source of infection (ආසාදන මූලාශ්‍රෙ ඉවත් කිරීම)",
       "Open all windows (සිෙලුම ජසනල් විවෘත කිරීම)",
       "Wear thick socks (ඝන සම්සේ පැළඳීම)"
@@ -3108,14 +3108,14 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "question": "What is the countermeasure against the host?",
     "options": [
       "Eliminate the source of infection (ආසාදන මූලාශ්‍රෙ ඉවත් කිරීම)",
-      "Improve resistance/immunity (ධාරකොසේ ප්‍රිසරෝධක හැකිොව / ප්‍රි ක්ිෙ වැඩි කිරීම)",
-      "Keep the user in bed all day (පරිශීලකො දවස පුරා ඇසඳේ තබා ගැනීම)",
+      "Improve resistance/immunity (ධාරකොසේ ප්‍රිසරෝධක හැකිොව / ප්‍රි ක්ිෙ වැඩි කිරීම)",
+      "Keep the user in bed all day (පරිශීලකො දවස පුරා ඇසඳේ තබා ගැනීම)",
       "Avoid bathing (සේනානෙ කිරීසමන් වැළකී සිටීම)"
     ],
     "correctIndex": 1,
-    "explanation": "Improve resistance/immunity (ධාරකොසේ ප්‍රිසරෝධක හැකිොව වැඩි\nකිරීම)",
+    "explanation": "Improve resistance/immunity (ධාරකොසේ ප්‍රිසරෝධක හැකිොව වැඩි\nකිරීම)",
     "kind": "mcq",
-    "sinhalaText": "ධාරකොට (host) අදාළව ගන්නා ප්‍රිකර්මෙ/පිෙවර කුමක්ද?"
+    "sinhalaText": "ධාරකොට (host) අදාළව ගන්නා ප්‍රිකර්මෙ/පිෙවර කුමක්ද?"
   },
   {
     "id": "lesson-04-q069",
@@ -3203,7 +3203,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 74,
     "question": "To prevent infection, how do you handle blood and body fluids?",
     "options": [
-      "Touch them with bare hands if the user looks healthy (පරිශීලකො නිසරෝගීව සපසන් නම් හිසේ අින් සේපර්\nකිරීම)",
+      "Touch them with bare hands if the user looks healthy (පරිශීලකො නිසරෝගීව සපසන් නම් හිසේ අින් සේපර්\nකිරීම)",
       "Handle them as things that have the possibility of causing infection (ආසාදනෙ විෙ හැකි රවය සලස\nසලකා හැසිරවිෙ යුුෙ)",
       "Wipe them using a regular cloth towel and reuse it (සාමානය සරදි ුවාෙකින් පිස දමා නැවත භාවිත කිරීම)",
       "Wash them off only at the end of the shift (වැඩ මුරෙ අවසානසේ පමණක් සසෝදා හැරීම)"
@@ -3252,12 +3252,12 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "question": "When do you replace disposable gloves?",
     "options": [
       "Once a day at the end of work (දිනකට වරක් වැඩ අවසානසේ)",
-      "Replace them for each care act (එක් එක් රැකවරණ ක්‍රිොවකින් පසු මාරු කළ යුුෙ)",
+      "Replace them for each care act (එක් එක් රැකවරණ ක්‍රිොවකින් පසු මාරු කළ යුුෙ)",
       "Only when they tear (ඒවා ඉරුණු විට පමණක්)",
       "Every Monday morning (සෑම සඳුදා උදෑසනකම)"
     ],
     "correctIndex": 1,
-    "explanation": "Replace them for each care act (එක් එක් රැකවරණ ක්‍රිොවකින් පසු මාරු\nකළ යුුෙ)",
+    "explanation": "Replace them for each care act (එක් එක් රැකවරණ ක්‍රිොවකින් පසු මාරු\nකළ යුුෙ)",
     "kind": "mcq",
     "sinhalaText": "ඉවත දැමිෙ හැකි අත්වැසුම් (disposable gloves) මාරු කළ යුත්සත් කවදාද?"
   },
@@ -3269,7 +3269,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "options": [
       "Pull them off from the fingertips so the dirty side stays outside (අපිරිසිදු පැත්ත පිටතට සිටින සසේ ඇඟිලි\nුඩුවලින් ඇද ගලවයි)",
       "Remove them so that the inside becomes the outside (turn them inside out) (අපිරිසිදු පැත්ත ඇුළට\nවන පරිදි ඇුළු පැත්ත පිටතට හරවා ඉවත් කරයි)",
-      "Wash them with soap and hang them to dry (සබන් සොදා සසෝදා සේසලන්නට එල්ලයි)",
+      "Wash them with soap and hang them to dry (සබන් සොදා සසෝදා සේසලන්නට එල්ලයි)",
       "Put them in your uniform pocket (ඔසබ් නිල ඇඳුසම් සාක්කුසේ දමා ගනියි)"
     ],
     "correctIndex": 1,
@@ -3363,8 +3363,8 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 84,
     "question": "Why are care recipients prone to contracting infectious diseases?",
     "options": [
-      "Because their resistance/immunity may be weak (ඔවුන්සේ ප්‍රිසරෝධක හැකිොව / ප්‍රි ක්ිෙ දුර්වල විෙ\nහැකි නිසා)",
-      "Because they exercise too much (ඔවුන් ඕනෑවට වඩා වයාොම කරන නිසා)",
+      "Because their resistance/immunity may be weak (ඔවුන්සේ ප්‍රිසරෝධක හැකිොව / ප්‍රි ක්ිෙ දුර්වල විෙ\nහැකි නිසා)",
+      "Because they exercise too much (ඔවුන් ඕනෑවට වඩා වයාොම කරන නිසා)",
       "Because they wash their hands too often (ඔවුන් නිතරම අත් සසෝදන නිසා)",
       "Because they drink too much water (ඔවුන් ඕනෑවට වඩා ජලෙ පානෙ කරන නිසා)"
     ],
@@ -3382,7 +3382,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Various physical and mental conditions occurring due to prolonged bed rest or decreased activity. (දිගුකාලීන වි‍ේකය ‍ ෝ ක්‍රියාකාරකම්\nඅඩු වීම නිසා ශරීර‍ේ  ා මන‍සේ විවිධ තත්තත්තව ඇති වීම.)",
       "Sudden fever caused by a bacterial throat infection. (බැක්ීරියා උගු‍ේ ආසාදනයක් නිසා ඇතිවන  දිසි උණ.)",
       "A temporary allergy to wool blankets. (‍ලාම් බ්ලැන්ඩ්කට්වලට ඇතිවන තාවකාලික අසාත්තිකතාවක්.)",
-      "Normal muscle growth after heavy weight training. (බර ඉසිලී‍ම් පුහුණු‍වන්ඩ් පසු සාමානය මාාංශ ‍ේශි වේධනය.)"
+      "Normal muscle growth after heavy weight training. (බර ඉසිලී‍ම් පුහුණු‍වන්ඩ් පසු සාමානය මාංශ ‍ේශි වේධනය.)"
     ],
     "correctIndex": 0,
     "explanation": "Various physical and mental conditions occurring due to prolonged bed rest or decreased activity.\n(දිගුකාලීන වි‍ේකය ‍ ෝ ක්‍රියාකාරකම් අඩු වීම නිසා ශරීර‍ේ  ා මන‍සේ විවිධ තත්තත්තව ඇති වීම.)",
@@ -4806,7 +4806,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
       "Feeling the other person's thoughts and emotions as your own. (අවනක් පුද්ගලයාවේ අදහස් සහ හැඟීම් තමන්නටත් එම හැඟීම් වලස දැනීමයි.)",
       "Ignoring how the other person feels (අවනක් පුද්ගලයාට දැවනන ආකාරය වනාසලකා හැරීම)",
       "Judging their behavior strictly (ඔවුන්නවේ හැසිරීම දැඩි වලස විිශ්‍්චය කිරීම)",
-      "Giving a one-word answer only (එක් ෛචනයක පිළිතුරක් පමණක් ලො දීම)"
+      "Giving a one-word answer only (එක් ෛචනයක පිළිතුරක් පමණක් ලො දීම)"
     ],
     "correctIndex": 0,
     "explanation": "Feeling the other person's thoughts and emotions as your own. (අවනක් පුද්ගලයාවේ අදහස් සහ හැඟීම්\nතමන්නටත් එම හැඟීම් වලස දැනීමයි.)",
@@ -4900,14 +4900,14 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "question": "What message can be conveyed by repeating?",
     "options": [
       "\"Please stop talking now.\" (\"දැන්න කතා කිරීම නෛත්ෛන්නන.\")",
-      "The message \"I am listening to your story.\" (\"මම ඔවබ් කතාෛට සෛන්න වදමින්න සිටිනෛා\" යන පණිවිඩය ලොදිය හැක.)",
+      "The message \"I am listening to your story.\" (\"මම ඔවබ් කතාෛට සෛන්න වදමින්න සිටිනෛා\" යන පණිවිඩය ලොදිය හැක.)",
       "\"I don't care about your feelings.\" (\"ඔවබ් හැඟීම් ගැන මට කමක් නැහැ.\")",
       "\"You must answer in one word.\" (\"ඔෙ එක් ෛචනයකින්න පිළිතුරු දිය යුතුයි.\")"
     ],
     "correctIndex": 1,
-    "explanation": "The message \"I am listening to your story.\" (\"මම ඔවබ් කතාෛට සෛන්න වදමින්න සිටිනෛා\" යන පණිවිඩය ලොදිය\nහැක.)",
+    "explanation": "The message \"I am listening to your story.\" (\"මම ඔවබ් කතාෛට සෛන්න වදමින්න සිටිනෛා\" යන පණිවිඩය ලොදිය\nහැක.)",
     "kind": "mcq",
-    "sinhalaText": "නැෛත පැෛසීවමන්න කුමන පණිවිඩයක් ලොදිය හැකිද?"
+    "sinhalaText": "නැෛත පැෛසීවමන්න කුමන පණිවිඩයක් ලොදිය හැකිද?"
   },
   {
     "id": "lesson-06-q014",
@@ -4971,7 +4971,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 0,
     "explanation": "Shows respect and attention to the care recipient. (වස්ෛාලාභියාට වගෞරෛය සහ අෛධානය වපන්නවිය හැක.)",
     "kind": "mcq",
-    "sinhalaText": "මුහුණට මුහුණලා කතා කිරීවමන්න කුමන හැඟීමක් ලොදිය හැකිද?"
+    "sinhalaText": "මුහුණට මුහුණලා කතා කිරීවමන්න කුමන හැඟීමක් ලොදිය හැකිද?"
   },
   {
     "id": "lesson-06-q018",
@@ -5011,13 +5011,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 20,
     "question": "What should you be careful about regarding distance and body touch?",
     "options": [
-      "Keep an appropriate distance and avoid excessive body touch. (සුදුසු දුරක් තොවගන, ෛැඩිපුර ශ්‍රීර ස්පර්ශ්‍ වනාකිරීමට ෛගෙලා ගත යුතුය.)",
+      "Keep an appropriate distance and avoid excessive body touch. (සුදුසු දුරක් තොවගන, ෛැඩිපුර ශ්‍රීර ස්පර්ශ්‍ වනාකිරීමට ෛගෙලා ගත යුතුය.)",
       "Stand as far away as possible across the hall (ශ්‍ාලාවේ හැකිතාක් ඈතින්න සිටවගන සිටීම)",
       "Touch the user constantly without asking (අෛසර වනාවගන පරිශීලකයා ිරන්නතරවයන්න ස්පර්ශ්‍ කිරීම)",
       "Never touch the user even when assisting (සහාය වදන විට පෛා පරිශීලකයා කිසි විවටකත් ස්පර්ශ්‍ වනාකිරීම)"
     ],
     "correctIndex": 0,
-    "explanation": "Keep an appropriate distance and avoid excessive body touch. (සුදුසු දුරක් තොවගන, ෛැඩිපුර ශ්‍රීර ස්පර්ශ්‍\nවනාකිරීමට ෛගෙලා ගත යුතුය.)",
+    "explanation": "Keep an appropriate distance and avoid excessive body touch. (සුදුසු දුරක් තොවගන, ෛැඩිපුර ශ්‍රීර ස්පර්ශ්‍\nවනාකිරීමට ෛගෙලා ගත යුතුය.)",
     "kind": "mcq",
     "sinhalaText": "දුරස්ථභාෛය සහ ශ්‍රීර ස්පර්ශ්‍ය සම්ෙන්නධවයන්න කුමක් ගැන සැලකිලිමත් විය යුතුද?"
   },
@@ -5075,13 +5075,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 24,
     "question": "How does the caregiver respond to what the care recipient has decided?",
     "options": [
-      "Respects their choice and provides support so they can carry it out. (වස්ෛාලාභියා තීරණය කළ වද් ක්‍රියාත්මක කරගත හැකි ෛන පරිදි,\nඔහුවේ/ඇයවේ වත්රීමට ගරු කර සහය ලො දිය යුතුය.)",
+      "Respects their choice and provides support so they can carry it out. (වස්ෛාලාභියා තීරණය කළ වද් ක්‍රියාත්මක කරගත හැකි ෛන පරිදි,\nඔහුවේ/ඇයවේ වත්රීමට ගරු කර සහය ලො දිය යුතුය.)",
       "Persuades them to pick what the caregiver prefers (සත්කාරකයා කැමති වද් වතෝරා ගැනීමට ඔවුන්න වපාළඹෛයි)",
       "Delays helping until tomorrow (වහට ෛන වතක් උදේ කිරීම ප්‍රමාද කරයි)",
       "Reports it as a mistake (එය ෛරදක් වලස ෛාර්තා කරයි)"
     ],
     "correctIndex": 0,
-    "explanation": "Respects their choice and provides support so they can carry it out. (වස්ෛාලාභියා තීරණය කළ වද්\nක්‍රියාත්මක කරගත හැකි ෛන පරිදි, ඔහුවේ/ඇයවේ වත්රීමට ගරු කර සහය ලො දිය යුතුය.)",
+    "explanation": "Respects their choice and provides support so they can carry it out. (වස්ෛාලාභියා තීරණය කළ වද්\nක්‍රියාත්මක කරගත හැකි ෛන පරිදි, ඔහුවේ/ඇයවේ වත්රීමට ගරු කර සහය ලො දිය යුතුය.)",
     "kind": "mcq",
     "sinhalaText": "වස්ෛාලාභියා තීරණය කළ වදය සම්ෙන්නධවයන්න සත්කාරකයා කුමක් කළ යුතුද?"
   },
@@ -5091,15 +5091,15 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 25,
     "question": "What kind of disability is visual impairment?",
     "options": [
-      "Inability or difficulty in seeing with the eyes. (ඇස්ෛලින්න දැකීමට වනාහැකි වීම වහෝ ඇස්ෛලින්න දැකීමට අපහසු වීම ෛැි ආොධයකි.)",
+      "Inability or difficulty in seeing with the eyes. (ඇස්ෛලින්න දැකීමට වනාහැකි වීම වහෝ ඇස්ෛලින්න දැකීමට අපහසු වීම ෛැි ආොධයකි.)",
       "Inability to hear sounds with the ears (කන්නෛලින්න ශ්‍බ්ද ඇසීමට වනාහැකි වීම)",
       "Difficulty swallowing food (ආහාර ගිලීවම් අපහසුතාෛ)",
       "Loss of sense of smell (ගඳ සුෛඳ දැනීවම් හැකියාෛ නැති වීම)"
     ],
     "correctIndex": 0,
-    "explanation": "Inability or difficulty in seeing with the eyes. (ඇස්ෛලින්න දැකීමට වනාහැකි වීම වහෝ ඇස්ෛලින්න දැකීමට අපහසු\nවීම ෛැි ආොධයකි.)",
+    "explanation": "Inability or difficulty in seeing with the eyes. (ඇස්ෛලින්න දැකීමට වනාහැකි වීම වහෝ ඇස්ෛලින්න දැකීමට අපහසු\nවීම ෛැි ආොධයකි.)",
     "kind": "mcq",
-    "sinhalaText": "දෘෂයාොධය යනු කුමන ආකාරවේ ආොධයක්ද?"
+    "sinhalaText": "දෘෂයාොධය යනු කුමන ආකාරවේ ආොධයක්ද?"
   },
   {
     "id": "lesson-06-q026",
@@ -5115,7 +5115,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 0,
     "explanation": "Utilize non-visual information and other methods. (දෘශ්‍යමය වනාෛන අවනකුත් වතාරතුරු සහ ක්‍රම භාවිත කළ\nයුතුය.)",
     "kind": "mcq",
-    "sinhalaText": "දෘෂයාොධයක් ඇති පුද්ගලවයකු සමඟ සන්නිවේදනය කිරීවම්දී කුමක් ගැන සැලකිලිමත් විය යුතුද?"
+    "sinhalaText": "දෘෂයාොධයක් ඇති පුද්ගලවයකු සමඟ සන්නිවේදනය කිරීවම්දී කුමක් ගැන සැලකිලිමත් විය යුතුද?"
   },
   {
     "id": "lesson-06-q027",
@@ -5147,7 +5147,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 0,
     "explanation": "Always speak to them (use your voice) first. (පළමුෛ අිෛාර්යවයන්නම කතා කර (හඬ නගා) දැනුෛත් කළ\nයුතුය.)",
     "kind": "mcq",
-    "sinhalaText": "දෘෂයාොධයක් ඇති පුද්ගලවයකුට කතා කරන විට කුමක් කළ යුතුද?"
+    "sinhalaText": "දෘෂයාොධයක් ඇති පුද්ගලවයකුට කතා කරන විට කුමක් කළ යුතුද?"
   },
   {
     "id": "lesson-06-q029",
@@ -5172,7 +5172,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "question": "What should the caregiver do about their own name?",
     "options": [
       "It is also important to introduce your own name. (තමාවේ නම කුමක්දැයි හඳුන්නෛා දීමද ෛැදගත්ය.)",
-      "Keep your name secret (තම නම රහසක්ෛ තො ගැනීම)",
+      "Keep your name secret (තම නම රහසක්ෛ තො ගැනීම)",
       "Say only your job title (තම තනතුරු නාමය පමණක් පැෛසීම)",
       "Introduce yourself only at the end of the shift (ෛැඩ මුරය අෛසානවේ පමණක් තමාෛ හඳුන්නෛා දීම)"
     ],
@@ -5227,7 +5227,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 0,
     "explanation": "Feelings of loneliness and loss may increase due to lack of adequate hearing, and emotional\nsupport is needed. (ශ්‍බ්ද ප්‍රමාණෛත් වලස ඇවසන්නවන්න නැති ිසා තිකම සහ අහිමිවීවම් හැඟීම ෛැඩි විය හැකි අතර මානසික සහයද අෛශ්‍ය වේ.)",
     "kind": "mcq",
-    "sinhalaText": "ශ්‍රෛණාොධයක් ඇති පුද්ගලයන්නවේ සන්නිවේදනවේ ලක්ෂණය කුමක්ද?"
+    "sinhalaText": "ශ්‍රෛණාොධයක් ඇති පුද්ගලයන්නවේ සන්නිවේදනවේ ලක්ෂණය කුමක්ද?"
   },
   {
     "id": "lesson-06-q034",
@@ -5243,7 +5243,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 0,
     "explanation": "Speak from the front. (ඉදිරිපසින්න කතා කළ යුතුය.)",
     "kind": "mcq",
-    "sinhalaText": "ශ්‍රෛණාොධයක් ඇති පුද්ගලවයකුට කුමන දිශ්‍ාවෛන්න කතා කළ යුතුද?"
+    "sinhalaText": "ශ්‍රෛණාොධයක් ඇති පුද්ගලවයකුට කුමන දිශ්‍ාවෛන්න කතා කළ යුතුද?"
   },
   {
     "id": "lesson-06-q035",
@@ -5275,7 +5275,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 0,
     "explanation": "Speak slowly and clearly with a raised voice. (වසමින්න සහ පැහැදිලිෛ හඬ නගා කතා කළ යුතුය.)",
     "kind": "mcq",
-    "sinhalaText": "ශ්‍රෛණාොධයක් ඇති පුද්ගලවයකුට වකවස් කතා කළ යුතුද?"
+    "sinhalaText": "ශ්‍රෛණාොධයක් ඇති පුද්ගලවයකුට වකවස් කතා කළ යුතුද?"
   },
   {
     "id": "lesson-06-q037",
@@ -5291,7 +5291,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 0,
     "explanation": "Do not shout excessively beyond what is necessary. (අෛශ්‍ය ප්‍රමාණයට ෛඩා අධික වලස කෑගසා කතා\nවනාකළ යුතුය.)",
     "kind": "mcq",
-    "sinhalaText": "ශ්‍රෛණාොධයක් ඇති පුද්ගලවයකුට අෛශ්‍ය ප්‍රමාණයට ෛඩා ඉතා විශ්‍ාල හඬකින්න කතා කළ හැකිද?"
+    "sinhalaText": "ශ්‍රෛණාොධයක් ඇති පුද්ගලවයකුට අෛශ්‍ය ප්‍රමාණයට ෛඩා ඉතා විශ්‍ාල හඬකින්න කතා කළ හැකිද?"
   },
   {
     "id": "lesson-06-q038",
@@ -5307,7 +5307,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 0,
     "explanation": "Converse in as quiet a place with little noise as possible. (හැකිතාක් ශ්‍බ්දය අඩු ිහඬ ස්ථානයකදී කතා කළ\nයුතුය.)",
     "kind": "mcq",
-    "sinhalaText": "ශ්‍රෛණාොධයක් ඇති පුද්ගලවයකු සමඟ කුමන ස්ථානයකදී කතා කළ යුතුද?"
+    "sinhalaText": "ශ්‍රෛණාොධයක් ඇති පුද්ගලවයකු සමඟ කුමන ස්ථානයකදී කතා කළ යුතුද?"
   },
   {
     "id": "lesson-06-q039",
@@ -5363,13 +5363,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 42,
     "question": "What kind of tool is a hearing aid?",
     "options": [
-      "A device that collects sounds with a microphone, amplifies them, and delivers them to the ear. (මයික්‍රව ෝනයක් මඟින්න ශ්‍බ්ද එකතු කර, ඒෛා\nවිශ්‍ාල කර කනට ලොවදන උපකරණයකි.)",
+      "A device that collects sounds with a microphone, amplifies them, and delivers them to the ear. (මයික්‍රව ෝනයක් මඟින්න ශ්‍බ්ද එකතු කර, ඒෛා\nවිශ්‍ාල කර කනට ලොවදන උපකරණයකි.)",
       "A device that magnifies small print on paper (කඩදාසියක ඇති කුඩා අකුරු විශ්‍ාල කරන උපකරණයක්)",
       "A board used to lift a user (පරිශීලකවයකු එසවීමට භාවිත කරන පුෛරුෛක්)",
       "A thermometer for measuring fever (උණ මැනීවම් උෂ්ණත්ෛමානයක්)"
     ],
     "correctIndex": 0,
-    "explanation": "A device that collects sounds with a microphone, amplifies them, and delivers them to the ear.\n(මයික්‍රව ෝනයක් මඟින්න ශ්‍බ්ද එකතු කර, ඒෛා විශ්‍ාල කර කනට ලොවදන උපකරණයකි.)",
+    "explanation": "A device that collects sounds with a microphone, amplifies them, and delivers them to the ear.\n(මයික්‍රව ෝනයක් මඟින්න ශ්‍බ්ද එකතු කර, ඒෛා විශ්‍ාල කර කනට ලොවදන උපකරණයකි.)",
     "kind": "mcq",
     "sinhalaText": "ශ්‍රෛණ ආධාරකය (hearing aid) යනු කුමන ආකාරවේ උපකරණයක්ද?"
   },
@@ -5387,7 +5387,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "correctIndex": 0,
     "explanation": "Reduced ability to understand spoken language, read and understand written text, speak, and write\ncharacters due to damage to the language-related area of the brain. (වමාළවේ භාෂාෛට සම්ෙන්නධ ප්‍රවද්ශ්‍යට හාි වීම ිසා කතාෛ අසා වත්රුම්\nගැනීම, ලිවූ වද් කියෛා වත්රුම් ගැනීම, කතා කිරීම සහ අකුරු ලිවීම ෛැි හැකියාෛන්න අඩු වීමයි.)",
     "kind": "mcq",
-    "sinhalaText": "කථන ආොධය (අපාෂියා / Aphasia) යනු කුමන තත්ත්ෛයක්ද?"
+    "sinhalaText": "කථන ආොධය (අපාෂියා / Aphasia) යනු කුමන තත්ත්ෛයක්ද?"
   },
   {
     "id": "lesson-06-q044",
@@ -5507,13 +5507,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 51,
     "question": "What is the purpose of sharing information as a team?",
     "options": [
-      "To provide better care service to the care recipient. (වස්ෛාලාභියාට ෛඩා වහාඳ සත්කාරක වස්ෛාෛක් ලො දීම සඳහාය.)",
+      "To provide better care service to the care recipient. (වස්ෛාලාභියාට ෛඩා වහාඳ සත්කාරක වස්ෛාෛක් ලො දීම සඳහාය.)",
       "To gossip about staff members (කාර්ය මේඩල සාමාජිකයන්න ගැන ඕපාදූප කතා කිරීමට)",
       "To reduce communication with doctors (වෛදයෛරුන්න සමඟ සන්නිවේදනය අඩු කිරීමට)",
       "To post updates publicly (යාෛත්කාලීන කිරීම් ප්‍රසිද්ධිවේ පළ කිරීමට)"
     ],
     "correctIndex": 0,
-    "explanation": "To provide better care service to the care recipient. (වස්ෛාලාභියාට ෛඩා වහාඳ සත්කාරක වස්ෛාෛක් ලො දීම\nසඳහාය.)",
+    "explanation": "To provide better care service to the care recipient. (වස්ෛාලාභියාට ෛඩා වහාඳ සත්කාරක වස්ෛාෛක් ලො දීම\nසඳහාය.)",
     "kind": "mcq",
     "sinhalaText": "කේඩායමක් වලස වතාරතුරු වෙදාගැනීවම් අරමුණ කුමක්ද?"
   },
@@ -5587,13 +5587,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 56,
     "question": "What is the significance of records in caregiving?",
     "options": [
-      "To provide better care service. (ෛඩා වහාඳ සත්කාරක වස්ෛාෛක් ලො දීම සඳහාය.)",
+      "To provide better care service. (ෛඩා වහාඳ සත්කාරක වස්ෛාෛක් ලො දීම සඳහාය.)",
       "To blame individual workers (ති වස්ෛකයන්නට වදාස් පැෛරීමට)",
       "To fill extra pages at month-end (මාසය අෛසානවේ අමතර පිටු පිරවීමට)",
       "To avoid talking with colleagues (සගයන්න සමඟ කතා කිරීවමන්න ෛැළකීමට)"
     ],
     "correctIndex": 0,
-    "explanation": "To provide better care service. (ෛඩා වහාඳ සත්කාරක වස්ෛාෛක් ලො දීම සඳහාය.)",
+    "explanation": "To provide better care service. (ෛඩා වහාඳ සත්කාරක වස්ෛාෛක් ලො දීම සඳහාය.)",
     "kind": "mcq",
     "sinhalaText": "සත්කාරක වස්ෛාවේදී ෛාර්තා තැබීවම් ෛැදගත්කම කුමක්ද?"
   },
@@ -5605,7 +5605,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "options": [
       "Records are necessary to successfully implement team care. (කේඩායම් සත්කාරය සාර්ථකෛ ක්‍රියාත්මක කිරීමට ෛාර්තා අෛශ්‍ය වේ.)",
       "Team care works better without any records (කිසිදු ෛාර්තාෛක් වනාමැතිෛ කේඩායම් සත්කාරය ෛඩා වහාඳින්න ක්‍රියා කරයි)",
-      "Records are only for external auditors (ෛාර්තා ොහිර විගණකෛරුන්නට පමණි)",
+      "Records are only for external auditors (ෛාර්තා ොහිර විගණකෛරුන්නට පමණි)",
       "Records replace team meetings (ෛාර්තා මඟින්න කේඩායම් රැස්වීම් ප්‍රතිස්ථාපනය වකවර්)"
     ],
     "correctIndex": 0,
@@ -5779,13 +5779,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 67,
     "question": "What is required when sharing personal information?",
     "options": [
-      "Obtaining the relevant consent from the care recipient. (වස්ෛාලාභියාවගන්න ඊට අදාළ කැමැත්ත ලො ගැනීම අෛශ්‍ය වේ.)",
+      "Obtaining the relevant consent from the care recipient. (වස්ෛාලාභියාවගන්න ඊට අදාළ කැමැත්ත ලො ගැනීම අෛශ්‍ය වේ.)",
       "Asking a neighbor's permission (අසල්ෛැසිවයකුවේ අෛසරය ඉල්ලීම)",
       "Posting online to see reactions (ප්‍රතිචාර ෙැලීමට අන්නතර්ජාලවේ පළ කිරීම)",
       "No consent is ever needed (කිසිදු කැමැත්තක් අෛශ්‍ය වනාවේ)"
     ],
     "correctIndex": 0,
-    "explanation": "Obtaining the relevant consent from the care recipient. (වස්ෛාලාභියාවගන්න ඊට අදාළ කැමැත්ත ලො ගැනීම\nඅෛශ්‍ය වේ.)",
+    "explanation": "Obtaining the relevant consent from the care recipient. (වස්ෛාලාභියාවගන්න ඊට අදාළ කැමැත්ත ලො ගැනීම\nඅෛශ්‍ය වේ.)",
     "kind": "mcq",
     "sinhalaText": "පුද්ගලික වතාරතුරු වෙදාගැනීවම්දී අෛශ්‍ය ෛන්නවන්න කුමක්ද?"
   },
@@ -5843,13 +5843,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 71,
     "question": "What is consultation (Soudan)?",
     "options": [
-      "Seeking advice and opinions from other staff members or experts when you have difficulty or do not know something. (අපහසුතාෛයක්\nවහෝ වනාදන්නනා වදයක් ඇති විට වෛනත් වස්ෛකවයකුවගන්න වහෝ විවශ්‍්ෂඥවයකුවගන්න උපවදස් හා අදහස් ලොගැනීමයි.)",
+      "Seeking advice and opinions from other staff members or experts when you have difficulty or do not know something. (අපහසුතාෛයක්\nවහෝ වනාදන්නනා වදයක් ඇති විට වෛනත් වස්ෛකවයකුවගන්න වහෝ විවශ්‍්ෂඥවයකුවගන්න උපවදස් හා අදහස් ලොගැනීමයි.)",
       "Hiding a problem from everyone (සැමවගන්නම ගැටලුෛක් සඟෛා තැබීම)",
       "Guessing without asking (වනාඅසා අනුමාන කිරීම)",
       "Refusing help from specialists (විවශ්‍්ෂඥයන්නවේ උදේ ප්‍රතික්වෂ්ප කිරීම)"
     ],
     "correctIndex": 0,
-    "explanation": "Seeking advice and opinions from other staff members or experts when you have difficulty or do not\nknow something. (අපහසුතාෛයක් වහෝ වනාදන්නනා වදයක් ඇති විට වෛනත් වස්ෛකවයකුවගන්න වහෝ විවශ්‍්ෂඥවයකුවගන්න උපවදස් හා අදහස් ලොගැනීමයි.)",
+    "explanation": "Seeking advice and opinions from other staff members or experts when you have difficulty or do not\nknow something. (අපහසුතාෛයක් වහෝ වනාදන්නනා වදයක් ඇති විට වෛනත් වස්ෛකවයකුවගන්න වහෝ විවශ්‍්ෂඥවයකුවගන්න උපවදස් හා අදහස් ලොගැනීමයි.)",
     "kind": "mcq",
     "sinhalaText": "උපවදස් පැතීම (Consultation / Soudan) යනු කුමක්ද?"
   },
@@ -5859,13 +5859,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 72,
     "question": "What should you do when you are troubled or worried?",
     "options": [
-      "Do not make decisions alone; discuss with others and seek advice. (තිෛම පමණක් තීරණ වනාවගන, අන්න අය සමඟ සාකච්ඡා කර උපවදස්\nලොගත යුතුය.)",
-      "Keep it secret and ignore it (එය රහසක්ෛ තො වනාසලකා හැරීම)",
+      "Do not make decisions alone; discuss with others and seek advice. (තිෛම පමණක් තීරණ වනාවගන, අන්න අය සමඟ සාකච්ඡා කර උපවදස්\nලොගත යුතුය.)",
+      "Keep it secret and ignore it (එය රහසක්ෛ තො වනාසලකා හැරීම)",
       "Blame the care recipient (වස්ෛාලාභියාට වදාස් පැෛරීම)",
       "Leave the workplace immediately without notice (දැනුම් දීමකින්න වතාරෛ ෛහාම වස්ෛා ස්ථානවයන්න පිටෛ යාම)"
     ],
     "correctIndex": 0,
-    "explanation": "Do not make decisions alone; discuss with others and seek advice. (තිෛම පමණක් තීරණ වනාවගන,\nඅන්න අය සමඟ සාකච්ඡා කර උපවදස් ලොගත යුතුය.)",
+    "explanation": "Do not make decisions alone; discuss with others and seek advice. (තිෛම පමණක් තීරණ වනාවගන,\nඅන්න අය සමඟ සාකච්ඡා කර උපවදස් ලොගත යුතුය.)",
     "kind": "mcq",
     "sinhalaText": "යම් ගැටලුෛකදී කරදරයකට පත් වූ විට කුමක් කළ යුතුද?"
   },
@@ -6963,13 +6963,13 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 66,
     "question": "One of the four major lobes of the cerebrum which is the sense of taste, judgment, understanding, etc..:",
     "options": [
-      "Frontal lobe (ෙොට කණ්ඩිකාව / Frontal lobe)",
+      "Frontal lobe (ෙොට කණ්ඩිකාව / Frontal lobe)",
       "Parietal lobe (පාර්ශ්වක කණ්ඩිකාව / Parietal lobe)",
       "Occipital lobe (පශ්චාත් කණ්ඩිකාව / Occipital lobe)",
       "Temporal lobe (ශංඛ්‍ක කණ්ඩිකාව / Temporal lobe)"
     ],
     "correctIndex": 0,
-    "explanation": "Frontal lobe (ෙොට කණ්ඩිකාව / Frontal lobe) (Note: Judgment and understanding are frontal lobe\nfunctions, while taste/somatosensory perception involves the parietal lobe.)",
+    "explanation": "Frontal lobe (ෙොට කණ්ඩිකාව / Frontal lobe) (Note: Judgment and understanding are frontal lobe\nfunctions, while taste/somatosensory perception involves the parietal lobe.)",
     "kind": "mcq",
     "sinhalaText": "මස්තිෂ්කමේ ප්‍රධාන මකාටස් (lobes) හතමරන් එකක් වන අතර රස දැනීම, විනිශ්චය, අවමබෝධය ආදියට සම්බන්ධ මකාටස වන්මන්:"
   },
@@ -6979,7 +6979,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 67,
     "question": "One of the four major lobes of the cerebrum which is the eyesight, etc...:",
     "options": [
-      "Frontal lobe (ෙොට කණ්ඩිකාව / Frontal lobe)",
+      "Frontal lobe (ෙොට කණ්ඩිකාව / Frontal lobe)",
       "Parietal lobe (පාර්ශ්වක කණ්ඩිකාව / Parietal lobe)",
       "Occipital lobe (පශ්චාත් කණ්ඩිකාව / Occipital lobe)",
       "Temporal lobe (ශංඛ්‍ක කණ්ඩිකාව / Temporal lobe)"
@@ -6995,7 +6995,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "number": 68,
     "question": "One of the four major lobes of the cerebrum which is the auditory sense, understanding of language, knowledge, memory, etc...:",
     "options": [
-      "Frontal lobe (ෙොට කණ්ඩිකාව / Frontal lobe)",
+      "Frontal lobe (ෙොට කණ්ඩිකාව / Frontal lobe)",
       "Parietal lobe (පාර්ශ්වක කණ්ඩිකාව / Parietal lobe)",
       "Occipital lobe (පශ්චාත් කණ්ඩිකාව / Occipital lobe)",
       "Temporal lobe (ශංඛ්‍ක කණ්ඩිකාව / Temporal lobe)"
