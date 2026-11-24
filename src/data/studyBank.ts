@@ -648,7 +648,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "id": "main-paper-q036",
     "moduleId": "main-paper",
     "number": 36,
-    "question": "Choose the image that demonstrates the correct application of body mechanics.\nනිවැරදි ශරීර යාන්ත්‍ර විද්‍යා මූලධර්ම භාවිත කරන ආකාරය පෙන්වන රූපය තෝරන්න.",
+    "question": "Choose the option that demonstrates the correct application of body mechanics.\nනිවැරදි ශරීර යාන්ත්‍ර විද්‍යා මූලධර්ම භාවිත කරන ආකාරය පෙන්වන විකල්පය තෝරන්න.",
     "options": [
       "A. Keep the back straight and move the load using a stable posture close to the body (කොන්ද කෙළින් තබාගෙන, ස්ථාවර ඉරියව්වකින් බර ශරීරයට ළං කරගෙන චලනය කිරීම)",
       "B. Bend from the waist with the knees straight when lifting (බර එසවීමේදී දණහිස් නොනමා ඉණෙන් ඉදිරියට නැමීම)",
@@ -8863,7 +8863,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "id": "lesson-09-q038",
     "moduleId": "lesson-09",
     "number": 38,
-    "question": "Which of the following images shows the correct way of wearing a mask?\nමුඛ ආවරණයක් නිවැරදිව පැළඳ ඇති ආකාරය පෙන්වන්නේ පහත කුමන රූපයද?",
+    "question": "Which option describes the correct way of wearing a mask?\nමුඛ ආවරණයක් නිවැරදිව පැළඳීම විස්තර කරන්නේ කුමන විකල්පයද?",
     "options": [
       "A. The mask covers the nose, mouth and chin (නාසය, මුඛය සහ නිකට සම්පූර්ණයෙන් ආවරණය වන ලෙස මුඛ ආවරණය පැළඳීම)",
       "B. Touch and adjust the front surface of the mask while wearing it (පැළඳ සිටින අතරතුර මුඛ ආවරණයේ ඉදිරිපස අතින් ස්පර්ශ කර සකස් කිරීම)",
@@ -8879,7 +8879,7 @@ export const ALL_QUIZ_QUESTIONS: QuizQuestion[] = [
     "id": "lesson-09-q039",
     "moduleId": "lesson-09",
     "number": 39,
-    "question": "Which of the following images shows the correct principle of body mechanics?\nශරීර යාන්ත්‍ර විද්‍යාවේ නිවැරදි මූලධර්මය පෙන්වන්නේ පහත කුමන රූපයද?",
+    "question": "Which option describes the correct principle of body mechanics?\nශරීර යාන්ත්‍ර විද්‍යාවේ නිවැරදි මූලධර්මය විස්තර කරන්නේ කුමන විකල්පයද?",
     "options": [
       "A. Move the load with a stable posture and keep the back aligned (ස්ථාවර ඉරියව්වකින් බර චලනය කරමින් කොන්ද නිවැරදිව සෘජුව තබා ගැනීම)",
       "B. Bend forward from the waist with the legs straight to lift a load (බර එසවීමේදී පාද කෙළින් තබා ඉණෙන් ඉදිරියට නැමීම)",
