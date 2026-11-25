@@ -6,7 +6,7 @@ import { AppErrorBoundary } from './components/AppErrorBoundary';
 
 function showStartupError(title: string, detail: string) {
   const root = document.getElementById('root');
-  if (!root) return;
+  if (!root || root.childElementCount > 0) return;
   const panel = document.createElement('main');
   panel.style.cssText = 'min-height:100vh;padding:32px 20px;display:grid;place-items:center;background:#F9F9F9;color:#222248;font-family:system-ui,sans-serif';
   const section = document.createElement('section');
@@ -26,9 +26,11 @@ function showStartupError(title: string, detail: string) {
 }
 
 window.addEventListener('error', (event) => {
-  console.error('CaregiverJP startup error:', event.error || event.message);
+  if (!event.error) return;
+  console.error('CaregiverJP startup error:', event.error);
   showStartupError('CaregiverJP could not start', event.error?.stack || event.message || 'Unknown JavaScript error');
 });
+
 window.addEventListener('unhandledrejection', (event) => {
   const reason = event.reason;
   const detail = reason instanceof Error ? reason.stack || reason.message : String(reason);
