@@ -159,6 +159,11 @@ export const QuizPractice: React.FC<QuizPracticeProps> = ({
   const [reviewFilter, setReviewFilter] = useState<'all' | 'wrong'>('all');
 
   const advanceTimerRef = useRef<number | null>(null);
+  const completionRecordedRef = useRef(
+    session.initialMode === 'study' && Boolean(paperId) &&
+    questions.every((question) => Boolean(persistedAnswers[question.id]))
+  );
+  const examSubmittedRef = useRef(false);
   const current = questions[currentIndex];
 
   // Track last position in paper for resume
@@ -222,6 +227,8 @@ export const QuizPractice: React.FC<QuizPracticeProps> = ({
   };
 
   const finishExam = () => {
+    if (examSubmittedRef.current || submitted) return;
+    examSubmittedRef.current = true;
     if (advanceTimerRef.current) window.clearTimeout(advanceTimerRef.current);
     setShowSubmitConfirm(false);
     setSubmitted(true);
@@ -250,9 +257,9 @@ export const QuizPractice: React.FC<QuizPracticeProps> = ({
     const isCorrect = optionIndex === current.correctIndex;
 
     setSessionAnswers((prev) => ({ ...prev, [current.id]: optionIndex }));
-    onRecordAnswer(current.id, optionIndex, isCorrect, current.paperId, current.indexInPaper);
 
     if (mode === 'study') {
+      onRecordAnswer(current.id, optionIndex, isCorrect, current.paperId, current.indexInPaper);
       if (isCorrect) {
         soundEngine.playCorrect();
         setFeedbackPulse('correct');
@@ -264,7 +271,8 @@ export const QuizPractice: React.FC<QuizPracticeProps> = ({
       if (paperId) {
         const nextAnswers = { ...sessionAnswers, [current.id]: optionIndex };
         const nowAllDone = questions.every((q) => nextAnswers[q.id] !== undefined);
-        if (nowAllDone) {
+        if (nowAllDone && !completionRecordedRef.current) {
+          completionRecordedRef.current = true;
           const scorePct = Math.round(
             (questions.filter((q) => nextAnswers[q.id] === q.correctIndex).length /
               questions.length) *
@@ -284,8 +292,32 @@ export const QuizPractice: React.FC<QuizPracticeProps> = ({
     }
   };
 
+  const switchMode = (nextMode: PracticeMode) => {
+    if (nextMode === mode || submitted) return;
+    if (advanceTimerRef.current) window.clearTimeout(advanceTimerRef.current);
+    setFeedbackPulse(null);
+    setShowSubmitConfirm(false);
+    setShowGridSheet(false);
+    setMode(nextMode);
+    setSessionAnswers(() => {
+      if (nextMode !== 'study') return {};
+      const saved: Record<string, number> = {};
+      for (const question of questions) {
+        const answer = persistedAnswers[question.id];
+        if (answer) saved[question.id] = answer.selectedIndex;
+      }
+      return saved;
+    });
+    setRemainingSeconds(questions.length * 60);
+    examSubmittedRef.current = false;
+    completionRecordedRef.current = nextMode === 'study' && Boolean(paperId) &&
+      questions.every((question) => Boolean(persistedAnswers[question.id]));
+  };
+
   const handleRestartExam = () => {
     soundEngine.playTap();
+    examSubmittedRef.current = false;
+    completionRecordedRef.current = false;
     setSessionAnswers({});
     setRevealedIds({});
     setRemainingSeconds(questions.length * 60);
@@ -598,7 +630,7 @@ export const QuizPractice: React.FC<QuizPracticeProps> = ({
               type="button"
               onClick={() => {
                 soundEngine.playTap();
-                setMode('study');
+                switchMode('study');
               }}
               className={`min-h-[34px] rounded-[10px] px-3 text-xs font-semibold transition ${
                 mode === 'study'
@@ -612,7 +644,7 @@ export const QuizPractice: React.FC<QuizPracticeProps> = ({
               type="button"
               onClick={() => {
                 soundEngine.playTap();
-                setMode('exam');
+                switchMode('exam');
               }}
               className={`min-h-[34px] rounded-[10px] px-3 text-xs font-semibold transition ${
                 mode === 'exam'

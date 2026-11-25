@@ -8,9 +8,10 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/prepare-papers.mjs && vite build",
+    "build": "node scripts/validate-studybank.mjs && node scripts/prepare-papers.mjs && vite build",
     "preview": "vite preview",
-    "deploy": "npx wrangler@4.168.0 deploy"
+    "deploy": "npx wrangler@4.168.0 deploy",
+    "lint": "tsc --noEmit"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.5",

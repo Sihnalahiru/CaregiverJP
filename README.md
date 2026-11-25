@@ -3,8 +3,8 @@
 CaregiverJP is a **single-user, offline-first Progressive Web App** for personal SSW Nursing Care study.
 
 ## Hosting and architecture
-- Static hosting on GitHub Pages.
-- No account registration, login, backend server, database service, Cloudflare Worker, API token, or server-side user system.
+- The app is a static, client-side PWA. Cloudflare Workers Static Assets can serve the built `dist/` directory; GitHub Pages is also supported by the included Pages workflow.
+- The Cloudflare Worker entry point only forwards requests to the static Assets binding. There is no account registration, login, application API, database service, API token, or server-side user system.
 - Quiz answers and personal progress are stored locally in this browser.
 - Export/Import Backup lets the owner move personal browser data between devices.
 - A service worker caches the app shell and successfully visited same-origin resources for offline use.
@@ -23,8 +23,9 @@ npm run build
 npm run dev
 ```
 
-## GitHub Pages deployment
-Merging changes to `main` triggers `.github/workflows/deploy-pages.yml`. The workflow validates TypeScript, builds the static PWA, verifies all nine PDFs are present, and publishes `dist/` to GitHub Pages.
+## Deployment
+- **Cloudflare Workers Static Assets:** `npm run build` followed by `npm run deploy`. The root `wrangler.toml` points to `src/worker.ts` and serves the generated `dist/` assets.
+- **GitHub Pages (optional):** merging changes to `main` triggers `.github/workflows/deploy-pages.yml`. The workflow validates TypeScript, builds the static PWA, verifies all nine PDFs are present, and publishes `dist/` to GitHub Pages.
 
 In repository settings, set **Pages → Build and deployment → Source: GitHub Actions** if it is not already selected.
 

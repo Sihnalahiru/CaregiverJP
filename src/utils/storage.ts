@@ -255,17 +255,31 @@ export function restoreBackupPayload(rawText: string): { restoredKeys: number } 
     throw new Error('This file is not a valid CaregiverJP backup.');
   }
 
-  let restoredKeys = 0;
-  for (const [key, value] of Object.entries(parsed.data)) {
-    if (
-      (key.startsWith(STORAGE_PREFIX) || key.startsWith('caregiverjp.')) &&
-      typeof value === 'string'
-    ) {
-      window.localStorage.setItem(key, value);
-      restoredKeys++;
+  if (typeof window === 'undefined') {
+    throw new Error('Backup restore is only available in a browser.');
+  }
+
+  // Validate the entire backup before writing anything, so a malformed entry
+  // cannot leave a partially restored progress store.
+  const entries = Object.entries(parsed.data).filter(([key, value]) =>
+    (key.startsWith(STORAGE_PREFIX) || key.startsWith('caregiverjp.')) &&
+    typeof value === 'string'
+  ) as Array<[string, string]>;
+
+  for (const [key, value] of entries) {
+    try {
+      JSON.parse(value);
+    } catch {
+      throw new Error(`Backup contains invalid JSON for "${key}". No data was restored.`);
     }
   }
-  return { restoredKeys };
+
+  try {
+    for (const [key, value] of entries) window.localStorage.setItem(key, value);
+  } catch {
+    throw new Error('Unable to restore backup. Device storage may be full or unavailable.');
+  }
+  return { restoredKeys: entries.length };
 }
 
 export function clearStudyProgressOnly(): void {

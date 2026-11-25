@@ -17,6 +17,8 @@ const supplementalIds = new Set([
 const ids = new Set();
 const errors = [];
 const sourceReview = [];
+const missingSinhala = [];
+const missingImages = [];
 const actualSourceCounts = Object.create(null);
 for (const q of questions) {
   if (!q.id || ids.has(q.id)) errors.push('Missing or duplicate question id: ' + q.id);
@@ -25,6 +27,12 @@ for (const q of questions) {
   if (!Array.isArray(q.options) || q.options.length < 2) errors.push(q.id + ': fewer than two options');
   if (!Number.isInteger(q.correctIndex) || q.correctIndex < 0 || q.correctIndex >= (q.options?.length || 0)) errors.push(q.id + ': invalid answer index');
   if (!q.explanation?.trim()) errors.push(q.id + ': empty explanation');
+  const sinhala = /[\u0D80-\u0DFF]/u;
+  if (!sinhala.test(q.sinhalaText || q.question || '')) missingSinhala.push(q.id + ': question');
+  for (let i = 0; i < (q.options || []).length; i++) {
+    if (!sinhala.test(q.options[i])) missingSinhala.push(q.id + ': option ' + (i + 1));
+  }
+  if (!sinhala.test(q.explanation || '')) missingSinhala.push(q.id + ': explanation');
   if (/[\u3040-\u30ff\u3400-\u9fff]/u.test(JSON.stringify(q))) errors.push(q.id + ': Japanese characters are not allowed in this English + Sinhala app');
   if (/\[(?:truncated in pdf|missing)(?::[^\]]*)?(?:[^\]]*)\]/i.test(JSON.stringify(q))) sourceReview.push(q.id);
   if (!supplementalIds.has(q.id)) actualSourceCounts[q.moduleId] = (actualSourceCounts[q.moduleId] || 0) + 1;
@@ -36,7 +44,37 @@ for (const [moduleId, [min, max]] of Object.entries(sourceRanges)) {
   if (actual !== expected) errors.push(moduleId + ': expected ' + expected + ' source-range records, found ' + actual);
 }
 for (const id of supplementalIds) if (!ids.has(id)) errors.push('Expected supplemental audit record missing from bank: ' + id);
+const imageMapPath = path.join(process.cwd(), 'src', 'data', 'questionImages.ts');
+const imageMapSource = await fs.readFile(imageMapPath, 'utf8');
+const mappedQuestionIds = [...imageMapSource.matchAll(/^\s*"([^"]+)":\s*\{\s*files:/gm)].map((item) => item[1]);
+const orphanImageMappings = mappedQuestionIds.filter((id) => !ids.has(id));
+if (orphanImageMappings.length) errors.push('Image mappings reference unknown question IDs: ' + orphanImageMappings.join(', '));
+
+// Keep published image-audit counts honest: compare the metadata with the actual mapping entries.
+const actualImageBatchCounts = Object.create(null);
+for (const match of imageMapSource.matchAll(/^\s*"[^"]+":\s*\{[^\n]*auditBatch:\s*"([^"]+)"/gm)) {
+  actualImageBatchCounts[match[1]] = (actualImageBatchCounts[match[1]] || 0) + 1;
+}
+const auditBatchBlock = imageMapSource.match(/export const IMAGE_AUDIT_BATCHES = \[([\s\S]*?)\] as const;/);
+if (!auditBatchBlock) {
+  errors.push('IMAGE_AUDIT_BATCHES metadata is missing');
+} else {
+  for (const match of auditBatchBlock[1].matchAll(/range:\s*"([^"]+)"[^\n]*mappedQuestionCount:\s*(\d+)/g)) {
+    const range = match[1];
+    const declared = Number(match[2]);
+    const actual = actualImageBatchCounts[range] || 0;
+    if (declared !== actual) errors.push('Image audit batch ' + range + ': metadata says ' + declared + ' mapped questions, actual mappings are ' + actual);
+  }
+}
+const mappedFiles = [...imageMapSource.matchAll(/files:\s*\[([^\]]*)\]/g)]
+  .flatMap((match) => [...match[1].matchAll(/"([^"]+)"/g)].map((item) => item[1]));
+for (const filename of new Set(mappedFiles)) {
+  try { await fs.access(path.join(process.cwd(), 'assets', 'images', filename)); }
+  catch { missingImages.push(filename); }
+}
+if (missingSinhala.length) errors.push('Missing Sinhala text in question bank: ' + missingSinhala.join(', '));
+if (missingImages.length) errors.push('Question image files missing from assets/images: ' + missingImages.join(', '));
 if (errors.length) { console.error(errors.join('\n')); process.exit(1); }
-console.log('Structural validation passed: 555 records; 510 source-range records match the nine supplied PDF ranges; 45 supplemental records are separately identified.');
+console.log('Structural validation passed: 555 records; 510 records fall within the configured source-number ranges; 45 supplemental records are separately identified. Required Sinhala text is present in every question, option, and explanation. Mapped question image files exist.');
 if (supplementalIds.size) console.warn('UNVERIFIED SUPPLEMENTAL records outside source-verified PDF ranges (' + supplementalIds.size + '): ' + [...supplementalIds].join(', '));
 if (sourceReview.length) console.warn('SOURCE CONTENT REVIEW required (' + sourceReview.length + '): ' + [...new Set(sourceReview)].join(', '));
