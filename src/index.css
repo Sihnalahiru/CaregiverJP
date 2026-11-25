@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap');
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 
 :root {
   --bg-app: #070b14;
@@ -27,8 +28,6 @@
     width: 100%;
     min-height: 100dvh;
     overflow-x: hidden;
-    background-color: var(--bg-app);
-    color: var(--text-primary);
     font-family: 'Inter', 'Noto Sans Sinhala', sans-serif;
     font-kerning: normal;
     text-rendering: optimizeLegibility;
@@ -86,7 +85,7 @@
   transform: scale(0.988);
 }
 
-/* CBT Exam mode styling (clean selectors without broken pseudo-class warnings) */
+/* CBT Exam mode styling */
 .cbt-exam {
   display: flex;
   flex-direction: column;
