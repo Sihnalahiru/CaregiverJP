@@ -25,12 +25,27 @@ self.addEventListener("activate", (event) => {
   self.clients.claim();
 });
 
+const FONT_CACHE = "caregiverjp-fonts-v1";
+
 self.addEventListener("fetch", (event) => {
   if (event.request.method !== "GET") return;
   const url = new URL(event.request.url);
-  if (url.origin !== self.location.origin && !url.hostname.includes("fonts.gstatic.com") && !url.hostname.includes("fonts.googleapis.com")) {
+  const isGoogleFont = url.hostname === "fonts.googleapis.com" || url.hostname === "fonts.gstatic.com";
+  if (isGoogleFont) {
+    event.respondWith(
+      fetch(event.request).then(async (response) => {
+        if (response.ok) {
+          await caches.open(FONT_CACHE).then((cache) => cache.put(event.request, response.clone()));
+        }
+        return response;
+      }).catch(async () => {
+        const cached = await caches.open(FONT_CACHE).then((cache) => cache.match(event.request));
+        return cached || Response.error();
+      })
+    );
     return;
   }
+  if (url.origin !== self.location.origin) return;
 
   event.respondWith(
     caches.match(event.request).then((cachedResponse) => {
